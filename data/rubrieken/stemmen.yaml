@@ -1,0 +1,169 @@
+# Stemmen en Nederland.
+# Eigen jaarkalender van Kalender Frankrijk, november 2026 tot en met december 2027.
+# Eén blok per datum. status te_verifieren komt wel op de pagina (met label), nooit in de nieuwsbrief.
+
+- id: presidentielle-2027-1
+  titel: "Presidentsverkiezing Frankrijk, eerste ronde"
+  rubriek: stemmen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-04-18}
+  aftellen: [30, 7, 1]
+  gebied: "heel Frankrijk"
+  tekst: "Op 18 april is de eerste ronde van de presidentsverkiezing; stemmen kan alleen wie de Franse nationaliteit heeft en op de kiezerslijst staat."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/vosdroits/F1939, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: presidentielle-2027
+  gesprek: nee
+
+- id: presidentielle-2027-2
+  titel: "Presidentsverkiezing Frankrijk, tweede ronde"
+  rubriek: stemmen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-05-02}
+  aftellen: [7, 1]
+  gebied: "heel Frankrijk"
+  tekst: "Op 2 mei is de tweede ronde van de presidentsverkiezing tussen de twee kandidaten met de meeste stemmen."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/vosdroits/F1939, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: presidentielle-2027
+  gesprek: nee
+
+- id: presidentielle-2027-inschrijving
+  titel: "Inschrijven op de Franse kiezerslijst"
+  rubriek: stemmen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-03-12}
+  aftellen: [30, 14, 7]
+  gebied: "heel Frankrijk"
+  tekst: "Wie de Franse nationaliteit heeft en wil stemmen voor de presidentsverkiezing, moet tijdig op de kiezerslijst staan; online kan het tot de zesde woensdag, bij de mairie tot de zesde vrijdag voor de stemdag."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/vosdroits/F1367, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: presidentielle-2027
+  gesprek: nee
+  opmerking: "Berekend: zesde vrijdag voor 18 april is 12 maart, online zesde woensdag 10 maart; regel niet letterlijk in F1367 teruggevonden."
+
+- id: presidentielle-2027-procuration
+  titel: "Stemmen bij volmacht (procuration)"
+  rubriek: stemmen
+  soort: seizoen
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-03-15, tot: 2027-04-15}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Wie op 18 april of 2 mei niet thuis is, kan een procuration geven via maprocuration.gouv.fr en die bevestigen bij politie of gendarmerie."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/vosdroits/F1939, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: presidentielle-2027
+  gesprek: ja
+
+- id: legislatives-2029
+  titel: "Geen législatives in 2027"
+  rubriek: stemmen
+  soort: mijlpaal
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-06-01}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "De volgende verkiezing voor de Assemblée nationale staat voor 2029, tenzij de president de Assemblée ontbindt."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/vosdroits/F1939, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [pagina, infopoche]
+  gesprek: ja
+  opmerking: "In de opdracht stond législatives 2027; Service-Public F1939 noemt 2029."
+
+- id: nl-registratie-kiezers-buitenland-2027
+  titel: "Registreren als kiezer buiten Nederland"
+  rubriek: stemmen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-02-03}
+  aftellen: [30, 14, 7, 1]
+  gebied: "Nederland"
+  tekst: "Wie vanuit Frankrijk wil stemmen voor het kiescollege niet-ingezetenen, moet zich uiterlijk 3 februari 2027 registreren bij de gemeente Den Haag."
+  bron: {url: https://www.nederlandwereldwijd.nl/stemmen-buitenland/stemmen-kiescollege-niet-ingezetenen-voor-de-eerste-kamer, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: nl-maart-2027
+  gesprek: nee
+
+- id: kiescollege-niet-ingezetenen-2027
+  titel: "Verkiezing kiescollege niet-ingezetenen"
+  rubriek: stemmen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-03-17}
+  aftellen: [14, 7, 1]
+  gebied: "Nederland"
+  tekst: "Nederlanders in het buitenland kiezen het kiescollege dat mee de Eerste Kamer kiest; de briefstem moet op tijd binnen zijn."
+  bron: {url: https://www.nederlandwereldwijd.nl/stemmen-buitenland/stemmen-kiescollege-niet-ingezetenen-voor-de-eerste-kamer, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: nl-maart-2027
+  gesprek: nee
+  opmerking: "Gelijk met de Provinciale Statenverkiezing van 17 maart 2027; die dag zelf niet in de bron over het kiescollege gezien."
+
+- id: provinciale-staten-waterschappen-2027
+  titel: "Provinciale Staten- en waterschapsverkiezingen"
+  rubriek: stemmen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-03-17}
+  aftellen: [7]
+  gebied: "Nederland"
+  tekst: "In Nederland zijn op 17 maart de verkiezingen voor Provinciale Staten en waterschappen; wie in Frankrijk woont, stemt alleen mee voor het kiescollege."
+  bron: {url: https://www.kiesraad.nl/verkiezingen/provinciale-staten, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: nl-maart-2027
+  gesprek: nee
+
+- id: briefstem-2027
+  titel: "Briefstembewijs kiescollege komt binnen"
+  rubriek: stemmen
+  soort: seizoen
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-02-10, tot: 2027-03-03}
+  aftellen: []
+  gebied: "Nederland"
+  tekst: "Geregistreerde kiezers krijgen het briefstembewijs per post of e-mail; stuur het terug zodra het binnen is, de post naar Den Haag kan lang duren."
+  bron: {url: https://www.nederlandwereldwijd.nl/stemmen-buitenland/stemmen-kiescollege-niet-ingezetenen-voor-de-eerste-kamer, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: nl-maart-2027
+  gesprek: ja
+
+- id: eerste-kamer-2027
+  titel: "Eerste Kamerverkiezing"
+  rubriek: stemmen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-05-25}
+  aftellen: [1]
+  gebied: "Nederland"
+  tekst: "Twee à drie maanden na de Statenverkiezing kiezen Statenleden en kiescollegeleden de nieuwe Eerste Kamer."
+  bron: {url: https://www.kiesraad.nl/verkiezingen/provinciale-staten, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Datum nog niet gevonden; 25 mei is een plaatshouder."
+
+- id: prinsjesdag-2027
+  titel: "Prinsjesdag"
+  rubriek: stemmen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {regel: "derde dinsdag van september"}
+  aftellen: [1]
+  gebied: "Nederland"
+  tekst: "Op Prinsjesdag presenteert het kabinet de plannen en de belastingmaatregelen voor 2028, ook van belang voor wie in Frankrijk een Nederlands inkomen heeft."
+  bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja

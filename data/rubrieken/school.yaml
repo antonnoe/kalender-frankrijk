@@ -1,0 +1,242 @@
+# School en gezin, aanvullingen. Franse schoolvakanties komen automatisch uit data.education.gouv.fr.
+# Eigen jaarkalender van Kalender Frankrijk, november 2026 tot en met december 2027.
+# Eén blok per datum. status te_verifieren komt wel op de pagina (met label), nooit in de nieuwsbrief.
+
+- id: nl-kerstvakantie-2026
+  titel: "Nederlandse kerstvakantie"
+  rubriek: school
+  soort: periode
+  doelgroepen: [gezin]
+  wanneer: {van: 2026-12-19, tot: 2027-01-03}
+  aftellen: [14]
+  gebied: "Nederland"
+  tekst: "Nederlandse schoolvakantie, alle regio's; handig voor wie kinderen of kleinkinderen in Nederland heeft of bezoek verwacht."
+  bron: {url: https://www.rijksoverheid.nl/onderwerpen/schoolvakanties/overzicht-schoolvakanties-per-schooljaar/overzicht-schoolvakanties-2026-2027, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+
+- id: nl-voorjaarsvakantie-2027-noord-midden
+  titel: "Nederlandse voorjaarsvakantie, regio noord en midden"
+  rubriek: school
+  soort: periode
+  doelgroepen: [gezin]
+  wanneer: {van: 2027-02-20, tot: 2027-02-28}
+  aftellen: [14]
+  gebied: "Nederland"
+  tekst: "Nederlandse schoolvakantie, regio noord en midden; handig voor wie kinderen of kleinkinderen in Nederland heeft of bezoek verwacht."
+  bron: {url: https://www.rijksoverheid.nl/onderwerpen/schoolvakanties/overzicht-schoolvakanties-per-schooljaar/overzicht-schoolvakanties-2026-2027, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+  opmerking: "Adviesdata van OCW; scholen mogen afwijken."
+
+- id: nl-voorjaarsvakantie-2027-zuid
+  titel: "Nederlandse voorjaarsvakantie, regio zuid"
+  rubriek: school
+  soort: periode
+  doelgroepen: [gezin]
+  wanneer: {van: 2027-02-13, tot: 2027-02-21}
+  aftellen: [14]
+  gebied: "Nederland"
+  tekst: "Nederlandse schoolvakantie, regio zuid; handig voor wie kinderen of kleinkinderen in Nederland heeft of bezoek verwacht."
+  bron: {url: https://www.rijksoverheid.nl/onderwerpen/schoolvakanties/overzicht-schoolvakanties-per-schooljaar/overzicht-schoolvakanties-2026-2027, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+  opmerking: "Adviesdata van OCW; scholen mogen afwijken."
+
+- id: nl-meivakantie-2027
+  titel: "Nederlandse meivakantie"
+  rubriek: school
+  soort: periode
+  doelgroepen: [gezin]
+  wanneer: {van: 2027-04-24, tot: 2027-05-02}
+  aftellen: [14]
+  gebied: "Nederland"
+  tekst: "Nederlandse schoolvakantie, alle regio's; handig voor wie kinderen of kleinkinderen in Nederland heeft of bezoek verwacht."
+  bron: {url: https://www.rijksoverheid.nl/onderwerpen/schoolvakanties/overzicht-schoolvakanties-per-schooljaar/overzicht-schoolvakanties-2026-2027, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+
+- id: nl-zomervakantie-2027-noord
+  titel: "Nederlandse zomervakantie, regio noord"
+  rubriek: school
+  soort: periode
+  doelgroepen: [gezin]
+  wanneer: {van: 2027-07-10, tot: 2027-08-22}
+  aftellen: [14]
+  gebied: "Nederland"
+  tekst: "Nederlandse schoolvakantie, regio noord; handig voor wie kinderen of kleinkinderen in Nederland heeft of bezoek verwacht."
+  bron: {url: https://www.rijksoverheid.nl/onderwerpen/schoolvakanties/overzicht-schoolvakanties-per-schooljaar/overzicht-schoolvakanties-2026-2027, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+
+- id: nl-zomervakantie-2027-midden
+  titel: "Nederlandse zomervakantie, regio midden"
+  rubriek: school
+  soort: periode
+  doelgroepen: [gezin]
+  wanneer: {van: 2027-07-17, tot: 2027-08-29}
+  aftellen: [14]
+  gebied: "Nederland"
+  tekst: "Nederlandse schoolvakantie, regio midden; handig voor wie kinderen of kleinkinderen in Nederland heeft of bezoek verwacht."
+  bron: {url: https://www.rijksoverheid.nl/onderwerpen/schoolvakanties/overzicht-schoolvakanties-per-schooljaar/overzicht-schoolvakanties-2026-2027, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+
+- id: nl-zomervakantie-2027-zuid
+  titel: "Nederlandse zomervakantie, regio zuid"
+  rubriek: school
+  soort: periode
+  doelgroepen: [gezin]
+  wanneer: {van: 2027-07-24, tot: 2027-09-05}
+  aftellen: [14]
+  gebied: "Nederland"
+  tekst: "Nederlandse schoolvakantie, regio zuid; handig voor wie kinderen of kleinkinderen in Nederland heeft of bezoek verwacht."
+  bron: {url: https://www.rijksoverheid.nl/onderwerpen/schoolvakanties/overzicht-schoolvakanties-per-schooljaar/overzicht-schoolvakanties-2026-2027, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+
+- id: nl-herfstvakantie-2027-noord-midden
+  titel: "Nederlandse herfstvakantie, regio noord en midden"
+  rubriek: school
+  soort: periode
+  doelgroepen: [gezin]
+  wanneer: {van: 2027-10-16, tot: 2027-10-24}
+  aftellen: [14]
+  gebied: "Nederland"
+  tekst: "Nederlandse schoolvakantie, regio noord en midden; handig voor wie kinderen of kleinkinderen in Nederland heeft of bezoek verwacht."
+  bron: {url: https://www.rijksoverheid.nl/onderwerpen/schoolvakanties/overzicht-schoolvakanties-per-schooljaar/overzicht-schoolvakanties-2027-2028, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+  opmerking: "Adviesdata van OCW; scholen mogen afwijken."
+
+- id: nl-herfstvakantie-2027-zuid
+  titel: "Nederlandse herfstvakantie, regio zuid"
+  rubriek: school
+  soort: periode
+  doelgroepen: [gezin]
+  wanneer: {van: 2027-10-23, tot: 2027-10-31}
+  aftellen: [14]
+  gebied: "Nederland"
+  tekst: "Nederlandse schoolvakantie, regio zuid; handig voor wie kinderen of kleinkinderen in Nederland heeft of bezoek verwacht."
+  bron: {url: https://www.rijksoverheid.nl/onderwerpen/schoolvakanties/overzicht-schoolvakanties-per-schooljaar/overzicht-schoolvakanties-2027-2028, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+  opmerking: "Adviesdata van OCW; scholen mogen afwijken."
+
+- id: nl-kerstvakantie-2027
+  titel: "Nederlandse kerstvakantie"
+  rubriek: school
+  soort: periode
+  doelgroepen: [gezin]
+  wanneer: {van: 2027-12-25, tot: 2028-01-09}
+  aftellen: [14]
+  gebied: "Nederland"
+  tekst: "Nederlandse schoolvakantie, alle regio's; handig voor wie kinderen of kleinkinderen in Nederland heeft of bezoek verwacht."
+  bron: {url: https://www.rijksoverheid.nl/onderwerpen/schoolvakanties/overzicht-schoolvakanties-per-schooljaar/overzicht-schoolvakanties-2027-2028, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+
+- id: parcoursup-carte-2027
+  titel: "Parcoursup, opleidingen 2027 te bekijken"
+  rubriek: school
+  soort: datum
+  doelgroepen: [gezin]
+  wanneer: {datum: 2026-12-17}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Vanaf 17 december staan alle opleidingen voor 2027 op parcoursup.gouv.fr, met toelatingscriteria en slagingskansen."
+  link: https://www.parcoursup.gouv.fr/calendrier
+  bron: {url: https://www.parcoursup.gouv.fr/sites/default/files/database/documents/2026-10/calendrier-parcoursup-2027-805_1.pdf, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: parcoursup-2027
+  gesprek: nee
+
+- id: parcoursup-voeux-2027
+  titel: "Parcoursup, inschrijven en wensen opgeven"
+  rubriek: school
+  soort: periode
+  doelgroepen: [gezin]
+  wanneer: {van: 2027-01-18, tot: 2027-03-11}
+  aftellen: [14, 7, 1]
+  gebied: "heel Frankrijk"
+  tekst: "Eindexamenleerlingen maken van 18 januari tot en met 11 maart een dossier aan en geven tot tien wensen op."
+  link: https://www.parcoursup.gouv.fr/calendrier
+  bron: {url: https://www.parcoursup.gouv.fr/sites/default/files/database/documents/2026-10/calendrier-parcoursup-2027-805_1.pdf, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: parcoursup-2027
+  gesprek: nee
+
+- id: parcoursup-dossier-2027
+  titel: "Parcoursup, dossier afronden en wensen bevestigen"
+  rubriek: school
+  soort: datum
+  doelgroepen: [gezin]
+  wanneer: {datum: 2027-04-01}
+  aftellen: [14, 7, 1]
+  gebied: "heel Frankrijk"
+  tekst: "Uiterlijk 1 april moet het dossier compleet zijn en moet elke wens bevestigd zijn."
+  link: https://www.parcoursup.gouv.fr/calendrier
+  bron: {url: https://www.parcoursup.gouv.fr/sites/default/files/database/documents/2026-10/calendrier-parcoursup-2027-805_1.pdf, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: parcoursup-2027
+  gesprek: nee
+
+- id: parcoursup-admission-2027
+  titel: "Parcoursup, eerste antwoorden van opleidingen"
+  rubriek: school
+  soort: datum
+  doelgroepen: [gezin]
+  wanneer: {datum: 2027-06-01}
+  aftellen: [7, 1]
+  gebied: "heel Frankrijk"
+  tekst: "Vanaf 1 juni komen de antwoorden binnen en moet elke leerling binnen de gestelde termijn op elk aanbod reageren; de hoofdfase loopt tot 10 juli."
+  link: https://www.parcoursup.gouv.fr/calendrier
+  bron: {url: https://www.parcoursup.gouv.fr/sites/default/files/database/documents/2026-10/calendrier-parcoursup-2027-805_1.pdf, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: parcoursup-2027
+  gesprek: nee
+
+- id: parcoursup-complementaire-2027
+  titel: "Parcoursup, aanvullende fase"
+  rubriek: school
+  soort: periode
+  doelgroepen: [gezin]
+  wanneer: {van: 2027-06-10, tot: 2027-09-09}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Wie nog geen plek heeft, kan vanaf 10 juni tot tien nieuwe wensen opgeven bij opleidingen met vrije plaatsen."
+  link: https://www.parcoursup.gouv.fr/calendrier
+  bron: {url: https://www.parcoursup.gouv.fr/sites/default/files/database/documents/2026-10/calendrier-parcoursup-2027-805_1.pdf, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: parcoursup-2027
+  gesprek: nee
+
+- id: rentree-2027
+  titel: "Rentrée scolaire 2027"
+  rubriek: school
+  soort: mijlpaal
+  doelgroepen: [gezin]
+  wanneer: {datum: 2027-09-01}
+  aftellen: [14]
+  gebied: "heel Frankrijk"
+  tekst: "Begin september gaan de Franse scholen weer open; schoolspullenlijst, assurance scolaire en inschrijving kantine regelt men het best eind augustus."
+  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "De officiële datum komt uit de schoolkalender (data.education.gouv.fr) die automatisch wordt ingelezen."

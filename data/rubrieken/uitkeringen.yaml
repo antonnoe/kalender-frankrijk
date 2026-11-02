@@ -1,0 +1,554 @@
+# Uitkeringen en pensioen. AOW-betaaldagen staan al in de fiscale feed "nederland" en horen hier niet.
+# Eigen jaarkalender van Kalender Frankrijk, november 2026 tot en met december 2027.
+# Eén blok per datum. status te_verifieren komt wel op de pagina (met label), nooit in de nieuwsbrief.
+
+- id: basispensioen-2026-11
+  titel: "Basispensioen Assurance retraite over oktober op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2026-11-09}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De Assurance retraite (CNAV) betaalt het basispensioen over oktober uit; buiten Elzas-Moezel staat het rond deze dag op de rekening."
+  bron: {url: https://www.lassuranceretraite.fr/portail-info/home/retraite/paiements-retraite/calendrier-paiement-retraite.html, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: basispensioen-cnav
+  gesprek: nee
+  opmerking: "Elzas-Moezel (Carsat) betaalt eerder, rond de eerste werkdag van de maand; zie de bron."
+
+- id: basispensioen-2026-12
+  titel: "Basispensioen Assurance retraite over november op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2026-12-09}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De Assurance retraite (CNAV) betaalt het basispensioen over november uit; buiten Elzas-Moezel staat het rond deze dag op de rekening."
+  bron: {url: https://www.lassuranceretraite.fr/portail-info/home/retraite/paiements-retraite/calendrier-paiement-retraite.html, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: basispensioen-cnav
+  gesprek: nee
+  opmerking: "Elzas-Moezel (Carsat) betaalt eerder, rond de eerste werkdag van de maand; zie de bron."
+
+- id: basispensioen-2027-01
+  titel: "Basispensioen Assurance retraite over december 2026 op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-01-08}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De Assurance retraite (CNAV) betaalt het basispensioen over december 2026 uit; buiten Elzas-Moezel staat het rond deze dag op de rekening."
+  bron: {url: https://www.lassuranceretraite.fr/portail-info/home/retraite/paiements-retraite/calendrier-paiement-retraite.html, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: basispensioen-cnav
+  gesprek: nee
+  opmerking: "Elzas-Moezel (Carsat) betaalt eerder, rond de eerste werkdag van de maand; zie de bron."
+
+- id: basispensioen-2027-02
+  titel: "Basispensioen Assurance retraite over januari op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-02-09}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De Assurance retraite (CNAV) betaalt het basispensioen over januari uit; buiten Elzas-Moezel staat het rond deze dag op de rekening."
+  bron: {url: https://www.lassuranceretraite.fr/portail-info/home/retraite/paiements-retraite/calendrier-paiement-retraite.html, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: basispensioen-cnav
+  gesprek: nee
+  opmerking: "Elzas-Moezel (Carsat) betaalt eerder, rond de eerste werkdag van de maand; zie de bron."
+
+- id: basispensioen-2027-03
+  titel: "Basispensioen Assurance retraite over februari op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-03-09}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De Assurance retraite (CNAV) betaalt het basispensioen over februari uit; buiten Elzas-Moezel staat het rond deze dag op de rekening."
+  bron: {url: https://www.lassuranceretraite.fr/portail-info/home/retraite/paiements-retraite/calendrier-paiement-retraite.html, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: basispensioen-cnav
+  gesprek: nee
+  opmerking: "Elzas-Moezel (Carsat) betaalt eerder, rond de eerste werkdag van de maand; zie de bron."
+
+- id: basispensioen-2027-04
+  titel: "Basispensioen Assurance retraite over maart op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-04-09}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De Assurance retraite (CNAV) betaalt het basispensioen over maart uit; buiten Elzas-Moezel staat het rond deze dag op de rekening."
+  bron: {url: https://www.lassuranceretraite.fr/portail-info/home/retraite/paiements-retraite/calendrier-paiement-retraite.html, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: basispensioen-cnav
+  gesprek: nee
+  opmerking: "Elzas-Moezel (Carsat) betaalt eerder, rond de eerste werkdag van de maand; zie de bron."
+
+- id: basispensioen-2027-05
+  titel: "Basispensioen Assurance retraite over april op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-05-07}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De Assurance retraite (CNAV) betaalt het basispensioen over april uit; buiten Elzas-Moezel staat het rond deze dag op de rekening."
+  bron: {url: https://www.lassuranceretraite.fr/portail-info/home/retraite/paiements-retraite/calendrier-paiement-retraite.html, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: basispensioen-cnav
+  gesprek: nee
+  opmerking: "Elzas-Moezel (Carsat) betaalt eerder, rond de eerste werkdag van de maand; zie de bron."
+
+- id: basispensioen-2027-06
+  titel: "Basispensioen Assurance retraite over mei op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-06-09}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De Assurance retraite (CNAV) betaalt het basispensioen over mei uit; buiten Elzas-Moezel staat het rond deze dag op de rekening."
+  bron: {url: https://www.lassuranceretraite.fr/portail-info/home/retraite/paiements-retraite/calendrier-paiement-retraite.html, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: basispensioen-cnav
+  gesprek: nee
+  opmerking: "Elzas-Moezel (Carsat) betaalt eerder, rond de eerste werkdag van de maand; zie de bron."
+
+- id: basispensioen-2027-07
+  titel: "Basispensioen Assurance retraite over juni op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-07-09}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De Assurance retraite (CNAV) betaalt het basispensioen over juni uit; buiten Elzas-Moezel staat het rond deze dag op de rekening."
+  bron: {url: https://www.lassuranceretraite.fr/portail-info/home/retraite/paiements-retraite/calendrier-paiement-retraite.html, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: basispensioen-cnav
+  gesprek: nee
+  opmerking: "Elzas-Moezel (Carsat) betaalt eerder, rond de eerste werkdag van de maand; zie de bron."
+
+- id: basispensioen-2027-08
+  titel: "Basispensioen Assurance retraite over juli op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-08-09}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De Assurance retraite (CNAV) betaalt het basispensioen over juli uit; buiten Elzas-Moezel staat het rond deze dag op de rekening."
+  bron: {url: https://www.lassuranceretraite.fr/portail-info/home/retraite/paiements-retraite/calendrier-paiement-retraite.html, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: basispensioen-cnav
+  gesprek: nee
+  opmerking: "Elzas-Moezel (Carsat) betaalt eerder, rond de eerste werkdag van de maand; zie de bron."
+
+- id: basispensioen-2027-09
+  titel: "Basispensioen Assurance retraite over augustus op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-09-09}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De Assurance retraite (CNAV) betaalt het basispensioen over augustus uit; buiten Elzas-Moezel staat het rond deze dag op de rekening."
+  bron: {url: https://www.lassuranceretraite.fr/portail-info/home/retraite/paiements-retraite/calendrier-paiement-retraite.html, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: basispensioen-cnav
+  gesprek: nee
+  opmerking: "Elzas-Moezel (Carsat) betaalt eerder, rond de eerste werkdag van de maand; zie de bron."
+
+- id: basispensioen-2027-10
+  titel: "Basispensioen Assurance retraite over september op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-10-08}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De Assurance retraite (CNAV) betaalt het basispensioen over september uit; buiten Elzas-Moezel staat het rond deze dag op de rekening."
+  bron: {url: https://www.lassuranceretraite.fr/portail-info/home/retraite/paiements-retraite/calendrier-paiement-retraite.html, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: basispensioen-cnav
+  gesprek: nee
+  opmerking: "Elzas-Moezel (Carsat) betaalt eerder, rond de eerste werkdag van de maand; zie de bron."
+
+- id: basispensioen-2027-11
+  titel: "Basispensioen Assurance retraite over oktober op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-11-09}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De Assurance retraite (CNAV) betaalt het basispensioen over oktober uit; buiten Elzas-Moezel staat het rond deze dag op de rekening."
+  bron: {url: https://www.lassuranceretraite.fr/portail-info/home/retraite/paiements-retraite/calendrier-paiement-retraite.html, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: basispensioen-cnav
+  gesprek: nee
+  opmerking: "Elzas-Moezel (Carsat) betaalt eerder, rond de eerste werkdag van de maand; zie de bron."
+
+- id: basispensioen-2027-12
+  titel: "Basispensioen Assurance retraite over november op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-12-09}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De Assurance retraite (CNAV) betaalt het basispensioen over november uit; buiten Elzas-Moezel staat het rond deze dag op de rekening."
+  bron: {url: https://www.lassuranceretraite.fr/portail-info/home/retraite/paiements-retraite/calendrier-paiement-retraite.html, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: basispensioen-cnav
+  gesprek: nee
+  opmerking: "Elzas-Moezel (Carsat) betaalt eerder, rond de eerste werkdag van de maand; zie de bron."
+
+- id: agirc-arrco-revalorisatie-2026
+  titel: "Aanvullend pensioen Agirc-Arrco verhoogd per 1 november"
+  rubriek: uitkeringen
+  soort: mijlpaal
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2026-11-01}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Per 1 november 2026 is het aanvullend pensioen van Agirc-Arrco opnieuw vastgesteld; het nieuwe bedrag staat vanaf de betaling van december op de rekening."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A17790, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: agirc-arrco-2026-12
+  titel: "Aanvullend pensioen Agirc-Arrco over december op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2026-12-01}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Agirc-Arrco betaalt het aanvullend pensioen vooraf, aan het begin van de maand waarover het gaat."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A18602, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: agirc-arrco
+  gesprek: nee
+
+- id: agirc-arrco-2027-01
+  titel: "Aanvullend pensioen Agirc-Arrco op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-01-04}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Agirc-Arrco betaalt het aanvullend pensioen vooraf, aan het begin van de maand waarover het gaat."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A18602, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: agirc-arrco
+  gesprek: nee
+  opmerking: "Kalender 2027 van Agirc-Arrco nog niet gepubliceerd; datum gelijkgesteld aan de Carsat Alsace-Moselle-data 2027, die in 2026 gelijk liepen."
+
+- id: agirc-arrco-2027-02
+  titel: "Aanvullend pensioen Agirc-Arrco op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-02-01}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Agirc-Arrco betaalt het aanvullend pensioen vooraf, aan het begin van de maand waarover het gaat."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A18602, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: agirc-arrco
+  gesprek: nee
+  opmerking: "Kalender 2027 van Agirc-Arrco nog niet gepubliceerd; datum gelijkgesteld aan de Carsat Alsace-Moselle-data 2027, die in 2026 gelijk liepen."
+
+- id: agirc-arrco-2027-03
+  titel: "Aanvullend pensioen Agirc-Arrco op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-03-01}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Agirc-Arrco betaalt het aanvullend pensioen vooraf, aan het begin van de maand waarover het gaat."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A18602, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: agirc-arrco
+  gesprek: nee
+  opmerking: "Kalender 2027 van Agirc-Arrco nog niet gepubliceerd; datum gelijkgesteld aan de Carsat Alsace-Moselle-data 2027, die in 2026 gelijk liepen."
+
+- id: agirc-arrco-2027-04
+  titel: "Aanvullend pensioen Agirc-Arrco op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-04-01}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Agirc-Arrco betaalt het aanvullend pensioen vooraf, aan het begin van de maand waarover het gaat."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A18602, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: agirc-arrco
+  gesprek: nee
+  opmerking: "Kalender 2027 van Agirc-Arrco nog niet gepubliceerd; datum gelijkgesteld aan de Carsat Alsace-Moselle-data 2027, die in 2026 gelijk liepen."
+
+- id: agirc-arrco-2027-05
+  titel: "Aanvullend pensioen Agirc-Arrco op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-05-03}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Agirc-Arrco betaalt het aanvullend pensioen vooraf, aan het begin van de maand waarover het gaat."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A18602, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: agirc-arrco
+  gesprek: nee
+  opmerking: "Kalender 2027 van Agirc-Arrco nog niet gepubliceerd; datum gelijkgesteld aan de Carsat Alsace-Moselle-data 2027, die in 2026 gelijk liepen."
+
+- id: agirc-arrco-2027-06
+  titel: "Aanvullend pensioen Agirc-Arrco op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-06-01}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Agirc-Arrco betaalt het aanvullend pensioen vooraf, aan het begin van de maand waarover het gaat."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A18602, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: agirc-arrco
+  gesprek: nee
+  opmerking: "Kalender 2027 van Agirc-Arrco nog niet gepubliceerd; datum gelijkgesteld aan de Carsat Alsace-Moselle-data 2027, die in 2026 gelijk liepen."
+
+- id: agirc-arrco-2027-07
+  titel: "Aanvullend pensioen Agirc-Arrco op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-07-01}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Agirc-Arrco betaalt het aanvullend pensioen vooraf, aan het begin van de maand waarover het gaat."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A18602, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: agirc-arrco
+  gesprek: nee
+  opmerking: "Kalender 2027 van Agirc-Arrco nog niet gepubliceerd; datum gelijkgesteld aan de Carsat Alsace-Moselle-data 2027, die in 2026 gelijk liepen."
+
+- id: agirc-arrco-2027-08
+  titel: "Aanvullend pensioen Agirc-Arrco op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-08-02}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Agirc-Arrco betaalt het aanvullend pensioen vooraf, aan het begin van de maand waarover het gaat."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A18602, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: agirc-arrco
+  gesprek: nee
+  opmerking: "Kalender 2027 van Agirc-Arrco nog niet gepubliceerd; datum gelijkgesteld aan de Carsat Alsace-Moselle-data 2027, die in 2026 gelijk liepen."
+
+- id: agirc-arrco-2027-09
+  titel: "Aanvullend pensioen Agirc-Arrco op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-09-01}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Agirc-Arrco betaalt het aanvullend pensioen vooraf, aan het begin van de maand waarover het gaat."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A18602, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: agirc-arrco
+  gesprek: nee
+  opmerking: "Kalender 2027 van Agirc-Arrco nog niet gepubliceerd; datum gelijkgesteld aan de Carsat Alsace-Moselle-data 2027, die in 2026 gelijk liepen."
+
+- id: agirc-arrco-2027-10
+  titel: "Aanvullend pensioen Agirc-Arrco op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-10-01}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Agirc-Arrco betaalt het aanvullend pensioen vooraf, aan het begin van de maand waarover het gaat."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A18602, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: agirc-arrco
+  gesprek: nee
+  opmerking: "Kalender 2027 van Agirc-Arrco nog niet gepubliceerd; datum gelijkgesteld aan de Carsat Alsace-Moselle-data 2027, die in 2026 gelijk liepen."
+
+- id: agirc-arrco-2027-11
+  titel: "Aanvullend pensioen Agirc-Arrco op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-11-02}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Agirc-Arrco betaalt het aanvullend pensioen vooraf, aan het begin van de maand waarover het gaat."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A18602, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: agirc-arrco
+  gesprek: nee
+  opmerking: "Kalender 2027 van Agirc-Arrco nog niet gepubliceerd; datum gelijkgesteld aan de Carsat Alsace-Moselle-data 2027, die in 2026 gelijk liepen."
+
+- id: agirc-arrco-2027-12
+  titel: "Aanvullend pensioen Agirc-Arrco op de rekening"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-12-01}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Agirc-Arrco betaalt het aanvullend pensioen vooraf, aan het begin van de maand waarover het gaat."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A18602, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: agirc-arrco
+  gesprek: nee
+  opmerking: "Kalender 2027 van Agirc-Arrco nog niet gepubliceerd; datum gelijkgesteld aan de Carsat Alsace-Moselle-data 2027, die in 2026 gelijk liepen."
+
+- id: france-travail-actualisatie-2026-11
+  titel: "Actualisatie France Travail over november"
+  rubriek: uitkeringen
+  soort: periode
+  doelgroepen: [particulier]
+  wanneer: {van: 2026-11-28, tot: 2026-12-15}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Wie ingeschreven staat bij France Travail actualiseert de situatie over november tussen 28 november en 15 december; wie vroeg actualiseert, krijgt de uitkering vanaf 1 december."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A15359, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: france-travail
+  gesprek: nee
+
+- id: france-travail-betaling-2026-12-01
+  titel: "Uitkering France Travail over november"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [particulier]
+  wanneer: {datum: 2026-12-01}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Bij een tijdige actualisatie betaalt France Travail de uitkering over november vanaf 1 december."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A15359, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: france-travail
+  gesprek: nee
+
+- id: france-travail-actualisatie-2026-12
+  titel: "Actualisatie France Travail over december"
+  rubriek: uitkeringen
+  soort: periode
+  doelgroepen: [particulier]
+  wanneer: {van: 2026-12-28, tot: 2027-01-15}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De actualisatie over december loopt van 28 december tot 15 januari; de betaling volgt vanaf 4 januari."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A15359, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: france-travail
+  gesprek: nee
+
+- id: france-travail-betaling-2027-01-04
+  titel: "Uitkering France Travail over december"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [particulier]
+  wanneer: {datum: 2027-01-04}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Bij een tijdige actualisatie betaalt France Travail de uitkering over december vanaf 4 januari."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A15359, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: france-travail
+  gesprek: nee
+
+- id: france-travail-kalender-2027
+  titel: "Actualisatie France Travail, ritme in 2027"
+  rubriek: uitkeringen
+  soort: periode
+  doelgroepen: [particulier]
+  wanneer: {van: 2027-01-28, tot: 2027-02-15}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "De actualisatie opent in de regel op de 28e van de maand en sluit op de 15e van de volgende maand."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A15359, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: france-travail
+  gesprek: nee
+  opmerking: "Kalender 2027 van France Travail verschijnt meestal half december op Service-Public; daarna per maand invullen."
+
+- id: pensioen-revalorisatie-2027-01
+  titel: "Basispensioenen opnieuw vastgesteld per 1 januari 2027"
+  rubriek: uitkeringen
+  soort: mijlpaal
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-01-01}
+  aftellen: [30, 7]
+  gebied: "heel Frankrijk"
+  tekst: "De Franse basispensioenen worden in de regel per 1 januari aangepast; het percentage voor 2027 volgt uit de begrotingswet voor de sociale zekerheid."
+  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Percentage en datum pas zeker na aanneming van de LFSS 2027."
+
+- id: allocation-rentree-2027
+  titel: "Allocation de rentrée scolaire van de CAF"
+  rubriek: uitkeringen
+  soort: datum
+  doelgroepen: [gezin]
+  wanneer: {datum: 2027-08-18}
+  aftellen: [7]
+  gebied: "heel Frankrijk"
+  tekst: "Gezinnen met recht op de allocation de rentrée scolaire krijgen die eind augustus van de CAF, zonder aanvraag voor kinderen tot 16 jaar."
+  bron: {url: https://www.caf.fr/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+  opmerking: "Datum 2027 volgt in de CAF-kalender; 18 augustus is een schatting."

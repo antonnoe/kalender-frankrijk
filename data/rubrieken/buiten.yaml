@@ -1,0 +1,161 @@
+# Buiten en onderweg.
+# Eigen jaarkalender van Kalender Frankrijk, november 2026 tot en met december 2027.
+# Eén blok per datum. status te_verifieren komt wel op de pagina (met label), nooit in de nieuwsbrief.
+
+- id: loi-montagne
+  titel: "Winterbanden of sneeuwkettingen in de bergen (loi Montagne)"
+  rubriek: buiten
+  soort: periode
+  doelgroepen: [automobilist]
+  wanneer: {regel: "jaarlijks 01-11 tot 31-03"}
+  aftellen: [14, 1]
+  gebied: "34 bergdepartementen (Alpen, Corsica, Massif central, Jura, Pyreneeën, Vogezen)"
+  tekst: "Van 1 november tot 31 maart moet een auto in de aangewezen gemeenten van 34 bergdepartementen winterbanden hebben of sneeuwkettingen of -sokken meenemen."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A14389, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: jachtseizoen
+  titel: "Jachtseizoen"
+  rubriek: buiten
+  soort: seizoen
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 15-09 tot 28-02"}
+  aftellen: []
+  gebied: "per departement"
+  tekst: "Van half september tot eind februari wordt er gejaagd, per departement verschillend; houd de hond aangelijnd en draag iets opvallends in het bos."
+  bron: {url: https://www.onf.fr/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Data per departement via de préfecture en de ONF-kalenders; later per departement uitwerken."
+
+- id: jacht-zondag-tip
+  titel: "Wandelen in het jachtseizoen"
+  rubriek: buiten
+  soort: seizoen
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 15-10 tot 15-01"}
+  aftellen: []
+  gebied: "per departement"
+  tekst: "In de drukste jachtmaanden staan bij drijfjachten borden \"chasse en cours\" langs de weg; kies dan een ander pad en vraag in het dorp welke dagen gejaagd wordt."
+  bron: {url: https://www.onf.fr/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: bosbrandseizoen
+  titel: "Bosbrandseizoen"
+  rubriek: buiten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-06 tot 30-09"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Van juni tot en met september geldt in veel departementen een verhoogd bosbrandrisico; actuele waarschuwingen komen alleen uit de bosbrandtool."
+  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [pagina, infopoche]
+  gesprek: nee
+  opmerking: "Alleen markering van de periode, nooit een waarschuwing; selectieregel 7 van het ontwerp."
+
+- id: controle-technique
+  titel: "Contrôle technique op tijd laten doen"
+  rubriek: buiten
+  soort: seizoen
+  doelgroepen: [automobilist]
+  wanneer: {regel: "jaarlijks 01-01 tot 31-01"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Een auto van vier jaar en ouder moet elke twee jaar naar de contrôle technique; de datum staat op de laatste keuring of de carte grise."
+  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: pollenseizoen
+  titel: "Pollenseizoen"
+  rubriek: buiten
+  soort: seizoen
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-03 tot 30-06"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Van maart tot en met juni geeft het RNSA op pollens.fr per departement het risico op hooikoorts, eerst bomen, dan grassen."
+  bron: {url: https://www.pollens.fr/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: bison-fute-zomer-2027
+  titel: "Drukke zaterdagen op de weg in de zomer"
+  rubriek: buiten
+  soort: seizoen
+  doelgroepen: [automobilist]
+  wanneer: {van: 2027-07-03, tot: 2027-08-28}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "In juli en augustus zijn de zaterdagen het drukst op de wegen naar het zuiden; Bison Futé geeft per dag een kleur voor beide richtingen."
+  bron: {url: https://www.bison-fute.gouv.fr/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Journées rouges en noires 2027 nog niet gepubliceerd door Bison Futé."
+
+- id: bison-fute-kerst-2026
+  titel: "Drukte op de weg rond de kerstvakantie"
+  rubriek: buiten
+  soort: periode
+  doelgroepen: [automobilist]
+  wanneer: {van: 2026-12-18, tot: 2026-12-20}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Aan het begin van de Franse kerstvakantie is het druk op de wegen naar de bergen; Bison Futé geeft per dag de verwachting."
+  bron: {url: https://www.bison-fute.gouv.fr/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+  opmerking: "Voorspelling Bison Futé voor dit weekend niet gezien."
+
+- id: ouverture-peche-2027
+  titel: "Opening visseizoen forel (1e categorie)"
+  rubriek: buiten
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {regel: "tweede zaterdag van maart"}
+  aftellen: [7]
+  gebied: "heel Frankrijk"
+  tekst: "Op de tweede zaterdag van maart opent het visseizoen in rivieren van de eerste categorie; een carte de pêche is verplicht."
+  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: calendrier-pompiers
+  titel: "Brandweerkalender aan de deur"
+  rubriek: buiten
+  soort: seizoen
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-11 tot 31-12"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "In november en december komen brandweerlieden en postbodes langs met de kalender voor het nieuwe jaar; de bijdrage is vrijwillig."
+  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: brulage-verboden
+  titel: "Tuinafval niet verbranden"
+  rubriek: buiten
+  soort: seizoen
+  doelgroepen: [huiseigenaar]
+  wanneer: {regel: "jaarlijks 01-03 tot 30-04"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Het verbranden van groenafval in de tuin is in principe het hele jaar verboden; in het voorjaar wijzen gemeenten op de déchetterie of de broyeur."
+  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja

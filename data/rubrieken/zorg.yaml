@@ -1,0 +1,181 @@
+# Zorg.
+# Eigen jaarkalender van Kalender Frankrijk, november 2026 tot en met december 2027.
+# Eén blok per datum. status te_verifieren komt wel op de pagina (met label), nooit in de nieuwsbrief.
+
+- id: cak-vroegpensioen-2026
+  titel: "Nieuwe CAK-regeling bij vroegpensioen"
+  rubriek: zorg
+  soort: mijlpaal
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2026-11-01}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Sinds 1 november 2026 geldt de nieuwe CAK-regeling bij vroegpensioen; wie al via het CAK verzekerd is, houdt dat recht."
+  tekst_je: "Sinds 1 november 2026 geldt de nieuwe CAK-regeling bij vroegpensioen; ben je al via het CAK verzekerd, dan houd je dat recht."
+  tekst_u: "Sinds 1 november 2026 geldt de nieuwe CAK-regeling bij vroegpensioen; bent u al via het CAK verzekerd, dan houdt u dat recht."
+  link: https://infofrankrijk.com/cak-vroegpensioen-en-zorg-in-frankrijk/
+  bron: {url: https://infofrankrijk.com/cak-vroegpensioen-en-zorg-in-frankrijk/, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Ingangsdatum volgens het Infofrankrijk-dossier, dat zich beroept op bevestiging door het CAK."
+
+- id: cak-vroegpensioen-2027-herinnering
+  titel: "CAK-regeling vroegpensioen, wat het betekent bij pensionering in 2027"
+  rubriek: zorg
+  soort: mijlpaal
+  doelgroepen: [gepensioneerde, pas-verhuisd]
+  wanneer: {datum: 2027-01-11}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Wie in 2027 met vroegpensioen gaat en naar Frankrijk verhuist, valt onder de nieuwe CAK-regeling; het dossier op Infofrankrijk legt de keuzes uit."
+  link: https://infofrankrijk.com/cak-vroegpensioen-en-zorg-in-frankrijk/
+  bron: {url: https://infofrankrijk.com/cak-vroegpensioen-en-zorg-in-frankrijk/, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: woonlandfactor-2027
+  titel: "Woonlandfactor Frankrijk 2027 bekend"
+  rubriek: zorg
+  soort: mijlpaal
+  doelgroepen: [gepensioneerde]
+  wanneer: {van: 2026-11-01, tot: 2026-12-31}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Het ministerie van VWS maakt de woonlandfactor voor 2027 bekend in de Staatscourant; die bepaalt de CAK-bijdrage voor wie in Frankrijk woont."
+  link: https://infofrankrijk.com/cak-vroegpensioen-en-zorg-in-frankrijk/
+  bron: {url: https://www.hetcak.nl/zorgverzekering-buitenland/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Publicatiedatum niet gevonden; de factor 2026 is 0,8304."
+
+- id: cak-bijdrage-2027
+  titel: "Nieuwe CAK-bijdrage per 1 januari 2027"
+  rubriek: zorg
+  soort: mijlpaal
+  doelgroepen: [gepensioneerde]
+  wanneer: {datum: 2027-01-01}
+  aftellen: [14]
+  gebied: "heel Frankrijk"
+  tekst: "Per 1 januari past het CAK de verdragsbijdrage aan; het nieuwe bedrag staat op de eerste maandnota van het jaar."
+  bron: {url: https://www.hetcak.nl/zorgverzekering-buitenland/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: cak-jaarafrekening
+  titel: "CAK-jaarafrekening verdragsbijdrage"
+  rubriek: zorg
+  soort: seizoen
+  doelgroepen: [gepensioneerde]
+  wanneer: {regel: "jaarlijks 01-04 tot 30-06"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Het CAK stuurt achteraf een jaarafrekening van de verdragsbijdrage over het vorige jaar; controleer het inkomen waarop gerekend is."
+  bron: {url: https://www.hetcak.nl/zorgverzekering-buitenland/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Verzendperiode niet gevonden op hetcak.nl; april tot juni is een schatting."
+
+- id: griepvaccinatie-2026
+  titel: "Griepvaccinatie 2026-2027"
+  rubriek: zorg
+  soort: periode
+  doelgroepen: [gepensioneerde]
+  wanneer: {van: 2026-10-13, tot: 2027-01-31}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Wie 65 jaar of ouder is of een chronische aandoening heeft, krijgt een oproep van de Assurance maladie en kan zich bij apotheek, huisarts of verpleegkundige laten vaccineren."
+  bron: {url: https://www.ameli.fr/assure/sante/themes/grippe, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Begindatum 13 oktober alleen in secundaire bronnen gezien; ameli.fr gaf 403."
+
+- id: s1-pensionering
+  titel: "S1-formulier bij pensionering regelen"
+  rubriek: zorg
+  soort: seizoen
+  doelgroepen: [gepensioneerde]
+  wanneer: {regel: "jaarlijks 01-11 tot 31-12"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Wie volgend jaar met pensioen gaat en in Frankrijk woont, vraagt tijdig na of de zorg via een S1 van het CAK of via de Franse verzekering loopt."
+  link: https://infofrankrijk.com/cak-vroegpensioen-en-zorg-in-frankrijk/
+  bron: {url: https://www.hetcak.nl/zorgverzekering-buitenland/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: mutuelle-opzeggen
+  titel: "Mutuelle vergelijken en opzeggen"
+  rubriek: zorg
+  soort: seizoen
+  doelgroepen: [particulier, gepensioneerde]
+  wanneer: {regel: "jaarlijks 15-11 tot 31-12"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Na het eerste contractjaar kan een mutuelle op elk moment worden opgezegd (résiliation infra-annuelle), met een maand opzegtermijn; eind van het jaar komen de nieuwe premies."
+  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: mois-sans-tabac
+  titel: "Mois sans tabac"
+  rubriek: zorg
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-11 tot 30-11"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "In november daagt Santé publique France rokers uit een maand te stoppen, met gratis begeleiding via Tabac info service."
+  bron: {url: https://www.santepubliquefrance.fr/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: octobre-rose
+  titel: "Octobre rose, borstkankeronderzoek"
+  rubriek: zorg
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-10 tot 31-10"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "In oktober wijst Frankrijk op het gratis borstkankeronderzoek dat vrouwen van 50 tot 74 jaar elke twee jaar per brief krijgen aangeboden."
+  bron: {url: https://www.santepubliquefrance.fr/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: mars-bleu
+  titel: "Mars bleu, darmkankeronderzoek"
+  rubriek: zorg
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-03 tot 31-03"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "In maart wijst Frankrijk op het gratis darmkankeronderzoek voor mensen van 50 tot 74 jaar; de test is ook bij de apotheek te halen."
+  bron: {url: https://www.santepubliquefrance.fr/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: hitteplan
+  titel: "Hitteplan in de zomer"
+  rubriek: zorg
+  soort: seizoen
+  doelgroepen: [gepensioneerde]
+  wanneer: {regel: "jaarlijks 01-06 tot 15-09"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Van juni tot half september houdt Frankrijk hittewaakzaamheid; kwetsbare ouderen kunnen zich bij de mairie laten registreren voor een belronde."
+  bron: {url: https://www.santepubliquefrance.fr/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja

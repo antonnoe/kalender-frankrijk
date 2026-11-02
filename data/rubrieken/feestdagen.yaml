@@ -1,0 +1,341 @@
+# Feestdagen en ponts, aanvullingen. De wettelijke feestdagen (ook Elzas-Moezel) komen automatisch uit calendrier.api.gouv.fr.
+# Eigen jaarkalender van Kalender Frankrijk, november 2026 tot en met december 2027.
+# Eén blok per datum. status te_verifieren komt wel op de pagina (met label), nooit in de nieuwsbrief.
+
+- id: ponts-2027
+  titel: "Ponts in 2027 op een rij"
+  rubriek: feestdagen
+  soort: mijlpaal
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-01-05}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Een pont is de werkdag tussen een feestdag en het weekend die veel Fransen vrij nemen; in 2027 zijn dat vrijdag 7 mei (na Ascension) en vrijdag 12 november (na 11 novembre)."
+  bron: {url: https://calendrier.api.gouv.fr/jours-feries/metropole/2027.json, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: pont-ascension-2027
+  titel: "Pont van Ascension"
+  rubriek: feestdagen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-05-07}
+  aftellen: [14, 1]
+  gebied: "heel Frankrijk"
+  tekst: "Na Hemelvaart op donderdag 6 mei maken veel Fransen de brug naar het weekend; winkels, administraties en wegen merken dat."
+  bron: {url: https://calendrier.api.gouv.fr/jours-feries/metropole/2027.json, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: ponts-2027
+  gesprek: ja
+
+- id: pont-11-novembre-2027
+  titel: "Pont van 11 novembre"
+  rubriek: feestdagen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-11-12}
+  aftellen: [14, 1]
+  gebied: "heel Frankrijk"
+  tekst: "Na de wapenstilstand op donderdag 11 november nemen veel Fransen vrijdag 12 november vrij; reken op drukte op de weg en gesloten loketten."
+  bron: {url: https://calendrier.api.gouv.fr/jours-feries/metropole/2027.json, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: ponts-2027
+  gesprek: ja
+
+- id: mei-2027-zaterdagen
+  titel: "1 en 8 mei vallen op zaterdag"
+  rubriek: feestdagen
+  soort: mijlpaal
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-05-01}
+  aftellen: [7]
+  gebied: "heel Frankrijk"
+  tekst: "In 2027 vallen 1 mei en 8 mei op een zaterdag, dus zonder extra vrije dag; de lange weekenden in mei zijn Ascension en Pinkstermaandag 17 mei."
+  bron: {url: https://calendrier.api.gouv.fr/jours-feries/metropole/2027.json, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: elzas-moezel-goede-vrijdag
+  titel: "Goede Vrijdag vrij in Elzas-Moezel"
+  rubriek: feestdagen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {regel: "pasen -2"}
+  aftellen: [7]
+  gebied: "Elzas-Moezel"
+  tekst: "In de departementen Bas-Rhin, Haut-Rhin en Moselle is Goede Vrijdag een wettelijke feestdag, in de rest van Frankrijk niet."
+  bron: {url: https://calendrier.api.gouv.fr/jours-feries/alsace-moselle/2027.json, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [pagina, infopoche]
+  gesprek: ja
+  opmerking: "Uitleg bij de feestdag die ook automatisch uit calendrier.api.gouv.fr komt; bij samenvoegen op datum en gebied wint de uitleg."
+
+- id: elzas-moezel-26-december
+  titel: "Tweede kerstdag vrij in Elzas-Moezel"
+  rubriek: feestdagen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 26-12"}
+  aftellen: [7]
+  gebied: "Elzas-Moezel"
+  tekst: "Alleen in Elzas-Moezel is 26 december (Saint-Étienne) een wettelijke feestdag; elders in Frankrijk is het een gewone werkdag."
+  bron: {url: https://calendrier.api.gouv.fr/jours-feries/alsace-moselle/2027.json, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [pagina, infopoche]
+  gesprek: ja
+  opmerking: "Uitleg bij de feestdag die ook automatisch uit calendrier.api.gouv.fr komt."
+
+- id: heure-hiver
+  titel: "Wintertijd, klok een uur terug"
+  rubriek: feestdagen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {regel: "laatste zondag van oktober"}
+  aftellen: [3, 1]
+  gebied: "heel Frankrijk"
+  tekst: "In de nacht van zaterdag op zondag gaat de klok om 3.00 uur terug naar 2.00 uur."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A15263, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+
+- id: heure-ete
+  titel: "Zomertijd, klok een uur vooruit"
+  rubriek: feestdagen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {regel: "laatste zondag van maart"}
+  aftellen: [3, 1]
+  gebied: "heel Frankrijk"
+  tekst: "In de nacht van zaterdag op zondag gaat de klok om 2.00 uur vooruit naar 3.00 uur."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A15263, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+
+- id: sint-maarten
+  titel: "Sint-Maarten"
+  rubriek: feestdagen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 11-11"}
+  aftellen: [1]
+  gebied: "Nederland"
+  tekst: "In Nederland lopen kinderen op 11 november met lampions langs de deuren; in Frankrijk is het dezelfde dag de wapenstilstand."
+  bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: sinterklaasavond
+  titel: "Sinterklaasavond"
+  rubriek: feestdagen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 05-12"}
+  aftellen: [14, 1]
+  gebied: "Nederland"
+  tekst: "Pakjesavond is in Nederland een gedenkdag, geen vrije dag; veel Nederlandse verenigingen in Frankrijk vieren het eerder."
+  bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: koningsdag
+  titel: "Koningsdag"
+  rubriek: feestdagen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 27-04"}
+  aftellen: [7, 1]
+  gebied: "Nederland"
+  tekst: "Op 27 april viert Nederland Koningsdag; in Frankrijk is het een gewone werkdag, ambassade en verenigingen organiseren soms een receptie."
+  bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: dodenherdenking
+  titel: "Nationale Dodenherdenking"
+  rubriek: feestdagen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 04-05"}
+  aftellen: [1]
+  gebied: "Nederland"
+  tekst: "Op 4 mei om 20.00 uur herdenkt Nederland met twee minuten stilte; in Frankrijk zijn er herdenkingen bij Nederlandse oorlogsgraven."
+  bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: bevrijdingsdag
+  titel: "Bevrijdingsdag"
+  rubriek: feestdagen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 05-05"}
+  aftellen: [1]
+  gebied: "Nederland"
+  tekst: "Op 5 mei viert Nederland de bevrijding; Frankrijk viert de capitulatie op 8 mei, in 2027 een zaterdag."
+  bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: moederdag-2027
+  titel: "Moederdag in Nederland en Fête des mères in Frankrijk"
+  rubriek: feestdagen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-05-09}
+  aftellen: [7]
+  gebied: "heel Frankrijk"
+  tekst: "Nederland viert Moederdag op de tweede zondag van mei (9 mei), Frankrijk de Fête des mères op de laatste zondag van mei (30 mei)."
+  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Franse regel: laatste zondag van mei, een week later als Pinksteren op die zondag valt."
+
+- id: fete-de-la-musique
+  titel: "Fête de la musique"
+  rubriek: feestdagen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 21-06"}
+  aftellen: [7, 1]
+  gebied: "heel Frankrijk"
+  tekst: "Op 21 juni spelen in heel Frankrijk muzikanten gratis op straat, in cafés en op pleinen."
+  bron: {url: https://fetedelamusique.culture.gouv.fr/, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: journees-patrimoine-2027
+  titel: "Journées européennes du patrimoine"
+  rubriek: feestdagen
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-09-18, tot: 2027-09-19}
+  aftellen: [14, 1]
+  gebied: "heel Frankrijk"
+  tekst: "Een weekend lang openen monumenten, ministeries en kastelen hun deuren, vaak gratis en soms alleen op dit weekend."
+  bron: {url: https://www.culture.gouv.fr/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Derde weekend van september; datum 2027 nog niet aangekondigd door het ministerie van Cultuur."
+
+- id: banner-nieuwjaar-2027
+  titel: "Nieuwjaar"
+  rubriek: feestdagen
+  soort: banner
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-01-01, tot: 2027-01-06}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Gelukkig nieuwjaar · Bonne année 2027"
+  tekst_u: "Gelukkig nieuwjaar · Bonne année 2027"
+  tekst_nl: "Gelukkig nieuwjaar"
+  tekst_fr: "Bonne année 2027"
+  kleur: "#800000"
+  bron: {url: https://calendrier.api.gouv.fr/jours-feries/metropole/2027.json, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+
+- id: banner-pasen
+  titel: "Pasen"
+  rubriek: feestdagen
+  soort: banner
+  doelgroepen: [iedereen]
+  wanneer: {regel: "pasen -2 tot pasen +1"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Vrolijk Pasen · Joyeuses Pâques"
+  tekst_u: "Vrolijk Pasen · Joyeuses Pâques"
+  tekst_nl: "Vrolijk Pasen"
+  tekst_fr: "Joyeuses Pâques"
+  kleur: "#775800"
+  bron: {url: https://calendrier.api.gouv.fr/jours-feries/alsace-moselle/2027.json, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+
+- id: banner-koningsdag
+  titel: "Koningsdag"
+  rubriek: feestdagen
+  soort: banner
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 27-04 tot 27-04"}
+  aftellen: []
+  gebied: "Nederland"
+  tekst: "Fijne Koningsdag · Bonne fête du Roi"
+  tekst_u: "Fijne Koningsdag · Bonne fête du Roi"
+  tekst_nl: "Fijne Koningsdag"
+  tekst_fr: "Bonne fête du Roi"
+  kleur: "#E8730C"
+  bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+
+- id: banner-14-juillet
+  titel: "14 juillet"
+  rubriek: feestdagen
+  soort: banner
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 14-07 tot 14-07"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Fijne nationale feestdag · Bonne fête nationale"
+  tekst_u: "Fijne nationale feestdag · Bonne fête nationale"
+  tekst_nl: "Fijne nationale feestdag"
+  tekst_fr: "Bonne fête nationale"
+  kleur: "#1D4F9E"
+  bron: {url: https://calendrier.api.gouv.fr/jours-feries/metropole/2027.json, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+
+- id: banner-sinterklaas
+  titel: "Sinterklaas"
+  rubriek: feestdagen
+  soort: banner
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 05-12 tot 05-12"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Fijne pakjesavond · Joyeuse Saint-Nicolas"
+  tekst_u: "Fijne pakjesavond · Joyeuse Saint-Nicolas"
+  tekst_nl: "Fijne pakjesavond"
+  tekst_fr: "Joyeuse Saint-Nicolas"
+  kleur: "#B3261E"
+  bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+
+- id: banner-kerst
+  titel: "Kerst"
+  rubriek: feestdagen
+  soort: banner
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 24-12 tot 26-12"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Prettige kerstdagen · Joyeux Noël"
+  tekst_u: "Prettige kerstdagen · Joyeux Noël"
+  tekst_nl: "Prettige kerstdagen"
+  tekst_fr: "Joyeux Noël"
+  kleur: "#1B6B3A"
+  bron: {url: https://calendrier.api.gouv.fr/jours-feries/metropole/2027.json, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee

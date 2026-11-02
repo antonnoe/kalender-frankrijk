@@ -1,0 +1,185 @@
+# Fiscale kalender, aanvullingen. De data uit de drie Infofrankrijk-feeds leest de kalender zelf in en staan hier niet.
+# Eigen jaarkalender van Kalender Frankrijk, november 2026 tot en met december 2027.
+# Eén blok per datum. status te_verifieren komt wel op de pagina (met label), nooit in de nieuwsbrief.
+
+- id: taxe-habitation-tweede-woning-2026
+  titel: "Taxe d'habitation tweede woning, aanslag staat online"
+  rubriek: fiscaal
+  soort: periode
+  doelgroepen: [huiseigenaar]
+  wanneer: {van: 2026-11-02, tot: 2026-12-15}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Wie een tweede woning in Frankrijk heeft, vindt het aanslagbiljet taxe d'habitation in de persoonlijke ruimte op impots.gouv.fr; betalen kan tot 15 december, online tot 20 december."
+  link: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+  bron: {url: https://infofrankrijk.com/?if_fc_ical=particulier, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: cfe-saldo-2026
+  titel: "CFE-aanslag, saldo betalen vóór 15 december"
+  rubriek: fiscaal
+  soort: periode
+  doelgroepen: [ondernemer]
+  wanneer: {van: 2026-11-02, tot: 2026-12-15}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "De aanslag voor de cotisation foncière des entreprises staat sinds 2 november in de professionele ruimte op impots.gouv.fr; het saldo moet uiterlijk 15 december betaald zijn."
+  link: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+  bron: {url: https://infofrankrijk.com/?if_fc_ical=professionnel, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [pagina, infopoche]
+  gesprek: nee
+
+- id: jaaropgaven-nl-2027
+  titel: "Jaaropgaven van Nederlandse uitkeerders bewaren"
+  rubriek: fiscaal
+  soort: seizoen
+  doelgroepen: [gepensioneerde, particulier]
+  wanneer: {regel: "jaarlijks 01-02 tot 28-02"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "In januari en februari sturen SVB, pensioenfondsen en banken de jaaropgaven over 2026; die zijn nodig voor de aangifte in Nederland en in Frankrijk."
+  bron: {url: https://www.belastingdienst.nl/wps/wcm/connect/nl/buitenland/buitenland, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: nl-aangifte-ib-open-2027
+  titel: "Nederlandse aangifte inkomstenbelasting over 2026 open"
+  rubriek: fiscaal
+  soort: datum
+  doelgroepen: [particulier, gepensioneerde]
+  wanneer: {datum: 2027-03-01}
+  aftellen: [7, 1]
+  gebied: "Nederland"
+  tekst: "Vanaf 1 maart kan de Nederlandse aangifte inkomstenbelasting over 2026 worden gedaan; de laatste dag is 30 april."
+  bron: {url: https://www.belastingdienst.nl/wps/wcm/connect/nl/buitenland/buitenland, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: nl-aangifte-2026
+  gesprek: nee
+  opmerking: "Einddatum 30 april staat in de feed nederland; de openingsdatum zelf nog nagaan op belastingdienst.nl."
+
+- id: m-biljet-2026
+  titel: "M-biljet over 2026 voor wie in 2026 emigreerde"
+  rubriek: fiscaal
+  soort: mijlpaal
+  doelgroepen: [pas-verhuisd]
+  wanneer: {datum: 2027-04-01}
+  aftellen: [14]
+  gebied: "Nederland"
+  tekst: "Wie in 2026 naar Frankrijk is verhuisd, doet over dat jaar aangifte met het M-biljet; het papieren biljet is vanaf 1 april te bestellen, online kan vanaf 1 mei."
+  bron: {url: https://infofrankrijk.com/?if_fc_ical=nederland, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: fr-aangifte-ib-2027
+  titel: "Franse aangifte inkomstenbelasting over 2026"
+  rubriek: fiscaal
+  soort: periode
+  doelgroepen: [particulier, gepensioneerde]
+  wanneer: {van: 2027-04-15, tot: 2027-06-10}
+  aftellen: [30, 14, 7]
+  gebied: "heel Frankrijk"
+  tekst: "In het voorjaar opent impots.gouv.fr de aangifte over 2026; de uiterste datum hangt af van het departement en van papier of online."
+  link: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+  bron: {url: https://www.impots.gouv.fr/particulier, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: fr-aangifte-2026
+  gesprek: nee
+  opmerking: "Data 2027 maakt de DGFiP pas in het voorjaar bekend; van en tot zijn een schatting op basis van eerdere jaren."
+
+- id: fr-aangifte-niet-wachten-2027
+  titel: "Aangifte inkomstenbelasting Frankrijk, niet te lang mee wachten"
+  rubriek: fiscaal
+  soort: periode
+  doelgroepen: [particulier, gepensioneerde]
+  wanneer: {van: 2027-05-01, tot: 2027-05-31}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "De aangifte vraagt bij een Nederlands pensioen of Nederlandse rekening vaak extra formulieren (2047, 3916); wie in mei begint, heeft tijd voor vragen."
+  link: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+  bron: {url: https://www.impots.gouv.fr/particulier, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: fr-aangifte-2026
+  gesprek: ja
+
+- id: formulier-3916-2027
+  titel: "Buitenlandse rekeningen melden met formulier 3916"
+  rubriek: fiscaal
+  soort: seizoen
+  doelgroepen: [particulier, gepensioneerde]
+  wanneer: {van: 2027-04-15, tot: 2027-06-10}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Elke rekening, ook een Nederlandse, die in 2026 open stond, wordt met de aangifte gemeld op formulier 3916; vergeten kost een boete per rekening."
+  bron: {url: https://www.impots.gouv.fr/particulier, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: fr-aangifte-2026
+  gesprek: ja
+
+- id: avance-credit-impot-2027
+  titel: "Voorschot belastingkrediet hulp aan huis"
+  rubriek: fiscaal
+  soort: datum
+  doelgroepen: [particulier, gepensioneerde]
+  wanneer: {datum: 2027-01-15}
+  aftellen: [1]
+  gebied: "heel Frankrijk"
+  tekst: "Wie kosten heeft voor hulp aan huis of kinderopvang, krijgt half januari een voorschot van 60 procent van het belastingkrediet op de rekening."
+  bron: {url: https://www.impots.gouv.fr/particulier, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+  opmerking: "Exacte datum 2027 nog niet bekend."
+
+- id: avis-impot-2027
+  titel: "Aanslagbiljet inkomstenbelasting 2027 in de persoonlijke ruimte"
+  rubriek: fiscaal
+  soort: seizoen
+  doelgroepen: [particulier, gepensioneerde]
+  wanneer: {van: 2027-07-24, tot: 2027-09-05}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Vanaf eind juli staat het avis d'impôt in de persoonlijke ruimte; daarin staat ook het nieuwe tarief van de bronheffing vanaf september."
+  bron: {url: https://www.impots.gouv.fr/particulier, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  groep: fr-aangifte-2026
+  gesprek: ja
+
+- id: taxe-fonciere-maand-2027
+  titel: "Taxe foncière-maand"
+  rubriek: fiscaal
+  soort: seizoen
+  doelgroepen: [huiseigenaar]
+  wanneer: {regel: "jaarlijks 01-10 tot 31-10"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Oktober is de maand van de taxe foncière: het aanslagbiljet staat al online en betalen moet half oktober, online een paar dagen later."
+  link: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+  bron: {url: https://infofrankrijk.com/?if_fc_ical=particulier, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "In 2026 was dat 15 oktober (papier) en 20 oktober (online); data 2027 volgen in de fiscale feed."
+
+- id: bronheffing-tarief-aanpassen
+  titel: "Tarief bronheffing nagaan bij een nieuw jaar"
+  rubriek: fiscaal
+  soort: mijlpaal
+  doelgroepen: [particulier, gepensioneerde]
+  wanneer: {datum: 2027-01-04}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Wie in 2027 minder of meer inkomen verwacht, bijvoorbeeld door pensionering, kan het tarief van de prélèvement à la source zelf aanpassen in de persoonlijke ruimte."
+  bron: {url: https://www.impots.gouv.fr/particulier, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja

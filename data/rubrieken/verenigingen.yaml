@@ -1,0 +1,47 @@
+# Verenigingen en ontmoeting, alleen vaste ritmes. De activiteiten zelf komen uit de verenigingenkalender.
+# Café Jeudi staat hier bewust niet: de kalender leest het uit de banner van nlfr-menu (/api/banner), die leidend is en het per week aan of uit zet;
+# valt de banner weg, dan geldt in de code de vaste regel elke donderdag 18.00 tot 19.30 uur. Een eigen blok hier zou de banner overschrijven.
+# Eigen jaarkalender van Kalender Frankrijk, november 2026 tot en met december 2027.
+# Eén blok per datum. status te_verifieren komt wel op de pagina (met label), nooit in de nieuwsbrief.
+
+- id: verenigingen-sinterklaas
+  titel: "Sinterklaasfeesten bij Nederlandse verenigingen"
+  rubriek: verenigingen
+  soort: seizoen
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 15-11 tot 06-12"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Eind november en begin december vieren veel Nederlandse verenigingen in Frankrijk Sinterklaas, vaak met een middag voor kinderen; de data staan in de verenigingenkalender."
+  bron: {url: https://antonnoe.github.io/verenigingen-kalender/data/verenigingen.json, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: verenigingen-nieuwjaarsborrel
+  titel: "Nieuwjaarsborrels bij Nederlandse verenigingen"
+  rubriek: verenigingen
+  soort: seizoen
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 05-01 tot 31-01"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "In januari houden veel verenigingen een nieuwjaarsborrel of algemene ledenvergadering; een goede gelegenheid om nieuwe mensen te leren kennen."
+  bron: {url: https://antonnoe.github.io/verenigingen-kalender/data/verenigingen.json, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: verenigingen-koningsdag
+  titel: "Koningsdag vieren met Nederlanders in Frankrijk"
+  rubriek: verenigingen
+  soort: seizoen
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 20-04 tot 30-04"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Rond 27 april organiseren verenigingen en de ambassade bijeenkomsten in oranje; kijk in de verenigingenkalender wat er in de buurt is."
+  bron: {url: https://antonnoe.github.io/verenigingen-kalender/data/verenigingen.json, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja

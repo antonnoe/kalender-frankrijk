@@ -1,0 +1,163 @@
+# Wonen en seizoen.
+# Eigen jaarkalender van Kalender Frankrijk, november 2026 tot en met december 2027.
+# Eén blok per datum. status te_verifieren komt wel op de pagina (met label), nooit in de nieuwsbrief.
+
+- id: treve-hivernale
+  titel: "Trêve hivernale"
+  rubriek: wonen
+  soort: periode
+  doelgroepen: [huurder, huiseigenaar]
+  wanneer: {regel: "jaarlijks 01-11 tot 31-03"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Van 1 november tot en met 31 maart mag een huurder niet uit de woning worden gezet, ook niet met een rechterlijke uitspraak; de huur blijft verschuldigd."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A14632, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: treve-energie
+  titel: "Geen afsluiting van stroom en gas in de winter"
+  rubriek: wonen
+  soort: periode
+  doelgroepen: [huurder, huiseigenaar]
+  wanneer: {regel: "jaarlijks 01-11 tot 31-03"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Tijdens de winterstop mag een leverancier stroom of gas van een hoofdverblijf niet afsluiten wegens onbetaalde rekeningen, wel het vermogen beperken."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A14632, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Regels voor energie niet in de bron gezien; nagaan op service-public."
+
+- id: ramonage-najaar
+  titel: "Schoorsteen vegen vóór het stookseizoen"
+  rubriek: wonen
+  soort: seizoen
+  doelgroepen: [huiseigenaar, huurder]
+  wanneer: {regel: "jaarlijks 01-09 tot 31-10"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "In de meeste departementen is vegen van een gebruikte schoorsteen verplicht, vaak twee keer per jaar waarvan één keer in het stookseizoen; de verzekeraar vraagt het certificaat bij brand."
+  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: ketel-onderhoud
+  titel: "Jaarlijks onderhoud cv-ketel"
+  rubriek: wonen
+  soort: seizoen
+  doelgroepen: [huiseigenaar, huurder]
+  wanneer: {regel: "jaarlijks 01-09 tot 30-11"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Een ketel op gas, olie of hout van 4 tot 400 kW moet elk jaar worden onderhouden; het najaar is het moment om een afspraak te maken."
+  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: vorst-leidingen
+  titel: "Buitenleidingen en tweede woning vorstvrij maken"
+  rubriek: wonen
+  soort: seizoen
+  doelgroepen: [huiseigenaar]
+  wanneer: {regel: "jaarlijks 15-11 tot 15-12"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Wie de winter niet in Frankrijk is, sluit de buitenkraan af en laat de leidingen leeglopen of houdt de woning op vorstvrije temperatuur."
+  bron: {url: https://www.nederlanders.fr/, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: dpe-f-2028
+  titel: "Woningen met energielabel F niet meer te verhuren"
+  rubriek: wonen
+  soort: mijlpaal
+  doelgroepen: [huiseigenaar]
+  wanneer: {datum: 2028-01-01}
+  aftellen: [90, 30]
+  gebied: "heel Frankrijk"
+  tekst: "Vanaf 1 januari 2028 geldt een woning met DPE-label F niet meer als behoorlijke huurwoning voor nieuwe of verlengde huurcontracten; voor label G geldt dat sinds 1 januari 2025."
+  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Mijlpaal uit de wet Climat et résilience; in 2025 en 2026 zijn uitstelvoorstellen besproken, dus nagaan vóór publicatie."
+
+- id: biens-immobiliers-2027
+  titel: "Aangifte gebruik woningen (Gérer mes biens immobiliers)"
+  rubriek: wonen
+  soort: datum
+  doelgroepen: [huiseigenaar]
+  wanneer: {datum: 2027-07-01}
+  aftellen: [30, 14, 7]
+  gebied: "heel Frankrijk"
+  tekst: "Wie eigenaar is en sinds de vorige opgave iets veranderde, zoals verhuur, verkoop of een tweede woning, geeft dat vóór 1 juli door op impots.gouv.fr."
+  bron: {url: https://www.impots.gouv.fr/particulier, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+  opmerking: "Datum 1 juli staat in de opdracht; niet zelf in de bron gezien."
+
+- id: assurance-habitation-opzeggen
+  titel: "Woonverzekering vergelijken en opzeggen"
+  rubriek: wonen
+  soort: seizoen
+  doelgroepen: [huiseigenaar, huurder]
+  wanneer: {regel: "jaarlijks 01-01 tot 31-01"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Na het eerste contractjaar kan een woonverzekering op elk moment worden opgezegd, met een maand opzegtermijn; de nieuwe verzekeraar kan de opzegging regelen."
+  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: cheque-energie-2027
+  titel: "Chèque énergie 2027"
+  rubriek: wonen
+  soort: seizoen
+  doelgroepen: [particulier, gepensioneerde]
+  wanneer: {van: 2027-04-01, tot: 2027-05-31}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Huishoudens met een laag inkomen krijgen in het voorjaar automatisch een chèque énergie voor stroom, gas, hout of isolatie."
+  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Verzendperiode 2027 niet gevonden."
+
+- id: debroussaillement
+  titel: "Tuin brandveilig maken vóór de zomer"
+  rubriek: wonen
+  soort: seizoen
+  doelgroepen: [huiseigenaar]
+  wanneer: {regel: "jaarlijks 01-04 tot 31-05"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "In gebieden met bosbrandrisico moeten eigenaren rond huis en schuur struikgewas verwijderen (obligations légales de débroussaillement); de gemeente weet welke straal geldt."
+  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: taxe-fonciere-online
+  titel: "Aanslag taxe foncière online"
+  rubriek: wonen
+  soort: seizoen
+  doelgroepen: [huiseigenaar]
+  wanneer: {regel: "jaarlijks 25-08 tot 30-09"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Eind augustus of in september staat het aanslagbiljet taxe foncière in de persoonlijke ruimte; dan is er nog tijd om afschrijving op de vervaldatum te regelen."
+  link: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+  bron: {url: https://infofrankrijk.com/?if_fc_ical=particulier, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Aanmelddatum afschrijving 30 september 2026 staat in de feed; publicatiedatum aanslag niet gezien."

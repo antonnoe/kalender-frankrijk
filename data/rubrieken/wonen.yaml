@@ -14,7 +14,7 @@
   bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A14632, gecontroleerd: 2026-11-02}
   status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
 
 - id: treve-energie
   titel: "Geen afsluiting van stroom en gas in de winter"
@@ -28,7 +28,7 @@
   bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A14632, gecontroleerd: 2026-11-02}
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
   opmerking: "Regels voor energie niet in de bron gezien; nagaan op service-public."
 
 - id: ramonage-najaar

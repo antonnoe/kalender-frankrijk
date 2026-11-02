@@ -15,7 +15,7 @@
   bron: {url: https://infofrankrijk.com/?if_fc_ical=particulier, gecontroleerd: 2026-11-02}
   status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
 
 - id: cfe-saldo-2026
   titel: "CFE-aanslag, saldo betalen vóór 15 december"
@@ -55,12 +55,12 @@
   aftellen: [7, 1]
   gebied: "Nederland"
   tekst: "Vanaf 1 maart kan de Nederlandse aangifte inkomstenbelasting over 2026 worden gedaan; de laatste dag is 30 april."
-  bron: {url: https://www.belastingdienst.nl/wps/wcm/connect/nl/buitenland/buitenland, gecontroleerd: 2026-11-02}
+  bron: {url: https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/content/hoe-aangifte-inkomstenbelasting-doen, gecontroleerd: 2026-11-02}
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
   groep: nl-aangifte-2026
   gesprek: nee
-  opmerking: "Einddatum 30 april staat in de feed nederland; de openingsdatum zelf nog nagaan op belastingdienst.nl."
+  opmerking: "Belastingdienst.nl noemt op deze pagina alleen de M-aangifte (vanaf 1 mei 2026); de opening op 1 maart voor de gewone aangifte is niet gezien. Einddatum 1 mei staat in de feed nederland."
 
 - id: m-biljet-2026
   titel: "M-biljet over 2026 voor wie in 2026 emigreerde"
@@ -91,14 +91,14 @@
   toon_in: [nieuwsbrief, pagina, infopoche]
   groep: fr-aangifte-2026
   gesprek: nee
-  opmerking: "Data 2027 maakt de DGFiP pas in het voorjaar bekend; van en tot zijn een schatting op basis van eerdere jaren."
+  opmerking: "Data 2027 maakt de DGFiP in april bekend; de periode april tot juni is niet op impots.gouv.fr gezien (calendrier-fiscal toont geen particulierendata, de vragenpagina gaf 404). Blijft te verifiëren tot de DGFiP publiceert."
 
 - id: fr-aangifte-niet-wachten-2027
   titel: "Aangifte inkomstenbelasting Frankrijk, niet te lang mee wachten"
   rubriek: fiscaal
   soort: periode
   doelgroepen: [particulier, gepensioneerde]
-  wanneer: {van: 2027-05-01, tot: 2027-05-31}
+  wanneer: {van: 2027-04-01, tot: 2027-05-31}
   aftellen: []
   gebied: "heel Frankrijk"
   tekst: "De aangifte vraagt bij een Nederlands pensioen of Nederlandse rekening vaak extra formulieren (2047, 3916); wie in mei begint, heeft tijd voor vragen."
@@ -107,7 +107,8 @@
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
   groep: fr-aangifte-2026
-  gesprek: ja
+  gesprek: nee
+  opmerking: "Moet vanaf april verschijnen als herinnering dat de aangifteperiode nadert; status blijft te verifiëren omdat de periode nog niet in een DGFiP-bron is gezien."
 
 - id: formulier-3916-2027
   titel: "Buitenlandse rekeningen melden met formulier 3916"

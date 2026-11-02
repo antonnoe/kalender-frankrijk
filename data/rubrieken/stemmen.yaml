@@ -63,21 +63,6 @@
   groep: presidentielle-2027
   gesprek: ja
 
-- id: legislatives-2029
-  titel: "Geen législatives in 2027"
-  rubriek: stemmen
-  soort: mijlpaal
-  doelgroepen: [iedereen]
-  wanneer: {datum: 2027-06-01}
-  aftellen: []
-  gebied: "heel Frankrijk"
-  tekst: "De volgende verkiezing voor de Assemblée nationale staat voor 2029, tenzij de president de Assemblée ontbindt."
-  bron: {url: https://www.service-public.gouv.fr/particuliers/vosdroits/F1939, gecontroleerd: 2026-11-02}
-  status: vastgesteld
-  toon_in: [pagina, infopoche]
-  gesprek: ja
-  opmerking: "In de opdracht stond législatives 2027; Service-Public F1939 noemt 2029."
-
 - id: nl-registratie-kiezers-buitenland-2027
   titel: "Registreren als kiezer buiten Nederland"
   rubriek: stemmen
@@ -151,7 +136,7 @@
   bron: {url: https://www.kiesraad.nl/verkiezingen/provinciale-staten, gecontroleerd: 2026-11-02}
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
   opmerking: "Datum nog niet gevonden; 25 mei is een plaatshouder."
 
 - id: prinsjesdag-2027
@@ -163,7 +148,8 @@
   aftellen: [1]
   gebied: "Nederland"
   tekst: "Op Prinsjesdag presenteert het kabinet de plannen en de belastingmaatregelen voor 2028, ook van belang voor wie in Frankrijk een Nederlands inkomen heeft."
-  bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
-  status: te_verifieren
+  bron: {url: https://www.koninklijkhuis.nl/onderwerpen/prinsjesdag, gecontroleerd: 2026-11-02}
+  status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
+  opmerking: "Bron: jaarlijks de derde dinsdag in september (Grondwet); in 2027 is dat 21 september."

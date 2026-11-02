@@ -14,7 +14,7 @@
   bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A14389, gecontroleerd: 2026-11-02}
   status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
 
 - id: jachtseizoen
   titel: "Jachtseizoen"
@@ -29,7 +29,7 @@
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: ja
-  opmerking: "Data per departement via de préfecture en de ONF-kalenders; later per departement uitwerken."
+  opmerking: "Niet geverifieerd: legifrance (art. R424-7 Code de l'environnement) gaf 403, prefectuurnotities (Mayenne, Bas-Rhin, Loiret, Corrèze) gaven geen antwoord, ofb.gouv.fr en chasseurdefrance.com gaven 404 op de periodepagina. Data per departement bij arrêté préfectoral."
 
 - id: jacht-zondag-tip
   titel: "Wandelen in het jachtseizoen"
@@ -44,6 +44,7 @@
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: ja
+  opmerking: "Niet geverifieerd: legifrance (art. R424-7 Code de l'environnement) gaf 403, prefectuurnotities (Mayenne, Bas-Rhin, Loiret, Corrèze) gaven geen antwoord, ofb.gouv.fr en chasseurdefrance.com gaven 404 op de periodepagina. Data per departement bij arrêté préfectoral."
 
 - id: bosbrandseizoen
   titel: "Bosbrandseizoen"
@@ -101,22 +102,22 @@
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: ja
-  opmerking: "Journées rouges en noires 2027 nog niet gepubliceerd door Bison Futé."
+  opmerking: "Calendrier Bison Futé 2027 nog niet gepubliceerd; bison-fute.gouv.fr toont alleen de kalender 2026."
 
 - id: bison-fute-kerst-2026
   titel: "Drukte op de weg rond de kerstvakantie"
   rubriek: buiten
   soort: periode
   doelgroepen: [automobilist]
-  wanneer: {van: 2026-12-18, tot: 2026-12-20}
+  wanneer: {van: 2026-12-23, tot: 2027-01-03}
   aftellen: [1]
   gebied: "heel Frankrijk"
-  tekst: "Aan het begin van de Franse kerstvakantie is het druk op de wegen naar de bergen; Bison Futé geeft per dag de verwachting."
-  bron: {url: https://www.bison-fute.gouv.fr/, gecontroleerd: 2026-11-02}
-  status: te_verifieren
+  tekst: "Bison Futé verwacht woensdag 23 december de zwaarste vertrekdag (zeer druk vanuit Île-de-France, het noorden, het oosten en Auvergne-Rhône-Alpes); ook 24, 26 en 27 december en zaterdag 2 januari, op de terugweg, wordt het druk."
+  bron: {url: https://www.bison-fute.gouv.fr/IMG/pdf/Calendrier_Bison_Fute_2026-2.pdf, gecontroleerd: 2026-11-02}
+  status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: nee
-  opmerking: "Voorspelling Bison Futé voor dit weekend niet gezien."
+  opmerking: "Calendrier Bison Futé 2026 (pdf, 27-03-2026): 18 december oranje vertrek zones 1-4, 23 december rood zones 1-4, 24, 26 en 27 december oranje, 2 januari 2027 rood (vertrek zone 4, terug zones 3-4)."
 
 - id: ouverture-peche-2027
   titel: "Opening visseizoen forel (1e categorie)"
@@ -130,7 +131,7 @@
   bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
 
 - id: calendrier-pompiers
   titel: "Brandweerkalender aan de deur"

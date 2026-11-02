@@ -29,7 +29,7 @@
   status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
   groep: ponts-2027
-  gesprek: ja
+  gesprek: nee
 
 - id: pont-11-novembre-2027
   titel: "Pont van 11 novembre"
@@ -44,7 +44,7 @@
   status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
   groep: ponts-2027
-  gesprek: ja
+  gesprek: nee
 
 - id: mei-2027-zaterdagen
   titel: "1 en 8 mei vallen op zaterdag"
@@ -72,7 +72,7 @@
   bron: {url: https://calendrier.api.gouv.fr/jours-feries/alsace-moselle/2027.json, gecontroleerd: 2026-11-02}
   status: vastgesteld
   toon_in: [pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
   opmerking: "Uitleg bij de feestdag die ook automatisch uit calendrier.api.gouv.fr komt; bij samenvoegen op datum en gebied wint de uitleg."
 
 - id: elzas-moezel-26-december
@@ -87,7 +87,7 @@
   bron: {url: https://calendrier.api.gouv.fr/jours-feries/alsace-moselle/2027.json, gecontroleerd: 2026-11-02}
   status: vastgesteld
   toon_in: [pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
   opmerking: "Uitleg bij de feestdag die ook automatisch uit calendrier.api.gouv.fr komt."
 
 - id: heure-hiver
@@ -130,7 +130,8 @@
   bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
+  opmerking: "Geen gezaghebbende bron gevonden; immaterieelerfgoed.nl gaf 404 op de opgevraagde pagina."
 
 - id: sinterklaasavond
   titel: "Sinterklaasavond"
@@ -141,10 +142,11 @@
   aftellen: [14, 1]
   gebied: "Nederland"
   tekst: "Pakjesavond is in Nederland een gedenkdag, geen vrije dag; veel Nederlandse verenigingen in Frankrijk vieren het eerder."
-  bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
+  bron: {url: https://www.immaterieelerfgoed.nl/nl/sinterklaasfeest, gecontroleerd: 2026-11-02}
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
+  opmerking: "immaterieelerfgoed.nl gaf 403; geen andere gezaghebbende bron gevonden."
 
 - id: koningsdag
   titel: "Koningsdag"
@@ -155,10 +157,11 @@
   aftellen: [7, 1]
   gebied: "Nederland"
   tekst: "Op 27 april viert Nederland Koningsdag; in Frankrijk is het een gewone werkdag, ambassade en verenigingen organiseren soms een receptie."
-  bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
-  status: te_verifieren
+  bron: {url: https://www.koninklijkhuis.nl/onderwerpen/koningsdag, gecontroleerd: 2026-11-02}
+  status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
+  opmerking: "Bron: 27 april, de dag ervoor als 27 april op zondag valt; in 2027 is dat dinsdag 27 april."
 
 - id: dodenherdenking
   titel: "Nationale Dodenherdenking"
@@ -169,10 +172,11 @@
   aftellen: [1]
   gebied: "Nederland"
   tekst: "Op 4 mei om 20.00 uur herdenkt Nederland met twee minuten stilte; in Frankrijk zijn er herdenkingen bij Nederlandse oorlogsgraven."
-  bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
+  bron: {url: https://www.4en5mei.nl/, gecontroleerd: 2026-11-02}
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
+  opmerking: "4en5mei.nl (Nationaal Comité) bereikt, maar de voorpagina noemt de data niet expliciet; nog een pagina met de datum zoeken."
 
 - id: bevrijdingsdag
   titel: "Bevrijdingsdag"
@@ -183,25 +187,41 @@
   aftellen: [1]
   gebied: "Nederland"
   tekst: "Op 5 mei viert Nederland de bevrijding; Frankrijk viert de capitulatie op 8 mei, in 2027 een zaterdag."
-  bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
+  bron: {url: https://www.4en5mei.nl/, gecontroleerd: 2026-11-02}
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
+  opmerking: "4en5mei.nl (Nationaal Comité) bereikt, maar de voorpagina noemt de data niet expliciet; nog een pagina met de datum zoeken."
 
 - id: moederdag-2027
-  titel: "Moederdag in Nederland en Fête des mères in Frankrijk"
+  titel: "Moederdag in Nederland"
   rubriek: feestdagen
   soort: datum
   doelgroepen: [iedereen]
   wanneer: {datum: 2027-05-09}
   aftellen: [7]
   gebied: "heel Frankrijk"
-  tekst: "Nederland viert Moederdag op de tweede zondag van mei (9 mei), Frankrijk de Fête des mères op de laatste zondag van mei (30 mei)."
-  bron: {url: https://www.service-public.gouv.fr/particuliers, gecontroleerd: 2026-11-02}
+  tekst: "Zondag 9 mei is het Moederdag in Nederland, de tweede zondag van mei."
+  bron: {url: https://nl.wikipedia.org/wiki/Moederdag, gecontroleerd: 2026-11-02}
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
-  opmerking: "Franse regel: laatste zondag van mei, een week later als Pinksteren op die zondag valt."
+  gesprek: nee
+  opmerking: "Tweede zondag van mei is gewoonte, geen wettelijke datum; geen gezaghebbende bron gevonden."
+
+- id: fete-des-meres-2027
+  titel: "Fête des mères in Frankrijk"
+  rubriek: feestdagen
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-05-30}
+  aftellen: [7]
+  gebied: "heel Frankrijk"
+  tekst: "Zondag 30 mei is het Fête des mères in Frankrijk, drie weken later dan Moederdag in Nederland."
+  bron: {url: https://fr.wikipedia.org/wiki/F%C3%AAte_des_m%C3%A8res, gecontroleerd: 2026-11-02}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+  opmerking: "Regel (loi du 24 mai 1950, art. D215-1 Code de l'action sociale et des familles): laatste zondag van mei, de eerste zondag van juni als Pinksteren op die zondag valt. Pinksteren 2027 is 16 mei, dus 30 mei. Legifrance gaf 403 en laposte.fr 403; regel niet in een primaire bron gezien."
 
 - id: fete-de-la-musique
   titel: "Fête de la musique"
@@ -215,7 +235,7 @@
   bron: {url: https://fetedelamusique.culture.gouv.fr/, gecontroleerd: 2026-11-02}
   status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
 
 - id: journees-patrimoine-2027
   titel: "Journées européennes du patrimoine"
@@ -226,11 +246,11 @@
   aftellen: [14, 1]
   gebied: "heel Frankrijk"
   tekst: "Een weekend lang openen monumenten, ministeries en kastelen hun deuren, vaak gratis en soms alleen op dit weekend."
-  bron: {url: https://www.culture.gouv.fr/, gecontroleerd: 2026-11-02}
+  bron: {url: https://journeesdupatrimoine.culture.gouv.fr/, gecontroleerd: 2026-11-02}
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
-  opmerking: "Derde weekend van september; datum 2027 nog niet aangekondigd door het ministerie van Cultuur."
+  gesprek: nee
+  opmerking: "Derde weekend van september (2026: 19 en 20 september). De site meldt dat de informatie over de editie 2027 nog volgt; 18 en 19 september is berekend."
 
 - id: banner-nieuwjaar-2027
   titel: "Nieuwjaar"
@@ -281,7 +301,7 @@
   tekst_nl: "Fijne Koningsdag"
   tekst_fr: "Bonne fête du Roi"
   kleur: "#E8730C"
-  bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
+  bron: {url: https://www.koninklijkhuis.nl/onderwerpen/koningsdag, gecontroleerd: 2026-11-02}
   status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: nee
@@ -317,10 +337,11 @@
   tekst_nl: "Fijne pakjesavond"
   tekst_fr: "Joyeuse Saint-Nicolas"
   kleur: "#B3261E"
-  bron: {url: https://www.rijksoverheid.nl/, gecontroleerd: 2026-11-02}
-  status: vastgesteld
+  bron: {url: https://www.immaterieelerfgoed.nl/nl/sinterklaasfeest, gecontroleerd: 2026-11-02}
+  status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: nee
+  opmerking: "Geen gezaghebbende bron bereikt (immaterieelerfgoed.nl gaf 403); rijksoverheid.nl-voorpagina was geen bron voor 5 december."
 
 - id: banner-kerst
   titel: "Kerst"

@@ -7,14 +7,15 @@
   rubriek: genieten
   soort: seizoen
   doelgroepen: [iedereen]
-  wanneer: {regel: "jaarlijks 15-11 tot 15-03"}
+  wanneer: {regel: "jaarlijks 15-11 tot 31-03"}
   aftellen: []
   gebied: "heel Frankrijk"
-  tekst: "Van half november tot half maart is het seizoen van de zwarte truffel, met truffelmarkten in de Périgord, de Drôme en de Vaucluse."
-  bron: {url: https://www.mangerbouger.fr/manger-mieux/s-informer-sur-l-alimentation/les-fruits-et-legumes-de-saison, gecontroleerd: 2026-11-02}
-  status: te_verifieren
+  tekst: "Van half november tot eind maart wordt de zwarte truffel (truffe du Périgord) geoogst, met het hoogseizoen van half januari tot eind maart; truffelmarkten zijn er onder meer in de Périgord, de Vaucluse en de Drôme."
+  bron: {url: https://www.lesfruitsetlegumesfrais.com/fruits-legumes/champignons/truffe/tout-savoir-sur-la-truffe, gecontroleerd: 2026-11-02}
+  status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: ja
+  opmerking: "Interfel (lesfruitsetlegumesfrais.com): tuber melanosporum, récolte de la mi-novembre à la fin mars, pleine saison de mi-janvier à fin mars."
 
 - id: galette-des-rois
   titel: "Galette des rois"
@@ -24,11 +25,12 @@
   wanneer: {regel: "jaarlijks 01-01 tot 31-01"}
   aftellen: []
   gebied: "heel Frankrijk"
-  tekst: "In januari eet Frankrijk de galette des rois; wie de fève vindt, is koning of koningin voor een dag."
-  bron: {url: https://www.mangerbouger.fr/manger-mieux/s-informer-sur-l-alimentation/les-fruits-et-legumes-de-saison, gecontroleerd: 2026-11-02}
-  status: te_verifieren
+  tekst: "Rond Driekoningen (Épiphanie, 6 januari) en de hele maand januari eet Frankrijk de galette des rois; wie de fève vindt, is koning of koningin voor een dag."
+  bron: {url: https://boulangerie.org/wp-content/uploads/DP-galette-2025.pdf, gecontroleerd: 2026-11-02}
+  status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: ja
+  opmerking: "Persdossier galette 2025 van de Confédération nationale de la boulangerie-pâtisserie française: Épiphanie op 6 januari, verkoop en traditie de hele maand januari."
 
 - id: chandeleur
   titel: "Crêpes op Chandeleur"
@@ -39,80 +41,86 @@
   aftellen: [1]
   gebied: "heel Frankrijk"
   tekst: "Op 2 februari, Maria-Lichtmis, bakken Franse gezinnen crêpes."
-  bron: {url: https://www.mangerbouger.fr/manger-mieux/s-informer-sur-l-alimentation/les-fruits-et-legumes-de-saison, gecontroleerd: 2026-11-02}
-  status: te_verifieren
+  bron: {url: https://eglise.catholique.fr/glossaire/chandeleur/, gecontroleerd: 2026-11-02}
+  status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
+  opmerking: "Datum 2 februari in de bron (Conférence des évêques de France); de crêpes zijn de bekende volksgewoonte, de bron spreekt van een fête gourmande."
 
 - id: asperges
   titel: "Aspergeseizoen"
   rubriek: genieten
   soort: seizoen
   doelgroepen: [iedereen]
-  wanneer: {regel: "jaarlijks 01-04 tot 30-06"}
+  wanneer: {regel: "jaarlijks 01-03 tot 30-06"}
   aftellen: []
   gebied: "heel Frankrijk"
-  tekst: "Van april tot en met juni liggen witte en groene asperges uit de Landes, de Loire en de Elzas op de markt."
-  bron: {url: https://www.mangerbouger.fr/manger-mieux/s-informer-sur-l-alimentation/les-fruits-et-legumes-de-saison, gecontroleerd: 2026-11-02}
-  status: te_verifieren
+  tekst: "Van maart tot en met juni liggen Franse asperges op de markt, onder meer uit het Loiredal, Aquitaine en de Provence."
+  bron: {url: https://www.lesfruitsetlegumesfrais.com/fruits-legumes/legumes-racines-tubercules-et-tiges/asperge, gecontroleerd: 2026-11-02}
+  status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: ja
+  opmerking: "Interfel-seizoenskalender: cœur de saison maart tot en met juni."
 
 - id: kersen-abrikozen
   titel: "Kersen en abrikozen"
   rubriek: genieten
   soort: seizoen
   doelgroepen: [iedereen]
-  wanneer: {regel: "jaarlijks 01-06 tot 31-08"}
+  wanneer: {regel: "jaarlijks 15-05 tot 15-08"}
   aftellen: []
   gebied: "heel Frankrijk"
-  tekst: "In de zomer zijn er kersen uit de Provence en abrikozen uit de Roussillon en de Drôme."
-  bron: {url: https://www.mangerbouger.fr/manger-mieux/s-informer-sur-l-alimentation/les-fruits-et-legumes-de-saison, gecontroleerd: 2026-11-02}
-  status: te_verifieren
+  tekst: "Van half mei tot half augustus zijn er Franse kersen (hoogseizoen mei tot en met juli) en abrikozen (oogst half mei tot half augustus), onder meer uit de Roussillon, de Provence en het Rhônedal."
+  bron: {url: https://www.lesfruitsetlegumesfrais.com/fruits-legumes/fruits-a-noyaux/abricot, gecontroleerd: 2026-11-02}
+  status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: ja
+  opmerking: "Interfel: abricot, récolte de la mi-mai à la mi-août; cerise (fruits-a-noyaux/cerise), cœur de saison mai tot en met juli."
 
 - id: vendanges
   titel: "Vendanges"
   rubriek: genieten
   soort: seizoen
   doelgroepen: [iedereen]
-  wanneer: {regel: "jaarlijks 01-09 tot 15-10"}
+  wanneer: {regel: "jaarlijks 25-08 tot 15-10"}
   aftellen: []
   gebied: "heel Frankrijk"
-  tekst: "In september en begin oktober wordt de druif geplukt; in veel wijndorpen eindigt de oogst met een feest."
-  bron: {url: https://www.mangerbouger.fr/manger-mieux/s-informer-sur-l-alimentation/les-fruits-et-legumes-de-saison, gecontroleerd: 2026-11-02}
-  status: te_verifieren
+  tekst: "Van eind augustus tot half oktober wordt de druif geplukt, eerst in het zuiden (Corsica, Languedoc-Roussillon, Provence), daarna in onder meer de Beaujolais, de Bordelais en de Champagne."
+  bron: {url: https://www.france.fr/fr/article/dates-vendanges-decide/, gecontroleerd: 2026-11-02}
+  status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: ja
+  opmerking: "France.fr (Atout France): de fin août à mi-octobre selon les régions viticoles."
 
 - id: paddenstoelen-kastanjes
   titel: "Paddenstoelen en kastanjes"
   rubriek: genieten
   soort: seizoen
   doelgroepen: [iedereen]
-  wanneer: {regel: "jaarlijks 15-09 tot 30-11"}
+  wanneer: {regel: "jaarlijks 01-10 tot 30-11"}
   aftellen: []
   gebied: "heel Frankrijk"
-  tekst: "In de herfst zijn er cèpes en kastanjes; bij twijfel over een paddenstoel kijkt de apotheek gratis mee."
-  bron: {url: https://www.mangerbouger.fr/manger-mieux/s-informer-sur-l-alimentation/les-fruits-et-legumes-de-saison, gecontroleerd: 2026-11-02}
-  status: te_verifieren
+  tekst: "In oktober en november zijn er cèpes (seizoen augustus tot en met november) en kastanjes (hoogseizoen oktober tot en met december); laat een zelfgeplukte paddenstoel bij twijfel controleren door een apotheker of een mycologische vereniging."
+  bron: {url: https://www.lesfruitsetlegumesfrais.com/fruits-legumes/champignons/cepe/tout-savoir-sur-le-cepe, gecontroleerd: 2026-11-02}
+  status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: ja
+  opmerking: "Interfel: cèpe pleine saison août-nov.; châtaigne (fruits-a-coque/chataigne) cœur de saison oktober tot en met december. Advies paddenstoelen: anses.fr, intoxications liées à la cueillette de champignons."
 
 - id: oesters
-  titel: "Oesterseizoen, de maanden met een r"
+  titel: "Oesters voor de feestdagen"
   rubriek: genieten
   soort: seizoen
   doelgroepen: [iedereen]
-  wanneer: {regel: "jaarlijks 01-09 tot 30-04"}
+  wanneer: {regel: "jaarlijks 01-12 tot 31-12"}
   aftellen: []
   gebied: "heel Frankrijk"
-  tekst: "Van september tot en met april, de maanden met een r, zijn oesters op hun best; rond de feestdagen is de vraag het grootst."
-  bron: {url: https://www.mangerbouger.fr/manger-mieux/s-informer-sur-l-alimentation/les-fruits-et-legumes-de-saison, gecontroleerd: 2026-11-02}
-  status: te_verifieren
+  tekst: "Rond de feestdagen zijn oesters het populairst; ze zijn tegenwoordig het hele jaar veilig te eten, de oude regel van de maanden met een r ten spijt."
+  bron: {url: https://www.inc-conso.fr/content/les-produits-de-la-conchyliculture, gecontroleerd: 2026-11-02}
+  status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: ja
+  opmerking: "INC: très prisées lors des fêtes de fin d'année, maintenant consommées tout au long de l'année sans danger. Periode teruggebracht tot december; de maanden-met-een-r-regel staat niet in een gezaghebbende bron. cnc-france.com was onbereikbaar."
 
 - id: beaujolais-nouveau
   titel: "Beaujolais nouveau"
@@ -152,12 +160,12 @@
   wanneer: {van: 2027-06-23, tot: 2027-07-20}
   aftellen: [7, 1]
   gebied: "heel Frankrijk"
-  tekst: "De zomersolden beginnen op een woensdag eind juni en duren vier weken."
-  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A17952, gecontroleerd: 2026-11-02}
-  status: te_verifieren
+  tekst: "De zomersolden beginnen woensdag 23 juni om 8.00 uur en duren vier weken, tot en met dinsdag 20 juli; in een paar departementen gelden andere data."
+  bron: {url: https://www.service-public.gouv.fr/particuliers/actualites/A15000, gecontroleerd: 2026-11-02}
+  status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: nee
-  opmerking: "Regel (laatste woensdag van juni, de voorlaatste als de laatste na de 28e valt) niet in de bron gezien; berekend."
+  opmerking: "Regel uit de bron (arrêté van 27 mei 2019, art. L310-3 Code de commerce): laatste woensdag van juni om 8 uur, de voorlaatste als de laatste na de 28e valt; duur 4 weken. In 2027 valt de laatste woensdag op 30 juni, dus 23 juni."
 
 - id: noel-reserveren
   titel: "Kerstdiner tijdig reserveren"
@@ -171,7 +179,7 @@
   bron: {url: https://www.france.fr/fr/evenement/, gecontroleerd: 2026-11-02}
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
 
 - id: saint-sylvestre-reserveren
   titel: "Saint-Sylvestre tijdig reserveren"
@@ -185,7 +193,7 @@
   bron: {url: https://www.france.fr/fr/evenement/, gecontroleerd: 2026-11-02}
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
 
 - id: fete-des-lumieres-2026
   titel: "Fête des Lumières in Lyon"
@@ -199,7 +207,8 @@
   bron: {url: https://www.fetedeslumieres.lyon.fr/, gecontroleerd: 2026-11-02}
   status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
+  opmerking: "Data staan op de voorpagina van fetedeslumieres.lyon.fr (rendez-vous du samedi 5 au mardi 8 décembre 2026)."
 
 - id: fete-des-lumieres-2027
   titel: "Fête des Lumières in Lyon"
@@ -213,7 +222,7 @@
   bron: {url: https://www.fetedeslumieres.lyon.fr/, gecontroleerd: 2026-11-02}
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
   opmerking: "Data 2027 nog niet bekend."
 
 - id: nuit-des-musees-2027
@@ -228,5 +237,5 @@
   bron: {url: https://www.culture.gouv.fr/, gecontroleerd: 2026-11-02}
   status: te_verifieren
   toon_in: [nieuwsbrief, pagina, infopoche]
-  gesprek: ja
+  gesprek: nee
   opmerking: "Datum 2027 nog niet aangekondigd; 15 mei is een plaatshouder."

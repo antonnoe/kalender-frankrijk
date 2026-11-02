@@ -13,9 +13,9 @@
     "test": "node --test test/*.test.js"
   },
   "dependencies": {
-    "yaml": "2.8.1"
+    "yaml": "2.8.3"
   },
   "devDependencies": {
-    "sharp": "0.34.4"
+    "sharp": "0.35.5"
   }
 }

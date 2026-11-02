@@ -39,8 +39,15 @@ Bevindingen van de eisenkeurder en wat ermee is gedaan.
 | 8 | Dagelijkse workflow bronnen.yml zonder run | gestart met een handmatige run (workflow_dispatch) na de push van deze ronde: geslaagd (controle en tests op de nieuwe kopieën groen) |
 | 9 | Tests | `test/herstelronde1.test.js` en aangepaste tests; `npm test` en `npm run controleer` groen |
 
+## Verificatieronde data (2 november 2026)
+
+Een aparte bouwer heeft alle eigen items met status te_verifieren nagelopen tegen de bron: 77 items vastgesteld, 72 blijven te_verifieren (bron niet bereikbaar of jaargang 2027 nog niet gepubliceerd). Fête des mères 2027 gesplitst (Frankrijk 30 mei, Nederland 9 mei), legislatives 2027 verwijderd (geen vaststaande verkiezing), gesprek alleen bij seizoen en mijlpaal, seizoensproducten met bron (Interfel, boulangerie.org, eglise.catholique.fr, france.fr, inc-conso.fr).
+
+## Live
+
+https://kalender-frankrijk.vercel.app, Vercel deployt vanzelf vanuit main. Gecontroleerd 2 november na herstelronde 1: /api/status ok, geen dubbele titels per dag 20 december tot 7 januari, één seizoensregel per week, Café Jeudi live, iCal verenigingen met één wekelijkse afspraak.
+
 ## Open voor de opdrachtgever
 
-1. Vercel koppelen aan de repo (geen instellingen nodig) en het adres doorgeven aan de nieuwsbrief en de pagina.
-2. Eenmalig de forumlink testen, zie `docs/FORUMLINK.md`.
-3. Het IFI-artikel op Infofrankrijk bestaat blijkbaar nog niet (de zoekopdracht vond er geen); de IFI-items verwijzen nu naar de pagina van de fiscale kalender.
+1. Eenmalig de forumlink testen, zie `docs/FORUMLINK.md`.
+2. Het IFI-artikel op Infofrankrijk bestaat blijkbaar nog niet (de zoekopdracht vond er geen); de IFI-items verwijzen nu naar de pagina van de fiscale kalender.

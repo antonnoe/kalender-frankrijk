@@ -173,6 +173,10 @@ wordpress/           de WordPress-plugin (bron) en haar handleiding
 test/                tests en fixtures
 ```
 
+## Afhankelijkheden
+
+Twee pakketten, beide met een vaste versie: `yaml` (leest de gegevensbestanden, in productie) en `sharp` (alleen om de themabeelden te maken met `npm run beelden`, draait niet op Vercel). Bijgewerkt op 2 november 2026 vanwege vier meldingen: `yaml` 2.8.1 naar 2.9.1 en `sharp` 0.34.4 naar 0.35.5. Geen `overrides` nodig. Een nieuwe `sharp` kan PNG's opleveren die één byte afwijken met identieke pixels; commit die dan niet, de bestaande beelden blijven staan.
+
 ## Bekende beperkingen
 
 - De bosbrandwaarschuwing is nog niet gekoppeld (bouwplan taak 7); selectieregel 7 uit het ontwerp is dus nog niet actief.

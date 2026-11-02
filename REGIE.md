@@ -51,6 +51,10 @@ Startpagina `/` omgebouwd tot keuzepagina (Op Infofrankrijk, In InfoPoche, iCal-
 
 Plugin `wordpress/kalender-frankrijk/` met shortcode `[kalender_frankrijk]`, voorbeeldpagina `/pagina.html` met dezelfde JS en CSS en zip `/download/kalender-frankrijk.zip`; test `test/plugin.test.js`. Open: installeren in WordPress en daarna `lib/afnemers.js` omzetten naar https://infofrankrijk.com/kalender-frankrijk/.
 
+## Afhankelijkheden (2 november 2026)
+
+Vier Dependabot-meldingen opgelost: `yaml` 2.9.1 (1 gemiddeld) en `sharp` 0.35.5 (3 hoog, alleen bouwstap); `npm audit` toont 0, uitvoer van de API en bouwresultaten ongewijzigd.
+
 ## Live
 
 https://kalender-frankrijk.vercel.app, Vercel deployt vanzelf vanuit main. Gecontroleerd 2 november na herstelronde 1: /api/status ok, geen dubbele titels per dag 20 december tot 7 januari, één seizoensregel per week, Café Jeudi live, iCal verenigingen met één wekelijkse afspraak.

@@ -150,3 +150,12 @@ Elke taak los te bouwen en live te keuren. Eerste oplevering met waarde: taak 1 
 - Fiscale feed particulier is voor 2027 leeg en professionnel heeft 4 items: zonder vulling is de rubriek in januari bijna leeg; `/api/status` meldt een rubriek met minder dan vijf items in de komende 60 dagen.
 - Bosbrand en andere waarschuwingen nooit uit een oude kopie tonen.
 - Google-feeds en Trends kunnen zonder aankondiging veranderen; ze zijn daarom aanvulling of signaal, nooit enige bron.
+
+## l. Aanvullingen van de opdrachtgever (2 november 2026, na de mock-up)
+
+- Besluiten: j1 = A (fiscale data blijven voorlopig in de WordPress-plugin, de kalender leest en verrijkt; bij het vullen van 2027 naar de repo), j2 = B (plugin met shortcode op Infofrankrijk), j3 = B (Google Trends alleen als signaal voor de redactie).
+- Jachtseizoen (rubriek Buiten en onderweg): als seizoen, half september tot eind februari, per departement verschillend; vaste tip: houd de hond aangelijnd en draag iets opvallends in het bos. Later per departement via de ONF-kalenders.
+- "Voor wie" zijn filters die aanklikbaar zijn en onthouden worden (pagina en later InfoPoche).
+- CAK (rubriek Zorg): mijlpaal met aftelling "Sinds 1 november 2026 geldt de nieuwe CAK-regeling bij vroegpensioen", link https://infofrankrijk.com/cak-vroegpensioen-en-zorg-in-frankrijk/.
+- Veld `gesprek` (ja of nee) per item: tips, seizoenen en mijlpalen krijgen in de nieuwsbrief en op de pagina de link "Bespreek op het forum →" naar https://www.nederlanders.fr/profiles/blog/new; deadlines niet. De bouwer onderzoekt of NING titel of tekst vooraf kan invullen via de URL; zo niet, dan toont de pagina per item een kant-en-klare aanzet (titel plus twee zinnen) met een kopieerknop.
+- Seizoen eten en drinken (rubriek Uitgaan en genieten, soort `seizoen`): truffel (november tot maart), galette des rois (januari), crêpes op Chandeleur (2 februari), asperges (april tot juni), kersen en abrikozen (zomer), vendanges (september), paddenstoelen en kastanjes (herfst), Beaujolais nouveau (derde donderdag van november), oesters (maanden met een r). In de nieuwsbrief hooguit één seizoensregel per week.

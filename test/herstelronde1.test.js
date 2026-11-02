@@ -290,3 +290,15 @@ test('bij twee Google-bronnen gaat de Nederlandse titel voor de Engelse', () => 
   const lijst = itemsInBereik(ontdubbel([fr, nl]).items, '2026-12-24', '2026-12-24');
   assert.deepEqual(lijst.map((i) => i.titel), ['Kerstavond']);
 });
+
+// ---------- 10. /api/items levert standaard alleen vastgestelde items ----------
+
+test('itemsInBereik laat te_verifieren standaard weg; status=alle geeft ze mee, status=te_verifieren alleen die', () => {
+  const items = [
+    maak({ id: 'v1', rubriek: 'genieten', wanneer: datum('2026-11-10') }),
+    maak({ id: 'tv', rubriek: 'genieten', wanneer: datum('2026-11-12'), status: 'te_verifieren' }),
+  ];
+  assert.deepEqual(itemsInBereik(items, '2026-11-01', '2026-11-30').map((i) => i.id), ['v1']);
+  assert.deepEqual(itemsInBereik(items, '2026-11-01', '2026-11-30', { status: 'alle' }).map((i) => i.id), ['v1', 'tv']);
+  assert.deepEqual(itemsInBereik(items, '2026-11-01', '2026-11-30', { status: 'te_verifieren' }).map((i) => i.id), ['tv']);
+});

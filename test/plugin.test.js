@@ -61,6 +61,12 @@ test('JS: geen innerHTML, geen opslag in de browser, geen eval', () => {
   assert.ok(js.includes('rel: \'noopener\'') && js.includes('target: \'_blank\''));
 });
 
+test('JS: gebeurtenissen gaan via addEventListener, nooit als attribuut', () => {
+  assert.ok(js.includes("k.slice(0, 2) === 'on'"));
+  assert.ok(js.includes('addEventListener(k.slice(2), v)'));
+  assert.ok(!/setAttribute\(\s*['"]on/.test(js));
+});
+
 test('JS: de vaste instellingen uit de opdracht', () => {
   assert.ok(js.includes("'https://kalender-frankrijk.vercel.app'"));
   assert.ok(js.includes('https://www.nederlanders.fr/profiles/blog/new'));

@@ -95,7 +95,7 @@
       if (v == null || v === false) continue;
       if (k === 'klas') e.className = v;
       else if (k === 'tekst') e.textContent = v;
-      else if (k.slice(0, 2) === 'op') e.addEventListener(k.slice(2), v);
+      else if (k.slice(0, 2) === 'on') e.addEventListener(k.slice(2), v);
       else e.setAttribute(k, v === true ? '' : String(v));
     }
     (kids || []).forEach(function (c) {

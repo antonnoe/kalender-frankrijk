@@ -1,0 +1,28 @@
+name: Controle van de data
+
+# Bij elke push en elk pull request: klopt alle data, en slagen de tests (zonder netwerk)?
+# Een rood kruis betekent: lees de melding bij "Data controleren", verbeter het genoemde bestand en sla opnieuw op.
+# De vorige versie blijft intussen gewoon live.
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  controle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Afhankelijkheden installeren
+        run: npm ci --omit=dev
+      - name: Data controleren
+        run: npm run controleer
+      - name: Tests draaien
+        run: npm test

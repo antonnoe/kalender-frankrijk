@@ -1,0 +1,36 @@
+name: Jaarronde december
+
+# Op 1 december opent deze taak een checklist (issue) met alle bronnen die met de hand moeten worden overgenomen
+# voor het nieuwe jaar.
+
+on:
+  schedule:
+    - cron: '0 7 1 12 *'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  checklist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Issue aanmaken
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          JAAR=$(( $(date -u +%Y) + 1 ))
+          gh issue create --repo "$GITHUB_REPOSITORY" --title "Jaarronde: data voor $JAAR bijwerken" --body "Neem deze bronnen met de hand over voor $JAAR (bestanden in data/rubrieken/). Zet wat u nog niet zeker weet op status te_verifieren.
+
+          - [ ] Verkiezingsdata Frankrijk en inschrijfdeadline kiezers (Service-Public F1939)
+          - [ ] Verkiezingen Nederland (Kiesraad)
+          - [ ] France Travail betaal- en actualisatiedata (Service-Public A15359)
+          - [ ] Betaaldata Franse pensioenen (lassuranceretraite.fr)
+          - [ ] Parcoursup-kalender (parcoursup.gouv.fr/calendrier)
+          - [ ] Jachtseizoen per departement (onf.fr)
+          - [ ] Soldes, Journées du patrimoine, Fête de la musique
+          - [ ] Woonlandfactor, CAK-jaarafrekening en andere Nederlandse mijlpalen
+          - [ ] Fiscale feed particulieren voor $JAAR gevuld in de plugin op Infofrankrijk?
+          - [ ] Schoolvakanties en feestdagen: kloppen de automatische kopieën in data/bron/?
+          - [ ] Peildata (PEIL) en bedragen in de teksten nagelopen
+          - [ ] Controleer /api/status: elke rubriek minstens vijf items in de komende 60 dagen"

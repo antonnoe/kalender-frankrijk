@@ -33,10 +33,10 @@ test('IFI komt op 2, 9 en 15 november in de aftelling en niet op andere dagen', 
 test('de tweede periode van 1 november (winterbanden) schuift naar 3 november', () => {
   const p = proef();
   assert.ok(heeft(p['2026-11-02'], 'treve-hivernale'));
-  assert.ok(!heeft(p['2026-11-02'], 'winterbanden-loi-montagne'));
-  assert.ok(heeft(p['2026-11-03'], 'winterbanden-loi-montagne'));
+  assert.ok(!heeft(p['2026-11-02'], 'loi-montagne'));
+  assert.ok(heeft(p['2026-11-03'], 'loi-montagne'));
   assert.ok(!heeft(p['2026-11-03'], 'treve-hivernale'));
-  assert.ok(!heeft(p['2026-11-04'], 'winterbanden-loi-montagne'), 'een periode meldt zich maar één keer');
+  assert.ok(!heeft(p['2026-11-04'], 'loi-montagne'), 'een periode meldt zich maar één keer');
   assert.equal(p['2026-11-02'].regels.find((r) => r.id === 'treve-hivernale').kop, 'Sinds zondag 1 november, tot en met 31 maart.');
 });
 

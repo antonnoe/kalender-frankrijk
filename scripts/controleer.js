@@ -4,7 +4,7 @@
 import { laadAlles } from '../lib/laden.js';
 import { vandaagParijs } from '../lib/datum.js';
 
-const res = laadAlles(undefined, { vandaag: vandaagParijs() });
+const res = laadAlles(process.env.KALENDER_ROOT || undefined, { vandaag: vandaagParijs() });
 for (const w of res.waarschuwingen) console.log(`Let op: ${w}`);
 for (const f of res.fouten) console.log(`FOUT: ${f}`);
 const eigen = res.items.filter((i) => i.herkomst === 'eigen').length;

@@ -1,0 +1,43 @@
+name: Bronnen verversen
+
+# Elke dag om 04:30 UTC: haalt de automatische bronnen op en bewaart de laatste kopie in data/bron/.
+# Er wordt alleen een commit gemaakt als er iets veranderd is. Valt een bron uit, dan blijft de vorige kopie staan,
+# blijft deze run groen en meldt /api/status welke bron hoe oud is.
+
+on:
+  schedule:
+    - cron: '30 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verversen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Afhankelijkheden installeren
+        run: npm ci --omit=dev
+      - name: Bronnen ophalen
+        run: npm run bronnen
+      - name: Controle op de nieuwe kopieën
+        run: |
+          npm run controleer
+          npm test
+      - name: Vastleggen als er iets veranderd is
+        run: |
+          git config user.name "Kalender Frankrijk (bronnen)"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/bron
+          if git diff --cached --quiet; then
+            echo "Geen verandering, geen commit."
+          else
+            git commit -m "Bronnen ververst ($(date -u +%F))"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

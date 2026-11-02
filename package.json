@@ -4,7 +4,7 @@
   "description": "Kalender Frankrijk: alle data die ertoe doen voor Nederlanders en Belgen in Frankrijk",
   "type": "module",
   "private": true,
-  "engines": { "node": ">=20" },
+  "engines": { "node": ">=22" },
   "scripts": {
     "controleer": "node scripts/controleer.js",
     "bronnen": "node scripts/bronnen.js",

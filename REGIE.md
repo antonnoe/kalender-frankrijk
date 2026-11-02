@@ -36,7 +36,7 @@ Bevindingen van de eisenkeurder en wat ermee is gedaan.
 | 5 | Dode regel in engine, statustelling | hersteld: alleen vastgestelde items in de 60-dagentelling, te_verifieren apart in /api/status |
 | 6 | Documentatie over "vorige versie blijft live" en namen van de fiscale subfeeds | hersteld in README, controle.yml en ONTWERP |
 | 7 | Verenigingsitems met tekst in het bron-urlveld | hersteld: website als bron-url, tekst in opmerking, nooit tekst in een url-veld |
-| 8 | Dagelijkse workflow bronnen.yml zonder run | zie het eindrapport van deze ronde |
+| 8 | Dagelijkse workflow bronnen.yml zonder run | gestart met een handmatige run (workflow_dispatch) na de push van deze ronde: geslaagd (controle en tests op de nieuwe kopieën groen) |
 | 9 | Tests | `test/herstelronde1.test.js` en aangepaste tests; `npm test` en `npm run controleer` groen |
 
 ## Open voor de opdrachtgever

@@ -99,7 +99,10 @@ test('iCal: geldig, gevouwen en met stabiele UID\'s na een nieuwe build', () => 
 test('iCal alles, fiscale subfeeds en de wekelijkse Café Jeudi met tijdzone', () => {
   const alles = vraag('/ical/alles.ics').body;
   assert.ok(alles.includes('BEGIN:VTIMEZONE'));
-  assert.ok(alles.includes('DTSTART;TZID=Europe/Paris:20261105T180000'));
+  // Café Jeudi is één wekelijkse afspraak met een RRULE, geen losse afspraak per week
+  assert.equal([...alles.matchAll(/^UID:cafe-jeudi/gm)].length, 1);
+  assert.ok(alles.includes('DTSTART;TZID=Europe/Paris:20260101T180000'));
+  assert.ok(alles.includes('RRULE:FREQ=WEEKLY;BYDAY=TH'));
   const nl = vraag('/ical/fiscaal-nederland.ics').body;
   assert.ok(nl.includes('AOW') === false, 'AOW is rubriek uitkeringen, geen fiscale NL-afspraak');
   const part = vraag('/ical/fiscaal-particulier.ics').body;

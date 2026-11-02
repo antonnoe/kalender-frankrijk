@@ -15,7 +15,7 @@ U hoeft niets te installeren. Elke rubriek heeft één bestand in `data/rubrieke
 3. Kopieer een bestaand blok (van `- id:` tot en met de laatste regel van dat blok) en plak het onderaan, met een lege regel ertussen.
 4. Pas het blok aan. Wijzig het `id` altijd: dat moet uniek zijn, bestaat uit kleine letters, cijfers en streepjes en blijft daarna altijd gelijk (abonnees in hun agenda houden zo hun afspraak).
 5. Klik op "Commit changes", laat "Commit directly to the main branch" staan en bevestig.
-6. Na een minuut of twee staat er bij de commit een groen vinkje of een rood kruis. Bij een rood kruis: klik erop, dan op "Details" bij "Controle van de data". De melding noemt het bestand en het regelnummer, bijvoorbeeld `genieten.yaml regel 42: datum 31-11-2026 bestaat niet`. Verbeter dat en sla opnieuw op. Zolang het rood is, blijft de vorige versie live; er breekt niets.
+6. Na een minuut of twee staat er bij de commit een groen vinkje of een rood kruis. Bij een rood kruis: klik erop, dan op "Details" bij "Controle van de data". De melding noemt het bestand en het regelnummer, bijvoorbeeld `genieten.yaml regel 42: datum 31-11-2026 bestaat niet`. Verbeter dat en sla opnieuw op. Wat er dan gebeurt: Vercel bouwt gewoon door, maar een blok met een fout wordt overgeslagen (de rest blijft werken), `/api/status` meldt `ok: false` met de fout, en de GitHub-controle geeft een rood kruis met dezelfde melding. Een fout blok verschijnt dus pas weer in de agenda en de nieuwsbrief als u het hebt verbeterd.
 7. Is het groen, dan is de nieuwe datum binnen enkele minuten in de API en in de agenda's. De nieuwsbrief neemt het de volgende ochtend mee.
 
 Voorbeeldblok (`data/rubrieken/genieten.yaml`):
@@ -42,12 +42,12 @@ Let op de spaties vóór de veldnamen (twee spaties) en de dubbele punt met een 
 | Veld | Betekenis |
 |---|---|
 | `id` | korte unieke naam, blijft altijd gelijk |
-| `titel` | kort, Nederlandse zinsopbouw, kleine letters (behalve namen), geen lange streepjes |
+| `titel` | kort, Nederlandse zinsopbouw, kleine letters (behalve namen). Een lang streepje (— of –) in titel of tekst is een rode fout: gebruik een komma |
 | `rubriek` | `fiscaal`, `uitkeringen`, `feestdagen`, `school`, `wonen`, `buiten`, `zorg`, `stemmen`, `genieten`, `verenigingen` |
 | `doelgroepen` | een of meer van `iedereen`, `particulier`, `ondernemer`, `gepensioneerde`, `pas-verhuisd`, `gezin`, `huiseigenaar`, `huurder`, `automobilist`, `kustbewoner` |
 | `wanneer` | zie hieronder |
 | `aftellen` | op hoeveel dagen vooraf het item terugkomt, bijvoorbeeld `[14, 7, 1]`. Weglaten mag: een fiscale of stem-deadline krijgt dan 14, 7 en 1, andere items krijgen geen aftelling. Bij een periode gaat het om dagen vóór het begin; bij een feestdag telt `0` voor de dag zelf |
-| `gebied` | `heel Frankrijk`, `zone A`, `zone B`, `zone C`, `Elzas-Moezel`, departementen of `Nederland` (weglaten betekent heel Frankrijk) |
+| `gebied` | een vaste lijst: `heel Frankrijk`, `zone A`, `zone B`, `zone C`, `Elzas-Moezel`, `Nederland`, `bergdepartementen`, `kust`, of een lijst departementsnummers zoals `[11, 34]`. Weglaten betekent heel Frankrijk. Een andere waarde (bijvoorbeeld `Lyon`) is een rode fout; gebruik dan het departementsnummer `[69]` |
 | `tekst` | één neutrale zin zonder je of u. Alleen waar dat stroef wordt: `tekst_je` (nieuwsbrief, InfoPoche) en `tekst_u` (Infofrankrijk) |
 | `link` | bij voorkeur het artikel op Infofrankrijk |
 | `bron` | `{url: ..., gecontroleerd: JJJJ-MM-DD}`, allebei verplicht |
@@ -81,9 +81,9 @@ Alles is openbaar en alleen-lezen (CORS open), met een cache van een uur. Vervan
 
 | Adres | Wat het geeft |
 |---|---|
-| `GET <adres>/api/vandaag?datum=JJJJ-MM-DD` | de regels voor "Vandaag in het kort" en de feestbanner; zonder datum vandaag in Europe/Paris. Vorm: `{datum, banner: {tekst_nl, tekst_fr, kleur} of null, regels: [{soort, kop, titel, tekst, link, rubriek, beeld_url, gesprek, forum_url, id}], weggelaten: [...]}`. Hooguit vier regels. Extra: `nieuws_links=url1,url2` laat items weg die de nieuwsbrief al als nieuws toont |
-| `GET <adres>/api/items?van=&tot=&rubriek=&doelgroep=&toon_in=` | alle items (eigen kalender plus ingelezen bronnen) met per item de berekende data binnen het bereik in `voorkomens`. Filters mogen meerdere waarden hebben, gescheiden door komma's; `doelgroep` telt `iedereen` altijd mee. Zonder bereik: de komende 60 dagen |
-| `GET <adres>/api/status` | per bron de leeftijd van de kopie, het aantal items per rubriek in de komende 60 dagen en waarschuwingen (bron te oud, bron mislukt, rubriek met minder dan vijf items) |
+| `GET <adres>/api/vandaag?datum=JJJJ-MM-DD` | de regels voor "Vandaag in het kort" en de feestbanner; zonder datum vandaag in Europe/Paris. De banner van nlfr-menu (gaat Café Jeudi door?) wordt bij elke aanroep live gelezen, met een tijdslimiet van 3 seconden en als terugval de nachtelijke kopie; de header `x-cafe-jeudi` zegt `live` of `kopie`. Een ja op donderdagochtend werkt dus direct door (cache: 1 minuut). Vorm: `{datum, banner: {tekst_nl, tekst_fr, kleur} of null, regels: [{soort, kop, titel, tekst, link, rubriek, beeld_url, gesprek, forum_url, id}], weggelaten: [...]}`. Hooguit vier regels. Extra: `nieuws_links=url1,url2` laat items weg die de nieuwsbrief al als nieuws toont |
+| `GET <adres>/api/items?van=&tot=&rubriek=&doelgroep=&toon_in=` | alle items (eigen kalender plus ingelezen bronnen) met per item de berekende data binnen het bereik in `voorkomens`. Filters mogen meerdere waarden hebben, gescheiden door komma's; `doelgroep` telt `iedereen` altijd mee. Zonder bereik: de komende 60 dagen. Banners (feestperiodes voor de nieuwsbrief) staan hier niet in: het zijn geen afspraken. Dezelfde dag met dezelfde of gelijkwaardige titel uit verschillende bronnen is één item (zie Ontdubbelen) |
+| `GET <adres>/api/status` | per bron de leeftijd van de kopie, het aantal vastgestelde items per rubriek in de komende 60 dagen (`items_komende_60_dagen_per_rubriek`), apart het aantal te verifiëren items (`items_komende_60_dagen_te_verifieren`), het aantal samengevoegde dubbelen (`ontdubbeld`), `ok` en `fouten`, en waarschuwingen (bron te oud, bron mislukt, rubriek met minder dan vijf items) |
 | `GET <adres>/api/rubrieken` | de tien rubrieken met kleur en beeld |
 | `GET <adres>/beeld/<rubriek>.png` en `.svg` | het themabeeld (PNG 112 x 112 voor e-mail, SVG voor het web) |
 
@@ -95,11 +95,13 @@ Een regel in `/api/vandaag` heeft `soort` `vandaag`, `aftelling`, `periode` of `
 |---|---|
 | `<adres>/ical/alles.ics` | alles |
 | `<adres>/ical/<rubriek>.ics` | één rubriek, bijvoorbeeld `<adres>/ical/genieten.ics` of `<adres>/ical/feestdagen.ics` |
-| `<adres>/ical/fiscaal-particulier.ics` | fiscale data voor particulieren |
-| `<adres>/ical/fiscaal-ondernemer.ics` | fiscale data voor ondernemers |
+| `<adres>/ical/fiscaal-particulier.ics` | fiscale data voor particulieren (Frankrijk) |
+| `<adres>/ical/fiscaal-ondernemer.ics` | fiscale data voor ondernemers (Frankrijk) |
 | `<adres>/ical/fiscaal-nederland.ics` | Nederlandse fiscale data |
 
-Abonneren: in Google Agenda via "Andere agenda's" en dan "Via URL"; in Apple Agenda via Archief en dan "Nieuw agenda-abonnement". De afspraken hebben een vaste UID (id plus begindatum), dus een nieuwe build maakt geen dubbele afspraken. De feeds beslaan het lopende jaar en de twee jaren erna. Items met status te verifiëren staan erin als voorlopig, met de toevoeging "(te verifiëren)".
+De drie fiscale subfeeds heten overal `fiscaal-particulier`, `fiscaal-ondernemer` en `fiscaal-nederland`. Alleen het inlezen van de bron bij Infofrankrijk gebruikt de naam `professionnel` (`?if_fc_ical=professionnel`); dat is dezelfde groep als `fiscaal-ondernemer`.
+
+Abonneren: in Google Agenda via "Andere agenda's" en dan "Via URL"; in Apple Agenda via Archief en dan "Nieuw agenda-abonnement". De afspraken hebben een vaste UID (id plus begindatum), dus een nieuwe build maakt geen dubbele afspraken. De feeds beslaan het lopende jaar en de twee jaren erna. Items met status te verifiëren staan erin als voorlopig, met de toevoeging "(te verifiëren)". Banners staan er niet in. Café Jeudi is één wekelijkse afspraak (één afspraak met een herhaalregel in plaats van een losse afspraak per week), met in de omschrijving "Gaat niet door in weken zonder aankondiging op nederlanders.fr".
 
 ## Waar de data vandaan komt
 
@@ -110,11 +112,15 @@ De eigen jaarkalender staat in `data/rubrieken/`. De rest wordt ingelezen en bew
 | calendrier.api.gouv.fr (metropole en alsace-moselle) | `feestdagen.json` | wettelijke feestdagen, drie jaar vooruit |
 | data.education.gouv.fr, fr-en-calendrier-scolaire | `schoolvakanties.json` | schoolvakanties zones A, B en C |
 | Google openbare feestdagkalenders Frankrijk en Nederland | `google-fr.ics`, `google-nl.ics` | alleen aanvulling (gedenkdagen), nooit de enige bron voor een wettelijke feestdag |
-| de drie fiscale feeds van Infofrankrijk | `fiscaal-particulier.ics`, `fiscaal-professionnel.ics`, `fiscaal-nederland.ics` | fiscale data FR en NL, AOW-betaaldagen |
-| verenigingen-kalender | `verenigingen.json` | activiteiten van verenigingen (Café Jeudi wordt overgeslagen) |
+| de drie fiscale feeds van Infofrankrijk | bestanden `fiscaal-particulier.ics`, `fiscaal-professionnel.ics`, `fiscaal-nederland.ics` (de middelste is de ondernemersfeed, in de iCal-uitvoer `fiscaal-ondernemer`) | fiscale data FR en NL, AOW-betaaldagen |
+| verenigingen-kalender | `verenigingen.json` | activiteiten van verenigingen (Café Jeudi wordt overgeslagen). Bij het inlezen worden lange streepjes komma's en titels in HOOFDLETTERS zinsopbouw (afkortingen blijven staan). Staat er in `bron` geen webadres (bijvoorbeeld "vast ritme (automatisch gegenereerd)"), dan wordt de website van de vereniging de bron-url en gaat de tekst naar `opmerking`; tekst staat nooit in een url-veld |
 | nlfr-menu /api/banner | `cafe-jeudi.json` | of Café Jeudi deze week doorgaat |
 
-De fiscale feeds worden niet aangepast: `data/verrijking-fiscaal.yaml` geeft ze op titelpatroon een rubriek, doelgroep, uitleg, link en aftelling (de eerste regel waarvan het patroon past, wint). Bij het inlezen worden lange streepjes in titels komma's en dubbele items op dezelfde dag samengevoegd. Ondernemersitems staan standaard alleen op de pagina, niet in de nieuwsbrief.
+De fiscale feeds worden niet aangepast: `data/verrijking-fiscaal.yaml` geeft ze op titelpatroon een rubriek, doelgroep, uitleg, link en aftelling (de eerste regel waarvan het patroon past, wint). Bij het inlezen worden lange streepjes in titels komma's en dubbele items op dezelfde dag samengevoegd.
+
+### Ontdubbelen over bronnen
+
+Dezelfde dag met dezelfde of gelijkwaardige titel komt maar één keer voor. Titels worden vergeleken in kleine letters, zonder accenten en leestekens, en via bekende vertaalparen (Jour de Noël is Eerste kerstdag, Jour de l'an is Nieuwjaarsdag, Ascension is Hemelvaartsdag, Vendredi saint is Goede Vrijdag, Lundi de Pâques is Paasmaandag, Fête nationale is 14 juillet, Christmas Eve is Kerstavond, enzovoort; de lijst staat in `lib/ontdubbel.js`). Voorrang: eigen item, dan de officiële bron (calendrier.api.gouv.fr), dan Google (de Nederlandse kalender vóór de Franse, die Engelse titels heeft). Het gebied van het verliezende item wordt bij de winnaar opgeteld (bijvoorbeeld heel Frankrijk en Nederland). Een titel als "Tweede kerstdag vrij in Elzas-Moezel" neemt de officiële dag over, maar niet Nederland. Activiteiten van verschillende verenigingen met gelijke titel op dezelfde dag blijven apart en krijgen de verenigingsnaam in de titel als die ontbreekt. De feestbanner is geen item en doet niet mee. Ondernemersitems staan standaard alleen op de pagina, niet in de nieuwsbrief.
 
 ### Verversen
 
@@ -128,19 +134,20 @@ De laatste kopie blijft staan en blijft werken; de run en de build blijven groen
 
 ```
 npm install
-npm run controleer     # controleert alle data, met meldingen in gewoon Nederlands
+npm run controleer     # controleert alle data, met meldingen in gewoon Nederlands (bestand en regelnummer, ook bij een YAML-fout)
 npm test               # alle tests, zonder netwerk (fixtures in test/fixtures)
 npm run bronnen        # haalt de bronnen op (achter een proxy: NODE_USE_ENV_PROXY=1 npm run bronnen)
 npm run beelden        # maakt de themabeelden in public/beeld opnieuw
 npm run lokaal         # lokale server op poort 3000 met dezelfde routes als op Vercel
 ```
 
-Vercel: importeer de repo als project, zonder instellingen. `vercel.json` voegt de data toe aan de functies en maakt van `/ical/<naam>.ics` een route. Elke push naar main bouwt opnieuw. Bij een rode controle in GitHub blijft de vorige versie live.
+Vercel: importeer de repo als project, zonder instellingen. `vercel.json` voegt de data toe aan de functies en maakt van `/ical/<naam>.ics` een route. Elke push naar main bouwt opnieuw. Bij een rode controle in GitHub bouwt Vercel gewoon door: een blok met een fout wordt overgeslagen, `/api/status` meldt `ok: false` met de fout, en de GitHub-controle geeft een rood kruis met de melding. Er is dus geen vangnet dat de vorige versie vasthoudt; verbeter de melding snel.
 
 ```
 api/                 de Vercel-functies (dunne laag)
 lib/                 model en controle (model.js), datumregels (datum.js), inlezen (bronnen.js, verrijking.js),
-                     rekenen en selectie (engine.js), iCal (ical.js), routes (api.js)
+                     ontdubbelen (ontdubbel.js), live banner (banner.js), rekenen en selectie (engine.js),
+                     iCal (ical.js), routes (api.js)
 data/rubrieken/      de eigen jaarkalender, één bestand per rubriek
 data/verrijking-fiscaal.yaml
 data/bron/           laatste kopie van elke externe bron, plus status.json

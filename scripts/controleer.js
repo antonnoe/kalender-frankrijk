@@ -1,5 +1,5 @@
 // Controleert alle data van Kalender Frankrijk en meldt fouten in gewoon Nederlands.
-// Draait bij elke push (GitHub Action controle.yml). Een fout geeft een rood kruis; de vorige versie blijft dan live.
+// Draait bij elke push (GitHub Action controle.yml). Een fout geeft een rood kruis met de melding; Vercel bouwt wel door, het fout blok wordt overgeslagen en /api/status meldt ok:false.
 
 import { laadAlles } from '../lib/laden.js';
 import { vandaagParijs } from '../lib/datum.js';

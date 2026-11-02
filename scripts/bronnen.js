@@ -5,7 +5,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { leesIcs } from '../lib/bronnen.js';
+import { leesIcs, kortBanner } from '../lib/bronnen.js';
 import { vandaagParijs } from '../lib/datum.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -124,7 +124,7 @@ bronnen.push({
     const d = JSON.parse(await haal('https://nlfr-menu.vercel.app/api/banner'));
     if (typeof d.aan !== 'boolean') throw new Error('onverwachte opbouw (veld aan ontbreekt)');
     // alleen wat we gebruiken, zodat een tijdstempel niet elke dag een commit veroorzaakt
-    const kort = { aan: d.aan, aanTot: d.aanTot ?? null, datum: d.datum ?? null, volgende: d.volgende ?? null, wekelijks: d.wekelijks ?? null, overslaan: d.overslaan ?? [], knop: d.knop ?? null };
+    const kort = kortBanner(d);
     return { tekst: JSON.stringify(kort, null, 2) + '\n', aantal: 1 };
   },
 });

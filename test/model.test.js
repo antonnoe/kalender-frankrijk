@@ -91,14 +91,14 @@ test('een regel die niet te lezen is, geeft een uitleg met voorbeelden', () => {
 test('verkeerd ingesprongen YAML geeft een melding in gewoon Nederlands', () => {
   const r = controleer('- id: a\n titel: b\n  rubriek: c\n');
   assert.ok(r.fouten.length >= 1);
-  assert.match(r.fouten[0], /^genieten\.yaml regel \d+: het bestand is niet goed opgebouwd/);
+  assert.match(r.fouten[0], /^genieten\.yaml regel 2: het bestand is op regel 2 niet goed opgebouwd, controleer inspringing en dubbele punten/);
 });
 
-test('een lang streepje is een waarschuwing, geen fout', () => {
+test('een lang streepje in een eigen item is een rode fout, met regelnummer', () => {
   const { blokken } = leesBlokken(GOED.replace('Beaujolais nouveau', 'Beaujolais — nouveau'), 'genieten.yaml');
   const r = valideerItem(blokken[0].ruw, { bestand: 'genieten.yaml', lijn: blokken[0].lijn });
-  assert.equal(r.fouten.length, 0);
-  assert.match(r.waarschuwingen[0], /lang streepje/);
+  assert.equal(r.item, null);
+  assert.match(r.fouten[0], /^genieten\.yaml regel 2: titel bevat een lang streepje/);
 });
 
 test('standaardwaarden: aftellen voor fiscale deadline, gesprek voor seizoen', () => {

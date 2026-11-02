@@ -23,6 +23,22 @@ Bouwplan uit `docs/ONTWERP.md` onder i. Stand van 2 november 2026.
 - `scripts/maak-themabeelden.js`: PNG en SVG per rubriek.
 - `.github/workflows/`: controle bij elke push, dagelijks verversen van de bronnen, jaarronde in december.
 
+## Herstelronde 1 (2 november 2026)
+
+Bevindingen van de eisenkeurder en wat ermee is gedaan.
+
+| Nr | Bevinding | Status |
+|---|---|---|
+| 1 | Dubbele items over bronnen heen (Eerste kerstdag, Nieuwjaarsdag, Goede Vrijdag, Hemelvaartsdag, Koningsdag, Sinterklaasfeest) | hersteld: `lib/ontdubbel.js` ontdubbelt per dag op genormaliseerde titel en vertaalparen, voorrang eigen item, officiële bron, Google; gebied wordt samengevoegd; banners zijn geen item in /api/items en iCal; verenigingen met gelijke titel blijven apart met de verenigingsnaam in de titel |
+| 2 | Seizoenstip en seizoensaftelling in dezelfde week | hersteld: hooguit één seizoensregel (tip of aftelling) per ISO-week, vast uitgerekend vanaf maandag |
+| 3 | Controle: YAML-regelnummer, gebied, lang streepje, normalisatie verenigingen | hersteld: juiste regelnummer en Nederlandse melding bij een syntaxfout; gebied tegen de vaste lijst; lang streepje is een rode fout in eigen items; verenigingen genormaliseerd bij het inlezen |
+| 4 | Café Jeudi | hersteld: /api/vandaag leest de banner van nlfr-menu live (3 seconden, terugval op de kopie); in de iCal één wekelijkse afspraak met RRULE |
+| 5 | Dode regel in engine, statustelling | hersteld: alleen vastgestelde items in de 60-dagentelling, te_verifieren apart in /api/status |
+| 6 | Documentatie over "vorige versie blijft live" en namen van de fiscale subfeeds | hersteld in README, controle.yml en ONTWERP |
+| 7 | Verenigingsitems met tekst in het bron-urlveld | hersteld: website als bron-url, tekst in opmerking, nooit tekst in een url-veld |
+| 8 | Dagelijkse workflow bronnen.yml zonder run | zie het eindrapport van deze ronde |
+| 9 | Tests | `test/herstelronde1.test.js` en aangepaste tests; `npm test` en `npm run controleer` groen |
+
 ## Open voor de opdrachtgever
 
 1. Vercel koppelen aan de repo (geen instellingen nodig) en het adres doorgeven aan de nieuwsbrief en de pagina.

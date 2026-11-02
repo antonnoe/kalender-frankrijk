@@ -120,7 +120,7 @@ Voorbeeldregel (bestand `data/rubrieken/genieten.yaml`):
 ## h. Beheer
 
 - Op de GitHub-website het bestand van de rubriek openen, potloodje, een blok kopiëren en aanpassen, opslaan op main.
-- Bij elke push controleert een test: verplichte velden, bestaande rubriek en doelgroep, geldige datum of regel, unieke id, bron met datum. Fout: rood kruis met melding als "genieten.yaml regel 42: datum 31-11-2026 bestaat niet". De vorige versie blijft dan live, er breekt niets.
+- Bij elke push controleert een test: verplichte velden, bestaande rubriek en doelgroep, geldige datum of regel, unieke id, bron met datum. Fout: rood kruis met melding als "genieten.yaml regel 42: datum 31-11-2026 bestaat niet". Vercel bouwt wel door, maar het fout blok wordt overgeslagen; /api/status meldt ok:false met de fout en de GitHub-controle geeft het rode kruis.
 - Een jaarlijkse Action opent in december een checklist (issue) met alle handmatige bronnen voor het nieuwe jaar.
 - Later: invulscherm in Cockpit met dezelfde velden als keuzelijsten, dat het blok voor de opdrachtgever in de repo schrijft.
 

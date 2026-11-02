@@ -2,7 +2,8 @@ name: Controle van de data
 
 # Bij elke push en elk pull request: klopt alle data, en slagen de tests (zonder netwerk)?
 # Een rood kruis betekent: lees de melding bij "Data controleren", verbeter het genoemde bestand en sla opnieuw op.
-# De vorige versie blijft intussen gewoon live.
+# Wat er intussen gebeurt: Vercel bouwt wel, maar een fout blok wordt overgeslagen, /api/status meldt ok:false met de fout
+# en deze controle geeft een rood kruis met dezelfde melding. Er is geen vangnet dat de vorige versie vasthoudt.
 
 on:
   push:

@@ -9,7 +9,7 @@ Bouwplan uit `docs/ONTWERP.md` onder i. Stand van 2 november 2026.
 | 3 | Eigen jaarkalender november 2026 tot en met december 2027 | door een andere bouwer, in `data/rubrieken/` |
 | 4 | API, iCal per rubriek, themabeelden | klaar |
 | 5 | "Vandaag in het kort" en feestbanner in de nieuwsbrief (afnemer) | open; de API levert de regels al, de nieuwsbrief moet ze tekenen |
-| 6 | Pagina op Infofrankrijk (plugin met shortcode, besluit j2 = B) | open |
+| 6 | Pagina op Infofrankrijk (plugin met shortcode, besluit j2 = B) | plugin klaar (`wordpress/`, zip op /download/kalender-frankrijk.zip, voorbeeld op /pagina.html); nog te installeren en de pagina `kalender-frankrijk` te maken in WordPress |
 | 7 | Bosbrand koppelen | open, repo van de bosbrandtool nog te vinden |
 | 8 | Invulscherm in Cockpit, daarna InfoPoche-scherm | open |
 
@@ -46,6 +46,10 @@ Een aparte bouwer heeft alle eigen items met status te_verifieren nagelopen tege
 ## Keuzepagina (2 november 2026)
 
 Startpagina `/` omgebouwd tot keuzepagina (Op Infofrankrijk, In InfoPoche, iCal-links per rubriek); bestemmingen in `lib/afnemers.js`, gegenereerd met `npm run bouw`, test in `test/startpagina.test.js`. Commit: zie git log ("Keuzepagina").
+
+## WordPress-plugin (2 november 2026)
+
+Plugin `wordpress/kalender-frankrijk/` met shortcode `[kalender_frankrijk]`, voorbeeldpagina `/pagina.html` met dezelfde JS en CSS en zip `/download/kalender-frankrijk.zip`; test `test/plugin.test.js`. Open: installeren in WordPress en daarna `lib/afnemers.js` omzetten naar https://infofrankrijk.com/kalender-frankrijk/.
 
 ## Live
 

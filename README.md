@@ -10,6 +10,17 @@ Er is geen database en er zijn geen sleutels nodig. Alle data staat als leesbare
 
 De startpagina `/` is een kaal keuzescherm: de bezoeker kiest of hij de kalender bekijkt op Infofrankrijk (website) of in InfoPoche (app), met daaronder de iCal-links per rubriek. De nieuwsbrief linkt hierheen met "Kalender Frankrijk →". De twee bestemmingen staan op één plek, in `lib/afnemers.js`, en zijn voorlopig (de pagina op Infofrankrijk en het scherm in InfoPoche bestaan nog niet). Na een wijziging daar draait u `npm run bouw`: dat genereert `public/index.html` uit `lib/afnemers.js` en de rubrieken in `lib/model.js` (script `scripts/maak-startpagina.js`). Commit het gegenereerde bestand mee; `npm test` faalt als het niet gelijk is aan wat het script maakt.
 
+## WordPress-plugin
+
+Voor Infofrankrijk.com (WordPress met Divi) staat er een plugin klaar die met de shortcode `[kalender_frankrijk]` de kalender toont: maand- en weekweergave, een filter per rubriek en een knop om de kalender in uw eigen agenda-app te zetten. De plugin leest alleen de openbare API van deze repo, in de browser van de bezoeker (geen PHP-aanroepen, geen opties-pagina, geen database). Uitleg in gewone taal voor de installatie: `wordpress/README.md`.
+
+- **Waar de zip staat:** https://kalender-frankrijk.vercel.app/download/kalender-frankrijk.zip, altijd de laatste versie (de zip staat in `public/download/` en gaat mee in git).
+- **Eerst bekijken:** https://kalender-frankrijk.vercel.app/pagina.html is de voorbeeldpagina met exact dezelfde JS en CSS op de achtergrond van Infofrankrijk (#f5f0eb).
+- **Installeren:** zip uploaden via Plugins, Nieuwe plugin, Plugin uploaden; activeren; een pagina "Kalender Frankrijk" maken met slug `kalender-frankrijk` en daarin `[kalender_frankrijk]`. Voor een fiscale weergave `[kalender_frankrijk rubriek="fiscaal"]`; `weergave="week"` start in de weekweergave.
+- **Bijwerken:** pas de bron aan in `wordpress/kalender-frankrijk/` (PHP, JS, CSS, readme.txt), verhoog het versienummer in de pluginkop van `kalender-frankrijk.php` (en `Stable tag` in `readme.txt`), draai `npm run bouw` en commit alles mee. `npm run bouw` kopieert JS en CSS naar `public/plugin/` (de voorbeeldpagina gebruikt die kopie, er is dus één bron) en schrijft de zip opnieuw, met vaste tijdstempels zodat dezelfde bron altijd dezelfde zip geeft. Upload daarna de nieuwe zip in WordPress; WordPress vraagt of de huidige versie vervangen mag worden. De data zelf werkt vanzelf bij.
+- **Zodra de pagina op Infofrankrijk staat:** zet in `lib/afnemers.js` de bestemming `infofrankrijk` op https://infofrankrijk.com/kalender-frankrijk/ (staat daar als commentaar klaar) en draai `npm run bouw`.
+- `npm test` bewaakt de plugin: pluginkop en shortcode, geschoonde attributen, scripts alleen in de shortcode, geen `innerHTML` en geen opslag in de browser, alleen `kfr-`-klassen, en dat de zip gelijk is aan de bron.
+
 ## Een datum toevoegen of aanpassen (via de GitHub-website)
 
 U hoeft niets te installeren. Elke rubriek heeft één bestand in `data/rubrieken/`: `fiscaal.yaml`, `uitkeringen.yaml`, `feestdagen.yaml`, `school.yaml`, `wonen.yaml`, `buiten.yaml`, `zorg.yaml`, `stemmen.yaml`, `genieten.yaml` en `verenigingen.yaml`.
@@ -142,7 +153,7 @@ npm run controleer     # controleert alle data, met meldingen in gewoon Nederlan
 npm test               # alle tests, zonder netwerk (fixtures in test/fixtures)
 npm run bronnen        # haalt de bronnen op (achter een proxy: NODE_USE_ENV_PROXY=1 npm run bronnen)
 npm run beelden        # maakt de themabeelden in public/beeld opnieuw
-npm run bouw           # genereert de startpagina public/index.html uit lib/afnemers.js
+npm run bouw           # genereert de startpagina public/index.html uit lib/afnemers.js, kopieert de plugin-JS en CSS naar public/plugin/ en maakt public/download/kalender-frankrijk.zip
 npm run lokaal         # lokale server op poort 3000 met dezelfde routes als op Vercel
 ```
 
@@ -157,7 +168,8 @@ data/rubrieken/      de eigen jaarkalender, één bestand per rubriek
 data/verrijking-fiscaal.yaml
 data/bron/           laatste kopie van elke externe bron, plus status.json
 public/beeld/        themabeelden (PNG en SVG)
-scripts/             controleer, bronnen, themabeelden, lokale server
+scripts/             controleer, bronnen, themabeelden, lokale server, bouw-plugin (zip)
+wordpress/           de WordPress-plugin (bron) en haar handleiding
 test/                tests en fixtures
 ```
 

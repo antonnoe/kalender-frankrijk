@@ -6,6 +6,10 @@ Een uitgave van Communities Abroad. De Fiscale kalender Frankrijk op Infofrankri
 
 Er is geen database en er zijn geen sleutels nodig. Alle data staat als leesbare bestanden in deze repo; de API rekent bij elk verzoek uit wat er speelt. Ontwerp: `docs/ONTWERP.md`. Stand van het bouwwerk: `REGIE.md`.
 
+## De startpagina (keuzepagina)
+
+De startpagina `/` is een kaal keuzescherm: de bezoeker kiest of hij de kalender bekijkt op Infofrankrijk (website) of in InfoPoche (app), met daaronder de iCal-links per rubriek. De nieuwsbrief linkt hierheen met "Kalender Frankrijk →". De twee bestemmingen staan op één plek, in `lib/afnemers.js`, en zijn voorlopig (de pagina op Infofrankrijk en het scherm in InfoPoche bestaan nog niet). Na een wijziging daar draait u `npm run bouw`: dat genereert `public/index.html` uit `lib/afnemers.js` en de rubrieken in `lib/model.js` (script `scripts/maak-startpagina.js`). Commit het gegenereerde bestand mee; `npm test` faalt als het niet gelijk is aan wat het script maakt.
+
 ## Een datum toevoegen of aanpassen (via de GitHub-website)
 
 U hoeft niets te installeren. Elke rubriek heeft één bestand in `data/rubrieken/`: `fiscaal.yaml`, `uitkeringen.yaml`, `feestdagen.yaml`, `school.yaml`, `wonen.yaml`, `buiten.yaml`, `zorg.yaml`, `stemmen.yaml`, `genieten.yaml` en `verenigingen.yaml`.
@@ -138,6 +142,7 @@ npm run controleer     # controleert alle data, met meldingen in gewoon Nederlan
 npm test               # alle tests, zonder netwerk (fixtures in test/fixtures)
 npm run bronnen        # haalt de bronnen op (achter een proxy: NODE_USE_ENV_PROXY=1 npm run bronnen)
 npm run beelden        # maakt de themabeelden in public/beeld opnieuw
+npm run bouw           # genereert de startpagina public/index.html uit lib/afnemers.js
 npm run lokaal         # lokale server op poort 3000 met dezelfde routes als op Vercel
 ```
 

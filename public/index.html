@@ -1,21 +1,34 @@
 <!doctype html>
 <html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kalender Frankrijk</title>
+<meta name="description" content="Alle data die ertoe doen voor Nederlanders en Belgen in Frankrijk: belastingen, uitkeringen, feestdagen, schoolvakanties, seizoen en verenigingen.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Poppins:wght@500;600&display=swap">
 <style>
+*{box-sizing:border-box}
 body{margin:0;background:#f5f0eb;color:#333;font:16px/1.7 Mulish,'Segoe UI',Arial,sans-serif}
-main{max-width:640px;margin:0 auto;padding:24px 16px}
-h1{font-family:Poppins,'Segoe UI',Arial,sans-serif;color:#800000;font-size:26px;margin:0 0 8px}
-ul{padding-left:20px} code{background:#faf5f5;border:1px solid #ecd9d9;border-radius:4px;padding:1px 5px}
-a{color:#800000}
+main{max-width:520px;margin:0 auto;padding:32px 16px}
+.kop{display:flex;align-items:center;gap:14px;margin:0 0 12px}
+.kop img{width:56px;height:56px;flex:none}
+h1{font-family:Poppins,'Segoe UI',Arial,sans-serif;font-weight:600;color:#800000;font-size:28px;line-height:1.2;margin:0}
+.kaart{background:#faf5f5;border:1px solid #ecd9d9;border-radius:8px;padding:16px;margin:20px 0}
+.knop{display:flex;align-items:center;justify-content:center;min-height:48px;width:100%;background:#800000;color:#fff;border-radius:4px;font-family:Poppins,'Segoe UI',Arial,sans-serif;font-weight:500;font-size:18px;text-decoration:none;padding:10px 16px}
+.knop:hover,.knop:focus{background:#660000}
+.uitleg{font-size:14px;color:#666;margin:6px 0 16px;text-align:center}
+.kaart .uitleg:last-child{margin-bottom:0}
+.ical{font-size:14px;color:#666}
+.ical a{color:#800000;text-decoration:underline}
+.voet{font-size:14px;color:#666;margin-top:32px}
+.voet a{color:#800000;text-decoration:underline}
 </style></head><body><main>
-<h1>Kalender Frankrijk</h1>
-<p>Alle data die ertoe doen voor Nederlanders en Belgen in Frankrijk, met een eigen agenda per rubriek. Een uitgave van Communities Abroad.</p>
-<ul>
-<li><a href="/api/vandaag">/api/vandaag</a>: de regels voor "Vandaag in het kort"</li>
-<li><a href="/api/items">/api/items</a>: alle data, met filters <code>van</code>, <code>tot</code>, <code>rubriek</code>, <code>doelgroep</code>, <code>toon_in</code></li>
-<li><a href="/api/status">/api/status</a>: hoe vers zijn de bronnen</li>
-<li><a href="/api/rubrieken">/api/rubrieken</a>: de tien rubrieken met hun beeld</li>
-<li><a href="/ical/alles.ics">/ical/alles.ics</a>, <code>/ical/&lt;rubriek&gt;.ics</code>, <code>/ical/fiscaal-particulier.ics</code>: agenda's om te abonneren</li>
-</ul>
-<p>Uitleg voor beheerders: zie <a href="https://github.com/antonnoe/kalender-frankrijk">de README op GitHub</a>.</p>
+<div class="kop"><img src="/beeld/genieten.png" width="56" height="56" alt=""><h1>Kalender Frankrijk</h1></div>
+<p>Alle data die ertoe doen voor Nederlanders en Belgen in Frankrijk: belastingen, uitkeringen, feestdagen, schoolvakanties, seizoen en verenigingen.</p>
+<div class="kaart">
+<a class="knop" href="https://infofrankrijk.com/fiscale-kalender-frankrijk/">Op Infofrankrijk</a>
+<p class="uitleg">website, met de fiscale kalender en abonnementen</p>
+<a class="knop" href="https://infopoche.fr/">In InfoPoche</a>
+<p class="uitleg">app voor op uw telefoon</p>
+</div>
+<p class="ical">Of neem een rubriek op in uw eigen agenda: <a href="/ical/fiscaal.ics">Fiscale kalender</a> · <a href="/ical/uitkeringen.ics">Uitkeringen en pensioen</a> · <a href="/ical/feestdagen.ics">Feestdagen en ponts</a> · <a href="/ical/school.ics">School en gezin</a> · <a href="/ical/wonen.ics">Wonen en seizoen</a> · <a href="/ical/buiten.ics">Buiten en onderweg</a> · <a href="/ical/zorg.ics">Zorg</a> · <a href="/ical/stemmen.ics">Stemmen en Nederland</a> · <a href="/ical/genieten.ics">Uitgaan en genieten</a> · <a href="/ical/verenigingen.ics">Verenigingen en ontmoeting</a> · <a href="/ical/alles.ics">Alles</a></p>
+<p class="voet">Een uitgave van <a href="https://www.communitiesabroad.com">Communities Abroad</a></p>
 </main></body></html>

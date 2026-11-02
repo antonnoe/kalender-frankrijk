@@ -9,6 +9,7 @@
     "controleer": "node scripts/controleer.js",
     "bronnen": "node scripts/bronnen.js",
     "beelden": "node scripts/maak-themabeelden.js",
+    "bouw": "node scripts/maak-startpagina.js",
     "lokaal": "node scripts/lokaal.js",
     "test": "node --test test/*.test.js"
   },

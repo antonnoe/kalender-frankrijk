@@ -142,10 +142,13 @@ test('geen lang streepje en geen "ecosysteem" in plugin, voorbeeldpagina en hand
   }
 });
 
-test('npm run bouw maakt ook de plugin; de bestemming op de keuzepagina is voorlopig de fiscale kalender', () => {
+test('npm run bouw maakt ook de plugin; de keuzepagina wijst naar de pagina op Infofrankrijk en het scherm in InfoPoche', () => {
   const pkg = JSON.parse(lees('package.json'));
   assert.ok(pkg.scripts.bouw.includes('scripts/bouw-plugin.js'));
   const afn = lees('lib/afnemers.js');
-  assert.ok(/^\s*url: 'https:\/\/infofrankrijk\.com\/fiscale-kalender-frankrijk\/',/m.test(afn));
-  assert.ok(/^\s*\/\/ url: 'https:\/\/infofrankrijk\.com\/kalender-frankrijk\/',/m.test(afn));
+  assert.ok(/^\s*url: 'https:\/\/infofrankrijk\.com\/kalender-frankrijk\/',/m.test(afn));
+  assert.ok(/^\s*url: 'https:\/\/infopoche\.fr\/#\/kalender',/m.test(afn));
+  const html = lees('public/index.html');
+  assert.ok(html.includes('https://infofrankrijk.com/kalender-frankrijk/'));
+  assert.ok(html.includes('https://infopoche.fr/#/kalender'));
 });

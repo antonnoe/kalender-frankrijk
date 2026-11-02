@@ -8,7 +8,7 @@ Er is geen database en er zijn geen sleutels nodig. Alle data staat als leesbare
 
 ## De startpagina (keuzepagina)
 
-De startpagina `/` is een kaal keuzescherm: de bezoeker kiest of hij de kalender bekijkt op Infofrankrijk (website) of in InfoPoche (app), met daaronder de iCal-links per rubriek. De nieuwsbrief linkt hierheen met "Kalender Frankrijk →". De twee bestemmingen staan op één plek, in `lib/afnemers.js`, en zijn voorlopig (de pagina op Infofrankrijk en het scherm in InfoPoche bestaan nog niet). Na een wijziging daar draait u `npm run bouw`: dat genereert `public/index.html` uit `lib/afnemers.js` en de rubrieken in `lib/model.js` (script `scripts/maak-startpagina.js`). Commit het gegenereerde bestand mee; `npm test` faalt als het niet gelijk is aan wat het script maakt.
+De startpagina `/` is een kaal keuzescherm: de bezoeker kiest of hij de kalender bekijkt op Infofrankrijk (website) of in InfoPoche (app), met daaronder de iCal-links per rubriek. De nieuwsbrief linkt hierheen met "Kalender Frankrijk →". De twee bestemmingen staan op één plek, in `lib/afnemers.js`, en wijzen sinds 2 november 2026 naar de pagina https://infofrankrijk.com/kalender-frankrijk/ en het scherm Kalender in InfoPoche (https://infopoche.fr/#/kalender). Na een wijziging daar draait u `npm run bouw`: dat genereert `public/index.html` uit `lib/afnemers.js` en de rubrieken in `lib/model.js` (script `scripts/maak-startpagina.js`). Commit het gegenereerde bestand mee; `npm test` faalt als het niet gelijk is aan wat het script maakt.
 
 ## WordPress-plugin
 
@@ -66,7 +66,7 @@ Let op de spaties vóór de veldnamen (twee spaties) en de dubbele punt met een 
 | `tekst` | één neutrale zin zonder je of u. Alleen waar dat stroef wordt: `tekst_je` (nieuwsbrief, InfoPoche) en `tekst_u` (Infofrankrijk) |
 | `link` | bij voorkeur het artikel op Infofrankrijk |
 | `bron` | `{url: ..., gecontroleerd: JJJJ-MM-DD}`, allebei verplicht |
-| `status` | `vastgesteld` of `te_verifieren`. Te verifiëren komt op de pagina (met label) en in de agenda (als voorlopig), nooit in de nieuwsbrief |
+| `status` | `vastgesteld` of `te_verifieren`. Te verifiëren komt alleen in de agenda-feeds (met de toevoeging "(te verifiëren)"), nooit in de API-lijst, de nieuwsbrief, InfoPoche of de pagina |
 | `toon_in` | lijst met `nieuwsbrief`, `pagina`, `infopoche`. Ook `toon in` met een spatie wordt begrepen |
 | `groep` | optioneel: items die bij elkaar horen (de nieuwsbrief noemt ze in één regel) |
 | `soort` | optioneel: `datum`, `periode`, `seizoen`, `banner` of `mijlpaal`. Weglaten: een periode als `wanneer` een periode is, anders een datum |

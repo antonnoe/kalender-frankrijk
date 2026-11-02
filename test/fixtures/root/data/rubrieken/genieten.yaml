@@ -1,0 +1,21 @@
+- id: beaujolais-nouveau
+  titel: Beaujolais nouveau
+  rubriek: genieten
+  doelgroepen: [iedereen]
+  wanneer: derde donderdag van november
+  aftellen: [14, 1]
+  gebied: heel Frankrijk
+  tekst: Vanaf deze donderdag mag de nieuwe beaujolais worden geschonken.
+  link: https://www.beaujolais.com
+  bron: {url: https://www.beaujolais.com, gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon in: [nieuwsbrief, pagina, infopoche]
+- id: truffel
+  titel: truffelseizoen
+  rubriek: genieten
+  soort: seizoen
+  doelgroepen: [iedereen]
+  wanneer: jaarlijks 01-11 tot 31-03
+  tekst: Verse truffels liggen nu op de markt.
+  bron: {url: 'https://www.service-public.gouv.fr/', gecontroleerd: 2026-11-02}
+  status: te_verifieren

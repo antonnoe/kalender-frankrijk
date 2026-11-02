@@ -1,0 +1,6 @@
+[
+ {"zones":"Zone A","description":"Vacances de la Toussaint","start_date":"2026-10-17","end_date":"2026-11-02","annee_scolaire":"2026-2027"},
+ {"zones":"Zone B","description":"Vacances de la Toussaint","start_date":"2026-10-17","end_date":"2026-11-02","annee_scolaire":"2026-2027"},
+ {"zones":"Zone C","description":"Vacances de la Toussaint","start_date":"2026-10-17","end_date":"2026-11-02","annee_scolaire":"2026-2027"},
+ {"zones":"Zone C","description":"Vacances de Printemps","start_date":"2027-04-03","end_date":"2027-04-19","annee_scolaire":"2026-2027"}
+]

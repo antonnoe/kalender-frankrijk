@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 76 76" role="img" aria-label="Buiten en onderweg">
+<title>Buiten en onderweg</title>
+<defs><pattern id="stip" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#465C70" opacity=".18"/></pattern></defs>
+<rect width="76" height="76" fill="#E1E8EE"/>
+<rect width="76" height="76" fill="url(#stip)"/>
+<path d="M30 10 20 66M46 10 56 66M38 14v8M38 32v10M38 52v10" fill="none" stroke="#465C70" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(11.4 11.4) scale(.7)"/>
+</svg>

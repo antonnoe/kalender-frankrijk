@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 76 76" role="img" aria-label="Zorg">
+<title>Zorg</title>
+<defs><pattern id="stip" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#B3261E" opacity=".18"/></pattern></defs>
+<rect width="76" height="76" fill="#F8DFDD"/>
+<rect width="76" height="76" fill="url(#stip)"/>
+<path d="M38 62C22 50 12 40 12 29 12 21 18 15 25 15 31 15 36 18 38 23 40 18 45 15 51 15 58 15 64 21 64 29 64 40 54 50 38 62zM38 28v14M31 35h14" fill="none" stroke="#B3261E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(11.4 11.4) scale(.7)"/>
+</svg>

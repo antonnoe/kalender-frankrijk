@@ -10,7 +10,7 @@
     "bronnen": "node scripts/bronnen.js",
     "beelden": "node scripts/maak-themabeelden.js",
     "lokaal": "node scripts/lokaal.js",
-    "test": "node --test test/"
+    "test": "node --test test/*.test.js"
   },
   "dependencies": {
     "yaml": "2.8.1"

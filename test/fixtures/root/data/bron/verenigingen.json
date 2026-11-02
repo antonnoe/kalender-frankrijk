@@ -1,0 +1,5 @@
+{"meta":{"laatst_bijgewerkt":"2026-11-02"},"verenigingen":[
+ {"id":"nedazur","naam":"NedAzur","afkorting":"NedAzur","website":"https://nedazur.example","agenda_url":"https://nedazur.example/agenda","events":[
+   {"datum":"2026-11-02","titel":"Jeu de boules","plaats":"Saint-Paul-de-Vence","tijd":"14:00-17:00","type":"sociaal","bron":"https://nedazur.example/ical"},
+   {"datum":"2026-11-05","titel":"Café Jeudi via Meet","plaats":"online","tijd":"18:00-19:30","type":"sociaal","bron":"https://nedazur.example/ical"}]}
+]}

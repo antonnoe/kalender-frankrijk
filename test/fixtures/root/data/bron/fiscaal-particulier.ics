@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Infofrankrijk//Fiscale kalender 1.0//NL
+BEGIN:VEVENT
+UID:aaa@infofrankrijk.com
+DTSTAMP:20261010T160609Z
+LAST-MODIFIED:20261010T160609Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Vermogensbelasting vastgoed (IFI) — uiterste betaaldatum
+DESCRIPTION:Date limite de paiement de l'IFI\n\nBron: https://www.impots.gouv.fr/
+URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-11
+END:VEVENT
+BEGIN:VEVENT
+UID:bbb@infofrankrijk.com
+DTSTAMP:20261010T160609Z
+LAST-MODIFIED:20261010T160609Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Vermogensbelasting vastgoed (IFI) — uiterste datum online betaling
+DESCRIPTION:Date limite de paiement en ligne de l'IFI
+URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-11
+END:VEVENT
+BEGIN:VEVENT
+UID:ccc@infofrankrijk.com
+DTSTAMP:20261010T160609Z
+LAST-MODIFIED:20261010T160609Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:11e maandafschrijving of 4e kwartaalafschrijving — voorschot inkomstenbelasting (PAS)
+DESCRIPTION:Prélèvement
+URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-11
+END:VEVENT
+END:VCALENDAR

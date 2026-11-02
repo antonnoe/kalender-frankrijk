@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 76 76" role="img" aria-label="Feestdagen en ponts">
+<title>Feestdagen en ponts</title>
+<defs><pattern id="stip" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#9E4505" opacity=".18"/></pattern></defs>
+<rect width="76" height="76" fill="#FBE5D3"/>
+<rect width="76" height="76" fill="url(#stip)"/>
+<path d="M20 66V12M20 15h34l-8 12 8 12H20" fill="none" stroke="#9E4505" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(11.4 11.4) scale(.7)"/>
+</svg>

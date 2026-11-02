@@ -1,0 +1,20 @@
+- id: winterbanden-loi-montagne
+  titel: winterbanden of kettingen in de bergen
+  rubriek: buiten
+  doelgroepen: [automobilist]
+  wanneer: {regel: jaarlijks 01-11 tot 31-03}
+  gebied: bergdepartementen
+  tekst: In bergdepartementen zijn winterbanden of sneeuwkettingen verplicht.
+  link: https://infofrankrijk.com/
+  bron: {url: 'https://www.securite-routiere.gouv.fr/', gecontroleerd: 2026-11-02}
+  status: vastgesteld
+- id: jacht-seizoen
+  titel: jachtseizoen
+  rubriek: buiten
+  doelgroepen: [iedereen]
+  soort: seizoen
+  wanneer: jaarlijks 15-09 tot 28-02
+  tekst: Houd uw hond aangelijnd en draag iets opvallends in het bos.
+  tekst_je: Houd je hond aangelijnd en draag iets opvallends in het bos.
+  bron: {url: 'https://www.onf.fr/', gecontroleerd: 2026-11-02}
+  status: vastgesteld

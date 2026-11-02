@@ -1,0 +1,11 @@
+{
+  "cafe-jeudi": {"laatst_geslaagd": "2026-11-02", "aantal": 1},
+  "feestdagen": {"laatst_geslaagd": "2026-11-02", "aantal": 7},
+  "fiscaal-nederland": {"laatst_geslaagd": "2026-11-02", "aantal": 1},
+  "fiscaal-particulier": {"laatst_geslaagd": "2026-11-02", "aantal": 3},
+  "fiscaal-professionnel": {"laatst_geslaagd": "2026-11-02", "aantal": 3},
+  "google-fr": {"laatst_geslaagd": "2026-10-20", "aantal": 2, "melding": "ophalen mislukt: HTTP 503"},
+  "google-nl": {"laatst_geslaagd": "2026-11-02", "aantal": 1},
+  "schoolvakanties": {"laatst_geslaagd": "2026-11-02", "aantal": 4},
+  "verenigingen": {"laatst_geslaagd": "2026-11-02", "aantal": 2}
+}

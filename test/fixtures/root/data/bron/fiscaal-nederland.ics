@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+UID:n1@infofrankrijk.com
+LAST-MODIFIED:20261010T160616Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:AOW wordt uitbetaald
+DESCRIPTION:Betaaldatum van de SVB voor deze maand.
+URL:https://www.svb.nl/en/aow-pension/payment-of-aow-pension
+END:VEVENT
+END:VCALENDAR

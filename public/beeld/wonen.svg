@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 76 76" role="img" aria-label="Wonen en seizoen">
+<title>Wonen en seizoen</title>
+<defs><pattern id="stip" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#800000" opacity=".18"/></pattern></defs>
+<rect width="76" height="76" fill="#F3E0E0"/>
+<rect width="76" height="76" fill="url(#stip)"/>
+<path d="M12 38 38 14l26 24M18 34v28h40V34M32 62V46h12v16" fill="none" stroke="#800000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(11.4 11.4) scale(.7)"/>
+</svg>

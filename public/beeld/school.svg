@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 76 76" role="img" aria-label="School en gezin">
+<title>School en gezin</title>
+<defs><pattern id="stip" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#0E5B66" opacity=".18"/></pattern></defs>
+<rect width="76" height="76" fill="#D7EDF0"/>
+<rect width="76" height="76" fill="url(#stip)"/>
+<path d="M38 22C30 16 20 15 12 16v42c8-1 18 0 26 6 8-6 18-7 26-6V16c-8-1-18 0-26 6zM38 22v42" fill="none" stroke="#0E5B66" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(11.4 11.4) scale(.7)"/>
+</svg>

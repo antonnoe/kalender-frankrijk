@@ -1,0 +1,11 @@
+- id: treve-hivernale
+  titel: trêve hivernale
+  rubriek: wonen
+  doelgroepen: [huurder]
+  wanneer: jaarlijks 01-11 tot 31-03
+  gebied: heel Frankrijk
+  tekst: Van 1 november tot 31 maart mag een huurder niet worden uitgezet.
+  link: https://www.service-public.gouv.fr/particuliers/vosdroits/F1388
+  bron: {url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F1388', gecontroleerd: 2026-11-02}
+  status: vastgesteld
+  toon in: [nieuwsbrief, pagina, infopoche]

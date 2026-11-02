@@ -1,0 +1,12 @@
+- id: nieuwjaar
+  titel: Gelukkig nieuwjaar
+  rubriek: feestdagen
+  soort: banner
+  doelgroepen: [iedereen]
+  wanneer: jaarlijks 01-01 tot 06-01
+  tekst: Feestbanner
+  tekst_nl: Gelukkig nieuwjaar
+  tekst_fr: Bonne année
+  kleur: '#800000'
+  bron: {url: 'https://www.service-public.gouv.fr/', gecontroleerd: 2026-11-02}
+  status: vastgesteld

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/*.js": { "includeFiles": "data/**" }
+  },
+  "rewrites": [
+    { "source": "/ical/:naam", "destination": "/api/ical?naam=:naam" }
+  ],
+  "headers": [
+    { "source": "/beeld/(.*)", "headers": [
+      { "key": "Cache-Control", "value": "public, max-age=3600, s-maxage=3600" },
+      { "key": "Access-Control-Allow-Origin", "value": "*" }
+    ] }
+  ]
+}

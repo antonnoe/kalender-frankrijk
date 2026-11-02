@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 76 76" role="img" aria-label="Verenigingen en ontmoeting">
+<title>Verenigingen en ontmoeting</title>
+<defs><pattern id="stip" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#6B3FA0" opacity=".18"/></pattern></defs>
+<rect width="76" height="76" fill="#E9E0F5"/>
+<rect width="76" height="76" fill="url(#stip)"/>
+<path d="M30 32a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 62c0-10 8-16 18-16s18 6 18 16M52 30a8 8 0 1 0 0-16M56 46c6 2 10 8 10 16" fill="none" stroke="#6B3FA0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(11.4 11.4) scale(.7)"/>
+</svg>

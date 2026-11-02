@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+UID:p1@infofrankrijk.com
+LAST-MODIFIED:20261010T160616Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Btw-plichtige ondernemingen
+DESCRIPTION:TVA - entreprises
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+END:VEVENT
+BEGIN:VEVENT
+UID:p2@infofrankrijk.com
+LAST-MODIFIED:20261010T160616Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Btw-plichtige ondernemingen
+DESCRIPTION:TVA - entreprises (tweede keer)
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+END:VEVENT
+BEGIN:VEVENT
+UID:p3@infofrankrijk.com
+LAST-MODIFIED:20261010T160616Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Bronheffing — DSN-aangifte en betaling
+DESCRIPTION:Prélèvement à la source – DSN
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+END:VEVENT
+END:VCALENDAR

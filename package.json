@@ -1,0 +1,21 @@
+{
+  "name": "kalender-frankrijk",
+  "version": "1.0.0",
+  "description": "Kalender Frankrijk: alle data die ertoe doen voor Nederlanders en Belgen in Frankrijk",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "controleer": "node scripts/controleer.js",
+    "bronnen": "node scripts/bronnen.js",
+    "beelden": "node scripts/maak-themabeelden.js",
+    "lokaal": "node scripts/lokaal.js",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "yaml": "2.8.1"
+  },
+  "devDependencies": {
+    "sharp": "0.34.4"
+  }
+}

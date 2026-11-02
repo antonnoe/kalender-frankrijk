@@ -1,0 +1,380 @@
+[
+ {
+  "zones": "Zone A",
+  "description": "Vacances de la Toussaint",
+  "start_date": "2025-10-18",
+  "end_date": "2025-11-03",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Vacances de la Toussaint",
+  "start_date": "2025-10-18",
+  "end_date": "2025-11-03",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Vacances de la Toussaint",
+  "start_date": "2025-10-18",
+  "end_date": "2025-11-03",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Vacances de Noël",
+  "start_date": "2025-12-20",
+  "end_date": "2026-01-05",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Vacances de Noël",
+  "start_date": "2025-12-20",
+  "end_date": "2026-01-05",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Vacances de Noël",
+  "start_date": "2025-12-20",
+  "end_date": "2026-01-05",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Vacances d'Hiver",
+  "start_date": "2026-02-07",
+  "end_date": "2026-02-23",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Vacances d'Hiver",
+  "start_date": "2026-02-14",
+  "end_date": "2026-03-02",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Vacances d'Hiver",
+  "start_date": "2026-02-21",
+  "end_date": "2026-03-09",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Vacances de Printemps",
+  "start_date": "2026-04-04",
+  "end_date": "2026-04-20",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Vacances de Printemps",
+  "start_date": "2026-04-11",
+  "end_date": "2026-04-27",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Vacances de Printemps",
+  "start_date": "2026-04-18",
+  "end_date": "2026-05-04",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Pont de l'Ascension",
+  "start_date": "2026-05-14",
+  "end_date": "2026-05-18",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Pont de l'Ascension",
+  "start_date": "2026-05-14",
+  "end_date": "2026-05-18",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Pont de l'Ascension",
+  "start_date": "2026-05-14",
+  "end_date": "2026-05-18",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Vacances d'Été",
+  "start_date": "2026-07-04",
+  "end_date": "2026-09-01",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Vacances d'Été",
+  "start_date": "2026-07-04",
+  "end_date": "2026-09-01",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Vacances d'Été",
+  "start_date": "2026-07-04",
+  "end_date": "2026-09-01",
+  "annee_scolaire": "2025-2026"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Vacances de la Toussaint",
+  "start_date": "2026-10-17",
+  "end_date": "2026-11-02",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Vacances de la Toussaint",
+  "start_date": "2026-10-17",
+  "end_date": "2026-11-02",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Vacances de la Toussaint",
+  "start_date": "2026-10-17",
+  "end_date": "2026-11-02",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Vacances de Noël",
+  "start_date": "2026-12-19",
+  "end_date": "2027-01-04",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Vacances de Noël",
+  "start_date": "2026-12-19",
+  "end_date": "2027-01-04",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Vacances de Noël",
+  "start_date": "2026-12-19",
+  "end_date": "2027-01-04",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Vacances d'Hiver",
+  "start_date": "2027-02-06",
+  "end_date": "2027-02-22",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Vacances d'Hiver",
+  "start_date": "2027-02-13",
+  "end_date": "2027-03-01",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Vacances d'Hiver",
+  "start_date": "2027-02-20",
+  "end_date": "2027-03-08",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Vacances de Printemps",
+  "start_date": "2027-04-03",
+  "end_date": "2027-04-19",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Vacances de Printemps",
+  "start_date": "2027-04-10",
+  "end_date": "2027-04-26",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Vacances de Printemps",
+  "start_date": "2027-04-17",
+  "end_date": "2027-05-03",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Pont de l'Ascension",
+  "start_date": "2027-05-07",
+  "end_date": "2027-05-07",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Pont de l'Ascension",
+  "start_date": "2027-05-07",
+  "end_date": "2027-05-07",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Pont de l'Ascension",
+  "start_date": "2027-05-07",
+  "end_date": "2027-05-07",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Vacances d'Été",
+  "start_date": "2027-07-03",
+  "end_date": "2027-09-02",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Vacances d'Été",
+  "start_date": "2027-07-03",
+  "end_date": "2027-09-02",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Vacances d'Été",
+  "start_date": "2027-07-03",
+  "end_date": "2027-09-02",
+  "annee_scolaire": "2026-2027"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Vacances de la Toussaint",
+  "start_date": "2027-10-23",
+  "end_date": "2027-11-08",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Vacances de la Toussaint",
+  "start_date": "2027-10-23",
+  "end_date": "2027-11-08",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Vacances de la Toussaint",
+  "start_date": "2027-10-23",
+  "end_date": "2027-11-08",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Vacances de Noël",
+  "start_date": "2027-12-18",
+  "end_date": "2028-01-03",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Vacances de Noël",
+  "start_date": "2027-12-18",
+  "end_date": "2028-01-03",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Vacances de Noël",
+  "start_date": "2027-12-18",
+  "end_date": "2028-01-03",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Vacances d'Hiver",
+  "start_date": "2028-02-05",
+  "end_date": "2028-02-21",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Vacances d'Hiver",
+  "start_date": "2028-02-12",
+  "end_date": "2028-02-28",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Vacances d'Hiver",
+  "start_date": "2028-02-19",
+  "end_date": "2028-03-06",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Vacances de Printemps",
+  "start_date": "2028-04-08",
+  "end_date": "2028-04-24",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Vacances de Printemps",
+  "start_date": "2028-04-15",
+  "end_date": "2028-05-02",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Vacances de Printemps",
+  "start_date": "2028-04-22",
+  "end_date": "2028-05-09",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Pont de l'Ascension",
+  "start_date": "2028-05-25",
+  "end_date": "2028-05-29",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Pont de l'Ascension",
+  "start_date": "2028-05-25",
+  "end_date": "2028-05-29",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Pont de l'Ascension",
+  "start_date": "2028-05-25",
+  "end_date": "2028-05-29",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone A",
+  "description": "Début des Vacances d'Été",
+  "start_date": "2028-07-04",
+  "end_date": "2028-07-04",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone B",
+  "description": "Début des Vacances d'Été",
+  "start_date": "2028-07-04",
+  "end_date": "2028-07-04",
+  "annee_scolaire": "2027-2028"
+ },
+ {
+  "zones": "Zone C",
+  "description": "Début des Vacances d'Été",
+  "start_date": "2028-07-04",
+  "end_date": "2028-07-04",
+  "annee_scolaire": "2027-2028"
+ }
+]

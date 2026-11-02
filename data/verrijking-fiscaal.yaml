@@ -1,0 +1,139 @@
+# Verrijking van de drie fiscale feeds van Infofrankrijk, op titelpatroon.
+# De feeds zelf worden hier niet aangepast: de plugin op Infofrankrijk blijft de plek waar de datums worden beheerd.
+# De EERSTE regel waarvan het patroon in de titel past (en waarvan de feed klopt) wint. Zet specifieke regels dus bovenaan.
+# patroon: stuk tekst uit de titel (hoofdletters maken niet uit; mag een zoekpatroon zijn met | voor "of")
+# Velden per regel: feed, rubriek, doelgroepen, aftellen, toon_in, tekst, link, groep, gebied
+
+standaard:
+  particulier:
+    rubriek: fiscaal
+    doelgroepen: [particulier]
+    aftellen: []
+    toon_in: [pagina, infopoche]
+  professionnel:
+    rubriek: fiscaal
+    doelgroepen: [ondernemer]
+    aftellen: []
+    toon_in: [pagina]
+  nederland:
+    rubriek: fiscaal
+    doelgroepen: [particulier]
+    gebied: Nederland
+    aftellen: []
+    toon_in: [pagina, infopoche]
+
+regels:
+  # --- particulier: vermogensbelasting vastgoed (IFI) ---
+  - patroon: IFI.*aanmelden
+    feed: particulier
+    doelgroepen: [huiseigenaar]
+    groep: ifi
+    tekst: Uiterste datum om u aan te melden voor automatische afschrijving van de IFI op de vervaldatum.
+    link: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+  - patroon: IFI.*uiterste betaaldatum
+    feed: particulier
+    doelgroepen: [huiseigenaar]
+    groep: ifi
+    aftellen: [14, 7, 1]
+    toon_in: [nieuwsbrief, pagina, infopoche]
+    tekst: Uiterste betaaldatum van de vermogensbelasting op vastgoed (IFI) als u niet online betaalt.
+    link: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+  - patroon: IFI.*online betaling
+    feed: particulier
+    doelgroepen: [huiseigenaar]
+    groep: ifi
+    tekst: Wie de IFI online betaalt, heeft een paar dagen langer.
+    link: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+  - patroon: IFI-aangifte
+    feed: particulier
+    doelgroepen: [huiseigenaar]
+    groep: ifi
+    aftellen: [30, 14, 7, 1]
+    toon_in: [nieuwsbrief, pagina, infopoche]
+    tekst: Uiterste datum voor de IFI-aangifte op papier, voor wie vastgoed in Frankrijk heeft boven de grens van de IFI.
+    link: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+  # --- particulier: lokale belastingen ---
+  - patroon: Taxe foncière.*aanmelden|Taxe d.habitation.*aanmelden|Aanmelden voor maandelijkse
+    feed: particulier
+    doelgroepen: [huiseigenaar]
+    aftellen: [14, 7, 1]
+    toon_in: [nieuwsbrief, pagina, infopoche]
+    tekst: Uiterste datum om u aan te melden voor automatische afschrijving; daarna betaalt u in één keer op de vervaldatum.
+  - patroon: Taxe foncière|Taxe d.habitation|Leegstand
+    feed: particulier
+    doelgroepen: [huiseigenaar]
+    aftellen: [14, 7, 1]
+    toon_in: [nieuwsbrief, pagina, infopoche]
+    tekst: Uiterste datum voor de betaling van deze lokale belasting op uw woning.
+  # --- particulier: inkomstenbelasting ---
+  - patroon: Online belastingaangifte gaat open|Ouverture du service
+    feed: particulier
+    aftellen: [7, 1]
+    toon_in: [nieuwsbrief, pagina, infopoche]
+    tekst: De online aangifte voor de Franse inkomstenbelasting gaat open.
+  - patroon: aangifte op papier|Uiterste datum online inkomstenbelasting
+    feed: particulier
+    aftellen: [30, 14, 7, 1]
+    toon_in: [nieuwsbrief, pagina, infopoche]
+    tekst: Uiterste datum voor de aangifte inkomstenbelasting; wacht niet tot de laatste dag.
+  - patroon: Impôt sur revenu-prélèvements sociaux
+    feed: particulier
+    aftellen: [14, 7, 1]
+    toon_in: [nieuwsbrief, pagina, infopoche]
+    tekst: Uiterste betaaldatum van het saldo inkomstenbelasting en sociale heffingen.
+  - patroon: maandafschrijving|kwartaalafschrijving|maandelijkse afschrijving|Inkomstenbelasting en sociale heffingen
+    feed: particulier
+    tekst: De belastingdienst schrijft deze termijn van uw rekening af; zorg dat het saldo aanwezig is.
+  # --- Nederland ---
+  - patroon: AOW wordt uitbetaald
+    feed: nederland
+    rubriek: uitkeringen
+    doelgroepen: [gepensioneerde]
+    gebied: Nederland
+    tekst: De SVB betaalt de AOW van deze maand uit.
+  - patroon: Vakantiegeld AOW
+    feed: nederland
+    rubriek: uitkeringen
+    doelgroepen: [gepensioneerde]
+    aftellen: [7, 1]
+    toon_in: [nieuwsbrief, pagina, infopoche]
+    tekst: De SVB betaalt het vakantiegeld bij de AOW uit.
+  - patroon: Btw-aangifte
+    feed: nederland
+    doelgroepen: [ondernemer]
+    toon_in: [pagina]
+    tekst: Uiterste datum voor de Nederlandse btw-aangifte en betaling over dit kwartaal.
+  - patroon: Laatste dag aangifte inkomstenbelasting
+    feed: nederland
+    aftellen: [30, 14, 7, 1]
+    toon_in: [nieuwsbrief, pagina, infopoche]
+    tekst: Laatste dag voor de Nederlandse aangifte inkomstenbelasting, tenzij u uitstel hebt aangevraagd.
+  - patroon: uitstel|Voorlopige aanslag|M-formulier|M-aangifte
+    feed: nederland
+    aftellen: [14, 7, 1]
+    toon_in: [nieuwsbrief, pagina, infopoche]
+    tekst: Belangrijke datum rond de Nederlandse aangifte inkomstenbelasting, ook voor wie in Frankrijk woont.
+  - patroon: Belastingrente
+    feed: nederland
+    aftellen: [7]
+    toon_in: [pagina, infopoche]
+    tekst: Vanaf deze datum loopt Nederlandse belastingrente over een aanslag die nog niet is betaald.
+  # --- professionnel: alles voor ondernemers, alleen op de pagina ---
+  - patroon: Btw
+    feed: professionnel
+    tekst: Btw-aangifte of btw-betaling voor ondernemers; welke datum voor u geldt hangt af van uw regime.
+  - patroon: Bronheffing
+    feed: professionnel
+    tekst: Aangifte en betaling van de bronheffing (prélèvement à la source) door werkgevers.
+  - patroon: CFE|IFER
+    feed: professionnel
+    tekst: Datum rond de bedrijfsbelasting CFE/IFER, de lokale belasting voor ondernemingen.
+  - patroon: Ondernemingen met boekjaar
+    feed: professionnel
+    tekst: Uiterste datum voor ondernemingen met dit afsluitend boekjaar.
+  - patroon: CVAE
+    feed: professionnel
+    tekst: Datum rond de CVAE, de bijdrage op de toegevoegde waarde van ondernemingen.
+  - patroon: Taxe|Belasting|Accijns|TGAP|TSN
+    feed: professionnel
+    tekst: Uiterste datum voor aangifte of betaling van een bedrijfsbelasting.

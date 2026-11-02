@@ -1,0 +1,762 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Infofrankrijk//Fiscale kalender 1.0//NL
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Infofrankrijk — fiscale kalender Nederlandse zaken
+X-WR-TIMEZONE:Europe/Paris
+X-WR-CALDESC:Nederlandse termijnen voor inwoners van Frankrijk\, gecontrole
+ erd bij Belastingdienst\, SVB en CAK. De datum in uw eigen brief of aansla
+ g gaat altijd voor.
+BEGIN:VEVENT
+UID:c451996a6843b580f2ee815f6419d625@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250131
+DTEND;VALUE=DATE:20250201
+SUMMARY:Btw-aangifte en betaling vierde kwartaal 2024
+DESCRIPTION:Voor ondernemers met een Nederlandse btw-aangifte per kwartaal.
+  Aangifte en betaling moeten allebei uiterlijk op deze dag binnen zijn.\n\
+ nBron: https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiter
+ ste-aangifte-en-betaaldatums\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiterste-
+ aangifte-en-betaaldatums
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6b7235108a9894c37202a3673c7eafb2@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250401
+DTEND;VALUE=DATE:20250402
+SUMMARY:Papieren M-formulier 2024 te bestellen
+DESCRIPTION:Alleen als u in 2024 naar Frankrijk verhuisde: het papieren for
+ mulier is vanaf 1 april te bestellen en wordt vanaf 1 mei geleverd.\n\nBro
+ n: https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/con
+ tent/hoe-aangifte-inkomstenbelasting-doen\nOverzicht: https://infofrankrij
+ k.com/fiscale-kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/con
+ tent/hoe-aangifte-inkomstenbelasting-doen
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b1865a837acfdb6f1e09e55c59017019@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250430
+DTEND;VALUE=DATE:20250501
+SUMMARY:Laatste dag aangifte inkomstenbelasting 2024
+DESCRIPTION:Kreeg u een aangiftebrief\, dan doet u aangifte vóór 1 mei 20
+ 25. Dit is dus de laatste dag.\n\nBron: https://www.belastingdienst.nl/wps
+ /wcm/connect/nl/buitenland/content/buitenlands-belastingplichtig-hoe-doe-i
+ k-aangifte-inkomstenbelasting\nOverzicht: https://infofrankrijk.com/fiscal
+ e-kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/buitenland/content/bu
+ itenlands-belastingplichtig-hoe-doe-ik-aangifte-inkomstenbelasting
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0a86c8ebc33bbcec524a220d8dfbb613@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250430
+DTEND;VALUE=DATE:20250501
+SUMMARY:Laatste dag om uitstel van aangifte 2024 aan te vragen
+DESCRIPTION:Uitstel voor de aangifte over 2024 vraagt u aan vóór 1 mei 20
+ 25. Dit is dus de laatste dag.\n\nBron: https://www.belastingdienst.nl/wps
+ /wcm/connect/nl/belastingaangifte/content/ik-moet-aangifte-doen-maar-ik-wi
+ l-graag-uitstel-kan-dat\nOverzicht: https://infofrankrijk.com/fiscale-kale
+ nder-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/con
+ tent/ik-moet-aangifte-doen-maar-ik-wil-graag-uitstel-kan-dat
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5865153afec601afde68efe7ed57e8ea@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250430
+DTEND;VALUE=DATE:20250501
+SUMMARY:Voorlopige aanslag 2024 aanvragen als u geen aangifte hoeft te doen
+DESCRIPTION:Een voorlopige aanslag is een vooruitbetaling op de belasting o
+ ver 2024. Moet u geen aangifte doen\, dan vraagt u hem aan tot 1 mei 2025.
+  Moet u wel aangifte doen\, dan kan het tot het moment van uw aangifte.\n\
+ nBron: https://www.belastingdienst.nl/wps/wcm/connect/nl/buitenland/conten
+ t/hoe-vraag-ik-een-voorlopige-aanslag-aan-buiten-nederland\nOverzicht: htt
+ ps://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/buitenland/content/ho
+ e-vraag-ik-een-voorlopige-aanslag-aan-buiten-nederland
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:75b899b84193efe4ceaccc713624207a@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250430
+DTEND;VALUE=DATE:20250501
+SUMMARY:Btw-aangifte en betaling eerste kwartaal 2025
+DESCRIPTION:Voor ondernemers met een Nederlandse btw-aangifte per kwartaal.
+  Aangifte en betaling moeten allebei uiterlijk op deze dag binnen zijn.\n\
+ nBron: https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiter
+ ste-aangifte-en-betaaldatums\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiterste-
+ aangifte-en-betaaldatums
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:88539b40dce7c18edc7e01f4c642e8b4@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250501
+DTEND;VALUE=DATE:20250502
+SUMMARY:M-aangifte 2024 online mogelijk
+DESCRIPTION:Alleen als u in 2024 naar Frankrijk verhuisde: vanaf 1 mei doet
+  u online aangifte over dat jaar (het M-formulier).\n\nBron: https://www.b
+ elastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/content/hoe-aangift
+ e-inkomstenbelasting-doen\nOverzicht: https://infofrankrijk.com/fiscale-ka
+ lender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/con
+ tent/hoe-aangifte-inkomstenbelasting-doen
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c1417dc4e9b705ab64f41bfd1dae7094@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250701
+DTEND;VALUE=DATE:20250702
+SUMMARY:Belastingrente over 2024 gaat lopen
+DESCRIPTION:Belastingrente over 2024 wordt berekend vanaf 1 juli 2025. Bij 
+ de bron leest u wanneer u geen rente betaalt.\n\nBron: https://www.belasti
+ ngdienst.nl/wps/wcm/connect/bldcontentnl/standaard_functies/prive/contact/
+ rechten_en_plichten_bij_de_belastingdienst/belastingrente/belastingrente_b
+ etalen_bij_inkomstenbelasting\nOverzicht: https://infofrankrijk.com/fiscal
+ e-kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/standaard_f
+ uncties/prive/contact/rechten_en_plichten_bij_de_belastingdienst/belasting
+ rente/belastingrente_betalen_bij_inkomstenbelasting
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ac5ac6d59a29fb23fe4c501c095d8207@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250731
+DTEND;VALUE=DATE:20250801
+SUMMARY:Btw-aangifte en betaling tweede kwartaal 2025
+DESCRIPTION:Voor ondernemers met een Nederlandse btw-aangifte per kwartaal.
+  Aangifte en betaling moeten allebei uiterlijk op deze dag binnen zijn.\n\
+ nBron: https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiter
+ ste-aangifte-en-betaaldatums\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiterste-
+ aangifte-en-betaaldatums
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5d047d87f3ca79d801e2350ba20cc017@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20250831
+DTEND;VALUE=DATE:20250901
+SUMMARY:Laatste dag aangifte 2024 bij uitstel
+DESCRIPTION:Met uitstel dient u de aangifte over 2024 in vóór 1 september
+  2025. Dit is dus de laatste dag.\n\nBron: https://www.belastingdienst.nl/
+ wps/wcm/connect/nl/belastingaangifte/content/ik-moet-aangifte-doen-maar-ik
+ -wil-graag-uitstel-kan-dat\nOverzicht: https://infofrankrijk.com/fiscale-k
+ alender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/con
+ tent/ik-moet-aangifte-doen-maar-ik-wil-graag-uitstel-kan-dat
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:91798e183e8e128b9e5f9a309245b3be@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20251031
+DTEND;VALUE=DATE:20251101
+SUMMARY:Btw-aangifte en betaling derde kwartaal 2025
+DESCRIPTION:Voor ondernemers met een Nederlandse btw-aangifte per kwartaal.
+  Aangifte en betaling moeten allebei uiterlijk op deze dag binnen zijn.\n\
+ nBron: https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiter
+ ste-aangifte-en-betaaldatums\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiterste-
+ aangifte-en-betaaldatums
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b5959a4ec98fbe8022b3d58d5861e1cf@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+SUMMARY:AOW wordt uitbetaald
+DESCRIPTION:Betaaldatum van de SVB voor deze maand.\n\nBron: https://www.sv
+ b.nl/en/aow-pension/payment-of-aow-pension\nOverzicht: https://infofrankri
+ jk.com/fiscale-kalender-frankrijk/
+URL:https://www.svb.nl/en/aow-pension/payment-of-aow-pension
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eae7f621513d8855f5adeaf58944de97@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260131
+DTEND;VALUE=DATE:20260201
+SUMMARY:Btw-aangifte en betaling vierde kwartaal 2025
+DESCRIPTION:Voor ondernemers met een Nederlandse btw-aangifte per kwartaal.
+  Aangifte en betaling moeten allebei uiterlijk op deze dag binnen zijn.\n\
+ nBron: https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiter
+ ste-aangifte-en-betaaldatums\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiterste-
+ aangifte-en-betaaldatums
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6c5d6a49383f5c2522715fcad93e0ea2@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260223
+DTEND;VALUE=DATE:20260224
+SUMMARY:AOW wordt uitbetaald
+DESCRIPTION:Betaaldatum van de SVB voor deze maand.\n\nBron: https://www.sv
+ b.nl/en/aow-pension/payment-of-aow-pension\nOverzicht: https://infofrankri
+ jk.com/fiscale-kalender-frankrijk/
+URL:https://www.svb.nl/en/aow-pension/payment-of-aow-pension
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c394c5df7ba5182ea0beadf9f7c6950f@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260324
+SUMMARY:AOW wordt uitbetaald
+DESCRIPTION:Betaaldatum van de SVB voor deze maand.\n\nBron: https://www.sv
+ b.nl/en/aow-pension/payment-of-aow-pension\nOverzicht: https://infofrankri
+ jk.com/fiscale-kalender-frankrijk/
+URL:https://www.svb.nl/en/aow-pension/payment-of-aow-pension
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c9ef05f10bf6e01b81e75c7d004fcf42@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
+SUMMARY:Papieren M-formulier 2025 te bestellen
+DESCRIPTION:Alleen als u in 2025 naar Frankrijk verhuisde: het papieren for
+ mulier is vanaf 1 april te bestellen en wordt vanaf 1 mei geleverd.\n\nBro
+ n: https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/con
+ tent/hoe-aangifte-inkomstenbelasting-doen\nOverzicht: https://infofrankrij
+ k.com/fiscale-kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/con
+ tent/hoe-aangifte-inkomstenbelasting-doen
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b2df370b32c8d9c201c4bc70c18c7368@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260423
+DTEND;VALUE=DATE:20260424
+SUMMARY:AOW wordt uitbetaald
+DESCRIPTION:Betaaldatum van de SVB voor deze maand.\n\nBron: https://www.sv
+ b.nl/en/aow-pension/payment-of-aow-pension\nOverzicht: https://infofrankri
+ jk.com/fiscale-kalender-frankrijk/
+URL:https://www.svb.nl/en/aow-pension/payment-of-aow-pension
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:29935a13e3eba6a9f0ecd01475c5576b@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+SUMMARY:Laatste dag aangifte inkomstenbelasting 2025
+DESCRIPTION:Kreeg u een aangiftebrief\, dan doet u aangifte vóór 1 mei 20
+ 26. Dit is dus de laatste dag.\n\nBron: https://www.belastingdienst.nl/wps
+ /wcm/connect/nl/buitenland/content/buitenlands-belastingplichtig-hoe-doe-i
+ k-aangifte-inkomstenbelasting\nOverzicht: https://infofrankrijk.com/fiscal
+ e-kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/buitenland/content/bu
+ itenlands-belastingplichtig-hoe-doe-ik-aangifte-inkomstenbelasting
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:70229e6ac69c3a87701be92a945c3da5@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+SUMMARY:Laatste dag om uitstel van aangifte 2025 aan te vragen
+DESCRIPTION:Uitstel voor de aangifte over 2025 vraagt u aan vóór 1 mei 20
+ 26. Dit is dus de laatste dag.\n\nBron: https://www.belastingdienst.nl/wps
+ /wcm/connect/nl/belastingaangifte/content/ik-moet-aangifte-doen-maar-ik-wi
+ l-graag-uitstel-kan-dat\nOverzicht: https://infofrankrijk.com/fiscale-kale
+ nder-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/con
+ tent/ik-moet-aangifte-doen-maar-ik-wil-graag-uitstel-kan-dat
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b16d6f9f86d93d5ac59503524c1bc6ab@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+SUMMARY:Voorlopige aanslag 2025 aanvragen als u geen aangifte hoeft te doen
+DESCRIPTION:Een voorlopige aanslag is een vooruitbetaling op de belasting o
+ ver 2025. Moet u geen aangifte doen\, dan vraagt u hem aan tot 1 mei 2026.
+  Moet u wel aangifte doen\, dan kan het tot het moment van uw aangifte.\n\
+ nBron: https://www.belastingdienst.nl/wps/wcm/connect/nl/buitenland/conten
+ t/hoe-vraag-ik-een-voorlopige-aanslag-aan-buiten-nederland\nOverzicht: htt
+ ps://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/buitenland/content/ho
+ e-vraag-ik-een-voorlopige-aanslag-aan-buiten-nederland
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:70f37765a7460d111d01ba8e86f72abe@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+SUMMARY:Btw-aangifte en betaling eerste kwartaal 2026
+DESCRIPTION:Voor ondernemers met een Nederlandse btw-aangifte per kwartaal.
+  Aangifte en betaling moeten allebei uiterlijk op deze dag binnen zijn.\n\
+ nBron: https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiter
+ ste-aangifte-en-betaaldatums\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiterste-
+ aangifte-en-betaaldatums
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:536538518ecf0d8de7419585e8e7728c@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:M-aangifte 2025 online mogelijk
+DESCRIPTION:Alleen als u in 2025 naar Frankrijk verhuisde: vanaf 1 mei doet
+  u online aangifte over dat jaar (het M-formulier).\n\nBron: https://www.b
+ elastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/content/hoe-aangift
+ e-inkomstenbelasting-doen\nOverzicht: https://infofrankrijk.com/fiscale-ka
+ lender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/con
+ tent/hoe-aangifte-inkomstenbelasting-doen
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bd65edb6dbd49895fd10f53b96e6c741@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+SUMMARY:AOW wordt uitbetaald
+DESCRIPTION:Betaaldatum van de SVB voor deze maand.\n\nBron: https://www.sv
+ b.nl/en/aow-pension/payment-of-aow-pension\nOverzicht: https://infofrankri
+ jk.com/fiscale-kalender-frankrijk/
+URL:https://www.svb.nl/en/aow-pension/payment-of-aow-pension
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:99480b8a11da912627faa734bec8a357@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+SUMMARY:Vakantiegeld AOW
+DESCRIPTION:Het vakantiegeld komt mee met de AOW-betaling van deze dag.\n\n
+ Bron: https://www.svb.nl/en/aow-pension/payment-of-aow-pension\nOverzicht:
+  https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.svb.nl/en/aow-pension/payment-of-aow-pension
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4475a887f7a24b05ab1329f932a89f0b@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260624
+SUMMARY:AOW wordt uitbetaald
+DESCRIPTION:Betaaldatum van de SVB voor deze maand.\n\nBron: https://www.sv
+ b.nl/en/aow-pension/payment-of-aow-pension\nOverzicht: https://infofrankri
+ jk.com/fiscale-kalender-frankrijk/
+URL:https://www.svb.nl/en/aow-pension/payment-of-aow-pension
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:38375a91b632c7088069d9f352f7fde4@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Belastingrente over 2025 gaat lopen
+DESCRIPTION:Belastingrente over 2025 wordt berekend vanaf 1 juli 2026. Bij 
+ de bron leest u wanneer u geen rente betaalt.\n\nBron: https://www.belasti
+ ngdienst.nl/wps/wcm/connect/bldcontentnl/standaard_functies/prive/contact/
+ rechten_en_plichten_bij_de_belastingdienst/belastingrente/belastingrente_b
+ etalen_bij_inkomstenbelasting\nOverzicht: https://infofrankrijk.com/fiscal
+ e-kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/standaard_f
+ uncties/prive/contact/rechten_en_plichten_bij_de_belastingdienst/belasting
+ rente/belastingrente_betalen_bij_inkomstenbelasting
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2163391f6d570edffe22241eaef64aac@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:AOW wordt uitbetaald
+DESCRIPTION:Betaaldatum van de SVB voor deze maand.\n\nBron: https://www.sv
+ b.nl/en/aow-pension/payment-of-aow-pension\nOverzicht: https://infofrankri
+ jk.com/fiscale-kalender-frankrijk/
+URL:https://www.svb.nl/en/aow-pension/payment-of-aow-pension
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2a79692f4fdd537c321491fa6165f5be@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:Btw-aangifte en betaling tweede kwartaal 2026
+DESCRIPTION:Voor ondernemers met een Nederlandse btw-aangifte per kwartaal.
+  Aangifte en betaling moeten allebei uiterlijk op deze dag binnen zijn.\n\
+ nBron: https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiter
+ ste-aangifte-en-betaaldatums\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiterste-
+ aangifte-en-betaaldatums
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9875a3fe341fab784acb73ae1b2ba73c@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+SUMMARY:AOW wordt uitbetaald
+DESCRIPTION:Betaaldatum van de SVB voor deze maand.\n\nBron: https://www.sv
+ b.nl/en/aow-pension/payment-of-aow-pension\nOverzicht: https://infofrankri
+ jk.com/fiscale-kalender-frankrijk/
+URL:https://www.svb.nl/en/aow-pension/payment-of-aow-pension
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a06ad5d359f51de50efdb40509360ccf@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:Laatste dag aangifte 2025 bij uitstel
+DESCRIPTION:Met uitstel dient u de aangifte over 2025 in vóór 1 september
+  2026. Dit is dus de laatste dag.\n\nBron: https://www.belastingdienst.nl/
+ wps/wcm/connect/nl/belastingaangifte/content/ik-moet-aangifte-doen-maar-ik
+ -wil-graag-uitstel-kan-dat\nOverzicht: https://infofrankrijk.com/fiscale-k
+ alender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/con
+ tent/ik-moet-aangifte-doen-maar-ik-wil-graag-uitstel-kan-dat
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:664a376a0cbd42abac87de58a8f0f89b@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:AOW wordt uitbetaald
+DESCRIPTION:Betaaldatum van de SVB voor deze maand.\n\nBron: https://www.sv
+ b.nl/en/aow-pension/payment-of-aow-pension\nOverzicht: https://infofrankri
+ jk.com/fiscale-kalender-frankrijk/
+URL:https://www.svb.nl/en/aow-pension/payment-of-aow-pension
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7ad22c9d8236d59f03121abf07abab86@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:AOW wordt uitbetaald
+DESCRIPTION:Betaaldatum van de SVB voor deze maand.\n\nBron: https://www.sv
+ b.nl/en/aow-pension/payment-of-aow-pension\nOverzicht: https://infofrankri
+ jk.com/fiscale-kalender-frankrijk/
+URL:https://www.svb.nl/en/aow-pension/payment-of-aow-pension
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8dbc03bee3ef22297acb8ce460d44de4@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Btw-aangifte en betaling derde kwartaal 2026
+DESCRIPTION:Voor ondernemers met een Nederlandse btw-aangifte per kwartaal.
+  Aangifte en betaling moeten allebei uiterlijk op deze dag binnen zijn.\n\
+ nBron: https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiter
+ ste-aangifte-en-betaaldatums\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiterste-
+ aangifte-en-betaaldatums
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d584d0065b7cf9a84ba5ac1a5010d114@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:AOW wordt uitbetaald
+DESCRIPTION:Betaaldatum van de SVB voor deze maand.\n\nBron: https://www.sv
+ b.nl/en/aow-pension/payment-of-aow-pension\nOverzicht: https://infofrankri
+ jk.com/fiscale-kalender-frankrijk/
+URL:https://www.svb.nl/en/aow-pension/payment-of-aow-pension
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1b2795767e217036c00274ff7ad3d752@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:AOW wordt uitbetaald
+DESCRIPTION:Betaaldatum van de SVB voor deze maand.\n\nBron: https://www.sv
+ b.nl/en/aow-pension/payment-of-aow-pension\nOverzicht: https://infofrankri
+ jk.com/fiscale-kalender-frankrijk/
+URL:https://www.svb.nl/en/aow-pension/payment-of-aow-pension
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:adb5b14c7f8262973a2681b1a8691990@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Btw-aangifte en betaling vierde kwartaal 2026
+DESCRIPTION:Voor ondernemers met een Nederlandse btw-aangifte per kwartaal.
+  Aangifte en betaling moeten allebei uiterlijk op deze dag binnen zijn.\n\
+ nBron: https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiter
+ ste-aangifte-en-betaaldatums\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiterste-
+ aangifte-en-betaaldatums
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:17f0b0fb2b6746e578c8c0f8d3396ec0@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Papieren M-formulier 2026 te bestellen
+DESCRIPTION:Alleen als u in 2026 naar Frankrijk verhuisde: het papieren for
+ mulier is vanaf 1 april te bestellen en wordt vanaf 1 mei geleverd.\n\nBro
+ n: https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/con
+ tent/hoe-aangifte-inkomstenbelasting-doen\nOverzicht: https://infofrankrij
+ k.com/fiscale-kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/con
+ tent/hoe-aangifte-inkomstenbelasting-doen
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2e7326397c1599e0e16ab715bfef374e@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Laatste dag aangifte inkomstenbelasting 2026
+DESCRIPTION:Kreeg u een aangiftebrief\, dan doet u aangifte vóór 1 mei 20
+ 27. Dit is dus de laatste dag.\n\nBron: https://www.belastingdienst.nl/wps
+ /wcm/connect/nl/buitenland/content/buitenlands-belastingplichtig-hoe-doe-i
+ k-aangifte-inkomstenbelasting\nOverzicht: https://infofrankrijk.com/fiscal
+ e-kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/buitenland/content/bu
+ itenlands-belastingplichtig-hoe-doe-ik-aangifte-inkomstenbelasting
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e0f2c530a03d99ae570416ff6d113a9d@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Laatste dag om uitstel van aangifte 2026 aan te vragen
+DESCRIPTION:Uitstel voor de aangifte over 2026 vraagt u aan vóór 1 mei 20
+ 27. Dit is dus de laatste dag.\n\nBron: https://www.belastingdienst.nl/wps
+ /wcm/connect/nl/belastingaangifte/content/ik-moet-aangifte-doen-maar-ik-wi
+ l-graag-uitstel-kan-dat\nOverzicht: https://infofrankrijk.com/fiscale-kale
+ nder-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/con
+ tent/ik-moet-aangifte-doen-maar-ik-wil-graag-uitstel-kan-dat
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e7d6061b2ed9c0d268c9f6d837c3114f@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Voorlopige aanslag 2026 aanvragen als u geen aangifte hoeft te doen
+DESCRIPTION:Een voorlopige aanslag is een vooruitbetaling op de belasting o
+ ver 2026. Moet u geen aangifte doen\, dan vraagt u hem aan tot 1 mei 2027.
+  Moet u wel aangifte doen\, dan kan het tot het moment van uw aangifte.\n\
+ nBron: https://www.belastingdienst.nl/wps/wcm/connect/nl/buitenland/conten
+ t/hoe-vraag-ik-een-voorlopige-aanslag-aan-buiten-nederland\nOverzicht: htt
+ ps://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/buitenland/content/ho
+ e-vraag-ik-een-voorlopige-aanslag-aan-buiten-nederland
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d8d3b48401c2f37fc57678431e33bbde@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Btw-aangifte en betaling eerste kwartaal 2027
+DESCRIPTION:Voor ondernemers met een Nederlandse btw-aangifte per kwartaal.
+  Aangifte en betaling moeten allebei uiterlijk op deze dag binnen zijn.\n\
+ nBron: https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiter
+ ste-aangifte-en-betaaldatums\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiterste-
+ aangifte-en-betaaldatums
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:58086525a21a04bb93065d4c11984a02@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:M-aangifte 2026 online mogelijk
+DESCRIPTION:Alleen als u in 2026 naar Frankrijk verhuisde: vanaf 1 mei doet
+  u online aangifte over dat jaar (het M-formulier).\n\nBron: https://www.b
+ elastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/content/hoe-aangift
+ e-inkomstenbelasting-doen\nOverzicht: https://infofrankrijk.com/fiscale-ka
+ lender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/con
+ tent/hoe-aangifte-inkomstenbelasting-doen
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:059c4ee8ea71130f4dd4f049bbb469ba@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:Belastingrente over 2026 gaat lopen
+DESCRIPTION:Belastingrente over 2026 wordt berekend vanaf 1 juli 2027. Bij 
+ de bron leest u wanneer u geen rente betaalt.\n\nBron: https://www.belasti
+ ngdienst.nl/wps/wcm/connect/bldcontentnl/standaard_functies/prive/contact/
+ rechten_en_plichten_bij_de_belastingdienst/belastingrente/belastingrente_b
+ etalen_bij_inkomstenbelasting\nOverzicht: https://infofrankrijk.com/fiscal
+ e-kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/standaard_f
+ uncties/prive/contact/rechten_en_plichten_bij_de_belastingdienst/belasting
+ rente/belastingrente_betalen_bij_inkomstenbelasting
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:16dfeb228618de92923609f22e3869bf@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:Btw-aangifte en betaling tweede kwartaal 2027
+DESCRIPTION:Voor ondernemers met een Nederlandse btw-aangifte per kwartaal.
+  Aangifte en betaling moeten allebei uiterlijk op deze dag binnen zijn.\n\
+ nBron: https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiter
+ ste-aangifte-en-betaaldatums\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiterste-
+ aangifte-en-betaaldatums
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:13c16f2deb64d61ade7ee14450b461a9@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:Laatste dag aangifte 2026 bij uitstel
+DESCRIPTION:Met uitstel dient u de aangifte over 2026 in vóór 1 september
+  2027. Dit is dus de laatste dag.\n\nBron: https://www.belastingdienst.nl/
+ wps/wcm/connect/nl/belastingaangifte/content/ik-moet-aangifte-doen-maar-ik
+ -wil-graag-uitstel-kan-dat\nOverzicht: https://infofrankrijk.com/fiscale-k
+ alender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/con
+ tent/ik-moet-aangifte-doen-maar-ik-wil-graag-uitstel-kan-dat
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f9e465fd7ea1c15e33e6ce1ffdc6eac3@infofrankrijk.com
+LAST-MODIFIED:20261011T000000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
+SUMMARY:Btw-aangifte en betaling derde kwartaal 2027
+DESCRIPTION:Voor ondernemers met een Nederlandse btw-aangifte per kwartaal.
+  Aangifte en betaling moeten allebei uiterlijk op deze dag binnen zijn.\n\
+ nBron: https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiter
+ ste-aangifte-en-betaaldatums\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
+URL:https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/uiterste-
+ aangifte-en-betaaldatums
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,1040 @@
+{
+ "meta": {
+  "laatst_bijgewerkt": "2026-11-02",
+  "volgende_update": "2026-11-04",
+  "bronnen_gecontroleerd": 11,
+  "bronnen_met_events": 13,
+  "totaal_events": 60,
+  "gefilterde_items": 2,
+  "methode": "Automatisch via GitHub Action (iCal feeds + Claude AI web-extractie)",
+  "warnings": 1
+ },
+ "verenigingen": [
+  {
+   "id": "fanf",
+   "naam": "FANF - Federatie van Nederlandse verenigingen in Frankrijk",
+   "afkorting": "FANF",
+   "regio": "Landelijk",
+   "website": "https://www.fanf.fr",
+   "agenda_url": "https://www.fanf.fr/activiteiten/lijst",
+   "ical_url": null,
+   "platform": "Verenigingenweb (Genkgo)",
+   "fanf_lid": false,
+   "status": "actief",
+   "agenda_toegankelijkheid": "beperkt",
+   "contact": null,
+   "opmerking": "Koepelorganisatie van ca. 17 Nederlandse verenigingen in Frankrijk. Biedt zelf Franse les, webinars, juridisch advies. Meeste activiteiten alleen voor leden zichtbaar. Audit 25-10-2026: de lijst bevat alleen doorlopende lessen (Franse lessen, 'nog bezig tot 20 juli'), geen gedateerde evenementen; 0 events klopt op dit moment.",
+   "events": [],
+   "rubriek": "hulporganisatie"
+  },
+  {
+   "id": "nvlr",
+   "naam": "Nederlandse Vereniging Languedoc-Roussillon",
+   "afkorting": "NVLR",
+   "regio": "Languedoc-Roussillon",
+   "website": "https://www.nvlr.eu",
+   "agenda_url": "https://www.nvlr.eu/agenda/evenementen",
+   "ical_url": "https://www.nvlr.eu/_ical/public.ics",
+   "platform": "Congressus",
+   "fanf_lid": true,
+   "status": "actief",
+   "agenda_toegankelijkheid": "volledig_publiek",
+   "contact": "secretaris@nvlr.eu",
+   "events": [
+    {
+     "datum": "2026-11-04",
+     "titel": "Bijpraatlunch Brugairolles",
+     "plaats": "restaurant &#34;Côté Resto&#34; in Domaine Gayda te Brugairolles (11300),",
+     "tijd": "12:00-15:00",
+     "type": "sociaal",
+     "bron": "https://www.nvlr.eu/_ical/public.ics"
+    },
+    {
+     "datum": "2026-11-04",
+     "titel": "ONIZ Kennismakingsbijeenkomst 4 november",
+     "plaats": "niet vermeld",
+     "tijd": "10:00-14:00",
+     "type": "informatief",
+     "bron": "https://www.nvlr.eu/_ical/public.ics"
+    },
+    {
+     "datum": "2026-11-09",
+     "titel": "Bijpraatlunch Ginestas",
+     "plaats": "1 Pl. du Marché, 11120 Ginestas",
+     "tijd": "12:00-14:00",
+     "type": "informatief",
+     "bron": "https://www.nvlr.eu/_ical/public.ics"
+    },
+    {
+     "datum": "2026-11-10",
+     "titel": "Chopin op Mallorca",
+     "plaats": "Bram",
+     "tijd": "10:30-16:00",
+     "type": "sociaal",
+     "bron": "https://www.nvlr.eu/_ical/public.ics"
+    },
+    {
+     "datum": "2026-11-11",
+     "titel": "Bijpraatlunch regio Pézenas",
+     "plaats": "Le Grand Café, 1, Av. de Cassan, 34320 Roujan.",
+     "tijd": "11:30-15:00",
+     "type": "informatief",
+     "bron": "https://www.nvlr.eu/_ical/public.ics"
+    },
+    {
+     "datum": "2026-11-15",
+     "titel": "THEATERVOORSTELLING &#34;Blue Note in the Theatre&#34;",
+     "plaats": "1, Rue Traversière 11200 Escales",
+     "tijd": "15:00-19:00",
+     "type": "cultureel",
+     "bron": "https://www.nvlr.eu/_ical/public.ics"
+    },
+    {
+     "datum": "2026-11-18",
+     "titel": "Bijpraatlunch regio Carcassonne, Capendu",
+     "plaats": "Capendu: Café-restaurant de la Terrasse.",
+     "tijd": "11:30-14:30",
+     "type": "sociaal",
+     "bron": "https://www.nvlr.eu/_ical/public.ics"
+    },
+    {
+     "datum": "2026-11-24",
+     "titel": "Bijpraatlunch Aigne",
+     "plaats": "Restaurant Lo Cagarol, Aigne.",
+     "tijd": "12:00-15:00",
+     "type": "sportief",
+     "bron": "https://www.nvlr.eu/_ical/public.ics"
+    },
+    {
+     "datum": "2026-11-25",
+     "titel": "Wandeling:",
+     "plaats": "niet vermeld",
+     "tijd": "09:45-15:00",
+     "type": "sportief",
+     "bron": "https://www.nvlr.eu/_ical/public.ics"
+    },
+    {
+     "datum": "2026-11-29",
+     "titel": "‘Niet vallen’ kun je trainen",
+     "plaats": "36 Av. de la Gare Nissan lez Enserune",
+     "tijd": "14:00-16:00",
+     "type": "sportief",
+     "bron": "https://www.nvlr.eu/_ical/public.ics"
+    },
+    {
+     "datum": "2026-12-19",
+     "titel": "Kerstborrel te Beaufort",
+     "plaats": "6 Chemin des Orchidees Beaufort",
+     "tijd": "14:00-17:00",
+     "type": "informatief",
+     "bron": "https://www.nvlr.eu/_ical/public.ics"
+    },
+    {
+     "datum": "2026-12-20",
+     "titel": "Kerstborrel te Fos",
+     "plaats": "niet vermeld",
+     "tijd": "14:00-17:00",
+     "type": "sociaal",
+     "bron": "https://www.nvlr.eu/_ical/public.ics"
+    },
+    {
+     "datum": "2026-12-22",
+     "titel": "Kerstborrel te Caderonne in Espéraza",
+     "plaats": "niet vermeld",
+     "tijd": "14:00-17:00",
+     "type": "cultureel",
+     "bron": "https://www.nvlr.eu/_ical/public.ics"
+    },
+    {
+     "datum": "2027-01-24",
+     "titel": "&#39;Vegan’ vraagt om meer kennis en inzicht",
+     "plaats": "36 Av. de la Gare Nissan lez Enserune",
+     "tijd": "14:00-16:00",
+     "type": "sociaal",
+     "bron": "https://www.nvlr.eu/_ical/public.ics"
+    },
+    {
+     "datum": "2027-02-14",
+     "titel": "WINTER-BBQ NVLR – 14 februari",
+     "plaats": "134 Chemin du Jardin Haut, Villemagne-l’Argentiere",
+     "tijd": "11:30-18:00",
+     "type": "sociaal",
+     "bron": "https://www.nvlr.eu/_ical/public.ics"
+    }
+   ],
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "nedazur",
+   "naam": "Nederlandse Club Provence-Côte d'Azur",
+   "afkorting": "NedAzur / DNC",
+   "regio": "Provence-Côte d'Azur",
+   "website": "https://www.nedazur.org",
+   "agenda_url": "https://www.nedazur.org/agenda",
+   "ical_url": "https://www.nedazur.org/_ical/public.ics",
+   "platform": "Congressus",
+   "fanf_lid": false,
+   "status": "actief",
+   "agenda_toegankelijkheid": "volledig_publiek",
+   "contact": "contact@nedazur.org",
+   "events": [
+    {
+     "datum": "2026-11-02",
+     "titel": "Jeu de boules Saint-Paul",
+     "plaats": "Saint-Paul de Vence",
+     "tijd": "09:30-12:00",
+     "type": "sportief",
+     "bron": "https://www.nedazur.org/_ical/public.ics"
+    },
+    {
+     "datum": "2026-11-04",
+     "titel": "Jeu de boules Sainte-Maxime",
+     "plaats": "Sainte-Maxime",
+     "tijd": "09:15-09:15",
+     "type": "sportief",
+     "bron": "https://www.nedazur.org/_ical/public.ics"
+    },
+    {
+     "datum": "2026-11-28",
+     "titel": "Oranje Borrel",
+     "plaats": "Saint Raphaël",
+     "tijd": "17:00-19:00",
+     "type": "informatief",
+     "bron": "https://www.nedazur.org/_ical/public.ics"
+    },
+    {
+     "datum": "2026-11-28",
+     "titel": "Cleveringabijeenkomst 2026",
+     "plaats": "Mougins",
+     "tijd": "11:00-15:00",
+     "type": "sportief",
+     "bron": "https://www.nedazur.org/_ical/public.ics"
+    },
+    {
+     "datum": "2026-11-29",
+     "titel": "Aankomst van Sinterklaas",
+     "plaats": "Cagnes-sur-Mer",
+     "tijd": "14:00-14:00",
+     "type": "cultureel",
+     "bron": "https://www.nedazur.org/_ical/public.ics"
+    },
+    {
+     "datum": "2026-12-02",
+     "titel": "Jeu de boules Sainte-Maxime",
+     "plaats": "Sainte-Maxime",
+     "tijd": "09:15-09:15",
+     "type": "sportief",
+     "bron": "https://www.nedazur.org/_ical/public.ics"
+    },
+    {
+     "datum": "2026-12-11",
+     "titel": "Golfwedstrijd Golf Bluegreen Sainte-Maxime",
+     "plaats": "Sainte-Maxime",
+     "tijd": "09:00-09:00",
+     "type": "sportief",
+     "bron": "https://www.nedazur.org/_ical/public.ics"
+    },
+    {
+     "datum": "2027-02-01",
+     "titel": "Jeu de boules Saint-Paul",
+     "plaats": "Saint-Paul de Vence",
+     "tijd": "09:30-09:30",
+     "type": "sportief",
+     "bron": "https://www.nedazur.org/_ical/public.ics"
+    }
+   ],
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "anm",
+   "naam": "Association Néerlandaise du Midi",
+   "afkorting": "ANM",
+   "regio": "Var / Provence",
+   "website": "https://www.a-n-m.nl",
+   "agenda_url": "https://www.a-n-m.nl/ons-programma",
+   "ical_url": "https://www.a-n-m.nl/_ical/public.ics",
+   "platform": "Congressus",
+   "fanf_lid": true,
+   "status": "actief",
+   "agenda_toegankelijkheid": "volledig_publiek",
+   "contact": "contact@a-n-m.com",
+   "events": [
+    {
+     "datum": "2026-11-06",
+     "titel": "Holland Apéro Provence (HAP) borrel",
+     "plaats": "Lorgues",
+     "tijd": "17:00-19:00",
+     "type": "sociaal",
+     "bron": "https://www.a-n-m.nl/_ical/public.ics"
+    },
+    {
+     "datum": "2026-11-19",
+     "titel": "Cultuurgroep",
+     "plaats": "Callas",
+     "tijd": "10:00-14:00",
+     "type": "cultureel",
+     "bron": "https://www.a-n-m.nl/_ical/public.ics"
+    },
+    {
+     "datum": "2026-11-27",
+     "titel": "Vrijwilligersborrel 2026",
+     "plaats": "Hôtel L’Estirado, Les Adrets de L&#39;Esterel.",
+     "tijd": "14:00-17:00",
+     "type": "sociaal",
+     "bron": "https://www.a-n-m.nl/_ical/public.ics"
+    },
+    {
+     "datum": "2027-04-26",
+     "titel": "Koningsnacht",
+     "plaats": "Chateau Clarettes, Les Arcs sur Argens",
+     "tijd": "hele dag",
+     "type": "sociaal",
+     "bron": "https://www.a-n-m.nl/_ical/public.ics"
+    }
+   ],
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "nlvp",
+   "naam": "Nederlandse Vereniging voor Parijs en omstreken",
+   "afkorting": "NLVP",
+   "regio": "Parijs / Île-de-France",
+   "website": "https://nlvp.fr",
+   "agenda_url": "https://nlvp.fr/calendar/",
+   "ical_url": null,
+   "platform": "WordPress",
+   "fanf_lid": true,
+   "status": "actief",
+   "agenda_toegankelijkheid": "volledig_publiek",
+   "contact": null,
+   "opmerking": "Publiceert events per maand als blogposts",
+   "events": [
+    {
+     "datum": "2026-11-29",
+     "titel": "Sinterklaasfeest",
+     "plaats": "niet vermeld",
+     "tijd": "niet vermeld",
+     "type": "sociaal",
+     "bron": "https://nlvp.fr/29-november-sinterklaasfeest/"
+    }
+   ],
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "latulipe",
+   "naam": "La Tulipe – Cercle Pays-Bas en Périgord",
+   "afkorting": "La Tulipe",
+   "regio": "Dordogne / Périgord",
+   "website": "https://www.latulipe.net",
+   "agenda_url": "https://www.latulipe.net/nl/activiteiten-la-tulipe/agenda-la-tulipe-dordogne/month.calendar/2026/02/23/-.html",
+   "ical_url": null,
+   "platform": "Joomla",
+   "fanf_lid": true,
+   "status": "actief",
+   "agenda_toegankelijkheid": "volledig_publiek",
+   "contact": "secretarislatulipe@gmail.com",
+   "opmerking": "Agendapagina laadt een publieke JSON-feed per maand (leden.latulipe.net/api/agenda.json.php?month=YYYY-MM); de scraper leest die feed voor de huidige en de drie volgende maanden. Terugkerende reeksen (golf, wandelen, petanque, clubborrel) staan onder terugkerende_activiteiten en komen niet als losse events. Beschrijvingen worden niet overgenomen (bevatten namen en mailadressen).",
+   "terugkerende_activiteiten": [
+    {
+     "activiteit": "Golf",
+     "frequentie": "dinsdag en vrijdag",
+     "plaats": "Golf de Lolivarie, Saint-Germain-de-Belvès"
+    },
+    {
+     "activiteit": "Korte wandeling",
+     "frequentie": "donderdag",
+     "plaats": "wisselend"
+    },
+    {
+     "activiteit": "Wandelen (hondenwandeling)",
+     "frequentie": "maandag",
+     "plaats": "wisselend"
+    },
+    {
+     "activiteit": "Petanque",
+     "frequentie": "zondag 14:00",
+     "plaats": "Terrain de petanque Le Bourg, Limeuil"
+    },
+    {
+     "activiteit": "Clubborrel",
+     "frequentie": "elke 2e en 4e donderdag, 17:00",
+     "plaats": "Camping Le Clou, Coux-et-Bigaroque"
+    }
+   ],
+   "events": [
+    {
+     "titel": "Kerststukjes maken met Kerstengelen",
+     "datum": "2026-12-16",
+     "tijd": "niet vermeld",
+     "plaats": "plaats niet vermeld",
+     "type": "sociaal",
+     "bron": "https://www.latulipe.net/nl/agenda#2026-12/1509"
+    },
+    {
+     "titel": "Kerstwandeling en aansluitend kerstlunch",
+     "datum": "2026-12-26",
+     "tijd": "niet vermeld",
+     "plaats": "Le Clou",
+     "type": "sociaal",
+     "bron": "https://www.latulipe.net/nl/agenda#2026-12/1510"
+    },
+    {
+     "titel": "Nieuwjaarsreceptie",
+     "datum": "2027-01-14",
+     "tijd": "17:00-23:00",
+     "plaats": "plaats nog te bevestigen",
+     "type": "sociaal",
+     "bron": "https://www.latulipe.net/nl/agenda#2027-01/1507"
+    }
+   ],
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "atelier-neerlandais",
+   "naam": "Atelier Néerlandais",
+   "afkorting": "Atelier Néerlandais",
+   "regio": "Parijs",
+   "website": "https://atelierneerlandais.com",
+   "agenda_url": "https://atelierneerlandais.com/kalender/",
+   "ical_url": null,
+   "platform": "WordPress",
+   "fanf_lid": false,
+   "status": "actief",
+   "agenda_toegankelijkheid": "volledig_publiek",
+   "contact": "info@atelierneerlandais.com",
+   "opmerking": "Platform van de Nederlandse ambassade in Parijs voor creatieve bedrijfstakken. 22 Avenue Victoria, 75001 Paris.",
+   "events": [
+    {
+     "datum": "2026-11-20",
+     "titel": "Boeklancering: Capitalism's Favorite Child",
+     "plaats": "niet vermeld",
+     "tijd": "niet vermeld",
+     "type": "cultureel",
+     "bron": "https://atelierneerlandais.com/kalender/"
+    },
+    {
+     "datum": "2026-11-27",
+     "titel": "Johan de Witt Stichting: Geruchten en Reputatie in de Diplomatie",
+     "plaats": "niet vermeld",
+     "tijd": "niet vermeld",
+     "type": "informatief",
+     "bron": "https://atelierneerlandais.com/kalender/"
+    }
+   ],
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "ern-paris",
+   "naam": "Église Réformée Néerlandaise de Paris",
+   "afkorting": "ERN Paris",
+   "regio": "Parijs",
+   "website": "https://ernparis.fr",
+   "agenda_url": "https://ernparis.fr/agenda/",
+   "ical_url": null,
+   "platform": "WordPress",
+   "fanf_lid": false,
+   "status": "actief",
+   "agenda_toegankelijkheid": "volledig_publiek",
+   "contact": "ern.paris@gmail.com",
+   "opmerking": "Nederlandse Protestantse Kerk, 172 boulevard Vincent Auriol, 75013 Paris. Diensten ook via YouTube.",
+   "events": [
+    {
+     "datum": "2026-11-15",
+     "titel": "Kerkdienst (Kerk+YouTube)",
+     "plaats": "172 boulevard Vincent Auriol 75013 Paris",
+     "tijd": "09:45",
+     "type": "kerkdienst",
+     "bron": "https://ernparis.fr/agenda/"
+    }
+   ],
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "lotgenoten",
+   "naam": "LOTgenoten",
+   "afkorting": "LOTgenoten",
+   "regio": "Lot / Lot-et-Garonne",
+   "website": "https://www.lotgenoten.fr",
+   "agenda_url": "https://www.lotgenoten.fr/agenda/",
+   "ical_url": null,
+   "platform": "WordPress",
+   "fanf_lid": false,
+   "status": "actief",
+   "agenda_toegankelijkheid": "beperkt",
+   "contact": "info@lotgenoten.fr",
+   "opmerking": "Vrijwilligersnetwerk, geen formele vereniging. Actief netwerk voor Nederlanders in Lot, Lot-et-Garonne en Dordogne.",
+   "terugkerende_activiteiten": [
+    {
+     "activiteit": "Zondagmiddag borrel",
+     "frequentie": "elke 2e zondag, 15:00",
+     "plaats": "Bouysset, Saint Martin le Redon (46700)"
+    }
+   ],
+   "events": [
+    {
+     "datum": "2026-11-08",
+     "titel": "Borrelmiddag/daghap st Martin/Redon Lot op Bouysset",
+     "plaats": "Bouysset, Saint Martin le Redon",
+     "tijd": "15:00",
+     "type": "sociaal",
+     "bron": "https://www.lotgenoten.fr/borrelmiddag-daghap-st-martin-redon-lot-op-bouysset/"
+    },
+    {
+     "datum": "2026-11-19",
+     "titel": "Borrelmiddag Tarn/Garonne Moissac",
+     "plaats": "Ced & Alex L'Atelier, 6 Place Roger Delthil, Moissac",
+     "tijd": "15:00-18:00",
+     "type": "sociaal",
+     "bron": "https://www.lotgenoten.fr/nieuw-borrelmiddag-voor-de-zuiderlijke-lotgenoten-tarn-et-garonne/"
+    }
+   ],
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "bourgondische-zaken",
+   "naam": "Bourgondische Zaken",
+   "afkorting": "BZ",
+   "regio": "Bourgogne",
+   "website": "https://bourgondischezaken.com",
+   "agenda_url": "https://bourgondischezaken.com",
+   "ical_url": null,
+   "platform": "onbekend",
+   "fanf_lid": false,
+   "status": "actief",
+   "agenda_toegankelijkheid": "geen_online_agenda",
+   "contact": null,
+   "opmerking": "Heeft website bourgondischezaken.com en agenda-platform agendabourgogne.nl. Events zijn echter niet gestructureerd ophaalbaar (regio-agenda met gemengde bron, of inlog-vereisten). Meest recente activiteiten worden via nieuwsbrief en Facebook gedeeld. Audit 25-10-2026: agendabourgogne.nl is een regio-agenda die client-side laadt (Vue); in de HTML staat één evenement (derde partij, 13 tot 15 november). Filter 'bz-activiteit' voor eigen activiteiten bestaat, maar de HTML levert geen lijst. Niet ophaalbaar zonder onderliggende API te vinden; de nieuwsberichten op bourgondischezaken.com/nieuws noemen soms een evenement met datum.",
+   "events": [],
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "nederlanders-fr",
+   "naam": "Nederlanders.fr",
+   "afkorting": "NLFR",
+   "regio": "Nationaal (heel Frankrijk)",
+   "website": "https://www.nederlanders.fr",
+   "agenda_url": "https://www.nederlanders.fr/events/event/listUpcoming",
+   "ical_url": null,
+   "platform": "NING 2.0",
+   "fanf_lid": false,
+   "status": "actief",
+   "agenda_toegankelijkheid": "volledig_publiek",
+   "contact": null,
+   "opmerking": "Forum met 25.000+ leden. Café Jeudi is een wekelijkse, ongedwongen bijeenkomst via Google Meet, iedere donderdag van 18:00 tot 19:30 — toegang via de banner bovenaan het forum of de link in de nieuwsbrief. Al meer dan 5 jaar delen we verhalen en tips over wonen in Frankrijk; wat tijdens de covid-periode begon als sociaal moment, is inmiddels een vaste traditie geworden.",
+   "events": [
+    {
+     "titel": "Café Jeudi — virtueel samenzijn",
+     "datum": "2026-11-05",
+     "tijd": "18:00-19:30",
+     "plaats": "Online (Google Meet, link op het forum)",
+     "type": "sociaal",
+     "bron": "https://www.nederlanders.fr"
+    },
+    {
+     "titel": "Café Jeudi — virtueel samenzijn",
+     "datum": "2026-11-12",
+     "tijd": "18:00-19:30",
+     "plaats": "Online (Google Meet, link op het forum)",
+     "type": "sociaal",
+     "bron": "https://www.nederlanders.fr"
+    },
+    {
+     "titel": "Café Jeudi — virtueel samenzijn",
+     "datum": "2026-11-19",
+     "tijd": "18:00-19:30",
+     "plaats": "Online (Google Meet, link op het forum)",
+     "type": "sociaal",
+     "bron": "https://www.nederlanders.fr"
+    },
+    {
+     "titel": "Café Jeudi — virtueel samenzijn",
+     "datum": "2026-11-26",
+     "tijd": "18:00-19:30",
+     "plaats": "Online (Google Meet, link op het forum)",
+     "type": "sociaal",
+     "bron": "https://www.nederlanders.fr"
+    },
+    {
+     "titel": "Café Jeudi — virtueel samenzijn",
+     "datum": "2026-12-03",
+     "tijd": "18:00-19:30",
+     "plaats": "Online (Google Meet, link op het forum)",
+     "type": "sociaal",
+     "bron": "https://www.nederlanders.fr"
+    },
+    {
+     "titel": "Café Jeudi — virtueel samenzijn",
+     "datum": "2026-12-10",
+     "tijd": "18:00-19:30",
+     "plaats": "Online (Google Meet, link op het forum)",
+     "type": "sociaal",
+     "bron": "https://www.nederlanders.fr"
+    },
+    {
+     "titel": "Café Jeudi — virtueel samenzijn",
+     "datum": "2026-12-17",
+     "tijd": "18:00-19:30",
+     "plaats": "Online (Google Meet, link op het forum)",
+     "type": "sociaal",
+     "bron": "https://www.nederlanders.fr"
+    },
+    {
+     "titel": "Café Jeudi — virtueel samenzijn",
+     "datum": "2026-12-24",
+     "tijd": "18:00-19:30",
+     "plaats": "Online (Google Meet, link op het forum)",
+     "type": "sociaal",
+     "bron": "https://www.nederlanders.fr"
+    }
+   ],
+   "rubriek": "hulporganisatie",
+   "vast_ritme": {
+    "patroon": "wekelijks",
+    "weekdag": 4,
+    "aantal_weken": 8,
+    "titel": "Café Jeudi — virtueel samenzijn",
+    "tijd": "18:00-19:30",
+    "plaats": "Online (Google Meet, link op het forum)",
+    "type": "sociaal",
+    "bron_url": "https://www.nederlanders.fr",
+    "omschrijving": "iedere donderdag"
+   }
+  },
+  {
+   "id": "dbcra",
+   "naam": "Dutch Business & Culture Rhône-Alpes",
+   "afkorting": "DBCRA",
+   "regio": "Lyon / Auvergne-Rhône-Alpes",
+   "website": "https://dbcra.nl",
+   "agenda_url": "https://dbcra.nl/nederlandse-club-lyon/",
+   "ical_url": null,
+   "platform": "WordPress",
+   "fanf_lid": true,
+   "status": "actief",
+   "agenda_toegankelijkheid": "webpagina",
+   "contact": null,
+   "opmerking": "Publieke lijst 'Planning DBCRA <jaar>' op dbcra.nl/nederlandse-club-lyon (jaar in de kop). Alleen datum en titel; tijd en plaats volgen via persoonlijke uitnodiging en de datums zijn volgens de pagina nog niet definitief, daarom staat 'datum onder voorbehoud' bij de titel. Gelezen door een deterministische parser.",
+   "events": [
+    {
+     "titel": "Sinterklaas (datum onder voorbehoud)",
+     "datum": "2026-12-03",
+     "tijd": "niet vermeld",
+     "plaats": "plaats nog te bevestigen",
+     "type": "sociaal",
+     "bron": "https://dbcra.nl/nederlandse-club-lyon/"
+    },
+    {
+     "titel": "DBCRA Kerstdiner (datum onder voorbehoud)",
+     "datum": "2026-12-17",
+     "tijd": "niet vermeld",
+     "plaats": "plaats nog te bevestigen",
+     "type": "sociaal",
+     "bron": "https://dbcra.nl/nederlandse-club-lyon/"
+    }
+   ],
+   "rubriek": "zakelijk"
+  },
+  {
+   "id": "nvso",
+   "naam": "Nederlandse Vereniging voor Straatsburg en Omstreken",
+   "afkorting": "NVSO",
+   "regio": "Straatsburg / Elzas",
+   "website": "https://www.nvso.info",
+   "agenda_url": null,
+   "ical_url": null,
+   "platform": "Statische site",
+   "fanf_lid": true,
+   "status": "actief",
+   "agenda_toegankelijkheid": "geen_online_agenda",
+   "contact": "Hans de Bruin, 19 rue Philippe Grass, 67000 Strasbourg",
+   "opmerking": "Geen online agenda. Info via periodiek 'De Rommelpot' (laatste online editie: december 2020). Maandelijkse borrelavond en excursies worden intern gecommuniceerd. ~100 betalende leden/gezinnen. Audit 25-10-2026: site is een verouderd WebAcappella-ontwerp (2022) zonder agenda of evenementen; label klopt.",
+   "events": [],
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "nzgf",
+   "naam": "Nederlandse Zuid-Franse Gemeenschap",
+   "afkorting": "NZGF",
+   "regio": "Midi-Pyrénées",
+   "website": null,
+   "agenda_url": null,
+   "ical_url": null,
+   "platform": null,
+   "fanf_lid": false,
+   "status": "onbekend",
+   "agenda_toegankelijkheid": "geen_online_agenda",
+   "opmerking": "Geen publieke agenda na nieuwjaarsborrel 12 januari 2026.",
+   "events": [],
+   "rubriek": "zakelijk"
+  },
+  {
+   "id": "neerlandia-toulouse",
+   "naam": "Neerlandia Toulouse",
+   "afkorting": "Neerlandia",
+   "regio": "Toulouse",
+   "website": "https://www.neerlandia.fr/index.php/nl/",
+   "agenda_url": "https://www.neerlandia.fr/index.php/nl/agenda",
+   "ical_url": null,
+   "platform": "Joomla",
+   "fanf_lid": false,
+   "status": "actief",
+   "agenda_toegankelijkheid": "webpagina",
+   "opmerking": "Agenda-pagina bevat jaarkalender en uitgewerkte event-blokken (AfterNetWork borrels, Koningsdag, wandelingen, leesclub, paspoort pop-up).",
+   "events": [
+    {
+     "datum": "2026-11-16",
+     "titel": "AfterNetWork borrel",
+     "plaats": "Le comptoir Saint Sernin, Toulouse centrum",
+     "tijd": "18:00-20:00",
+     "type": "zakelijk",
+     "bron": "https://www.neerlandia.fr/index.php/nl/agenda"
+    },
+    {
+     "datum": "2026-11-25",
+     "titel": "ALV, borrel, boekenbeurs en etentje",
+     "plaats": "Café du Commerce, place Dupuy, Toulouse",
+     "tijd": "19:00",
+     "type": "bestuurlijk",
+     "bron": "https://www.neerlandia.fr/index.php/nl/agenda"
+    },
+    {
+     "datum": "2026-12-06",
+     "titel": "Sinterklaasfeest",
+     "plaats": "salle Limayrac, Quartier la Terrasse, 22 rue Xavier Darasse, 31500 Toulouse",
+     "tijd": "15:00",
+     "type": "sociaal",
+     "bron": "https://www.neerlandia.fr/index.php/nl/agenda"
+    },
+    {
+     "datum": "2027-01-04",
+     "titel": "Wandeling",
+     "plaats": "niet vermeld",
+     "tijd": "niet vermeld",
+     "type": "sportief",
+     "bron": "https://www.neerlandia.fr/index.php/nl/agenda"
+    }
+   ],
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "cercle-neerlandais-lille",
+   "naam": "Cercle Néerlandais",
+   "afkorting": "Cercle NL Lille",
+   "regio": "Lille / Noord-Frankrijk",
+   "website": "http://www.cercleneerlandais.com",
+   "agenda_url": "https://www.cercleneerlandais.com/",
+   "ical_url": null,
+   "platform": "Weebly",
+   "fanf_lid": true,
+   "status": "actief",
+   "agenda_toegankelijkheid": "webpagina",
+   "opmerking": "Gezelligheidsvereniging voor Nederlanders en liefhebbers van Nederland in en om Lille. Geen agendapagina: de startpagina linkt losse activiteitenpagina's; datum en tijd worden daaruit gelezen, het jaar wordt afgeleid uit de weekdag.",
+   "events": [
+    {
+     "titel": "Kindermiddag",
+     "datum": "2026-11-22",
+     "tijd": "15:00",
+     "plaats": "plaats nog te bevestigen",
+     "type": "sociaal",
+     "bron": "https://www.cercleneerlandais.com/info-kindermiddag.html"
+    },
+    {
+     "titel": "Kookatelier",
+     "datum": "2026-12-02",
+     "tijd": "19:00",
+     "plaats": "Villeneuve d'Ascq",
+     "type": "sociaal",
+     "bron": "https://www.cercleneerlandais.com/info-kookatelier.html"
+    },
+    {
+     "titel": "Sinterklaasfeest",
+     "datum": "2026-12-06",
+     "tijd": "vanaf 15:00",
+     "plaats": "Lille",
+     "type": "sociaal",
+     "bron": "https://www.cercleneerlandais.com/aanmelden-sinterklaasfeest.html"
+    },
+    {
+     "titel": "Sinterkerstborrel met quiz",
+     "datum": "2026-12-17",
+     "tijd": "19:00",
+     "plaats": "Lille, plaats nog te bevestigen",
+     "type": "sociaal",
+     "bron": "https://www.cercleneerlandais.com/sinterkerstborrel.html"
+    }
+   ],
+   "contact": "info@cercleneerlandais.com",
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "pays-de-gex",
+   "naam": "Association Néerlandaise du Pays de Gex",
+   "afkorting": "AN Pays de Gex",
+   "regio": "Divonne-les-Bains / Pays de Gex",
+   "website": null,
+   "agenda_url": null,
+   "ical_url": null,
+   "platform": null,
+   "fanf_lid": true,
+   "status": "onbekend",
+   "agenda_toegankelijkheid": "geen_website",
+   "contact": "W. Bakker, 01220 Divonne-les-Bains, wimbakker54@gmail.com",
+   "opmerking": "Geen website.",
+   "events": [],
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "perpignan",
+   "naam": "Cercle Néerlandais Catalunya Perpignan",
+   "afkorting": "CN Perpignan",
+   "regio": "Perpignan / Pyrénées-Orientales",
+   "website": null,
+   "agenda_url": null,
+   "ical_url": null,
+   "platform": null,
+   "fanf_lid": true,
+   "status": "onbekend",
+   "agenda_toegankelijkheid": "geen_website",
+   "contact": "cneerlandaisc@neuf.fr",
+   "opmerking": "Kleine vereniging, opgericht 2002. Geen website. Werkt samen met Cercle Néerlandais.",
+   "events": [],
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "nvm-montpellier",
+   "naam": "Nederlandse Vereniging Montpellier",
+   "afkorting": "NVM",
+   "regio": "Montpellier",
+   "website": "https://www.facebook.com/NederlandseVerenigingMontpellier",
+   "agenda_url": null,
+   "ical_url": null,
+   "platform": "Facebook-only",
+   "fanf_lid": true,
+   "status": "actief",
+   "agenda_toegankelijkheid": "facebook_only",
+   "opmerking": "Alleen Facebook-pagina. Events niet publiek verifieerbaar zonder login.",
+   "events": [],
+   "contact": "cnm.nvm@orange.fr",
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "praatje",
+   "naam": "Taalcentrum Praatje / De Spijker",
+   "afkorting": "Praatje",
+   "regio": "Toulouse",
+   "website": "https://praatje.fr",
+   "agenda_url": null,
+   "ical_url": null,
+   "platform": null,
+   "fanf_lid": true,
+   "status": "actief",
+   "agenda_toegankelijkheid": "geen_eventkalender",
+   "opmerking": "Nederlands taal- en cultuuronderwijs. Geen eventkalender, lescurriculum. Audit 25-10-2026: homepage toont alleen verlopen cursusberichten (2025), geen kalender; label klopt.",
+   "events": [],
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "crefnec-combrailles",
+   "naam": "Crefnec (Combrailles)",
+   "afkorting": "Crefnec",
+   "regio": "Combrailles / Allier",
+   "website": "https://www.facebook.com/profile.php?id=61586878481465",
+   "agenda_url": null,
+   "ical_url": null,
+   "platform": "Facebook",
+   "fanf_lid": false,
+   "status": "actief",
+   "agenda_toegankelijkheid": "facebook_only",
+   "contact": null,
+   "opmerking": "Vereniging ter bevordering van integratie niet-Fransen in hun Franse omgeving in de Combrailles (Allier). Gemengd lidmaatschap (Nederlanders, Fransen, Engelsen, Belgen). Per 1 maart 2026 overgestapt van eigen website naar Facebook-pagina.",
+   "events": [],
+   "rubriek": "regionaal"
+  },
+  {
+   "id": "aneas",
+   "naam": "ANEAS - Nederlandse Vereniging voor Onderlinge Hulpverlening",
+   "afkorting": "ANEAS",
+   "regio": "Landelijk",
+   "website": "http://www.aneas.fr",
+   "agenda_url": null,
+   "ical_url": null,
+   "platform": null,
+   "fanf_lid": false,
+   "status": "actief",
+   "agenda_toegankelijkheid": "geen_online_agenda",
+   "contact": "contact@aneas.fr",
+   "opmerking": "Association Néerlandaise Entre Aide Sociale. Ondersteuning aan Nederlanders in Frankrijk die hulp nodig hebben. Audit 25-10-2026: startpagina en nieuwsbrief-archief tonen geen agenda; het archief gaf HTTP 500. Label klopt.",
+   "rubriek": "hulporganisatie",
+   "events": []
+  },
+  {
+   "id": "nederlands-ondersteuningsfonds",
+   "naam": "Nederlands Ondersteuningsfonds",
+   "afkorting": "Ondersteuningsfonds",
+   "regio": "Zuid-Frankrijk",
+   "website": "http://www.nederlandsondersteuningsfonds.fr",
+   "agenda_url": null,
+   "ical_url": null,
+   "platform": null,
+   "fanf_lid": false,
+   "status": "actief",
+   "agenda_toegankelijkheid": "geen_online_agenda",
+   "contact": "nlondersteuningsfonds@gmail.com",
+   "opmerking": "Helpt sinds 1967 landgenoten met financiële of sociale problemen in Zuid-Frankrijk. Voor mensen zonder andere opties. Audit 25-10-2026: geen agenda of evenementen op de site; label klopt.",
+   "rubriek": "hulporganisatie",
+   "events": []
+  },
+  {
+   "id": "clcv",
+   "naam": "CLCV - Consumentenrecht",
+   "afkorting": "CLCV",
+   "regio": "Vendée",
+   "website": "https://vendee.clcv.org/in-het-nederlands",
+   "agenda_url": null,
+   "ical_url": null,
+   "platform": null,
+   "fanf_lid": false,
+   "status": "actief",
+   "agenda_toegankelijkheid": "geen_online_agenda",
+   "contact": "juridique@clcv85.com",
+   "opmerking": "Franse consumentenvereniging, vestiging Vendée. Maria Jacobs helpt met consumentenrecht wanneer bedrijf in Frankrijk gevestigd is. Audit 25-10-2026: de opgegeven Nederlandstalige pagina geeft 404; de iCal-feed (/events/?ical=1) bestaat maar is leeg. Geen events.",
+   "rubriek": "hulporganisatie",
+   "events": []
+  },
+  {
+   "id": "cmunf",
+   "naam": "CMUnf - Collectieve Mutuelle voor Nederlanders in Frankrijk",
+   "afkorting": "CMUnf",
+   "regio": "Landelijk",
+   "website": "https://cmunf.fr/",
+   "agenda_url": null,
+   "ical_url": null,
+   "platform": null,
+   "fanf_lid": false,
+   "status": "actief",
+   "agenda_toegankelijkheid": "geen_online_agenda",
+   "contact": null,
+   "opmerking": "Opgericht 2000 voor collectieve ziektekostenverzekering. Meer dan 1200 leden in 2023. Faciliteert collectieve verzekeringen voor Nederlanders in Frankrijk. Audit 25-10-2026: alleen nieuwsberichten (verzekeringsnieuws), geen evenementen; label klopt.",
+   "rubriek": "collectiviteit",
+   "events": []
+  },
+  {
+   "id": "club-normandie",
+   "naam": "Club Néerlandais en Normandie",
+   "afkorting": "Club Normandie",
+   "regio": "Normandië",
+   "website": null,
+   "agenda_url": null,
+   "ical_url": null,
+   "platform": null,
+   "fanf_lid": false,
+   "status": "actief",
+   "agenda_toegankelijkheid": "geen_website",
+   "contact": "emjohu@neuf.fr",
+   "opmerking": "Contactpersoon: Nicole Schippers, 4b, rue de la Forêt, 27690 LÉRY.",
+   "rubriek": "regionaal",
+   "events": []
+  },
+  {
+   "id": "rdv-bergerac",
+   "naam": "RDVBergerac",
+   "afkorting": "RDV Bergerac",
+   "regio": "Bergerac / Dordogne",
+   "website": null,
+   "agenda_url": null,
+   "ical_url": null,
+   "platform": null,
+   "fanf_lid": false,
+   "status": "actief",
+   "agenda_toegankelijkheid": "geen_online_agenda",
+   "contact": "meetbergerac@gmail.com",
+   "opmerking": "Informele groep (geen vereniging: geen bestuur, geen contributie, geen deelnameverplichting) voor Nederlandstaligen binnen ca. 45 km rond Bergerac. Maandelijkse ontmoeting op de eerste donderdag in Restaurant l'Estela, Saint-Nexans: okt-mrt overdag (lunch, aanvang ca. 12:00 uur), apr-sep 's avonds (borrel + diner, aanvang ca. 18:00 uur). Reserveren voor de ontmoeting zelf is niet nodig; voor de afsluitende maaltijd (ca. €20 incl. wijn) wel, via een mail die in het voorafgaande weekend wordt rondgestuurd. Aanmelden en informatie: mail naar meetbergerac@gmail.com (contactpersoon Hans van Driel).",
+   "rubriek": "regionaal",
+   "events": [
+    {
+     "titel": "Maandelijkse ontmoeting met lunch",
+     "datum": "2026-11-05",
+     "tijd": "ca. 12:00 uur",
+     "plaats": "Restaurant l'Estela, Saint-Nexans",
+     "type": "sociaal",
+     "bron": "vast ritme (automatisch gegenereerd)"
+    },
+    {
+     "titel": "Maandelijkse ontmoeting met lunch",
+     "datum": "2026-12-03",
+     "tijd": "ca. 12:00 uur",
+     "plaats": "Restaurant l'Estela, Saint-Nexans",
+     "type": "sociaal",
+     "bron": "vast ritme (automatisch gegenereerd)"
+    },
+    {
+     "titel": "Maandelijkse ontmoeting met lunch",
+     "datum": "2027-01-07",
+     "tijd": "ca. 12:00 uur",
+     "plaats": "Restaurant l'Estela, Saint-Nexans",
+     "type": "sociaal",
+     "bron": "vast ritme (automatisch gegenereerd)"
+    },
+    {
+     "titel": "Maandelijkse ontmoeting met lunch",
+     "datum": "2027-02-04",
+     "tijd": "ca. 12:00 uur",
+     "plaats": "Restaurant l'Estela, Saint-Nexans",
+     "type": "sociaal",
+     "bron": "vast ritme (automatisch gegenereerd)"
+    },
+    {
+     "titel": "Maandelijkse ontmoeting met lunch",
+     "datum": "2027-03-04",
+     "tijd": "ca. 12:00 uur",
+     "plaats": "Restaurant l'Estela, Saint-Nexans",
+     "type": "sociaal",
+     "bron": "vast ritme (automatisch gegenereerd)"
+    },
+    {
+     "titel": "Maandelijkse ontmoeting met diner",
+     "datum": "2027-04-01",
+     "tijd": "ca. 18:00 uur",
+     "plaats": "Restaurant l'Estela, Saint-Nexans",
+     "type": "sociaal",
+     "bron": "vast ritme (automatisch gegenereerd)"
+    }
+   ],
+   "vast_ritme": {
+    "patroon": "maandelijks",
+    "weekdag": 4,
+    "week_van_maand": 1,
+    "aantal_maanden": 6,
+    "plaats": "Restaurant l'Estela, Saint-Nexans",
+    "type": "sociaal",
+    "omschrijving": "eerste donderdag van de maand",
+    "seizoenen": [
+     {
+      "maanden": [
+       10,
+       11,
+       12,
+       1,
+       2,
+       3
+      ],
+      "tijd": "ca. 12:00 uur",
+      "titel": "Maandelijkse ontmoeting met lunch"
+     },
+     {
+      "maanden": [
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "tijd": "ca. 18:00 uur",
+      "titel": "Maandelijkse ontmoeting met diner"
+     }
+    ]
+   }
+  }
+ ]
+}

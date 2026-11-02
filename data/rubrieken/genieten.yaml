@@ -202,7 +202,7 @@
   doelgroepen: [iedereen]
   wanneer: {van: 2026-12-05, tot: 2026-12-08}
   aftellen: [14, 1]
-  gebied: "Lyon"
+  gebied: [69]
   tekst: "Van zaterdag 5 tot dinsdag 8 december is Lyon vier avonden verlicht met meer dan 25 lichtkunstwerken."
   bron: {url: https://www.fetedeslumieres.lyon.fr/, gecontroleerd: 2026-11-02}
   status: vastgesteld
@@ -217,7 +217,7 @@
   doelgroepen: [iedereen]
   wanneer: {van: 2027-12-04, tot: 2027-12-08}
   aftellen: [14, 1]
-  gebied: "Lyon"
+  gebied: [69]
   tekst: "Rond 8 december is Lyon vier avonden verlicht met lichtkunst op pleinen en gevels."
   bron: {url: https://www.fetedeslumieres.lyon.fr/, gecontroleerd: 2026-11-02}
   status: te_verifieren

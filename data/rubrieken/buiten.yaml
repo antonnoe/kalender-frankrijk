@@ -23,7 +23,7 @@
   doelgroepen: [iedereen]
   wanneer: {regel: "jaarlijks 15-09 tot 28-02"}
   aftellen: []
-  gebied: "per departement"
+  gebied: "heel Frankrijk"
   tekst: "Van half september tot eind februari wordt er gejaagd, per departement verschillend; houd de hond aangelijnd en draag iets opvallends in het bos."
   bron: {url: https://www.onf.fr/, gecontroleerd: 2026-11-02}
   status: te_verifieren
@@ -38,7 +38,7 @@
   doelgroepen: [iedereen]
   wanneer: {regel: "jaarlijks 15-10 tot 15-01"}
   aftellen: []
-  gebied: "per departement"
+  gebied: "heel Frankrijk"
   tekst: "In de drukste jachtmaanden staan bij drijfjachten borden \"chasse en cours\" langs de weg; kies dan een ander pad en vraag in het dorp welke dagen gejaagd wordt."
   bron: {url: https://www.onf.fr/, gecontroleerd: 2026-11-02}
   status: te_verifieren

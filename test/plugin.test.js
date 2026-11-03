@@ -13,7 +13,7 @@ const css = bron('kalender-frankrijk.css');
 
 test('PHP heeft de pluginkop en de shortcode', () => {
   for (const regel of [
-    'Plugin Name: Kalender Frankrijk', 'Version: 1.0.1', 'Author: Communities Abroad', 'Author URI: https://www.communitiesabroad.com',
+    'Plugin Name: Kalender Frankrijk', 'Version: 1.0.2', 'Author: Communities Abroad', 'Author URI: https://www.communitiesabroad.com',
     'Text Domain: kalender-frankrijk', 'Requires at least: 6.0', 'Requires PHP: 7.4', 'Description:',
   ]) assert.ok(php.includes(regel), regel);
   assert.ok(/add_shortcode\(\s*'kalender_frankrijk'/.test(php));

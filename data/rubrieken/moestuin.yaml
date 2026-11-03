@@ -1,0 +1,235 @@
+# Moestuin.
+# Eigen jaarkalender van Kalender Frankrijk, uit de moestuintool van Infofrankrijk (https://moestuin-fr.vercel.app, per maand en
+# per klimaatzone) en het artikel https://infofrankrijk.com/de-moestuin-in-frankrijk-van-begin-januari-tot-eind-december/.
+# De bron is eigen werk van Infofrankrijk (de moestuinreeks van 2015, herzien in 2026), geen overheidsbron: het zijn
+# tuintaken en seizoensgrenzen, geen termijnen. Elk item linkt naar de maandpagina van de tool, waar de lezer zijn
+# klimaatzone kiest. Per maand één periode (meldt zich op de eerste van de maand), plus de vaste grenzen van het
+# seizoen (IJsheiligen, Saint-Jean, knoflook). Toegevoegd 3 november 2026 op verzoek van de opdrachtgever.
+
+- id: moestuin-januari
+  titel: "De moestuin in januari"
+  rubriek: moestuin
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-01 tot 31-01"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "In de Midi gaan de eerste sla, schorseneren en doperwten al de volle grond in; in het noorden blijft het bij plannen, zaad bestellen en gereedschap onderhouden. Composthoop één keer omzetten en de wintersnoei van fruitbomen doorzetten op vorstvrije dagen."
+  link: https://moestuin-fr.vercel.app/maand/januari
+  bron: {url: https://moestuin-fr.vercel.app/maand/januari, gecontroleerd: 2026-11-03}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  forum_aanzet: "Wat staat er in januari al in jouw moestuin, en in welke streek tuinier je?"
+
+- id: moestuin-februari
+  titel: "De moestuin in februari"
+  rubriek: moestuin
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-02 tot 28-02"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "In de Midi gaan tomaten, paprika's en aubergines onder glas en de eerste aspergeplanten de grond in; in het noorden blijft het bij snoeien (alle fruitbomen behalve steenfruit), gereedschap nakijken en zaad bestellen. Strenge vorst kan nog tot het eind van de maand toeslaan."
+  link: https://moestuin-fr.vercel.app/maand/februari
+  bron: {url: https://moestuin-fr.vercel.app/maand/februari, gecontroleerd: 2026-11-03}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: moestuin-maart
+  titel: "De moestuin in maart"
+  rubriek: moestuin
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-03 tot 31-03"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "De eerste tomaten, paprika's en aubergines onder glas, in het zuiden al in de volle grond; druiven snoeien is het laatste moment voordat het sap omhoog stroomt. Het vorstrisico blijft tot de IJsheiligen half mei, dus koude bak en vlies klaarhouden."
+  link: https://moestuin-fr.vercel.app/maand/maart
+  bron: {url: https://moestuin-fr.vercel.app/maand/maart, gecontroleerd: 2026-11-03}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: moestuin-april
+  titel: "De moestuin in april"
+  rubriek: moestuin
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-04 tot 30-04"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Bonen kunnen de volle grond in na de laatste vorst, die per zone verschilt; tomaten worden op een beschutte plek uitgeplant, in de mediterrane zone vanaf eind april als de druppelirrigatie op orde is. De IJsheiligen (11 tot 13 mei) blijven de grens voor onbeschermde warmteminnaars in de continentale zone en de bergen."
+  link: https://moestuin-fr.vercel.app/maand/april
+  bron: {url: https://moestuin-fr.vercel.app/maand/april, gecontroleerd: 2026-11-03}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: moestuin-mei
+  titel: "De moestuin in mei"
+  rubriek: moestuin
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-05 tot 31-05"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Tot de IJsheiligen (11 tot 13 mei) geen onbeschermde tomaten, paprika's, aubergines, courgettes of basilicum in de volle grond in de continentale zone en de bergen; daarna kan alles. Bonen en mais kunnen overal, aardbeien zijn volop in alle zones."
+  link: https://moestuin-fr.vercel.app/maand/mei
+  bron: {url: https://moestuin-fr.vercel.app/maand/mei, gecontroleerd: 2026-11-03}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: ijsheiligen
+  titel: "IJsheiligen (Saints de Glace)"
+  rubriek: moestuin
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 11-05 tot 13-05"}
+  aftellen: [7, 1]
+  gebied: "heel Frankrijk"
+  tekst: "Mamert, Pancrace en Servais (11 tot 13 mei) markeren de laatste vorstgrens in de continentale zone en de bergen: pas daarna gaan tomaten, paprika's, aubergines, courgettes en basilicum onbeschermd de volle grond in. In de oceanische zones kan het vanaf half mei op een beschutte plek, in de mediterrane zone al vanaf eind april."
+  link: https://moestuin-fr.vercel.app/maand/mei
+  bron: {url: https://infofrankrijk.com/de-moestuin-in-frankrijk-van-begin-januari-tot-eind-december/, gecontroleerd: 2026-11-03}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  forum_aanzet: "Wacht jij op de IJsheiligen voordat de tomaten naar buiten gaan, of plant je in jouw streek eerder uit?"
+
+- id: moestuin-juni
+  titel: "De moestuin in juni"
+  rubriek: moestuin
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-06 tot 30-06"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Het werk verschuift van planten naar onderhouden: schoffelen, opbinden, mulchen en water geven. In het zuiden begint de race tegen de droogte, in het noorden komt alles nu pas op volle snelheid; het aspergeseizoen sluit op Saint-Jean, 24 juni."
+  link: https://moestuin-fr.vercel.app/maand/juni
+  bron: {url: https://moestuin-fr.vercel.app/maand/juni, gecontroleerd: 2026-11-03}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: saint-jean-asperges
+  titel: "Einde van het aspergeseizoen (Saint-Jean)"
+  rubriek: moestuin
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 24-06"}
+  aftellen: [7, 1]
+  gebied: "heel Frankrijk"
+  tekst: "Het Franse aspergeseizoen sluit traditioneel op Saint-Jean, 24 juni; daarna laat men het loof staan zodat de planten herstellen voor volgend jaar."
+  link: https://moestuin-fr.vercel.app/maand/juni
+  bron: {url: https://infofrankrijk.com/de-moestuin-in-frankrijk-van-begin-januari-tot-eind-december/, gecontroleerd: 2026-11-03}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: nee
+
+- id: moestuin-juli
+  titel: "De moestuin in juli"
+  rubriek: moestuin
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-07 tot 31-07"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "In het noorden kleuren de tomaten en komen de eerste courgettes; in het zuiden is het overleven, met waterbeperkingen, mulchen en sla alleen onder schaduwdoek. Let op valse meeldauw bij vochtig weer, de coloradokever en de koolwitjes, en zaai nu al winterprei en elke vier weken bonen voor een doorlopende oogst."
+  link: https://moestuin-fr.vercel.app/maand/juli
+  bron: {url: https://moestuin-fr.vercel.app/maand/juli, gecontroleerd: 2026-11-03}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: moestuin-augustus
+  titel: "De moestuin in augustus"
+  rubriek: moestuin
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-08 tot 31-08"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Wat nu gezaaid wordt (winterwortelen, andijvie, veldsla, spinazie) oogst u in oktober en november. Vrijgekomen grond niet braak laten liggen maar groenbemesters zaaien (mosterd, phacelia, klaver, boekweit); in het noorden piekt de valse meeldauw, in de Provence is water geven de eerste zorg."
+  link: https://moestuin-fr.vercel.app/maand/augustus
+  bron: {url: https://moestuin-fr.vercel.app/maand/augustus, gecontroleerd: 2026-11-03}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: moestuin-september
+  titel: "De moestuin in september"
+  rubriek: moestuin
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-09 tot 30-09"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Rode bieten rooien, knoflook poten voor volgend jaar en uitlopers van aardbeien uitplanten; de tomatenoogst loopt af, pluk de late vruchten voor chutney en confiture. In de bergen begint de eerste echte kou."
+  link: https://moestuin-fr.vercel.app/maand/september
+  bron: {url: https://moestuin-fr.vercel.app/maand/september, gecontroleerd: 2026-11-03}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: knoflook-poten
+  titel: "Knoflook poten"
+  rubriek: moestuin
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 15-09 tot 30-11"}
+  aftellen: [7]
+  gebied: "heel Frankrijk"
+  tekst: "In de mediterrane zone tussen half september en half oktober, in de bergen begin oktober zodat de bollen wortelen voor de winterrust, in de oceanische en continentale zones tussen eind oktober en eind november, vóór de eerste echte vorst. Oogst in juni en juli."
+  link: https://moestuin-fr.vercel.app/maand/oktober
+  bron: {url: https://infofrankrijk.com/de-moestuin-in-frankrijk-van-begin-januari-tot-eind-december/, gecontroleerd: 2026-11-03}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: moestuin-oktober
+  titel: "De moestuin in oktober"
+  rubriek: moestuin
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-10 tot 31-10"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Knoflook poten in de noordelijke zones (het zuiden was in september al aan de beurt), de composthoop een laatste keer omzetten en afdekken voor de winter. In de Provence brengen de eerste regens de tuin weer op gang, in de bergen valt de eerste nachtvorst."
+  link: https://moestuin-fr.vercel.app/maand/oktober
+  bron: {url: https://moestuin-fr.vercel.app/maand/oktober, gecontroleerd: 2026-11-03}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: moestuin-november
+  titel: "De moestuin in november"
+  rubriek: moestuin
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-11 tot 30-11"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "Toussaint markeert het einde van het buitenseizoen: zware kleigrond grof omspitten en de winter het werk laten doen. Fruitbomen met kale wortel planten kan vanaf nu tot maart; in de bergen valt de eerste sneeuw, in de Provence begint het truffelseizoen."
+  link: https://moestuin-fr.vercel.app/maand/november
+  bron: {url: https://moestuin-fr.vercel.app/maand/november, gecontroleerd: 2026-11-03}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  forum_aanzet: "Spit jij de moestuin in november om, of laat je de grond met rust tot het voorjaar?"
+
+- id: moestuin-december
+  titel: "De moestuin in december"
+  rubriek: moestuin
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {regel: "jaarlijks 01-12 tot 31-12"}
+  aftellen: []
+  gebied: "heel Frankrijk"
+  tekst: "De moestuin slaapt. Volwassen fruitbomen kunnen op een vorstvrije dag de wintersnoei krijgen; in het zuiden zijn citrus en wintergroenten nog volop in productie. Een goed moment om het plan en de zaadbestelling voor volgend jaar te maken."
+  link: https://moestuin-fr.vercel.app/maand/december
+  bron: {url: https://moestuin-fr.vercel.app/maand/december, gecontroleerd: 2026-11-03}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja

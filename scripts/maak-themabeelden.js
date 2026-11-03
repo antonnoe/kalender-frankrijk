@@ -24,6 +24,8 @@ export const ICONEN = {
   boek: 'M38 22C30 16 20 15 12 16v42c8-1 18 0 26 6 8-6 18-7 26-6V16c-8-1-18 0-26 6zM38 22v42',
   glas: 'M26 12h24v14a12 12 0 0 1-24 0zM38 38v22M28 62h20M27 22h22',
   gebouw: 'M10 62h56M12 30 38 14l26 16zM18 36v22M30 36v22M46 36v22M58 36v22',
+  // kiem: een stengel uit de grond met twee blaadjes, voor Moestuin
+  kiem: 'M14 64h48M38 64V34M38 46c0-10-8-16-18-16 0 10 8 16 18 16zM38 40c0-10 8-16 18-16 0 10-8 16-18 16z',
 };
 
 export function maakSvg(rubriek) {

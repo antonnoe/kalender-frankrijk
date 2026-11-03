@@ -4,7 +4,7 @@ Tags: kalender, frankrijk, agenda
 Requires at least: 6.0
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 
 Toont de Kalender Frankrijk met een shortcode: data die ertoe doen voor Nederlanders en Belgen in Frankrijk.
@@ -32,6 +32,9 @@ Rubrieken: fiscaal, uitkeringen, feestdagen, school, wonen, buiten, zorg, stemme
 3. Maak een pagina en zet de shortcode `[kalender_frankrijk]` in een tekstmodule.
 
 == Changelog ==
+
+= 1.0.2 =
+* Korte naam voor de nieuwe rubriek Moestuin.
 
 = 1.0.1 =
 * De kalender vult de kolom van het artikel en lijnt links uit met de tekst (was 760 px gecentreerd).

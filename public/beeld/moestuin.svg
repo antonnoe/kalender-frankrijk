@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 76 76" role="img" aria-label="Moestuin">
+<title>Moestuin</title>
+<defs><pattern id="stip" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#3D6B1F" opacity=".18"/></pattern></defs>
+<rect width="76" height="76" fill="#E4EEDB"/>
+<rect width="76" height="76" fill="url(#stip)"/>
+<path d="M14 64h48M38 64V34M38 46c0-10-8-16-18-16 0 10 8 16 18 16zM38 40c0-10 8-16 18-16 0 10-8 16-18 16z" fill="none" stroke="#3D6B1F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(11.4 11.4) scale(.7)"/>
+</svg>

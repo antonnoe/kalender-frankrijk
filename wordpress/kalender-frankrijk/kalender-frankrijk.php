@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Kalender Frankrijk
  * Description: Toont met de shortcode [kalender_frankrijk] de Kalender Frankrijk: alle data die ertoe doen voor Nederlanders en Belgen in Frankrijk, met maand- en weekweergave, filter per rubriek en abonneren in uw eigen agenda.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Communities Abroad
  * Author URI: https://www.communitiesabroad.com
  * Text Domain: kalender-frankrijk

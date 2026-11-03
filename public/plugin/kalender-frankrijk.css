@@ -17,8 +17,9 @@
   --kfr-tekst: #333333;
   --kfr-zacht: #666666;
   box-sizing: border-box;
-  max-width: 760px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: none; /* vult de kolom van het artikel en lijnt links uit met de tekst (3 november 2026; eerst 760 px gecentreerd, dat sprong in het oog) */
+  margin: 0;
   padding: 0;
   background: transparent;
   color: var(--kfr-tekst);

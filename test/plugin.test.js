@@ -13,7 +13,7 @@ const css = bron('kalender-frankrijk.css');
 
 test('PHP heeft de pluginkop en de shortcode', () => {
   for (const regel of [
-    'Plugin Name: Kalender Frankrijk', 'Version: 1.0.0', 'Author: Communities Abroad', 'Author URI: https://www.communitiesabroad.com',
+    'Plugin Name: Kalender Frankrijk', 'Version: 1.0.1', 'Author: Communities Abroad', 'Author URI: https://www.communitiesabroad.com',
     'Text Domain: kalender-frankrijk', 'Requires at least: 6.0', 'Requires PHP: 7.4', 'Description:',
   ]) assert.ok(php.includes(regel), regel);
   assert.ok(/add_shortcode\(\s*'kalender_frankrijk'/.test(php));
@@ -101,7 +101,8 @@ test('CSS: alleen kfr-klassen, alles onder .kfr, !important alleen op de knopreg
   }
   assert.ok(/font-family: Poppins, 'Segoe UI'/.test(kaal) && /font-family: Mulish, 'Segoe UI'/.test(kaal), 'lettertypen met terugval');
   assert.ok(!/@import|@font-face|fonts\.googleapis/.test(css), 'de plugin laadt zelf geen lettertypen');
-  assert.ok(/max-width: 760px/.test(css));
+  assert.ok(/\.kfr \{[^}]*width: 100%;[^}]*max-width: none;[^}]*margin: 0;/.test(css), 'vult de kolom en lijnt links uit met de tekst, geen gecentreerd blok van 760 px');
+  assert.ok(!/max-width: 760px/.test(css));
   assert.ok(!/font-size:\s*(1[01]|[0-9])px/.test(kaal), 'geen tekst onder 12 px');
 });
 

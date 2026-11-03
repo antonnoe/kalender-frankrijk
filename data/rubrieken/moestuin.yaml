@@ -227,7 +227,7 @@
   wanneer: {regel: "jaarlijks 01-12 tot 31-12"}
   aftellen: []
   gebied: "heel Frankrijk"
-  tekst: "De moestuin slaapt. Volwassen fruitbomen kunnen op een vorstvrije dag de wintersnoei krijgen; in het zuiden zijn citrus en wintergroenten nog volop in productie. Een goed moment om het plan en de zaadbestelling voor volgend jaar te maken."
+  tekst: "De moestuin slaapt, maar volwassen fruitbomen kunnen op een vorstvrije dag de wintersnoei krijgen en in het zuiden zijn citrus en wintergroenten nog volop in productie. Een goed moment om het plan en de zaadbestelling voor volgend jaar te maken."
   link: https://moestuin-fr.vercel.app/maand/december
   bron: {url: https://moestuin-fr.vercel.app/maand/december, gecontroleerd: 2026-11-03}
   status: vastgesteld

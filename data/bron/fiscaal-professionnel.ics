@@ -3042,21 +3042,6 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:b356c39e819a8acc2ee016d2c8e70175@infofrankrijk.com
-LAST-MODIFIED:20261010T160617Z
-SEQUENCE:0
-DTSTART;VALUE=DATE:20251103
-DTEND;VALUE=DATE:20251104
-SUMMARY:CFE et/ou IFER (solde) : mise en ligne des avis d'impôt
-DESCRIPTION:A partir de cette date\, les avis d'impôt dématérialisés so
- nt consultables dans l'espace professionnel sur le site impots.gouv.fr.\n\
- nBron: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2025-11\
- nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
-URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2025-11
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:e4ffff70f95c466015d6e1a2c7e5018b@infofrankrijk.com
 LAST-MODIFIED:20261010T160617Z
 SEQUENCE:0
@@ -3271,6 +3256,21 @@ DESCRIPTION:TVA - franchise en base\n\nDate limite d'option pour le paiemen
  infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2025-11
 STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b356c39e819a8acc2ee016d2c8e70175@infofrankrijk.com
+LAST-MODIFIED:20261104T050940Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20251103
+DTEND;VALUE=DATE:20251104
+SUMMARY:CFE et/ou IFER (solde) : mise en ligne des avis d'impôt
+DESCRIPTION:A partir de cette date\, les avis d'impôt dématérialisés so
+ nt consultables dans l'espace professionnel sur le site impots.gouv.fr.\n\
+ nBron: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2025-11\
+ nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2025-11
+STATUS:CANCELLED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

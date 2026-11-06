@@ -1,63 +1,63 @@
 {
   "cafe-jeudi": {
     "bestand": "cafe-jeudi.json",
-    "laatst_geslaagd": "2026-11-05",
-    "laatst_gewijzigd": "2026-11-03",
+    "laatst_geslaagd": "2026-11-06",
+    "laatst_gewijzigd": "2026-11-06",
     "aantal": 1,
     "melding": null
   },
   "feestdagen": {
     "bestand": "feestdagen.json",
-    "laatst_geslaagd": "2026-11-05",
+    "laatst_geslaagd": "2026-11-06",
     "laatst_gewijzigd": "2026-11-02",
     "aantal": 72,
     "melding": null
   },
   "fiscaal-nederland": {
     "bestand": "fiscaal-nederland.ics",
-    "laatst_geslaagd": "2026-11-05",
+    "laatst_geslaagd": "2026-11-06",
     "laatst_gewijzigd": "2026-11-02",
     "aantal": 46,
     "melding": null
   },
   "fiscaal-particulier": {
     "bestand": "fiscaal-particulier.ics",
-    "laatst_geslaagd": "2026-11-05",
+    "laatst_geslaagd": "2026-11-06",
     "laatst_gewijzigd": "2026-11-02",
     "aantal": 97,
     "melding": null
   },
   "fiscaal-professionnel": {
     "bestand": "fiscaal-professionnel.ics",
-    "laatst_geslaagd": "2026-11-05",
+    "laatst_geslaagd": "2026-11-06",
     "laatst_gewijzigd": "2026-11-05",
     "aantal": 409,
     "melding": null
   },
   "google-fr": {
     "bestand": "google-fr.ics",
-    "laatst_geslaagd": "2026-11-05",
+    "laatst_geslaagd": "2026-11-06",
     "laatst_gewijzigd": "2026-11-02",
     "aantal": 209,
     "melding": null
   },
   "google-nl": {
     "bestand": "google-nl.ics",
-    "laatst_geslaagd": "2026-11-05",
+    "laatst_geslaagd": "2026-11-06",
     "laatst_gewijzigd": "2026-11-02",
     "aantal": 200,
     "melding": null
   },
   "schoolvakanties": {
     "bestand": "schoolvakanties.json",
-    "laatst_geslaagd": "2026-11-05",
+    "laatst_geslaagd": "2026-11-06",
     "laatst_gewijzigd": "2026-11-02",
     "aantal": 54,
     "melding": null
   },
   "verenigingen": {
     "bestand": "verenigingen.json",
-    "laatst_geslaagd": "2026-11-05",
+    "laatst_geslaagd": "2026-11-06",
     "laatst_gewijzigd": "2026-11-05",
     "aantal": 74,
     "melding": null

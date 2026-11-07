@@ -7014,6 +7014,59 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:bd200038c094200f3895b703f75dbd40@infofrankrijk.com
+LAST-MODIFIED:20261106T050333Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Vennootschappen onderworpen aan vennootschapsbelasting (IS)
+DESCRIPTION:Sociétés soumises à l'IS\n\nDate limite de télépaiement du
+  solde de l'IS\, de la contribution sociale sur l'IS de 3\,3 % à l'aide d
+ u relevé de solde n° 2572\, si votre exercice est clos le 30 septembre 2
+ 027.\n\nBron: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2
+ 027-01\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-01
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:100caa243b920a315d88fdf14b2b64ea@infofrankrijk.com
+LAST-MODIFIED:20261106T050333Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Taxe sur les véhicules de tourisme (taxe sur les émissions de dio
+ xyde de carbone \; taxe sur l’ancienneté des véhicules)
+DESCRIPTION:Entre le 15 et le 25 janvier 2027 :Si l'entreprise relève d'un
+  régime réel d'imposition : les taxes seront télédéclarées et télé
+ payées sur l'annexe n° 3310 A à la déclaration de la TVA de décembre 
+ ou du quatrième trimestre civil.\nSi l'entreprise n'est pas redevable de 
+ la TVA : les taxes seront télédéclarées et télépayées sur l'annexe 
+ n° 3310 A à la déclaration de TVA.\n\nBron: https://www.impots.gouv.fr/
+ professionnel/calendrier-fiscal/2027-01\nOverzicht: https://infofrankrijk.
+ com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-01
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7fb96fa6d37256e3b18f1e68ac714570@infofrankrijk.com
+LAST-MODIFIED:20261106T050333Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Belasting op verzekeringsovereenkomsten
+DESCRIPTION:Taxe sur les conventions d'assurances\n\nLa taxe due doit être
+  télédéclarée et télépayée avec le formulaire n°2787-SD au titre d
+ es primes émises\, des conventions conclues et des sommes échues au cour
+ s du mois de décembre 2026.\n\nBron: https://www.impots.gouv.fr/professio
+ nnel/calendrier-fiscal/2027-01\nOverzicht: https://infofrankrijk.com/fisca
+ le-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-01
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:445eaa9b841d62cda8d81145dc67908c@infofrankrijk.com
 LAST-MODIFIED:20261010T160623Z
 SEQUENCE:0
@@ -7026,6 +7079,234 @@ DESCRIPTION:Prélèvement à la source – DSN\n\nDate limite pour la tél
  ).\n\nBron: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/202
  7-01\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-01
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c199097261335c0f33a31fb487a6b5b1@infofrankrijk.com
+LAST-MODIFIED:20261106T050333Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Belasting op loonsommen (taxe sur les salaires)
+DESCRIPTION:Taxe sur les salaires\n\nDate limite de télédéclaration annu
+ elle portant liquidation et régularisation de la taxe sur les salaires (n
+ ° 2502) pour les rémunérations versées au titre de l'année 2026. Cett
+ e déclaration intègre la taxe concernant les salaires payés en décembr
+ e 2026 (redevables mensuels) ou les salaires payés au cours du dernier tr
+ imestre 2026 (redevables trimestriels).\n\nBron: https://www.impots.gouv.f
+ r/professionnel/calendrier-fiscal/2027-01\nOverzicht: https://infofrankrij
+ k.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-01
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:122e2584735a19287d4c8eb4487519fd@infofrankrijk.com
+LAST-MODIFIED:20261106T050333Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:Accijns op elektriciteit\, aardgas en steenkool
+DESCRIPTION:Accise sur l’électricité\, les gaz naturels et les charbons
+ \n\nDate limite de dépôt de la déclaration n°2040-TIC mensuelle ou tri
+ mestrielle pour l’accise sur l’électricité\, trimestrielle pour l’
+ accise sur les gaz naturels et l’accise sur les charbons en rythme trime
+ striel.\n\nBron: https://www.impots.gouv.fr/professionnel/calendrier-fisca
+ l/2027-01\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
+ /
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-01
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6c0e533bfe930bcbf6e3784d0fca5832@infofrankrijk.com
+LAST-MODIFIED:20261106T050333Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Accijns op elektriciteit\, aardgas en steenkool
+DESCRIPTION:Accise sur l’électricité\, les gaz naturels et les charbons
+ \n\nDate limite de dépôt de la déclaration annuelle n°2040-TIC pour le
+ s redevables de l’accise sur les charbons en rythme annuel.\n\nBron: htt
+ ps://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-01\nOverzicht
+ : https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-01
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2b5d4143d86face090a437660dcd9d5f@infofrankrijk.com
+LAST-MODIFIED:20261106T050503Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Ondernemingen met boekjaar afgesloten op 31 oktober 2026
+DESCRIPTION:Entreprises dont l'exercice est clos le 31 octobre 2026\n\nDate
+  limite de souscription de :déclaration de résultats n° 2065 et ses ann
+ exes (impôt sur les sociétés) - délai supplémentaire de 15 jours cale
+ ndaires accordé aux utilisateurs des téléprocédures \;\nla notificatio
+ n n° 2065-INT pour les entités appartenant à un groupe dans le champ du
+  Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les en
+ treprises étrangères exploitant un établissement stable en France \;\nl
+ a télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\n\nBr
+ on: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-02\nOv
+ erzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-02
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a334ed21ce9e1e80af8aae22d3ca8613@infofrankrijk.com
+LAST-MODIFIED:20261106T050503Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Belasting op loonsommen (taxe sur les salaires)
+DESCRIPTION:Taxe sur les salaires\n\nDate limite de télépaiement de la ta
+ xe concernant les salaires payés en janvier (redevables mensuels) à l'ai
+ de du relevé de versement provisionnel n° 2501.\n\nBron: https://www.imp
+ ots.gouv.fr/professionnel/calendrier-fiscal/2027-02\nOverzicht: https://in
+ fofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-02
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:94b4136555bab77b2759cad8c02c8e44@infofrankrijk.com
+LAST-MODIFIED:20261106T050503Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Vennootschappen onderworpen aan vennootschapsbelasting (IS)
+DESCRIPTION:Sociétés soumises à l'IS\n\nDate limite de télépaiement du
+  solde de l'IS\, de la contribution sociale sur l'IS de 3\,3 % à l'aide d
+ u relevé de solde n° 2572\, si votre exercice est clos le 31 octobre 202
+ 6.\n\nBron: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/202
+ 7-02\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-02
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3ee127755ee77371b27e530efaeef713@infofrankrijk.com
+LAST-MODIFIED:20261106T050503Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Belasting op verzekeringsovereenkomsten
+DESCRIPTION:Taxe sur les conventions d'assurances\n\nLa taxe due doit être
+  télédéclarée et télépayée avec le formulaire n°2787-SD au titre d
+ es primes émises\, des conventions conclues et des sommes échues au cour
+ s du mois de janvier 2027.\n\nBron: https://www.impots.gouv.fr/professionn
+ el/calendrier-fiscal/2027-02\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-02
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb4f8b508630fb16577f360e5888623c@infofrankrijk.com
+LAST-MODIFIED:20261106T050503Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:Accijns op elektriciteit\, aardgas en steenkool
+DESCRIPTION:Accise sur l’électricité\, les gaz naturels et les charbons
+ \n\nDate limite de dépôt de la déclaration mensuelle n°2040-TIC pour l
+ es redevables de l’accise sur l’électricité en rythme mensuel.\n\nBr
+ on: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-02\nOv
+ erzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-02
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b05dee5ed3bb9577a20c357ac448b930@infofrankrijk.com
+LAST-MODIFIED:20261106T050609Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Ondernemingen met boekjaar afgesloten op 30 november 2026
+DESCRIPTION:Entreprises dont l'exercice est clos le 30 novembre 2026\n\nDat
+ e limite de souscription de :la déclaration de résultats n° 2065 et ses
+  annexes (impôt sur les sociétés) - délai supplémentaire de 15 jours 
+ calendaires accordé aux utilisateurs des téléprocédures \;\nla notific
+ ation n° 2065-INT pour les entités appartenant à un groupe dans le cham
+ p du Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour le
+ s entreprises étrangères exploitant un établissement stable en France \
+ ;\nla télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\n
+ \nBron: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-03
+ \nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-03
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9156a4798cb29b61d858e8ca868d6e9b@infofrankrijk.com
+LAST-MODIFIED:20261106T050609Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Belasting op loonsommen (taxe sur les salaires)
+DESCRIPTION:Taxe sur les salaires\n\nDate limite de télépaiement de la ta
+ xe concernant les salaires payés en février (redevables mensuels) à l'a
+ ide du relevé de versement provisionnel n° 2501.\n\nBron: https://www.im
+ pots.gouv.fr/professionnel/calendrier-fiscal/2027-03\nOverzicht: https://i
+ nfofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-03
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6a4e473c5cd24b2525c5be2b278f081c@infofrankrijk.com
+LAST-MODIFIED:20261106T050609Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Vennootschappen onderworpen aan vennootschapsbelasting (IS)
+DESCRIPTION:Sociétés soumises à l'IS\n\nDate limite de télépaiement :d
+ e l'acompte de l'impôt sur les sociétés et de la contribution sociale s
+ ur l'IS de 3\,3 % à l'aide du relevé d'acompte n° 2571 \;\ndu solde de 
+ l'impôt sur les sociétés et de la contribution sociale sur l’IS de 3\
+ ,3 % à l'aide du relevé de solde n° 2572\, si votre exercice est clos l
+ e 30 novembre 2026.\n\nBron: https://www.impots.gouv.fr/professionnel/cale
+ ndrier-fiscal/2027-03\nOverzicht: https://infofrankrijk.com/fiscale-kalend
+ er-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-03
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9c1e23fafdaf65d3bf8435f495a4d890@infofrankrijk.com
+LAST-MODIFIED:20261106T050609Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Belasting op verzekeringsovereenkomsten
+DESCRIPTION:Taxe sur les conventions d'assurances\n\nLa taxe due doit être
+  télédéclarée et télépayée avec le formulaire n°2787-SD au titre d
+ es primes émises\, des conventions conclues et des sommes échues au cour
+ s du mois de février 2027.\n\nBron: https://www.impots.gouv.fr/profession
+ nel/calendrier-fiscal/2027-03\nOverzicht: https://infofrankrijk.com/fiscal
+ e-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-03
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7fdf5192948133936f82b90d0a66918c@infofrankrijk.com
+LAST-MODIFIED:20261106T050609Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Accijns op elektriciteit\, aardgas en steenkool
+DESCRIPTION:Accise sur l’électricité\, les gaz naturels et les charbons
+ \n\nDate limite de dépôt de la déclaration mensuelle n°2040-TIC pour l
+ es redevables de l’accise sur l’électricité en rythme mensuel.\n\nBr
+ on: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-03\nOv
+ erzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-03
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -7044,6 +7325,1012 @@ DESCRIPTION:Date limite :\n• pour la télédéclaration et le télépaiem
  ssionnel/calendrier-fiscal/2027-03\nOverzicht: https://infofrankrijk.com/f
  iscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-03
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9106c03a8fb55d62359f74c5cf06f787@infofrankrijk.com
+LAST-MODIFIED:20261106T050702Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Belasting op loonsommen (taxe sur les salaires)
+DESCRIPTION:Taxe sur les salaires\n\nDate limite de télépaiement de la ta
+ xe concernant les salaires payés en mars (redevables mensuels) ou les sal
+ aires payés au cours du 1er trimestre (redevables trimestriels)\, à l'ai
+ de du relevé de versement provisionnel n° 2501.\n\nBron: https://www.imp
+ ots.gouv.fr/professionnel/calendrier-fiscal/2027-04\nOverzicht: https://in
+ fofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-04
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c7420d149aa8fe96575d80cc1007fb04@infofrankrijk.com
+LAST-MODIFIED:20261106T050702Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Belasting op verzekeringsovereenkomsten
+DESCRIPTION:Taxe sur les conventions d'assurances\n\nLa taxe due doit être
+  télédéclarée et télépayée avec le formulaire n°2787-SD au titre d
+ es primes émises\, des conventions conclues et des sommes échues au cour
+ s du mois de mars 2027.\n\nBron: https://www.impots.gouv.fr/professionnel/
+ calendrier-fiscal/2027-04\nOverzicht: https://infofrankrijk.com/fiscale-ka
+ lender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-04
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab9ac9cd0511cfb248c1845eceb41d1b@infofrankrijk.com
+LAST-MODIFIED:20261106T050702Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:Accijns op elektriciteit\, aardgas en steenkool
+DESCRIPTION:Accise sur l’électricité\, les gaz naturels et les charbons
+ \n\nDate limite de dépôt de la déclaration n°2040-TIC mensuelle ou tri
+ mestrielle pour l’accise sur l’électricité\, trimestrielle pour l’
+ accise sur les gaz naturels et l’accise sur les charbons en rythme trime
+ striel.\n\nBron: https://www.impots.gouv.fr/professionnel/calendrier-fisca
+ l/2027-04\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
+ /
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-04
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e1df4110396d0e90a5c34281e03447a5@infofrankrijk.com
+LAST-MODIFIED:20261106T050702Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Ondernemingen met boekjaar afgesloten op 31 januari 2027
+DESCRIPTION:Entreprises dont l'exercice est clos le 31 janvier 2027\n\nDate
+  limite de souscription de :la déclaration de résultats n° 2065 et ses 
+ annexes (impôt sur les sociétés) - délai supplémentaire de 15 jours c
+ alendaires accordé aux utilisateurs des téléprocédures \;\nla notifica
+ tion n° 2065-INT pour les entités appartenant à un groupe dans le champ
+  du Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les
+  entreprises étrangères exploitant un établissement stable en France \;
+ \nla télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\n\
+ nBron: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-04\
+ nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-04
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9ac32f5398c05887d29367a08268f8a3@infofrankrijk.com
+LAST-MODIFIED:20261106T050702Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Taxe annexe : PEEC
+DESCRIPTION:Date limite de dépôt et de paiement du bordereau n° 2485-SD 
+ pour les entreprises ne s’étant pas déjà acquittées de la PEEC aupr
+ ès d'Action Logement Services.\n\nBron: https://www.impots.gouv.fr/profes
+ sionnel/calendrier-fiscal/2027-04\nOverzicht: https://infofrankrijk.com/fi
+ scale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-04
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e742d025bb66d611b4e5cba13356a95d@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Entreprises individuelles soumises à l'impôt sur le revenu : BIC\
+ , BNC et BA
+DESCRIPTION:Date limite de souscription de la déclaration de résultats et
+  ses annexes de l'année 2026 pour les professionnels soumis à l'impôt s
+ ur le revenu dans la catégorie des BIC\, des BNC et des BA - délai suppl
+ émentaire de 15 jours calendaires accordé aux utilisateurs des télépro
+ cédures.\n\nBron: https://www.impots.gouv.fr/professionnel/calendrier-fis
+ cal/2027-05\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankri
+ jk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:50f807b91cc2677baf9762c2c467908e@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Associations
+DESCRIPTION:Date limite de dépôt de la déclaration n° 2070 pour l'impos
+ ition à taux réduit des revenus du patrimoine et de la déclaration n° 
+ 2065 - délai supplémentaire de 15 jours calendaires accordé aux utilisa
+ teurs des téléprocédures - pour les activités lucratives imposables au
+  taux normal (pour les exercices clos au 31/12/2026).\n\nBron: https://www
+ .impots.gouv.fr/professionnel/calendrier-fiscal/2027-05\nOverzicht: https:
+ //infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:53a9c78ef56073dc650a4669414ffd67@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Résultats soumis à l'impôt sur le revenu
+DESCRIPTION:Date limite de :\n\nsouscription de la déclaration n° 2072 de
+ s résultats des SCI non soumises à l'IS - délai supplémentaire de 15 j
+ ours calendaires accordé aux utilisateurs des téléprocédures \;\n\npai
+ ement\, le cas échéant\, de la contribution sur les revenus locatifs à 
+ l'appui de la déclaration n° 2072 \;\n\ndépôt de la déclaration n° 2
+ 071 des résultats des sociétés immobilières de copropriété n° 1655 
+ ter.\n\nBron: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2
+ 027-05\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a28d127fc1352934a6a27344b6924acd@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Sociétés civiles immobilières
+DESCRIPTION:Date limite de souscription des déclarations nos 2071 et 2072 
+ - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs
+  des téléprocédures.\n\nBron: https://www.impots.gouv.fr/professionnel/
+ calendrier-fiscal/2027-05\nOverzicht: https://infofrankrijk.com/fiscale-ka
+ lender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1b3f844ae89f83846b1fc6d5c036e75f@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Sociétés soumises à la retenue à la source
+DESCRIPTION:Date limite de dépôt de la déclaration de retenue à la sour
+ ce n° 2754 pour les entreprises étrangères exploitant un établissement
+  stable en France\, dont l'exercice est clos le 31/12/2026.\n\nBron: https
+ ://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05\nOverzicht: 
+ https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0a0d5e5a1dd415d98c59a84b15c0ab07@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Sociétés civiles de moyens
+DESCRIPTION:Date limite de dépôt de la déclaration n° 2036 - délai sup
+ plémentaire de 15 jours calendaires accordé aux utilisateurs des télép
+ rocédures.\n\nBron: https://www.impots.gouv.fr/professionnel/calendrier-f
+ iscal/2027-05\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frank
+ rijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f3dcf753afcb59cfe0f777be4897c78e@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Sociétés de personnes soumises à l'impôt sur le revenu (hors SC
+ M)
+DESCRIPTION:Date limite de souscription de la déclaration de résultats - 
+ délai supplémentaire de 15 jours calendaires accordé aux utilisateurs d
+ es téléprocédures.\n\nBron: https://www.impots.gouv.fr/professionnel/ca
+ lendrier-fiscal/2027-05\nOverzicht: https://infofrankrijk.com/fiscale-kale
+ nder-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bedb2ed06d2c3c2e6f8f5df7b7c6026b@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Sociétés soumises à l'impôt sur les sociétés
+DESCRIPTION:Date limite de souscription de la déclaration de résultats n
+ ° 2065 de l'exercice clos le 31 décembre 2026 pour les entreprises passi
+ bles de l'impôt sur les sociétés - délai supplémentaire de 15 jours c
+ alendaires accordé aux utilisateurs des téléprocédures.\n\nBron: https
+ ://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05\nOverzicht: 
+ https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:90b3c12fe61f462e3e57d28185453c4e@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Taxe sur les véhicules de tourisme (taxe sur les émissions de dio
+ xyde de carbone \; taxe sur l’ancienneté des véhicules)
+DESCRIPTION:Si l'entreprise relève d'un régime simplifié d'imposition ou
+  du régime simplifié agricole : les taxes doivent être déclarées et p
+ ayées sur la déclaration 3517 CA12.\n\nBron: https://www.impots.gouv.fr/
+ professionnel/calendrier-fiscal/2027-05\nOverzicht: https://infofrankrijk.
+ com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a1c774cd652e2f3bad3956728aaf34ec@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+SUMMARY:Imposition minimale mondiale des groupes (Pilier 2)
+DESCRIPTION:Date limite de souscription de la notification n° 2065-INT de 
+ l'exercice clos le 31 décembre 2026 pour les entités appartenant à un g
+ roupe situé dans le champ du Pilier 2 - délai supplémentaire de 15 jour
+ s calendaires accordé aux utilisateurs des téléprocédures.\n\nBron: ht
+ tps://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05\nOverzich
+ t: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:51f88488f370493efe5b18d79d4d6ed3@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+SUMMARY:Belasting op verzekeringsovereenkomsten
+DESCRIPTION:Taxe sur les conventions d'assurances\n\nLa taxe due doit être
+  télédéclarée et télépayée avec le formulaire n°2787-SD au titre d
+ es primes émises\, des conventions conclues et des sommes échues au cour
+ s du mois d'avril 2027.\n\nBron: https://www.impots.gouv.fr/professionnel/
+ calendrier-fiscal/2027-05\nOverzicht: https://infofrankrijk.com/fiscale-ka
+ lender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:70e3c986e2df8854c4dedd4dce83a7e0@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+SUMMARY:Vennootschappen onderworpen aan vennootschapsbelasting (IS)
+DESCRIPTION:Sociétés soumises à l'IS\n\nDate limite de télépaiement du
+  solde de l'IS et de la contribution sociale sur l'IS de 3\,3 % à l'aide 
+ du relevé de solde n° 2572\, si votre exercice est clos le 31 décembre 
+ 2026 ou le 31 janvier 2027.\n\nBron: https://www.impots.gouv.fr/profession
+ nel/calendrier-fiscal/2027-05\nOverzicht: https://infofrankrijk.com/fiscal
+ e-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a2ec9ee4ec5e47ed3a0ee5aa670fc1e9@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+SUMMARY:Belasting op loonsommen (taxe sur les salaires)
+DESCRIPTION:Taxe sur les salaires\n\nDate limite de télépaiement de la ta
+ xe concernant les salaires payés en avril (redevables mensuels) à l'aide
+  du relevé de versement provisionnel n° 2501.\n\nBron: https://www.impot
+ s.gouv.fr/professionnel/calendrier-fiscal/2027-05\nOverzicht: https://info
+ frankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2a4ad0bb275d37330759cf1738db0884@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:Accijns op elektriciteit\, aardgas en steenkool
+DESCRIPTION:Accise sur l’électricité\, les gaz naturels et les charbons
+ \n\nDate limite de dépôt de la déclaration mensuelle n°2040-TIC pour l
+ es redevables de l’accise sur l’électricité en rythme mensuel.\n\nBr
+ on: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05\nOv
+ erzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1fbca0a244bd196a7804bbac75e40bf1@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:Accijns op elektriciteit\, aardgas en steenkool
+DESCRIPTION:Accise sur l’électricité\, les gaz naturels et les charbons
+ \n\nDate limite de dépôt de l’annexe n° 2040-TIC-LC à la déclaratio
+ n de résultats (listes des clients non-domestiques prélevés en exonéra
+ tion ou à tarif réduit d’accise sur l’électricité\, les gaz nature
+ ls et les charbons).\n\nBron: https://www.impots.gouv.fr/professionnel/cal
+ endrier-fiscal/2027-05\nOverzicht: https://infofrankrijk.com/fiscale-kalen
+ der-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1d2a808441b6ab04326d922ef8c09c75@infofrankrijk.com
+LAST-MODIFIED:20261106T050751Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:Ondernemingen met boekjaar afgesloten op 28 februari 2027
+DESCRIPTION:Entreprises dont l'exercice est clos le 28 février 2027\n\nDat
+ e limite de souscription de :de la déclaration de résultats n° 2065 et 
+ ses annexes (impôt sur les sociétés) - délai supplémentaire de 15 jou
+ rs calendaires accordé aux utilisateurs des téléprocédures \;\nla noti
+ fication n° 2065-INT pour les entités appartenant à un groupe dans le c
+ hamp du Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour
+  les entreprises étrangères exploitant un établissement stable en Franc
+ e \;\nla télédéclaration annuelle n° CA12 E (TVA - régime simplifié)
+ .\n\nBron: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027
+ -05\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-05
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2e0f0a794efb93504c0380367f13c7c1@infofrankrijk.com
+LAST-MODIFIED:20261106T050842Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:Belasting op loonsommen (taxe sur les salaires)
+DESCRIPTION:Taxe sur les salaires\n\nDate limite de télépaiement de la ta
+ xe concernant les salaires payés en mai (redevables mensuels) à l'aide d
+ u relevé de versement provisionnel n° 2501.\n\nBron: https://www.impots.
+ gouv.fr/professionnel/calendrier-fiscal/2027-06\nOverzicht: https://infofr
+ ankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-06
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dbbc48490caa098a3dfb67ad80b66a83@infofrankrijk.com
+LAST-MODIFIED:20261106T050842Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:Vennootschappen onderworpen aan vennootschapsbelasting (IS)
+DESCRIPTION:Sociétés soumises à l'IS\n\nDate limite de télépaiement :d
+ e l'acompte de l'impôt sur les sociétés et de la contribution sociale s
+ ur l'IS de 3\,3 % à l'aide du relevé d'acompte n° 2571 \;\ndu solde de 
+ l'impôt sur les sociétés et de la contribution sociale sur l’IS de 3\
+ ,3 % à l'aide du relevé de solde n° 2572\, si votre exercice est clos l
+ e 28 février 2027.\n\nBron: https://www.impots.gouv.fr/professionnel/cale
+ ndrier-fiscal/2027-06\nOverzicht: https://infofrankrijk.com/fiscale-kalend
+ er-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-06
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e40d98c3c2c1651a98f358b117f3f134@infofrankrijk.com
+LAST-MODIFIED:20261106T050842Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:Belasting op verzekeringsovereenkomsten
+DESCRIPTION:Taxe sur les conventions d'assurances\n\nLa taxe due doit être
+  télédéclarée et télépayée avec le formulaire n°2787-SD au titre d
+ es primes émises\, des conventions conclues et des sommes échues au cour
+ s du mois de mai 2027.\n\nBron: https://www.impots.gouv.fr/professionnel/c
+ alendrier-fiscal/2027-06\nOverzicht: https://infofrankrijk.com/fiscale-kal
+ ender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-06
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aca29d29b07bd117ea3850dd61b9953b@infofrankrijk.com
+LAST-MODIFIED:20261106T050842Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270626
+SUMMARY:Accijns op elektriciteit\, aardgas en steenkool
+DESCRIPTION:Accise sur l’électricité\, les gaz naturels et les charbons
+ \n\nDate limite de dépôt de la déclaration mensuelle n°2040-TIC pour l
+ es redevables de l’accise sur l’électricité en rythme mensuel.\n\nBr
+ on: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-06\nOv
+ erzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-06
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ad50bfb382fa323fecbe5229110cac06@infofrankrijk.com
+LAST-MODIFIED:20261106T050842Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:Ondernemingen met boekjaar afgesloten op 31 maart 2027
+DESCRIPTION:Entreprises dont l'exercice est clos le 31 mars 2027\n\nDate li
+ mite de souscription de :la déclaration de résultats n° 2065 et ses ann
+ exes (impôt sur les sociétés) - délai supplémentaire de 15 jours cale
+ ndaires accordé aux utilisateurs des téléprocédures \;\nla notificatio
+ n n° 2065-INT pour les entités appartenant à un groupe dans le champ du
+  Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les en
+ treprises étrangères exploitant un établissement stable en France \;\nl
+ a télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\n\nBr
+ on: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-06\nOv
+ erzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-06
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d2d3e28c6b235622a1f5b00723ce6eae@infofrankrijk.com
+LAST-MODIFIED:20261106T050842Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:Imposition minimale mondiale des groupes (Pilier 2)
+DESCRIPTION:Date limite :\n• pour la télédéclaration et le télépaiem
+ ent de l'impôt complémentaire dû en France\, à l'aide du relevé de pa
+ iement n° 2272-SD\, si votre exercice est clos le 31 décembre 2025 (18 m
+ ois à compter de la clôture du 1er exercice puis 15 mois pour les exerci
+ ces suivants) \;\n• de souscription de la déclaration d'informations n
+ ° 2259-SD de l'exercice clos le 31 décembre 2025 (18 mois à compter de 
+ la clôture du 1er exercice puis 15 mois pour les exercices suivants).\n\n
+ Bron: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-06\n
+ Overzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-06
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:82369056f89479acc9db8582e7568223@infofrankrijk.com
+LAST-MODIFIED:20261106T050953Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:Belasting op loonsommen (taxe sur les salaires)
+DESCRIPTION:Taxe sur les salaires\n\nDate limite de télépaiement de la ta
+ xe concernant les salaires payés en juin (redevables mensuels) ou les sal
+ aires payés au cours du 2ème trimestre (redevables trimestriels) à l'ai
+ de du relevé de versement provisionnel n° 2501.\n\nBron: https://www.imp
+ ots.gouv.fr/professionnel/calendrier-fiscal/2027-07\nOverzicht: https://in
+ fofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-07
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b36d0fa49a7f841a6390798012091921@infofrankrijk.com
+LAST-MODIFIED:20261106T050953Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:Belasting op verzekeringsovereenkomsten
+DESCRIPTION:Taxe sur les conventions d'assurances\n\nLa taxe due doit être
+  télédéclarée et télépayée avec le formulaire n°2787-SD au titre d
+ es primes émises\, des conventions conclues et des sommes échues au cour
+ s du mois de juin 2027.\n\nBron: https://www.impots.gouv.fr/professionnel/
+ calendrier-fiscal/2027-07\nOverzicht: https://infofrankrijk.com/fiscale-ka
+ lender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-07
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6147979715a852ef7de6bad45f3ef56f@infofrankrijk.com
+LAST-MODIFIED:20261106T050953Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:Vennootschappen onderworpen aan vennootschapsbelasting (IS)
+DESCRIPTION:Sociétés soumises à l'IS\n\nDate limite de télépaiement du
+  solde de l'impôt sur les sociétés (IS) et de la contribution sociale s
+ ur l'IS de 3\,3 %\, à l'aide du relevé de solde n° 2572\, si votre exer
+ cice est clos le 31 mars 2027.\n\nBron: https://www.impots.gouv.fr/profess
+ ionnel/calendrier-fiscal/2027-07\nOverzicht: https://infofrankrijk.com/fis
+ cale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-07
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c0d2567f0950364324c9d2ca1d3f6e64@infofrankrijk.com
+LAST-MODIFIED:20261106T050953Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270727
+SUMMARY:Accijns op elektriciteit\, aardgas en steenkool
+DESCRIPTION:Accise sur l’électricité\, les gaz naturels et les charbons
+ \n\nDate limite de dépôt de la déclaration n°2040-TIC mensuelle ou tri
+ mestrielle pour l’accise sur l’électricité\, trimestrielle pour l’
+ accise sur les gaz naturels et l’accise sur les charbons en rythme trime
+ striel.\n\nBron: https://www.impots.gouv.fr/professionnel/calendrier-fisca
+ l/2027-07\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
+ /
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-07
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c7fcf9842fea64e48631a086b6b4d77b@infofrankrijk.com
+LAST-MODIFIED:20261106T051052Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+SUMMARY:Ondernemingen met boekjaar afgesloten op 30 april 2027
+DESCRIPTION:Entreprises dont l'exercice est clos le 30 avril 2027\n\nDate l
+ imite de souscription de :la déclaration de résultats n° 2065 et ses an
+ nexes (impôt sur les sociétés) - délai supplémentaire de 15 jours cal
+ endaires accordé aux utilisateurs des téléprocédures \;\nla notificati
+ on n° 2065-INT pour les entités appartenant à un groupe dans le champ d
+ u Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les e
+ ntreprises étrangères exploitant un établissement stable en France \;\n
+ la télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\n\nB
+ ron: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-08\nO
+ verzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-08
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:424f1387474549fd2fe95a2e01176e37@infofrankrijk.com
+LAST-MODIFIED:20261106T051052Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+SUMMARY:Belasting op loonsommen (taxe sur les salaires)
+DESCRIPTION:Taxe sur les salaires\n\nDate limite de télépaiement de la ta
+ xe concernant les salaires payés en juillet (redevables mensuels) à l'ai
+ de du relevé de versement provisionnel n° 2501.\n\nBron: https://www.imp
+ ots.gouv.fr/professionnel/calendrier-fiscal/2027-08\nOverzicht: https://in
+ fofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-08
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:813a49775c1faa6616ee3f1e419b9711@infofrankrijk.com
+LAST-MODIFIED:20261106T051052Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+SUMMARY:Belasting op verzekeringsovereenkomsten
+DESCRIPTION:Taxe sur les conventions d'assurances\n\nLa taxe due doit être
+  télédéclarée et télépayée avec le formulaire n°2787-SD au titre d
+ es primes émises\, des conventions conclues et des sommes échues au cour
+ s du mois de juillet 2027.\n\nBron: https://www.impots.gouv.fr/professionn
+ el/calendrier-fiscal/2027-08\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-08
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7c204c5e37b15ea016dad165e9de80a0@infofrankrijk.com
+LAST-MODIFIED:20261106T051052Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+SUMMARY:Vennootschappen onderworpen aan vennootschapsbelasting (IS)
+DESCRIPTION:Sociétés soumises à l'IS\n\nDate limite de télépaiement du
+  solde de l’impôt sur les sociétés (IS) et de la contribution sociale
+  sur l’IS de 3\,3 %\, à l'aide du relevé de solde n° 2572\, si votre 
+ exercice est clos le 30 avril 2027.\n\nBron: https://www.impots.gouv.fr/pr
+ ofessionnel/calendrier-fiscal/2027-08\nOverzicht: https://infofrankrijk.co
+ m/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-08
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:af245334765b0cf4259078b03f18d8f6@infofrankrijk.com
+LAST-MODIFIED:20261106T051052Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270826
+SUMMARY:Accijns op elektriciteit\, aardgas en steenkool
+DESCRIPTION:Accise sur l’électricité\, les gaz naturels et les charbons
+ \n\nDate limite de dépôt de la déclaration mensuelle n°2040-TIC pour l
+ es redevables de l’accise sur l’électricité en rythme mensuel.\n\nBr
+ on: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-08\nOv
+ erzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-08
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3863ed18ed1632290343a2db0e6e2631@infofrankrijk.com
+LAST-MODIFIED:20261106T051052Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:Ondernemingen met boekjaar afgesloten op 31 mei 2027
+DESCRIPTION:Entreprises dont l'exercice est clos le 31 mai 2027\n\nDate lim
+ ite de souscription de :la déclaration de résultats n° 2065 et ses anne
+ xes (impôt sur les sociétés) - délai supplémentaire de 15 jours calen
+ daires accordé aux utilisateurs des téléprocédures \;\nla notification
+  n° 2065-INT pour les entités appartenant à un groupe dans le champ du 
+ Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les ent
+ reprises étrangères exploitant un établissement stable en France \;\nla
+  télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\n\nBro
+ n: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-08\nOve
+ rzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-08
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f56778a5a8b262b503f2cee0d9443d37@infofrankrijk.com
+LAST-MODIFIED:20261106T051150Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:Belasting op loonsommen (taxe sur les salaires)
+DESCRIPTION:Taxe sur les salaires\n\nDate limite de télépaiement de la ta
+ xe concernant les salaires payés en août (redevables mensuels) à l'aide
+  du relevé de versement provisionnel n° 2501.\n\nBron: https://www.impot
+ s.gouv.fr/professionnel/calendrier-fiscal/2027-09\nOverzicht: https://info
+ frankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-09
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:674e1fc85cb24b1cb4067af3b45b553c@infofrankrijk.com
+LAST-MODIFIED:20261106T051150Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:Belasting op verzekeringsovereenkomsten
+DESCRIPTION:Taxe sur les conventions d'assurances\n\nLa taxe due doit être
+  télédéclarée et télépayée avec le formulaire n°2787-SD au titre d
+ es primes émises\, des conventions conclues et des sommes échues au cour
+ s du mois d'août 2027.\n\nBron: https://www.impots.gouv.fr/professionnel/
+ calendrier-fiscal/2027-09\nOverzicht: https://infofrankrijk.com/fiscale-ka
+ lender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-09
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ce2698da79d3fcdc97aa31c2c380ad2c@infofrankrijk.com
+LAST-MODIFIED:20261106T051150Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:Vennootschappen onderworpen aan vennootschapsbelasting (IS)
+DESCRIPTION:Sociétés soumises à l'IS\n\nDate limite de télépaiement :d
+ e l'acompte de l'impôt sur les sociétés (IS) et de la contribution soci
+ ale sur l'IS de 3\,3 % à l'aide du relevé d'acompte n° 2571 \;\ndu sold
+ e de l'impôt sur les sociétés (IS)et de la contribution sociale sur l'I
+ S de 3\,3 %\, à l'aide du relevé de solde n° 2572\, si votre exercice e
+ st clos le 31 mai 2027.\n\nBron: https://www.impots.gouv.fr/professionnel/
+ calendrier-fiscal/2027-09\nOverzicht: https://infofrankrijk.com/fiscale-ka
+ lender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-09
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c09ffb255a759e26fba764b73c561e8b@infofrankrijk.com
+LAST-MODIFIED:20261106T051150Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270927
+DTEND;VALUE=DATE:20270928
+SUMMARY:Accijns op elektriciteit\, aardgas en steenkool
+DESCRIPTION:Accise sur l’électricité\, les gaz naturels et les charbons
+ \n\nDate limite de dépôt de la déclaration mensuelle n°2040-TIC pour l
+ es redevables de l’accise sur l’électricité en rythme mensuel\n\nBro
+ n: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-09\nOve
+ rzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-09
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0fe8414646d080615bd85095930438ac@infofrankrijk.com
+LAST-MODIFIED:20261106T051150Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:Ondernemingen met boekjaar afgesloten op 30 juni 2027
+DESCRIPTION:Entreprises dont l'exercice est clos le 30 juin 2027\n\nDate li
+ mite de souscription de :la déclaration de résultats n° 2065 et ses ann
+ exes (impôt sur les sociétés) - délai supplémentaire de 15 jours cale
+ ndaires accordé aux utilisateurs des téléprocédures \;\nla notificatio
+ n n° 2065-INT pour les entités appartenant à un groupe dans le champ du
+  Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les en
+ treprises étrangères exploitant un établissement stable en France \;\nl
+ a télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\n\nBr
+ on: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-09\nOv
+ erzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-09
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c85a1862b690bf9dc1ca58c3d7636ad1@infofrankrijk.com
+LAST-MODIFIED:20261106T051343Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+SUMMARY:Belasting op loonsommen (taxe sur les salaires)
+DESCRIPTION:Taxe sur les salaires\n\nDate limite de télépaiement de la ta
+ xe concernant les salaires payés en septembre (redevables mensuels) ou le
+ s salaires payés au cours du 3ème trimestre (redevables trimestriels) à
+  l'aide du relevé de versement provisionnel n° 2501.\n\nBron: https://ww
+ w.impots.gouv.fr/professionnel/calendrier-fiscal/2027-10\nOverzicht: https
+ ://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-10
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ee3eff7687d0675194a510b019bb4b18@infofrankrijk.com
+LAST-MODIFIED:20261106T051343Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+SUMMARY:Belasting op verzekeringsovereenkomsten
+DESCRIPTION:Taxe sur les conventions d'assurances\n\nLa taxe due doit être
+  télédéclarée et télépayée avec le formulaire n°2787-SD au titre d
+ es primes émises\, des conventions conclues et des sommes échues au cour
+ s du mois de septembre 2027.\n\nBron: https://www.impots.gouv.fr/professio
+ nnel/calendrier-fiscal/2027-10\nOverzicht: https://infofrankrijk.com/fisca
+ le-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-10
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff47d574657386c15daeed3319d88259@infofrankrijk.com
+LAST-MODIFIED:20261106T051343Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+SUMMARY:Vennootschappen onderworpen aan vennootschapsbelasting (IS)
+DESCRIPTION:Sociétés soumises à l'IS\n\nDate limite de télépaiement du
+  solde de l'impôt sur les sociétés (IS) et de la contribution sociale s
+ ur l'IS de 3\,3 %\, à l'aide du relevé de solde n° 2572\, si votre exer
+ cice est clos le 30 juin 2027.\n\nBron: https://www.impots.gouv.fr/profess
+ ionnel/calendrier-fiscal/2027-10\nOverzicht: https://infofrankrijk.com/fis
+ cale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-10
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e45abfc5741799a237005520606dc48a@infofrankrijk.com
+LAST-MODIFIED:20261106T051343Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271026
+SUMMARY:Accijns op elektriciteit\, aardgas en steenkool
+DESCRIPTION:Accise sur l’électricité\, les gaz naturels et les charbons
+ \n\nDate limite de dépôt de la déclaration n°2040-TIC mensuelle ou tri
+ mestrielle pour l’accise sur l’électricité\, trimestrielle pour l’
+ accise sur les gaz naturels et l’accise sur les charbons en rythme trime
+ striel.\n\nBron: https://www.impots.gouv.fr/professionnel/calendrier-fisca
+ l/2027-10\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
+ /
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-10
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:40338f0dc3b83c394a7ad7aaa2b8dad1@infofrankrijk.com
+LAST-MODIFIED:20261106T051436Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
+SUMMARY:Ondernemingen met boekjaar afgesloten op 31 juli 2027
+DESCRIPTION:Entreprises dont l'exercice est clos le 31 juillet 2027\n\nDate
+  limite de souscription de :la déclaration de résultats n° 2065 et ses 
+ annexes (impôt sur les sociétés) - délai supplémentaire de 15 jours c
+ alendaires accordé aux utilisateurs des téléprocédures \;\nla notifica
+ tion n° 2065-INT pour les entités appartenant à un groupe dans le champ
+  du Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les
+  entreprises étrangères exploitant un établissement stable en France \;
+ \nla télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\n\
+ nBron: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-11\
+ nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-11
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4220d686ea854fd1891d6cf0add7bea1@infofrankrijk.com
+LAST-MODIFIED:20261106T051436Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
+SUMMARY:Belasting op loonsommen (taxe sur les salaires)
+DESCRIPTION:Taxe sur les salaires\n\nDate limite de télépaiement de la ta
+ xe concernant les salaires payés en octobre (redevables mensuels) à l'ai
+ de du relevé de versement provisionnel n° 2501.\n\nBron: https://www.imp
+ ots.gouv.fr/professionnel/calendrier-fiscal/2027-11\nOverzicht: https://in
+ fofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-11
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3f0bb904e944fb14e559b68b8f6d6871@infofrankrijk.com
+LAST-MODIFIED:20261106T051436Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
+SUMMARY:Belasting op verzekeringsovereenkomsten
+DESCRIPTION:Taxe sur les conventions d'assurances\n\nLa taxe due doit être
+  télédéclarée et télépayée avec le formulaire n°2787-SD au titre d
+ es primes émises\, des conventions conclues et des sommes échues au cour
+ s du mois d'octobre 2027.\n\nBron: https://www.impots.gouv.fr/professionne
+ l/calendrier-fiscal/2027-11\nOverzicht: https://infofrankrijk.com/fiscale-
+ kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-11
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8980e65c8ee768da325a7e6e3441d04b@infofrankrijk.com
+LAST-MODIFIED:20261106T051436Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
+SUMMARY:Vennootschappen onderworpen aan vennootschapsbelasting (IS)
+DESCRIPTION:Sociétés soumises à l'IS\n\nDate limite de télépaiement du
+  solde de l'impôt sur les sociétés et de la contribution sociale sur l'
+ IS de 3\,3 %\, à l'aide du relevé de solde n° 2572 si votre exercice es
+ t clos le 31 juillet 2027.\n\nBron: https://www.impots.gouv.fr/professionn
+ el/calendrier-fiscal/2027-11\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-11
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7532a1ab557b28371b1b66152de54c19@infofrankrijk.com
+LAST-MODIFIED:20261106T051436Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
+SUMMARY:Accijns op elektriciteit\, aardgas en steenkool
+DESCRIPTION:Accise sur l’électricité\, les gaz naturels et les charbons
+ \n\nDate limite de dépôt de la déclaration mensuelle n°2040-TIC pour l
+ es redevables de l’accise sur l’électricité en rythme mensuel.\n\nBr
+ on: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-11\nOv
+ erzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-11
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b2dfa0e3f7f4584e62c1615ebb1aaa68@infofrankrijk.com
+LAST-MODIFIED:20261106T051436Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271130
+DTEND;VALUE=DATE:20271201
+SUMMARY:Ondernemingen met boekjaar afgesloten op 31 augustus 2027
+DESCRIPTION:Entreprises dont l'exercice est clos le 31 août 2027\n\nDate l
+ imite de souscription de :la déclaration de résultats n° 2065 et ses an
+ nexes (impôt sur les sociétés) délai supplémentaire de 15 jours calen
+ daires accordé aux utilisateurs des téléprocédures \;\nla notification
+  n° 2065-INT pour les entités appartenant à un groupe dans le champ du 
+ Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les ent
+ reprises étrangères exploitant un établissement stable en France \;\nla
+  télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\n\nBro
+ n: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-11\nOve
+ rzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-11
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eb7e40aee0b57e4d345100debd69dfac@infofrankrijk.com
+LAST-MODIFIED:20261106T051555Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271215
+DTEND;VALUE=DATE:20271216
+SUMMARY:Belasting op loonsommen (taxe sur les salaires)
+DESCRIPTION:Taxe sur les salaires\n\nDate limite de télépaiement de la ta
+ xe concernant les salaires payés en novembre (redevables mensuels) à l'a
+ ide du relevé de versement provisionnel n° 2501.\n\nBron: https://www.im
+ pots.gouv.fr/professionnel/calendrier-fiscal/2027-12\nOverzicht: https://i
+ nfofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-12
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:25aac76bcbab95213264900b4948b92f@infofrankrijk.com
+LAST-MODIFIED:20261106T051555Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271215
+DTEND;VALUE=DATE:20271216
+SUMMARY:Belasting op verzekeringsovereenkomsten
+DESCRIPTION:Taxe sur les conventions d'assurances\n\nLa taxe due doit être
+  télédéclarée et télépayée avec le formulaire n°2787-SD au titre d
+ es primes émises\, des conventions conclues et des sommes échues au cour
+ s du mois de novembre 2027.\n\nBron: https://www.impots.gouv.fr/profession
+ nel/calendrier-fiscal/2027-12\nOverzicht: https://infofrankrijk.com/fiscal
+ e-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-12
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eedc5c547ee455502905256715c81bcd@infofrankrijk.com
+LAST-MODIFIED:20261106T051555Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271215
+DTEND;VALUE=DATE:20271216
+SUMMARY:Vennootschappen onderworpen aan vennootschapsbelasting (IS)
+DESCRIPTION:Sociétés soumises à l'IS\n\nDate limite de télépaiement :d
+ e l'acompte de l'impôt sur les sociétés (IS)\, de la contribution socia
+ le sur l'IS de 3\,3 % à l'aide du relevé d'acompte n° 2571 \;\ndu solde
+  de l'IS et de la contribution sociale sur l'IS de 3\,3 %\, à l'aide du r
+ elevé de solde n° 2572\, si votre exercice est clos le 31 août 2027.\n\
+ nBron: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-12\
+ nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-12
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:83714c4ca57aa75013cbad28ad950bdd@infofrankrijk.com
+LAST-MODIFIED:20261106T051555Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271227
+DTEND;VALUE=DATE:20271228
+SUMMARY:Accijns op elektriciteit\, aardgas en steenkool
+DESCRIPTION:Accise sur l’électricité\, les gaz naturels et les charbons
+ \n\nDate limite de dépôt de la déclaration mensuelle n°2040-TIC pour l
+ es redevables de l’accise sur l’électricité en rythme mensuel.\n\nBr
+ on: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-12\nOv
+ erzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-12
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:55a400bf51cdb294dd77af44d6ad2cf8@infofrankrijk.com
+LAST-MODIFIED:20261106T051555Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+SUMMARY:Ondernemingen met boekjaar afgesloten op 30 september 2027
+DESCRIPTION:Entreprises dont l'exercice est clos le 30 septembre 2027\n\nDa
+ te limite de souscription de :la déclaration de résultats n° 2065 et se
+ s annexes (impôt sur les sociétés) - délai supplémentaire de 15 jours
+  calendaires accordé aux utilisateurs des téléprocédures \;\nla notifi
+ cation n° 2065-INT pour les entités appartenant à un groupe dans le cha
+ mp du Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour l
+ es entreprises étrangères exploitant un établissement stable en France 
+ \;\nla télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\
+ n\nBron: https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-1
+ 2\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+URL:https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-12
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT

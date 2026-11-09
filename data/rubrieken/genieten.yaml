@@ -241,31 +241,31 @@
   opmerking: "Datum 2027 nog niet aangekondigd; 15 mei is een plaatshouder."
 
 - id: fete-des-voisins-2027
-  titel: "Fête des voisins"
+  titel: "Fête des voisins (waarschijnlijke datum)"
   rubriek: genieten
   soort: datum
   doelgroepen: [iedereen]
   wanneer: {datum: 2027-05-28}
   aftellen: [7]
   gebied: "heel Frankrijk"
-  tekst: "Op de Fête des voisins nodigen buren elkaar uit voor een borrel of maaltijd op straat, in de tuin of op de binnenplaats."
-  bron: {url: https://www.connexionfrance.com/news/fte-des-voisins-10-million-neighbours-in-france-to-meet-this-friday/623649, gecontroleerd: 2026-11-09}
-  status: te_verifieren
+  tekst: "Op de Fête des voisins nodigen buren elkaar uit voor een borrel of maaltijd op straat, in de tuin of op de binnenplaats. De officiële datum is nog niet bekend; dit is de waarschijnlijke datum volgens icalendrier.fr."
+  bron: {url: https://icalendrier.fr/fetes/fete-des-voisins/, gecontroleerd: 2026-11-09}
+  status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: ja
-  opmerking: "Datum 2027 geschat (icalendrier.fr: vrijdag 28 mei, geschat). De vereniging Immeubles en fête kiest de datum, meestal de laatste vrijdag van mei of de eerste van juni; 2026 was vrijdag 29 mei. Pas op vastgesteld zetten na de aankondiging op lafetedesvoisins.fr."
+  opmerking: "Datum 2027 geschat (icalendrier.fr: vrijdag 28 mei, geschat). De vereniging Immeubles en fête kiest de datum, meestal de laatste vrijdag van mei of de eerste van juni; 2026 was vrijdag 29 mei. Op besluit van Anton (9-11-2026) zichtbaar als waarschijnlijke datum; na de aankondiging op lafetedesvoisins.fr titel, tekst, datum en bron bijwerken."
 
 - id: fete-des-voisins-2028
-  titel: "Fête des voisins"
+  titel: "Fête des voisins (waarschijnlijke datum)"
   rubriek: genieten
   soort: datum
   doelgroepen: [iedereen]
   wanneer: {datum: 2028-05-26}
   aftellen: [7]
   gebied: "heel Frankrijk"
-  tekst: "Op de Fête des voisins nodigen buren elkaar uit voor een borrel of maaltijd op straat, in de tuin of op de binnenplaats."
-  bron: {url: https://www.connexionfrance.com/news/fte-des-voisins-10-million-neighbours-in-france-to-meet-this-friday/623649, gecontroleerd: 2026-11-09}
-  status: te_verifieren
+  tekst: "Op de Fête des voisins nodigen buren elkaar uit voor een borrel of maaltijd op straat, in de tuin of op de binnenplaats. De officiële datum is nog niet bekend; dit is de waarschijnlijke datum volgens icalendrier.fr."
+  bron: {url: https://icalendrier.fr/fetes/fete-des-voisins/, gecontroleerd: 2026-11-09}
+  status: vastgesteld
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: ja
-  opmerking: "Datum 2028 geschat (icalendrier.fr: vrijdag 26 mei, geschat). De vereniging Immeubles en fête kiest de datum, meestal de laatste vrijdag van mei of de eerste van juni; 2026 was vrijdag 29 mei. Pas op vastgesteld zetten na de aankondiging op lafetedesvoisins.fr."
+  opmerking: "Datum 2028 geschat (icalendrier.fr: vrijdag 26 mei, geschat). De vereniging Immeubles en fête kiest de datum, meestal de laatste vrijdag van mei of de eerste van juni; 2026 was vrijdag 29 mei. Op besluit van Anton (9-11-2026) zichtbaar als waarschijnlijke datum; na de aankondiging op lafetedesvoisins.fr titel, tekst, datum en bron bijwerken."

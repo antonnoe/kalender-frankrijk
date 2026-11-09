@@ -254,3 +254,18 @@
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: ja
   opmerking: "Datum 2027 geschat (icalendrier.fr: vrijdag 28 mei, geschat). De vereniging Immeubles en fête kiest de datum, meestal de laatste vrijdag van mei of de eerste van juni; 2026 was vrijdag 29 mei. Pas op vastgesteld zetten na de aankondiging op lafetedesvoisins.fr."
+
+- id: fete-des-voisins-2028
+  titel: "Fête des voisins"
+  rubriek: genieten
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2028-05-26}
+  aftellen: [7]
+  gebied: "heel Frankrijk"
+  tekst: "Op de Fête des voisins nodigen buren elkaar uit voor een borrel of maaltijd op straat, in de tuin of op de binnenplaats."
+  bron: {url: https://www.connexionfrance.com/news/fte-des-voisins-10-million-neighbours-in-france-to-meet-this-friday/623649, gecontroleerd: 2026-11-09}
+  status: te_verifieren
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Datum 2028 geschat (icalendrier.fr: vrijdag 26 mei, geschat). De vereniging Immeubles en fête kiest de datum, meestal de laatste vrijdag van mei of de eerste van juni; 2026 was vrijdag 29 mei. Pas op vastgesteld zetten na de aankondiging op lafetedesvoisins.fr."

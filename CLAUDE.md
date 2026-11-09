@@ -53,6 +53,7 @@ Bronnen: README.md en REGIE.md.
 - Tekst staat nooit in een url-veld.
 - Wijzigingen aan data gaan via commits op main; de controle (`npm run controleer`) moet groen zijn.
 - Rubriek `genieten` heet sinds 9 november 2026 "Franse tradities" (knopje "Tradities"); de id `genieten` blijft, want /ical/genieten.ics is het adres van bestaande agenda-abonnementen. Een id van een rubriek verander je nooit.
+- Cache van de API (lib/api.js, CACHE): browser maximaal 5 minuten (max-age=300), CDN een uur (s-maxage=3600; Vercel leegt die bij elke nieuwe uitrol). Langer in de browser betekent dat een naamswijziging tot een uur half zichtbaar is in InfoPoche (gezien op 9-11-2026 bij de rubriek Tradities).
 - Open volgens REGIE.md: nieuwsbrief tekent de regels van "Vandaag in het kort", plugin installeren in WordPress, bosbrand koppelen, invulscherm in Cockpit.
 
 ## Laatst nagelopen

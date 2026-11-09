@@ -35,7 +35,7 @@ test('/api/items: periode over de jaargrens verschijnt met zijn volledige duur',
 test('/api/vandaag geeft de vorm uit het ontwerp', () => {
   const r = vraag('/api/vandaag', { datum: '2026-11-02' });
   const d = JSON.parse(r.body);
-  assert.deepEqual(Object.keys(d), ['datum', 'banner', 'regels', 'weggelaten', 'naamdag']);
+  assert.deepEqual(Object.keys(d), ['datum', 'banner', 'regels', 'weggelaten', 'naamdag', 'maan']);
   assert.equal(d.datum, '2026-11-02');
   assert.equal(d.banner, null);
   for (const regel of d.regels) {

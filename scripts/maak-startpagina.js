@@ -42,6 +42,7 @@ h1{font-family:Poppins,'Segoe UI',Arial,sans-serif;font-weight:600;color:#800000
 ${knoppen}
 </div>
 <p class="ical">Of neem een rubriek op in uw eigen agenda: ${ical}</p>
+<p class="voet">Naamdagen: Wikidata (CC0), aangevuld met Wikipedia <a href="https://fr.wikipedia.org/wiki/Calendrier_des_saints_en_France">"Calendrier des saints en France"</a> (CC BY-SA 4.0).</p>
 <p class="voet">Een uitgave van <a href="https://www.communitiesabroad.com">Communities Abroad</a></p>
 </main></body></html>
 `;

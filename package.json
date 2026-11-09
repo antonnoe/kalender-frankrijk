@@ -8,6 +8,7 @@
   "scripts": {
     "controleer": "node scripts/controleer.js",
     "bronnen": "node scripts/bronnen.js",
+    "naamdagen": "node scripts/maak-naamdagen.js",
     "beelden": "node scripts/maak-themabeelden.js",
     "bouw": "node scripts/maak-startpagina.js && node scripts/bouw-plugin.js",
     "lokaal": "node scripts/lokaal.js",

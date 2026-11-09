@@ -2,9 +2,12 @@
 // Draait bij elke push (GitHub Action controle.yml). Een fout geeft een rood kruis met de melding; Vercel bouwt wel door, het fout blok wordt overgeslagen en /api/status meldt ok:false.
 
 import { laadAlles } from '../lib/laden.js';
+import { controleerNaamdagen } from '../lib/naamdag.js';
 import { vandaagParijs } from '../lib/datum.js';
 
 const res = laadAlles(process.env.KALENDER_ROOT || undefined, { vandaag: vandaagParijs() });
+if (res.naamdagen) res.fouten.push(...controleerNaamdagen(res.naamdagen));
+else res.waarschuwingen.push('data/naamdagen.json ontbreekt: de API geeft dan geen naamdag');
 for (const w of res.waarschuwingen) console.log(`Let op: ${w}`);
 for (const f of res.fouten) console.log(`FOUT: ${f}`);
 const eigen = res.items.filter((i) => i.herkomst === 'eigen').length;

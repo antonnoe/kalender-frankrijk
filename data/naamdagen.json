@@ -1,0 +1,2234 @@
+{
+ "kop": {
+  "bron": "Wikidata, eigenschap P1750 (name day) met kwalificatie P17 = Frankrijk (Q142), CC0, opgevraagd 2026-11-09; 12 dagen aangevuld uit https://fr.wikipedia.org/wiki/Calendrier_des_saints_en_France, versie oldid=241061561, CC BY-SA 4.0 (alleen losse feiten: de eerste naam van de regel).",
+  "licentie": "Wikidata CC0; Wikipedia CC BY-SA 4.0",
+  "wikipedia": {
+   "url": "https://fr.wikipedia.org/wiki/Calendrier_des_saints_en_France",
+   "oldid": 241061561
+  },
+  "maken": "node scripts/maak-naamdagen.js (met de hand, niet in de dagelijkse workflow)"
+ },
+ "dagen": {
+  "01-01": {
+   "namen": [
+    "Marie"
+   ],
+   "bron": "wikidata"
+  },
+  "01-02": {
+   "namen": [
+    "Basile",
+    "Grégoire"
+   ],
+   "bron": "wikidata"
+  },
+  "01-03": {
+   "namen": [
+    "Geneviève"
+   ],
+   "bron": "wikidata"
+  },
+  "01-04": {
+   "namen": [
+    "Odilon"
+   ],
+   "bron": "wikidata"
+  },
+  "01-05": {
+   "namen": [
+    "Édouard"
+   ],
+   "bron": "wikidata"
+  },
+  "01-06": {
+   "namen": [
+    "Mélaine"
+   ],
+   "bron": "wikidata"
+  },
+  "01-07": {
+   "namen": [
+    "Raymond"
+   ],
+   "bron": "wikidata"
+  },
+  "01-08": {
+   "namen": [
+    "Lucien",
+    "Peggy"
+   ],
+   "bron": "wikidata"
+  },
+  "01-09": {
+   "namen": [
+    "Alix"
+   ],
+   "bron": "wikidata"
+  },
+  "01-10": {
+   "namen": [
+    "Guillaume"
+   ],
+   "bron": "wikidata"
+  },
+  "01-11": {
+   "namen": [
+    "Paulin"
+   ],
+   "bron": "wikidata"
+  },
+  "01-12": {
+   "namen": [
+    "Tatiana"
+   ],
+   "bron": "wikidata"
+  },
+  "01-13": {
+   "namen": [
+    "Yvette"
+   ],
+   "bron": "wikidata"
+  },
+  "01-14": {
+   "namen": [
+    "Nina"
+   ],
+   "bron": "wikidata"
+  },
+  "01-15": {
+   "namen": [
+    "Rémi"
+   ],
+   "bron": "wikidata"
+  },
+  "01-16": {
+   "namen": [
+    "Marcel"
+   ],
+   "bron": "wikidata"
+  },
+  "01-17": {
+   "namen": [
+    "Roseline"
+   ],
+   "bron": "wikidata"
+  },
+  "01-18": {
+   "namen": [
+    "Prisca"
+   ],
+   "bron": "wikidata"
+  },
+  "01-19": {
+   "namen": [
+    "Marius"
+   ],
+   "bron": "wikidata"
+  },
+  "01-20": {
+   "namen": [
+    "Sébastien"
+   ],
+   "bron": "wikidata"
+  },
+  "01-21": {
+   "namen": [
+    "Agnès"
+   ],
+   "bron": "wikidata"
+  },
+  "01-22": {
+   "namen": [
+    "Vincent"
+   ],
+   "bron": "wikidata"
+  },
+  "01-23": {
+   "namen": [
+    "Barnard"
+   ],
+   "bron": "wikidata"
+  },
+  "01-24": {
+   "namen": [
+    "François"
+   ],
+   "bron": "wikidata"
+  },
+  "01-25": {
+   "namen": [
+    "Ananie"
+   ],
+   "bron": "wikipedia"
+  },
+  "01-26": {
+   "namen": [
+    "Paule"
+   ],
+   "bron": "wikidata"
+  },
+  "01-27": {
+   "namen": [
+    "Angèle"
+   ],
+   "bron": "wikidata"
+  },
+  "01-28": {
+   "namen": [
+    "Thomas"
+   ],
+   "bron": "wikidata"
+  },
+  "01-29": {
+   "namen": [
+    "Gildas"
+   ],
+   "bron": "wikidata"
+  },
+  "01-30": {
+   "namen": [
+    "Martine"
+   ],
+   "bron": "wikidata"
+  },
+  "01-31": {
+   "namen": [
+    "Marcelle"
+   ],
+   "bron": "wikidata"
+  },
+  "02-01": {
+   "namen": [
+    "Ella"
+   ],
+   "bron": "wikidata"
+  },
+  "02-02": {
+   "namen": [
+    "Théophane"
+   ],
+   "bron": "wikidata"
+  },
+  "02-03": {
+   "namen": [
+    "Blaise"
+   ],
+   "bron": "wikidata"
+  },
+  "02-04": {
+   "namen": [
+    "Véronique"
+   ],
+   "bron": "wikidata"
+  },
+  "02-05": {
+   "namen": [
+    "Agathe"
+   ],
+   "bron": "wikidata"
+  },
+  "02-06": {
+   "namen": [
+    "Gaston"
+   ],
+   "bron": "wikidata"
+  },
+  "02-07": {
+   "namen": [
+    "Eugénie"
+   ],
+   "bron": "wikidata"
+  },
+  "02-08": {
+   "namen": [
+    "Jacqueline"
+   ],
+   "bron": "wikidata"
+  },
+  "02-09": {
+   "namen": [
+    "Apolline"
+   ],
+   "bron": "wikidata"
+  },
+  "02-10": {
+   "namen": [
+    "Arnaud"
+   ],
+   "bron": "wikidata"
+  },
+  "02-11": {
+   "namen": [
+    "Héloïse"
+   ],
+   "bron": "wikidata"
+  },
+  "02-12": {
+   "namen": [
+    "Félix"
+   ],
+   "bron": "wikidata"
+  },
+  "02-13": {
+   "namen": [
+    "Béatrice"
+   ],
+   "bron": "wikidata"
+  },
+  "02-14": {
+   "namen": [
+    "Valentin"
+   ],
+   "bron": "wikidata"
+  },
+  "02-15": {
+   "namen": [
+    "Claude"
+   ],
+   "bron": "wikidata"
+  },
+  "02-16": {
+   "namen": [
+    "Julienne"
+   ],
+   "bron": "wikidata"
+  },
+  "02-17": {
+   "namen": [
+    "Alexis"
+   ],
+   "bron": "wikidata"
+  },
+  "02-18": {
+   "namen": [
+    "Bernadette",
+    "Jean-Pierre"
+   ],
+   "bron": "wikidata"
+  },
+  "02-19": {
+   "namen": [
+    "Gabin"
+   ],
+   "bron": "wikidata"
+  },
+  "02-20": {
+   "namen": [
+    "Aimée"
+   ],
+   "bron": "wikidata"
+  },
+  "02-21": {
+   "namen": [
+    "Pierre-Damien"
+   ],
+   "bron": "wikipedia"
+  },
+  "02-22": {
+   "namen": [
+    "Isabelle"
+   ],
+   "bron": "wikidata"
+  },
+  "02-23": {
+   "namen": [
+    "Lazare"
+   ],
+   "bron": "wikidata"
+  },
+  "02-24": {
+   "namen": [
+    "Modeste"
+   ],
+   "bron": "wikidata"
+  },
+  "02-25": {
+   "namen": [
+    "Roméo"
+   ],
+   "bron": "wikidata"
+  },
+  "02-26": {
+   "namen": [
+    "Nestor"
+   ],
+   "bron": "wikidata"
+  },
+  "02-27": {
+   "namen": [
+    "Honorine"
+   ],
+   "bron": "wikidata"
+  },
+  "02-28": {
+   "namen": [
+    "Romain"
+   ],
+   "bron": "wikidata"
+  },
+  "02-29": {
+   "namen": [
+    "Auguste"
+   ],
+   "bron": "wikidata"
+  },
+  "03-01": {
+   "namen": [
+    "Aubin"
+   ],
+   "bron": "wikidata"
+  },
+  "03-02": {
+   "namen": [
+    "Charles"
+   ],
+   "bron": "wikidata"
+  },
+  "03-03": {
+   "namen": [
+    "Guénolé"
+   ],
+   "bron": "wikidata"
+  },
+  "03-04": {
+   "namen": [
+    "Casimir"
+   ],
+   "bron": "wikidata"
+  },
+  "03-05": {
+   "namen": [
+    "Olive",
+    "Olivia"
+   ],
+   "bron": "wikidata"
+  },
+  "03-06": {
+   "namen": [
+    "Colette"
+   ],
+   "bron": "wikidata"
+  },
+  "03-07": {
+   "namen": [
+    "Félicité"
+   ],
+   "bron": "wikidata"
+  },
+  "03-08": {
+   "namen": [
+    "Jean"
+   ],
+   "bron": "wikidata"
+  },
+  "03-09": {
+   "namen": [
+    "Françoise"
+   ],
+   "bron": "wikidata"
+  },
+  "03-10": {
+   "namen": [
+    "Vivien"
+   ],
+   "bron": "wikidata"
+  },
+  "03-11": {
+   "namen": [
+    "Rosine"
+   ],
+   "bron": "wikidata"
+  },
+  "03-12": {
+   "namen": [
+    "Justine"
+   ],
+   "bron": "wikidata"
+  },
+  "03-13": {
+   "namen": [
+    "Rodrigue"
+   ],
+   "bron": "wikidata"
+  },
+  "03-14": {
+   "namen": [
+    "Mathilde"
+   ],
+   "bron": "wikidata"
+  },
+  "03-15": {
+   "namen": [
+    "Louise"
+   ],
+   "bron": "wikidata"
+  },
+  "03-16": {
+   "namen": [
+    "Bénédicte"
+   ],
+   "bron": "wikidata"
+  },
+  "03-17": {
+   "namen": [
+    "Patrice"
+   ],
+   "bron": "wikidata"
+  },
+  "03-18": {
+   "namen": [
+    "Cyrille"
+   ],
+   "bron": "wikidata"
+  },
+  "03-19": {
+   "namen": [
+    "Joseph"
+   ],
+   "bron": "wikidata"
+  },
+  "03-20": {
+   "namen": [
+    "Herbert"
+   ],
+   "bron": "wikidata"
+  },
+  "03-21": {
+   "namen": [
+    "Clémence"
+   ],
+   "bron": "wikidata"
+  },
+  "03-22": {
+   "namen": [
+    "Léa"
+   ],
+   "bron": "wikidata"
+  },
+  "03-23": {
+   "namen": [
+    "Victorien"
+   ],
+   "bron": "wikidata"
+  },
+  "03-24": {
+   "namen": [
+    "Catherine"
+   ],
+   "bron": "wikidata"
+  },
+  "03-25": {
+   "namen": [
+    "Humbert"
+   ],
+   "bron": "wikidata"
+  },
+  "03-26": {
+   "namen": [
+    "Larissa"
+   ],
+   "bron": "wikidata"
+  },
+  "03-27": {
+   "namen": [
+    "Habib"
+   ],
+   "bron": "wikidata"
+  },
+  "03-28": {
+   "namen": [
+    "Gontran"
+   ],
+   "bron": "wikidata"
+  },
+  "03-29": {
+   "namen": [
+    "Gwladys"
+   ],
+   "bron": "wikidata"
+  },
+  "03-30": {
+   "namen": [
+    "Amédée"
+   ],
+   "bron": "wikidata"
+  },
+  "03-31": {
+   "namen": [
+    "Benjamin"
+   ],
+   "bron": "wikidata"
+  },
+  "04-01": {
+   "namen": [
+    "Hugues",
+    "Huon"
+   ],
+   "bron": "wikidata"
+  },
+  "04-02": {
+   "namen": [
+    "Sandrine",
+    "Alexandrine"
+   ],
+   "bron": "wikidata"
+  },
+  "04-03": {
+   "namen": [
+    "Richard"
+   ],
+   "bron": "wikidata"
+  },
+  "04-04": {
+   "namen": [
+    "Isidore"
+   ],
+   "bron": "wikidata"
+  },
+  "04-05": {
+   "namen": [
+    "Irène"
+   ],
+   "bron": "wikidata"
+  },
+  "04-06": {
+   "namen": [
+    "Marcellin"
+   ],
+   "bron": "wikidata"
+  },
+  "04-07": {
+   "namen": [
+    "Jean-Baptiste"
+   ],
+   "bron": "wikidata"
+  },
+  "04-08": {
+   "namen": [
+    "Julie"
+   ],
+   "bron": "wikidata"
+  },
+  "04-09": {
+   "namen": [
+    "Gauthier"
+   ],
+   "bron": "wikidata"
+  },
+  "04-10": {
+   "namen": [
+    "Fulbert"
+   ],
+   "bron": "wikidata"
+  },
+  "04-11": {
+   "namen": [
+    "Stanislas"
+   ],
+   "bron": "wikidata"
+  },
+  "04-12": {
+   "namen": [
+    "Jules"
+   ],
+   "bron": "wikidata"
+  },
+  "04-13": {
+   "namen": [
+    "Ida"
+   ],
+   "bron": "wikidata"
+  },
+  "04-14": {
+   "namen": [
+    "Maxime"
+   ],
+   "bron": "wikidata"
+  },
+  "04-15": {
+   "namen": [
+    "Patern"
+   ],
+   "bron": "wikidata"
+  },
+  "04-16": {
+   "namen": [
+    "Benoît-Joseph"
+   ],
+   "bron": "wikipedia"
+  },
+  "04-17": {
+   "namen": [
+    "Anicet"
+   ],
+   "bron": "wikidata"
+  },
+  "04-18": {
+   "namen": [
+    "Parfait"
+   ],
+   "bron": "wikidata"
+  },
+  "04-19": {
+   "namen": [
+    "Emma"
+   ],
+   "bron": "wikidata"
+  },
+  "04-20": {
+   "namen": [
+    "Odette"
+   ],
+   "bron": "wikidata"
+  },
+  "04-21": {
+   "namen": [
+    "Anselme"
+   ],
+   "bron": "wikidata"
+  },
+  "04-22": {
+   "namen": [
+    "Alexandre"
+   ],
+   "bron": "wikidata"
+  },
+  "04-23": {
+   "namen": [
+    "Georges"
+   ],
+   "bron": "wikidata"
+  },
+  "04-24": {
+   "namen": [
+    "Fidèle"
+   ],
+   "bron": "wikidata"
+  },
+  "04-25": {
+   "namen": [
+    "Marc"
+   ],
+   "bron": "wikidata"
+  },
+  "04-26": {
+   "namen": [
+    "Alida"
+   ],
+   "bron": "wikidata"
+  },
+  "04-27": {
+   "namen": [
+    "Zita"
+   ],
+   "bron": "wikidata"
+  },
+  "04-28": {
+   "namen": [
+    "Valérie"
+   ],
+   "bron": "wikidata"
+  },
+  "04-29": {
+   "namen": [
+    "Catherine"
+   ],
+   "bron": "wikidata"
+  },
+  "04-30": {
+   "namen": [
+    "Robert"
+   ],
+   "bron": "wikidata"
+  },
+  "05-01": {
+   "namen": [
+    "Jérémie"
+   ],
+   "bron": "wikidata"
+  },
+  "05-02": {
+   "namen": [
+    "Boris"
+   ],
+   "bron": "wikidata"
+  },
+  "05-03": {
+   "namen": [
+    "Philippe",
+    "Jacques"
+   ],
+   "bron": "wikidata"
+  },
+  "05-04": {
+   "namen": [
+    "Sylvain"
+   ],
+   "bron": "wikidata"
+  },
+  "05-05": {
+   "namen": [
+    "Judith"
+   ],
+   "bron": "wikidata"
+  },
+  "05-06": {
+   "namen": [
+    "Prudence"
+   ],
+   "bron": "wikidata"
+  },
+  "05-07": {
+   "namen": [
+    "Gisèle"
+   ],
+   "bron": "wikidata"
+  },
+  "05-08": {
+   "namen": [
+    "Désiré"
+   ],
+   "bron": "wikidata"
+  },
+  "05-09": {
+   "namen": [
+    "Pacôme"
+   ],
+   "bron": "wikidata"
+  },
+  "05-10": {
+   "namen": [
+    "Solange"
+   ],
+   "bron": "wikidata"
+  },
+  "05-11": {
+   "namen": [
+    "Estelle"
+   ],
+   "bron": "wikidata"
+  },
+  "05-12": {
+   "namen": [
+    "Achille"
+   ],
+   "bron": "wikidata"
+  },
+  "05-13": {
+   "namen": [
+    "Rolande"
+   ],
+   "bron": "wikidata"
+  },
+  "05-14": {
+   "namen": [
+    "Matthias"
+   ],
+   "bron": "wikidata"
+  },
+  "05-15": {
+   "namen": [
+    "Denise"
+   ],
+   "bron": "wikidata"
+  },
+  "05-16": {
+   "namen": [
+    "Honoré"
+   ],
+   "bron": "wikidata"
+  },
+  "05-17": {
+   "namen": [
+    "Pascal"
+   ],
+   "bron": "wikidata"
+  },
+  "05-18": {
+   "namen": [
+    "Éric"
+   ],
+   "bron": "wikidata"
+  },
+  "05-19": {
+   "namen": [
+    "Yves",
+    "Erwan",
+    "Erwana",
+    "Yvonne"
+   ],
+   "bron": "wikidata"
+  },
+  "05-20": {
+   "namen": [
+    "Bernardin"
+   ],
+   "bron": "wikidata"
+  },
+  "05-21": {
+   "namen": [
+    "Constantin"
+   ],
+   "bron": "wikidata"
+  },
+  "05-22": {
+   "namen": [
+    "Émile"
+   ],
+   "bron": "wikidata"
+  },
+  "05-23": {
+   "namen": [
+    "Didier"
+   ],
+   "bron": "wikidata"
+  },
+  "05-24": {
+   "namen": [
+    "Donatien"
+   ],
+   "bron": "wikidata"
+  },
+  "05-25": {
+   "namen": [
+    "Sophie"
+   ],
+   "bron": "wikidata"
+  },
+  "05-26": {
+   "namen": [
+    "Bérenger"
+   ],
+   "bron": "wikidata"
+  },
+  "05-27": {
+   "namen": [
+    "Augustin"
+   ],
+   "bron": "wikidata"
+  },
+  "05-28": {
+   "namen": [
+    "Germain"
+   ],
+   "bron": "wikidata"
+  },
+  "05-29": {
+   "namen": [
+    "Aymard"
+   ],
+   "bron": "wikipedia"
+  },
+  "05-30": {
+   "namen": [
+    "Ferdinand",
+    "Jeanne d'Arc"
+   ],
+   "bron": "wikidata"
+  },
+  "05-31": {
+   "namen": [
+    "Perrine",
+    "Olier"
+   ],
+   "bron": "wikidata"
+  },
+  "06-01": {
+   "namen": [
+    "Justin"
+   ],
+   "bron": "wikidata"
+  },
+  "06-02": {
+   "namen": [
+    "Blandine"
+   ],
+   "bron": "wikidata"
+  },
+  "06-03": {
+   "namen": [
+    "Kévin"
+   ],
+   "bron": "wikidata"
+  },
+  "06-04": {
+   "namen": [
+    "Clotilde"
+   ],
+   "bron": "wikidata"
+  },
+  "06-05": {
+   "namen": [
+    "Igor"
+   ],
+   "bron": "wikidata"
+  },
+  "06-06": {
+   "namen": [
+    "Norbert"
+   ],
+   "bron": "wikidata"
+  },
+  "06-07": {
+   "namen": [
+    "Gilbert",
+    "Maite"
+   ],
+   "bron": "wikidata"
+  },
+  "06-08": {
+   "namen": [
+    "Médard"
+   ],
+   "bron": "wikidata"
+  },
+  "06-09": {
+   "namen": [
+    "Diane"
+   ],
+   "bron": "wikidata"
+  },
+  "06-10": {
+   "namen": [
+    "Landry"
+   ],
+   "bron": "wikidata"
+  },
+  "06-11": {
+   "namen": [
+    "Barnabé"
+   ],
+   "bron": "wikidata"
+  },
+  "06-12": {
+   "namen": [
+    "Guy"
+   ],
+   "bron": "wikidata"
+  },
+  "06-13": {
+   "namen": [
+    "Antoine"
+   ],
+   "bron": "wikidata"
+  },
+  "06-14": {
+   "namen": [
+    "Élisée"
+   ],
+   "bron": "wikidata"
+  },
+  "06-15": {
+   "namen": [
+    "Germaine"
+   ],
+   "bron": "wikidata"
+  },
+  "06-16": {
+   "namen": [
+    "Jean-François"
+   ],
+   "bron": "wikidata"
+  },
+  "06-17": {
+   "namen": [
+    "Hervé"
+   ],
+   "bron": "wikidata"
+  },
+  "06-18": {
+   "namen": [
+    "Léonce"
+   ],
+   "bron": "wikidata"
+  },
+  "06-19": {
+   "namen": [
+    "Romuald"
+   ],
+   "bron": "wikidata"
+  },
+  "06-20": {
+   "namen": [
+    "Silvère"
+   ],
+   "bron": "wikidata"
+  },
+  "06-21": {
+   "namen": [
+    "Rodolphe"
+   ],
+   "bron": "wikidata"
+  },
+  "06-22": {
+   "namen": [
+    "Alban"
+   ],
+   "bron": "wikidata"
+  },
+  "06-23": {
+   "namen": [
+    "Audrey"
+   ],
+   "bron": "wikidata"
+  },
+  "06-24": {
+   "namen": [
+    "Jean-Baptiste"
+   ],
+   "bron": "wikidata"
+  },
+  "06-25": {
+   "namen": [
+    "Prosper",
+    "Léonor"
+   ],
+   "bron": "wikidata"
+  },
+  "06-26": {
+   "namen": [
+    "Anthelme"
+   ],
+   "bron": "wikidata"
+  },
+  "06-27": {
+   "namen": [
+    "Fernand"
+   ],
+   "bron": "wikidata"
+  },
+  "06-28": {
+   "namen": [
+    "Irénée"
+   ],
+   "bron": "wikidata"
+  },
+  "06-29": {
+   "namen": [
+    "Paul",
+    "Pierre-Paul"
+   ],
+   "bron": "wikidata"
+  },
+  "06-30": {
+   "namen": [
+    "Martial"
+   ],
+   "bron": "wikidata"
+  },
+  "07-01": {
+   "namen": [
+    "Thierry"
+   ],
+   "bron": "wikidata"
+  },
+  "07-02": {
+   "namen": [
+    "Martinien"
+   ],
+   "bron": "wikipedia"
+  },
+  "07-03": {
+   "namen": [
+    "Thomas"
+   ],
+   "bron": "wikidata"
+  },
+  "07-04": {
+   "namen": [
+    "Florent"
+   ],
+   "bron": "wikidata"
+  },
+  "07-05": {
+   "namen": [
+    "Antoine",
+    "Antoine-Marie"
+   ],
+   "bron": "wikidata"
+  },
+  "07-06": {
+   "namen": [
+    "Mariette"
+   ],
+   "bron": "wikidata"
+  },
+  "07-07": {
+   "namen": [
+    "Raoul"
+   ],
+   "bron": "wikidata"
+  },
+  "07-08": {
+   "namen": [
+    "Thibaut"
+   ],
+   "bron": "wikidata"
+  },
+  "07-09": {
+   "namen": [
+    "Amandine"
+   ],
+   "bron": "wikidata"
+  },
+  "07-10": {
+   "namen": [
+    "Ulrich"
+   ],
+   "bron": "wikidata"
+  },
+  "07-11": {
+   "namen": [
+    "Benoît"
+   ],
+   "bron": "wikidata"
+  },
+  "07-12": {
+   "namen": [
+    "Olivier"
+   ],
+   "bron": "wikidata"
+  },
+  "07-13": {
+   "namen": [
+    "Henri",
+    "Joël"
+   ],
+   "bron": "wikidata"
+  },
+  "07-14": {
+   "namen": [
+    "Camille"
+   ],
+   "bron": "wikidata"
+  },
+  "07-15": {
+   "namen": [
+    "Donald"
+   ],
+   "bron": "wikidata"
+  },
+  "07-16": {
+   "namen": [
+    "Carmen"
+   ],
+   "bron": "wikidata"
+  },
+  "07-17": {
+   "namen": [
+    "Charlotte"
+   ],
+   "bron": "wikidata"
+  },
+  "07-18": {
+   "namen": [
+    "Frédéric"
+   ],
+   "bron": "wikidata"
+  },
+  "07-19": {
+   "namen": [
+    "Arsène"
+   ],
+   "bron": "wikidata"
+  },
+  "07-20": {
+   "namen": [
+    "Marina"
+   ],
+   "bron": "wikidata"
+  },
+  "07-21": {
+   "namen": [
+    "Victor"
+   ],
+   "bron": "wikidata"
+  },
+  "07-22": {
+   "namen": [
+    "Marie-Madeleine"
+   ],
+   "bron": "wikidata"
+  },
+  "07-23": {
+   "namen": [
+    "Brigitte"
+   ],
+   "bron": "wikidata"
+  },
+  "07-24": {
+   "namen": [
+    "Christine"
+   ],
+   "bron": "wikidata"
+  },
+  "07-25": {
+   "namen": [
+    "Jacques"
+   ],
+   "bron": "wikidata"
+  },
+  "07-26": {
+   "namen": [
+    "Anne",
+    "Joachim"
+   ],
+   "bron": "wikidata"
+  },
+  "07-27": {
+   "namen": [
+    "Nathalie"
+   ],
+   "bron": "wikidata"
+  },
+  "07-28": {
+   "namen": [
+    "Samson"
+   ],
+   "bron": "wikidata"
+  },
+  "07-29": {
+   "namen": [
+    "Marthe"
+   ],
+   "bron": "wikidata"
+  },
+  "07-30": {
+   "namen": [
+    "Juliette"
+   ],
+   "bron": "wikidata"
+  },
+  "07-31": {
+   "namen": [
+    "Ignace"
+   ],
+   "bron": "wikidata"
+  },
+  "08-01": {
+   "namen": [
+    "Alphonse"
+   ],
+   "bron": "wikidata"
+  },
+  "08-02": {
+   "namen": [
+    "Julien"
+   ],
+   "bron": "wikidata"
+  },
+  "08-03": {
+   "namen": [
+    "Lydie"
+   ],
+   "bron": "wikidata"
+  },
+  "08-04": {
+   "namen": [
+    "Jean-Marie"
+   ],
+   "bron": "wikidata"
+  },
+  "08-05": {
+   "namen": [
+    "Abel"
+   ],
+   "bron": "wikidata"
+  },
+  "08-06": {
+   "namen": [
+    "Octavien"
+   ],
+   "bron": "wikidata"
+  },
+  "08-07": {
+   "namen": [
+    "Gaétan"
+   ],
+   "bron": "wikidata"
+  },
+  "08-08": {
+   "namen": [
+    "Dominique"
+   ],
+   "bron": "wikidata"
+  },
+  "08-09": {
+   "namen": [
+    "Amour"
+   ],
+   "bron": "wikipedia"
+  },
+  "08-10": {
+   "namen": [
+    "Laurent"
+   ],
+   "bron": "wikidata"
+  },
+  "08-11": {
+   "namen": [
+    "Claire"
+   ],
+   "bron": "wikidata"
+  },
+  "08-12": {
+   "namen": [
+    "Clarisse",
+    "Jeanne"
+   ],
+   "bron": "wikidata"
+  },
+  "08-13": {
+   "namen": [
+    "Hippolyte"
+   ],
+   "bron": "wikidata"
+  },
+  "08-14": {
+   "namen": [
+    "Évrard"
+   ],
+   "bron": "wikidata"
+  },
+  "08-15": {
+   "namen": [
+    "Marie"
+   ],
+   "bron": "wikidata"
+  },
+  "08-16": {
+   "namen": [
+    "Armel"
+   ],
+   "bron": "wikidata"
+  },
+  "08-17": {
+   "namen": [
+    "Hyacinthe"
+   ],
+   "bron": "wikidata"
+  },
+  "08-18": {
+   "namen": [
+    "Hélène"
+   ],
+   "bron": "wikidata"
+  },
+  "08-19": {
+   "namen": [
+    "Jean-Eudes"
+   ],
+   "bron": "wikidata"
+  },
+  "08-20": {
+   "namen": [
+    "Bernard"
+   ],
+   "bron": "wikidata"
+  },
+  "08-21": {
+   "namen": [
+    "Christophe"
+   ],
+   "bron": "wikidata"
+  },
+  "08-22": {
+   "namen": [
+    "Fabrice"
+   ],
+   "bron": "wikidata"
+  },
+  "08-23": {
+   "namen": [
+    "Rose"
+   ],
+   "bron": "wikidata"
+  },
+  "08-24": {
+   "namen": [
+    "Barthélemy"
+   ],
+   "bron": "wikidata"
+  },
+  "08-25": {
+   "namen": [
+    "Louis"
+   ],
+   "bron": "wikidata"
+  },
+  "08-26": {
+   "namen": [
+    "Natacha",
+    "Adrien"
+   ],
+   "bron": "wikidata"
+  },
+  "08-27": {
+   "namen": [
+    "Monique"
+   ],
+   "bron": "wikidata"
+  },
+  "08-28": {
+   "namen": [
+    "Augustin",
+    "Augustine"
+   ],
+   "bron": "wikidata"
+  },
+  "08-29": {
+   "namen": [
+    "Sabine"
+   ],
+   "bron": "wikidata"
+  },
+  "08-30": {
+   "namen": [
+    "Fiacre"
+   ],
+   "bron": "wikidata"
+  },
+  "08-31": {
+   "namen": [
+    "Aristide"
+   ],
+   "bron": "wikidata"
+  },
+  "09-01": {
+   "namen": [
+    "Gilles"
+   ],
+   "bron": "wikidata"
+  },
+  "09-02": {
+   "namen": [
+    "Ingrid"
+   ],
+   "bron": "wikidata"
+  },
+  "09-03": {
+   "namen": [
+    "Grégoire"
+   ],
+   "bron": "wikidata"
+  },
+  "09-04": {
+   "namen": [
+    "Rosalie"
+   ],
+   "bron": "wikidata"
+  },
+  "09-05": {
+   "namen": [
+    "Raïssa"
+   ],
+   "bron": "wikidata"
+  },
+  "09-06": {
+   "namen": [
+    "Bertrand"
+   ],
+   "bron": "wikidata"
+  },
+  "09-07": {
+   "namen": [
+    "Reine"
+   ],
+   "bron": "wikidata"
+  },
+  "09-08": {
+   "namen": [
+    "Adrien"
+   ],
+   "bron": "wikidata"
+  },
+  "09-09": {
+   "namen": [
+    "Alain"
+   ],
+   "bron": "wikidata"
+  },
+  "09-10": {
+   "namen": [
+    "Inès"
+   ],
+   "bron": "wikidata"
+  },
+  "09-11": {
+   "namen": [
+    "Adelphe"
+   ],
+   "bron": "wikidata"
+  },
+  "09-12": {
+   "namen": [
+    "Apollinaire"
+   ],
+   "bron": "wikidata"
+  },
+  "09-13": {
+   "namen": [
+    "Aimé"
+   ],
+   "bron": "wikidata"
+  },
+  "09-14": {
+   "namen": [
+    "Cyprien"
+   ],
+   "bron": "wikidata"
+  },
+  "09-15": {
+   "namen": [
+    "Roland"
+   ],
+   "bron": "wikidata"
+  },
+  "09-16": {
+   "namen": [
+    "Édith"
+   ],
+   "bron": "wikidata"
+  },
+  "09-17": {
+   "namen": [
+    "Renaud"
+   ],
+   "bron": "wikidata"
+  },
+  "09-18": {
+   "namen": [
+    "Nadège"
+   ],
+   "bron": "wikidata"
+  },
+  "09-19": {
+   "namen": [
+    "Émilie"
+   ],
+   "bron": "wikidata"
+  },
+  "09-20": {
+   "namen": [
+    "Davy"
+   ],
+   "bron": "wikidata"
+  },
+  "09-21": {
+   "namen": [
+    "Matthieu",
+    "Castor"
+   ],
+   "bron": "wikidata"
+  },
+  "09-22": {
+   "namen": [
+    "Maurice"
+   ],
+   "bron": "wikidata"
+  },
+  "09-23": {
+   "namen": [
+    "Constant"
+   ],
+   "bron": "wikidata"
+  },
+  "09-24": {
+   "namen": [
+    "Thècle"
+   ],
+   "bron": "wikipedia"
+  },
+  "09-25": {
+   "namen": [
+    "Hermann"
+   ],
+   "bron": "wikidata"
+  },
+  "09-26": {
+   "namen": [
+    "Côme",
+    "Damien"
+   ],
+   "bron": "wikidata"
+  },
+  "09-27": {
+   "namen": [
+    "Vincent"
+   ],
+   "bron": "wikidata"
+  },
+  "09-28": {
+   "namen": [
+    "Venceslas"
+   ],
+   "bron": "wikidata"
+  },
+  "09-29": {
+   "namen": [
+    "Michel"
+   ],
+   "bron": "wikidata"
+  },
+  "09-30": {
+   "namen": [
+    "Jérôme"
+   ],
+   "bron": "wikidata"
+  },
+  "10-01": {
+   "namen": [
+    "Thérèse"
+   ],
+   "bron": "wikidata"
+  },
+  "10-02": {
+   "namen": [
+    "Léger"
+   ],
+   "bron": "wikidata"
+  },
+  "10-03": {
+   "namen": [
+    "Gérard"
+   ],
+   "bron": "wikidata"
+  },
+  "10-04": {
+   "namen": [
+    "François"
+   ],
+   "bron": "wikidata"
+  },
+  "10-05": {
+   "namen": [
+    "Fleur"
+   ],
+   "bron": "wikidata"
+  },
+  "10-06": {
+   "namen": [
+    "Bruno"
+   ],
+   "bron": "wikidata"
+  },
+  "10-07": {
+   "namen": [
+    "Serge"
+   ],
+   "bron": "wikidata"
+  },
+  "10-08": {
+   "namen": [
+    "Pélagie"
+   ],
+   "bron": "wikidata"
+  },
+  "10-09": {
+   "namen": [
+    "Denis"
+   ],
+   "bron": "wikidata"
+  },
+  "10-10": {
+   "namen": [
+    "Ghislain"
+   ],
+   "bron": "wikidata"
+  },
+  "10-11": {
+   "namen": [
+    "Firmin"
+   ],
+   "bron": "wikidata"
+  },
+  "10-12": {
+   "namen": [
+    "Wilfried"
+   ],
+   "bron": "wikidata"
+  },
+  "10-13": {
+   "namen": [
+    "Géraud"
+   ],
+   "bron": "wikidata"
+  },
+  "10-14": {
+   "namen": [
+    "Juste"
+   ],
+   "bron": "wikidata"
+  },
+  "10-15": {
+   "namen": [
+    "Aurélie"
+   ],
+   "bron": "wikidata"
+  },
+  "10-16": {
+   "namen": [
+    "Edwige"
+   ],
+   "bron": "wikidata"
+  },
+  "10-17": {
+   "namen": [
+    "Baudouin"
+   ],
+   "bron": "wikidata"
+  },
+  "10-18": {
+   "namen": [
+    "Luc"
+   ],
+   "bron": "wikidata"
+  },
+  "10-19": {
+   "namen": [
+    "René"
+   ],
+   "bron": "wikidata"
+  },
+  "10-20": {
+   "namen": [
+    "Adeline"
+   ],
+   "bron": "wikidata"
+  },
+  "10-21": {
+   "namen": [
+    "Céline"
+   ],
+   "bron": "wikidata"
+  },
+  "10-22": {
+   "namen": [
+    "Élodie"
+   ],
+   "bron": "wikidata"
+  },
+  "10-23": {
+   "namen": [
+    "Jean"
+   ],
+   "bron": "wikidata"
+  },
+  "10-24": {
+   "namen": [
+    "Florentin"
+   ],
+   "bron": "wikidata"
+  },
+  "10-25": {
+   "namen": [
+    "Crépin"
+   ],
+   "bron": "wikidata"
+  },
+  "10-26": {
+   "namen": [
+    "Dimitri"
+   ],
+   "bron": "wikidata"
+  },
+  "10-27": {
+   "namen": [
+    "Emeline"
+   ],
+   "bron": "wikipedia"
+  },
+  "10-28": {
+   "namen": [
+    "Simon",
+    "Jude"
+   ],
+   "bron": "wikidata"
+  },
+  "10-29": {
+   "namen": [
+    "Narcisse"
+   ],
+   "bron": "wikidata"
+  },
+  "10-30": {
+   "namen": [
+    "Bienvenue"
+   ],
+   "bron": "wikidata"
+  },
+  "10-31": {
+   "namen": [
+    "Quentin"
+   ],
+   "bron": "wikidata"
+  },
+  "11-01": {
+   "namen": [
+    "Harold"
+   ],
+   "bron": "wikidata"
+  },
+  "11-02": {
+   "namen": [
+    "Océane"
+   ],
+   "bron": "wikipedia"
+  },
+  "11-03": {
+   "namen": [
+    "Hubert"
+   ],
+   "bron": "wikidata"
+  },
+  "11-04": {
+   "namen": [
+    "Charles"
+   ],
+   "bron": "wikidata"
+  },
+  "11-05": {
+   "namen": [
+    "Sylvie"
+   ],
+   "bron": "wikidata"
+  },
+  "11-06": {
+   "namen": [
+    "Bertille"
+   ],
+   "bron": "wikidata"
+  },
+  "11-07": {
+   "namen": [
+    "Carine"
+   ],
+   "bron": "wikidata"
+  },
+  "11-08": {
+   "namen": [
+    "Geoffroy"
+   ],
+   "bron": "wikidata"
+  },
+  "11-09": {
+   "namen": [
+    "Théodore"
+   ],
+   "bron": "wikidata"
+  },
+  "11-10": {
+   "namen": [
+    "Léon"
+   ],
+   "bron": "wikidata"
+  },
+  "11-11": {
+   "namen": [
+    "Martin"
+   ],
+   "bron": "wikidata"
+  },
+  "11-12": {
+   "namen": [
+    "Christian"
+   ],
+   "bron": "wikipedia"
+  },
+  "11-13": {
+   "namen": [
+    "Brice"
+   ],
+   "bron": "wikidata"
+  },
+  "11-14": {
+   "namen": [
+    "Sidoine"
+   ],
+   "bron": "wikidata"
+  },
+  "11-15": {
+   "namen": [
+    "Albert"
+   ],
+   "bron": "wikidata"
+  },
+  "11-16": {
+   "namen": [
+    "Marguerite"
+   ],
+   "bron": "wikidata"
+  },
+  "11-17": {
+   "namen": [
+    "Élisabeth"
+   ],
+   "bron": "wikidata"
+  },
+  "11-18": {
+   "namen": [
+    "Aude"
+   ],
+   "bron": "wikidata"
+  },
+  "11-19": {
+   "namen": [
+    "Tanguy"
+   ],
+   "bron": "wikidata"
+  },
+  "11-20": {
+   "namen": [
+    "Edmond"
+   ],
+   "bron": "wikidata"
+  },
+  "11-21": {
+   "namen": [
+    "Rufus"
+   ],
+   "bron": "wikipedia"
+  },
+  "11-22": {
+   "namen": [
+    "Cécile"
+   ],
+   "bron": "wikidata"
+  },
+  "11-23": {
+   "namen": [
+    "Clément"
+   ],
+   "bron": "wikidata"
+  },
+  "11-24": {
+   "namen": [
+    "Flora"
+   ],
+   "bron": "wikidata"
+  },
+  "11-25": {
+   "namen": [
+    "Catherine"
+   ],
+   "bron": "wikidata"
+  },
+  "11-26": {
+   "namen": [
+    "Delphine"
+   ],
+   "bron": "wikidata"
+  },
+  "11-27": {
+   "namen": [
+    "Séverin"
+   ],
+   "bron": "wikidata"
+  },
+  "11-28": {
+   "namen": [
+    "Jacques"
+   ],
+   "bron": "wikidata"
+  },
+  "11-29": {
+   "namen": [
+    "Saturnin"
+   ],
+   "bron": "wikidata"
+  },
+  "11-30": {
+   "namen": [
+    "André"
+   ],
+   "bron": "wikidata"
+  },
+  "12-01": {
+   "namen": [
+    "Florence"
+   ],
+   "bron": "wikidata"
+  },
+  "12-02": {
+   "namen": [
+    "Viviane"
+   ],
+   "bron": "wikidata"
+  },
+  "12-03": {
+   "namen": [
+    "Xavier"
+   ],
+   "bron": "wikidata"
+  },
+  "12-04": {
+   "namen": [
+    "Barbara"
+   ],
+   "bron": "wikidata"
+  },
+  "12-05": {
+   "namen": [
+    "Gérald"
+   ],
+   "bron": "wikidata"
+  },
+  "12-06": {
+   "namen": [
+    "Nicolas"
+   ],
+   "bron": "wikidata"
+  },
+  "12-07": {
+   "namen": [
+    "Ambroise"
+   ],
+   "bron": "wikidata"
+  },
+  "12-08": {
+   "namen": [
+    "Elfried"
+   ],
+   "bron": "wikipedia"
+  },
+  "12-09": {
+   "namen": [
+    "Pierre"
+   ],
+   "bron": "wikidata"
+  },
+  "12-10": {
+   "namen": [
+    "Romaric"
+   ],
+   "bron": "wikidata"
+  },
+  "12-11": {
+   "namen": [
+    "Daniel"
+   ],
+   "bron": "wikidata"
+  },
+  "12-12": {
+   "namen": [
+    "Corentin"
+   ],
+   "bron": "wikidata"
+  },
+  "12-13": {
+   "namen": [
+    "Lucie"
+   ],
+   "bron": "wikidata"
+  },
+  "12-14": {
+   "namen": [
+    "Odile"
+   ],
+   "bron": "wikidata"
+  },
+  "12-15": {
+   "namen": [
+    "Ninon"
+   ],
+   "bron": "wikidata"
+  },
+  "12-16": {
+   "namen": [
+    "Alice"
+   ],
+   "bron": "wikidata"
+  },
+  "12-17": {
+   "namen": [
+    "Gaël"
+   ],
+   "bron": "wikidata"
+  },
+  "12-18": {
+   "namen": [
+    "Gatien"
+   ],
+   "bron": "wikidata"
+  },
+  "12-19": {
+   "namen": [
+    "Urbain"
+   ],
+   "bron": "wikidata"
+  },
+  "12-20": {
+   "namen": [
+    "Théophile",
+    "Ignace"
+   ],
+   "bron": "wikidata"
+  },
+  "12-21": {
+   "namen": [
+    "Pierre"
+   ],
+   "bron": "wikidata"
+  },
+  "12-22": {
+   "namen": [
+    "Françoise-Xavière"
+   ],
+   "bron": "wikidata"
+  },
+  "12-23": {
+   "namen": [
+    "Armand"
+   ],
+   "bron": "wikidata"
+  },
+  "12-24": {
+   "namen": [
+    "Adèle"
+   ],
+   "bron": "wikidata"
+  },
+  "12-25": {
+   "namen": [
+    "Emmanuel"
+   ],
+   "bron": "wikidata"
+  },
+  "12-26": {
+   "namen": [
+    "Étienne"
+   ],
+   "bron": "wikidata"
+  },
+  "12-27": {
+   "namen": [
+    "Jean"
+   ],
+   "bron": "wikidata"
+  },
+  "12-28": {
+   "namen": [
+    "Gaspard"
+   ],
+   "bron": "wikidata"
+  },
+  "12-29": {
+   "namen": [
+    "David"
+   ],
+   "bron": "wikidata"
+  },
+  "12-30": {
+   "namen": [
+    "Roger"
+   ],
+   "bron": "wikidata"
+  },
+  "12-31": {
+   "namen": [
+    "Sylvestre"
+   ],
+   "bron": "wikidata"
+  }
+ }
+}

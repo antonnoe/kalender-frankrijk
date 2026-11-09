@@ -31,7 +31,7 @@ Kleur volgt het InfoPoche-thema (modules.json, `themas`), pictogram uit `ICONEN`
 | 6 | Buiten en onderweg | taal #465C70, weg | winterbanden of kettingen in bergdepartementen (loi Montagne) 1 november tot 31 maart; wintertijd 25 oktober, zomertijd 28 maart 2027; jachtseizoen, bosbrandwaarschuwing alleen in seizoen |
 | 7 | Zorg | gezondheid #B3261E, hart | CAK-jaarafrekening; S1-momenten bij verhuizing of pensionering; griepvaccinatiecampagne |
 | 8 | Stemmen en Nederland | overheid #1D4F9E, gebouw | verkiezing kiescollege niet-ingezetenen maart 2027 met inschrijfdeadline; presidentsverkiezing 18 april en 2 mei 2027 (alleen voor wie de Franse nationaliteit heeft); bekendmaking woonlandfactor 2027 |
-| 9 | Uitgaan en genieten | ervaring #775800, glas* | Beaujolais nouveau 19 november; Noël en Saint-Sylvestre tijdig reserveren; soldes d'hiver vanaf 6 januari 2027 |
+| 9 | Franse tradities (id genieten) | ervaring #775800, glas* | Beaujolais nouveau 19 november; Noël en Saint-Sylvestre tijdig reserveren; soldes d'hiver vanaf 6 januari 2027 |
 | 10 | Verenigingen en ontmoeting | adressen #6B3FA0, mensen | Café Jeudi elke donderdag 18.00 tot 19.30; jeu de boules NedAzur, Saint-Paul-de-Vence 2 november; Sinterklaasfeest NLVP Parijs 29 november |
 
 Feestbanners zijn geen rubriek maar een soort item (zie e en f).
@@ -158,4 +158,4 @@ Elke taak los te bouwen en live te keuren. Eerste oplevering met waarde: taak 1 
 - "Voor wie" zijn filters die aanklikbaar zijn en onthouden worden (pagina en later InfoPoche).
 - CAK (rubriek Zorg): mijlpaal met aftelling "Sinds 1 november 2026 geldt de nieuwe CAK-regeling bij vroegpensioen", link https://infofrankrijk.com/cak-vroegpensioen-en-zorg-in-frankrijk/.
 - Veld `gesprek` (ja of nee) per item: tips, seizoenen en mijlpalen krijgen in de nieuwsbrief en op de pagina de link "Bespreek op het forum →" naar https://www.nederlanders.fr/profiles/blog/new; deadlines niet. De bouwer onderzoekt of NING titel of tekst vooraf kan invullen via de URL; zo niet, dan toont de pagina per item een kant-en-klare aanzet (titel plus twee zinnen) met een kopieerknop.
-- Seizoen eten en drinken (rubriek Uitgaan en genieten, soort `seizoen`): truffel (november tot maart), galette des rois (januari), crêpes op Chandeleur (2 februari), asperges (april tot juni), kersen en abrikozen (zomer), vendanges (september), paddenstoelen en kastanjes (herfst), Beaujolais nouveau (derde donderdag van november), oesters (maanden met een r). In de nieuwsbrief hooguit één seizoensregel per week.
+- Seizoen eten en drinken (rubriek Franse tradities, soort `seizoen`): truffel (november tot maart), galette des rois (januari), crêpes op Chandeleur (2 februari), asperges (april tot juni), kersen en abrikozen (zomer), vendanges (september), paddenstoelen en kastanjes (herfst), Beaujolais nouveau (derde donderdag van november), oesters (maanden met een r). In de nieuwsbrief hooguit één seizoensregel per week.

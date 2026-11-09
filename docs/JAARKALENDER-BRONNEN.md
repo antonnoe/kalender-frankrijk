@@ -52,7 +52,7 @@ Totaal 149 items: 77 vastgesteld, 72 te verifiëren (verificatieronde 2 november
 - Niet geverifieerd: inschrijfdeadline Franse kiezerslijst (berekend: 10 maart online, 12 maart bij de mairie), procuration, dag van de kiescollegeverkiezing zelf (17 maart verwacht), briefstembewijs, Eerste Kamerverkiezing (plaatshouder 25 mei).
 - Niet opgenomen: Dag van de Nederlanders buiten Nederland (geen vaste datum gevonden).
 
-## Uitgaan en genieten (16)
+## Franse tradities, id genieten (16)
 
 - Gezien: beaujolais.com (derde donderdag van november, 19 november 2026 en 18 november 2027); Service-Public A17952 (regel soldes d'hiver, in 2027 woensdag 6 januari tot en met 2 februari); fetedeslumieres.lyon.fr (5 tot 8 december 2026).
 - Seizoen eten en drinken, vastgesteld in de ronde van 2 november (mangerbouger.fr stond in onderhoud; per seizoen één bron die de maanden noemt):

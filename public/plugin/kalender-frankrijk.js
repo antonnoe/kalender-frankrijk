@@ -19,7 +19,7 @@
   var MAANDEN = ['januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november', 'december'];
   var KORT = {
     fiscaal: 'Fiscaal', uitkeringen: 'Uitkeringen', feestdagen: 'Feestdagen', school: 'School', wonen: 'Wonen',
-    buiten: 'Buiten', zorg: 'Zorg', stemmen: 'Stemmen', genieten: 'Genieten', verenigingen: 'Verenigingen', moestuin: 'Moestuin'
+    buiten: 'Buiten', zorg: 'Zorg', stemmen: 'Stemmen', genieten: 'Tradities', verenigingen: 'Verenigingen', moestuin: 'Moestuin'
   };
   var DOELGROEP = {
     iedereen: 'Voor iedereen', particulier: 'Particulier', ondernemer: 'Ondernemer', gepensioneerde: 'Gepensioneerde',

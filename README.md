@@ -72,6 +72,7 @@ Let op de spaties vóór de veldnamen (twee spaties) en de dubbele punt met een 
 | `soort` | optioneel: `datum`, `periode`, `seizoen`, `banner` of `mijlpaal`. Weglaten: een periode als `wanneer` een periode is, anders een datum |
 | `gesprek` | `ja` of `nee`. Weglaten: ja bij seizoen en mijlpaal, nee bij de rest. Bij `ja` krijgt het item de link "Bespreek op het forum" |
 | `tijd` | optioneel, bijvoorbeeld `"18:00-19:30"` |
+| `datum_zeker` | optioneel, `ja` of `nee`. Weglaten: ja. `nee` bij een geschatte of gebruikelijke datum die de organisator nog niet bevestigde (de titel eindigt dan op "(waarschijnlijke datum)", de controle eist dat). De API levert `datum_zeker: true` of `false`; InfoPoche toont bij `false` "Gebruikelijke datum, nog niet bevestigd door de organisator." in plaats van "Gecontroleerd op ..." |
 
 Een banner (feestperiode in de nieuwsbrief) heeft daarbij `soort: banner`, een periode in `wanneer` en de velden `tekst_nl`, `tekst_fr` en `kleur`.
 

@@ -114,3 +114,17 @@ test('departement onder 10 wordt twee cijfers (YAML leest 06 als getal)', () => 
   assert.deepEqual(fouten, []);
   assert.deepEqual(items[0].gebied, ['06', '24', '2A']);
 });
+
+test('datum_zeker: standaard ja, nee voor een geschatte datum, titel met "(waarschijnlijke datum)" eist het veld', async () => {
+  assert.equal(controleer(GOED).items[0].datum_zeker, true);
+  const nee = controleer(GOED.replace('Beaujolais nouveau', 'Beaujolais nouveau (waarschijnlijke datum)').replace('status: vastgesteld', 'status: vastgesteld\n  datum_zeker: nee'));
+  assert.deepEqual(nee.fouten, []);
+  assert.equal(nee.items[0].datum_zeker, false);
+  const vergeten = controleer(GOED.replace('Beaujolais nouveau', 'Beaujolais nouveau (waarschijnlijke datum)'));
+  assert.ok(vergeten.fouten.some((x) => /datum_zeker/.test(String(x.melding ?? x.tekst ?? JSON.stringify(x)))));
+  assert.ok(controleer(GOED.replace('status: vastgesteld', 'status: vastgesteld\n  datum_zeker: misschien')).fouten.length > 0);
+  // API en eigen kalender: precies de negen geschatte items hebben datum_zeker false
+  const { publiekItem } = await import('../lib/engine.js');
+  assert.equal(publiekItem(nee.items[0], '2026-01-01', '2027-12-31').datum_zeker, false);
+  assert.equal(publiekItem(controleer(GOED).items[0], '2026-01-01', '2027-12-31').datum_zeker, true);
+});

@@ -242,6 +242,7 @@
 
 - id: fete-des-voisins-2027
   titel: "Fête des voisins (waarschijnlijke datum)"
+  datum_zeker: nee
   rubriek: genieten
   soort: datum
   doelgroepen: [iedereen]
@@ -257,6 +258,7 @@
 
 - id: fete-des-voisins-2028
   titel: "Fête des voisins (waarschijnlijke datum)"
+  datum_zeker: nee
   rubriek: genieten
   soort: datum
   doelgroepen: [iedereen]
@@ -413,6 +415,7 @@
 
 - id: braderie-de-lille-2027
   titel: "Braderie de Lille (waarschijnlijke datum)"
+  datum_zeker: nee
   rubriek: genieten
   soort: periode
   doelgroepen: [iedereen]
@@ -428,6 +431,7 @@
 
 - id: feria-de-pentecote-nimes-2027
   titel: "Féria de Pentecôte in Nîmes (waarschijnlijke datum)"
+  datum_zeker: nee
   rubriek: genieten
   soort: periode
   doelgroepen: [iedereen]
@@ -443,6 +447,7 @@
 
 - id: transhumance-saint-remy-2027
   titel: "Fête de la Transhumance in Saint-Rémy-de-Provence (waarschijnlijke datum)"
+  datum_zeker: nee
   rubriek: genieten
   soort: datum
   doelgroepen: [iedereen]
@@ -458,6 +463,7 @@
 
 - id: festival-de-cornouaille-2027
   titel: "Festival de Cornouaille in Quimper (waarschijnlijke datum)"
+  datum_zeker: nee
   rubriek: genieten
   soort: periode
   doelgroepen: [iedereen]
@@ -473,6 +479,7 @@
 
 - id: journees-du-patrimoine-2027
   titel: "Journées européennes du patrimoine (waarschijnlijke datum)"
+  datum_zeker: nee
   rubriek: genieten
   soort: periode
   doelgroepen: [iedereen]
@@ -488,6 +495,7 @@
 
 - id: vendanges-montmartre-2027
   titel: "Fête des Vendanges de Montmartre (waarschijnlijke datum)"
+  datum_zeker: nee
   rubriek: genieten
   soort: periode
   doelgroepen: [iedereen]
@@ -503,6 +511,7 @@
 
 - id: hospices-de-beaune-2027
   titel: "Vente des vins des Hospices de Beaune (waarschijnlijke datum)"
+  datum_zeker: nee
   rubriek: genieten
   soort: datum
   doelgroepen: [iedereen]

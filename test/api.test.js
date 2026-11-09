@@ -127,3 +127,22 @@ test('themabeelden: PNG en SVG per rubriek', { skip: !existsSync(join(import.met
     assert.match(readFileSync(join(import.meta.dirname, '..', 'public', 'beeld', `${r.id}.svg`), 'utf8'), new RegExp(r.kleur));
   }
 });
+
+test('/api/items?id=: een item op id, ook ver vooruit; verborgen of onbekend geeft 404', () => {
+  const r = vraag('/api/items', { id: 'beaujolais-nouveau' });
+  const d = JSON.parse(r.body);
+  assert.equal(r.status, 200);
+  assert.equal(d.aantal, 1);
+  assert.equal(d.items[0].id, 'beaujolais-nouveau');
+  assert.equal(d.items[0].voorkomens[0].van, '2026-11-19');
+  assert.ok(d.items[0].voorkomens.some((v) => v.van.startsWith('2027-')), 'ook een voorkomen in het volgende jaar');
+  assert.equal(d.items[0].beeld_url, 'https://kalender.example/beeld/genieten.png');
+  const lijst = JSON.parse(vraag('/api/items', { van: '2026-11-01', tot: '2026-11-30' }).body).items.find((i) => i.id === 'beaujolais-nouveau');
+  assert.deepEqual(Object.keys(d.items[0]).sort(), Object.keys(lijst).sort(), 'dezelfde velden als de lijst');
+  assert.equal(vraag('/api/items', { id: 'truffel' }).status, 404, 'te_verifieren komt er nooit in');
+  assert.equal(vraag('/api/items', { id: 'bestaat-niet' }).status, 404);
+  assert.equal(vraag('/api/items', { id: 'Kapot id!' }).status, 404);
+  assert.equal(vraag('/api/items', { id: 'beaujolais-nouveau', toon_in: 'bestaat-niet' }).status, 404, 'zelfde filter als de lijst');
+  assert.equal(vraag('/api/items', { id: 'beaujolais-nouveau' }).headers['cache-control'].includes('s-maxage'), true);
+  assert.equal(vraag('/api/items', { id: 'bestaat-niet' }).headers['cache-control'], 'no-store');
+});

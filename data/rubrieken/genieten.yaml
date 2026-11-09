@@ -524,3 +524,18 @@
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: ja
   opmerking: "Patroon (genoemd op de site): derde zondag van november; 2027 uitgerekend op zondag 21 november. Bijwerken zodra de organisator de datum publiceert."
+
+- id: perseiden-2027
+  titel: "Perseïden, de vallende sterren van augustus"
+  rubriek: genieten
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-08-13}
+  aftellen: [7, 1]
+  gebied: "heel Frankrijk"
+  tekst: "De Perseïden hebben volgens de International Meteor Organization hun piek op 13 augustus 2027, tussen 08.00 en 10.00 uur UTC. Omgerekend naar Franse zomertijd is dat tussen 10.00 en 12.00 uur; kijk daarom in de nacht van 12 op 13 augustus, op een donkere plek ver van lantaarns. Er staat een wassende maan aan de hemel, die het licht van de zwakkere meteoren kan overstralen."
+  bron: {url: "https://imo.net/files/meteor-shower/cal2027.pdf", gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Bron: IMO Meteor Shower Calendar 2027, Perseids (007 PER): Maximum August 13, 08h to 10h UT, ZHR 110+; Active July 17 to August 24; waxing Moon at the peak. De Franse tijd is UTC plus 2 uur (zomertijd), dus 10.00 tot 12.00 uur."

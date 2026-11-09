@@ -269,3 +269,249 @@
   toon_in: [nieuwsbrief, pagina, infopoche]
   gesprek: ja
   opmerking: "Datum 2028 geschat (icalendrier.fr: vrijdag 26 mei, geschat). De vereniging Immeubles en fête kiest de datum, meestal de laatste vrijdag van mei of de eerste van juni; 2026 was vrijdag 29 mei. Op besluit van Anton (9-11-2026) zichtbaar als waarschijnlijke datum; na de aankondiging op lafetedesvoisins.fr titel, tekst, datum en bron bijwerken."
+
+- id: saint-vincent-tournante-2027
+  titel: "Saint-Vincent Tournante in Volnay"
+  rubriek: genieten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-01-30, tot: 2027-01-31}
+  aftellen: [14, 1]
+  gebied: [21]
+  tekst: "Elk jaar viert een ander Bourgondisch wijndorp het wijnfeest van Saint-Vincent, in 2027 is dat Volnay. Met optocht en proeverijen staat de hele streek in feeststemming, dus je kunt elk jaar op een nieuwe plek terecht."
+  bron: {url: https://www.beaune-tourism.com/organize-your-stay/events/saint-vincent-tournante-de-volnay-volnay-en-6747336/, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Datum van het toerismebureau van Beaune; de organisator is saintvincentvolnay.fr (niet geopend). De plaats wisselt jaarlijks."
+
+- id: fete-du-citron-2027
+  titel: "Fête du Citron in Menton"
+  rubriek: genieten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-02-13, tot: 2027-02-28}
+  aftellen: [14, 1]
+  gebied: [06]
+  tekst: "In de tuinen van Menton staan wagens en beelden gemaakt van duizenden citrusvruchten. Een gezellig winteruitje met zon aan de Côte d'Azur."
+  bron: {url: https://www.fete-du-citron.com/, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: carnaval-nice-2027
+  titel: "Carnaval de Nice"
+  rubriek: genieten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-02-09, tot: 2027-02-28}
+  aftellen: [14, 1]
+  gebied: [06]
+  tekst: "Optochten met grote wagens en bloemenstrijd in een van de oudste carnavals van Europa. Het programma volgt nog op de site van het carnaval."
+  bron: {url: https://www.nicecarnaval.com, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: salon-agriculture-2027
+  titel: "Salon international de l'Agriculture in Parijs"
+  rubriek: genieten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-02-27, tot: 2027-03-07}
+  aftellen: [14, 1]
+  gebied: [75]
+  tekst: "Streekproducten, vee en wijn uit heel Frankrijk onder één dak, bij Paris Expo Porte de Versailles. Handig als je wilt proeven en kennismaken met je eigen regio."
+  bron: {url: https://www.salon-agriculture.com, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: roland-garros-2027
+  titel: "Roland-Garros"
+  rubriek: genieten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-05-17, tot: 2027-06-06}
+  aftellen: [14, 1]
+  gebied: [75]
+  tekst: "Het grote gravel-toernooi in Parijs, met kaartverkoop, trainingsdagen en veel uitzendingen als je er niet heen kunt."
+  bron: {url: https://www.rolandgarros.com/fr-fr, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: rendez-vous-aux-jardins-2027
+  titel: "Rendez-vous aux Jardins"
+  rubriek: genieten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-06-04, tot: 2027-06-06}
+  aftellen: [14, 1]
+  gebied: "heel Frankrijk"
+  tekst: "Honderden particuliere tuinen en parken die normaal gesloten zijn, gaan een weekend open, ook in de Dordogne, de Lot en Bretagne. Het thema in 2027 is gazons, pelouses et prairies."
+  bron: {url: https://rendezvousauxjardins.culture.gouv.fr, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: 24-heures-du-mans-2027
+  titel: "24 Heures du Mans"
+  rubriek: genieten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-06-09, tot: 2027-06-13}
+  aftellen: [14, 1]
+  gebied: [72]
+  tekst: "De beroemdste uithoudingsrace ter wereld (95e editie), met een volksfeest rond het circuit dat je ook zonder kaartje voor de wedstrijd meemaakt."
+  bron: {url: https://www.24h-lemans.com, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: armada-rouen-2027
+  titel: "Armada de Rouen"
+  rubriek: genieten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-06-17, tot: 2027-06-27}
+  aftellen: [14, 1]
+  gebied: [76]
+  tekst: "De mooiste zeilschepen ter wereld liggen elf dagen aan de kades van Rouen. De Armada komt niet elk jaar, maar 2027 is een Armada-jaar."
+  bron: {url: https://www.armada.org, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: jazz-a-vienne-2027
+  titel: "Jazz à Vienne"
+  rubriek: genieten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-06-25, tot: 2027-07-10}
+  aftellen: [14, 1]
+  gebied: [38]
+  tekst: "Concerten in het Romeinse theater van Vienne (46e editie), met grote namen en een ontspannen sfeer."
+  bron: {url: https://www.jazzavienne.com, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: rencontres-arles-2027
+  titel: "Rencontres d'Arles"
+  rubriek: genieten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-07-05, tot: 2027-10-03}
+  aftellen: [14, 1]
+  gebied: [13]
+  tekst: "Fotografietentoonstellingen in kerken, kloosters en oude industriehallen, de hele zomer te bezoeken. De openingsweek loopt van 5 tot 11 juli."
+  bron: {url: https://www.rencontres-arles.com, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+
+- id: braderie-de-lille-2027
+  titel: "Braderie de Lille (waarschijnlijke datum)"
+  rubriek: genieten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-09-04, tot: 2027-09-05}
+  aftellen: [14, 1]
+  gebied: [59]
+  tekst: "De grootste rommelmarkt van Europa, met de traditionele moules-frites: een dag vol zoeken en proeven in Noord-Frankrijk. De stad Lille zet zelf nog een vraagteken bij de datum, dit is de gebruikelijke datum."
+  bron: {url: https://www.lille.fr, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Lille meldt 4 en 5 september 2027 met een vraagteken (\"nog te bevestigen\"); aankondiging ook op braderie-de-lille.fr. Na bevestiging door de stad titel en tekst bijwerken."
+
+- id: feria-de-pentecote-nimes-2027
+  titel: "Féria de Pentecôte in Nîmes (waarschijnlijke datum)"
+  rubriek: genieten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-05-13, tot: 2027-05-17}
+  aftellen: [14, 1]
+  gebied: [30]
+  tekst: "Vijf dagen stierenvechtcultuur, bodega's en muziek in de straten van Nîmes, de grootste féria van Frankrijk. De officiële datum voor 2027 is nog niet bekend; dit is de gebruikelijke datum rond Pinksteren (16 mei)."
+  bron: {url: https://www.arenes-nimes.com, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Datum uitgerekend uit het patroon (Pinksterweekend, Pinksteren 2027 is 16 mei, vijf dagen tot en met Pinkstermaandag 17 mei); geen officiële datum. Bijwerken zodra de organisator de datum publiceert (details bij nimes-tourisme.com)."
+
+- id: transhumance-saint-remy-2027
+  titel: "Fête de la Transhumance in Saint-Rémy-de-Provence (waarschijnlijke datum)"
+  rubriek: genieten
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-05-17}
+  aftellen: [7]
+  gebied: [13]
+  tekst: "Duizenden schapen trekken in een optocht door de straten naar de bergweiden, een levende Provençaalse traditie. De officiële datum voor 2027 is nog niet bekend; dit is de gebruikelijke datum, Pinkstermaandag."
+  bron: {url: https://www.avignon-et-provence.com/en/traditions/transhumance-festival-saint-remy-de-provence, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Patroon: Pinkstermaandag (2026 was maandag 25 mei); Pinkstermaandag 2027 is 17 mei. Bron is een regionale toerismesite, geen organisator. Bijwerken zodra de organisator de datum publiceert."
+
+- id: festival-de-cornouaille-2027
+  titel: "Festival de Cornouaille in Quimper (waarschijnlijke datum)"
+  rubriek: genieten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-07-22, tot: 2027-07-25}
+  aftellen: [14, 1]
+  gebied: [29]
+  tekst: "Het grootste Bretonse volksfeest met bagadoù, fest-noz en kostuums, zonder de drukte van Lorient. De officiële datum voor 2027 is nog niet bekend; dit is de gebruikelijke datum in het vierde weekend van juli."
+  bron: {url: https://www.festival-cornouaille.bzh, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Patroon: vierde weekend van juli, donderdag tot zondag (2026: 23 tot 26 juli); 2027 uitgerekend op 22 tot 25 juli. De site noemt 2027 als 49e festival maar geen data. Bijwerken zodra de organisator de datum publiceert."
+
+- id: journees-du-patrimoine-2027
+  titel: "Journées européennes du patrimoine (waarschijnlijke datum)"
+  rubriek: genieten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-09-18, tot: 2027-09-19}
+  aftellen: [14, 1]
+  gebied: "heel Frankrijk"
+  tekst: "Kastelen, stadhuizen en ministeries die anders gesloten zijn, gaan gratis open, ook in kleine dorpen. De officiële datum voor 2027 is nog niet bekend; dit is de gebruikelijke datum, het derde weekend van september."
+  bron: {url: https://journeesdupatrimoine.culture.gouv.fr, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Patroon: derde weekend van september (2026: 19 en 20 september); 2027 uitgerekend op 18 en 19 september. De site meldt voor 2027 \"prochainement\". Bijwerken zodra de datum is gepubliceerd."
+
+- id: vendanges-montmartre-2027
+  titel: "Fête des Vendanges de Montmartre (waarschijnlijke datum)"
+  rubriek: genieten
+  soort: periode
+  doelgroepen: [iedereen]
+  wanneer: {van: 2027-10-06, tot: 2027-10-10}
+  aftellen: [14, 1]
+  gebied: [75]
+  tekst: "De druivenoogst van de enige wijngaard van Parijs, met optocht en proeverij op de Butte Montmartre. De officiële datum voor 2027 is nog niet bekend; dit is de gebruikelijke datum, het tweede weekend van oktober."
+  bron: {url: https://www.fetedesvendangesdemontmartre.com, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Patroon: tweede weekend van oktober, vijf dagen woensdag tot zondag (2026: 7 tot 11 oktober); 2027 uitgerekend op 6 tot 10 oktober. Bijwerken zodra de organisator de datum publiceert."
+
+- id: hospices-de-beaune-2027
+  titel: "Vente des vins des Hospices de Beaune (waarschijnlijke datum)"
+  rubriek: genieten
+  soort: datum
+  doelgroepen: [iedereen]
+  wanneer: {datum: 2027-11-21}
+  aftellen: [7]
+  gebied: [21]
+  tekst: "De beroemde liefdadigheidsveiling van Bourgondische wijnen, met in het weekend ervoor proeverijen en een feest in de hele stad. De officiële datum voor 2027 is nog niet bekend; dit is de gebruikelijke datum, de derde zondag van november."
+  bron: {url: https://www.hospices-de-beaune.com, gecontroleerd: 2026-11-09}
+  status: vastgesteld
+  toon_in: [nieuwsbrief, pagina, infopoche]
+  gesprek: ja
+  opmerking: "Patroon (genoemd op de site): derde zondag van november; 2027 uitgerekend op zondag 21 november. Bijwerken zodra de organisator de datum publiceert."

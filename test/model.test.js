@@ -108,3 +108,9 @@ test('standaardwaarden: aftellen voor fiscale deadline, gesprek voor seizoen', (
   assert.equal(seizoen.gesprek, true);
   assert.equal(controleer(GOED).items[0].gesprek, false);
 });
+
+test('departement onder 10 wordt twee cijfers (YAML leest 06 als getal)', () => {
+  const { fouten, items } = controleer(GOED.replace('gebied: heel Frankrijk', 'gebied: [06, 24, 2A]'));
+  assert.deepEqual(fouten, []);
+  assert.deepEqual(items[0].gebied, ['06', '24', '2A']);
+});

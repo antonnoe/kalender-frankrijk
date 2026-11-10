@@ -73,7 +73,7 @@ test('feestdagen: Elzas-Moezel krijgt zijn eigen gebied, wettelijke dagen heel F
   assert.equal(per['2026-11-01'].titel, 'Allerheiligen (Toussaint)');
   assert.equal(per['2026-11-01'].gebied, 'heel Frankrijk');
   assert.equal(per['2026-12-26'].gebied, 'Elzas-Moezel');
-  assert.equal(per['2026-12-26'].titel, 'Tweede kerstdag');
+  assert.equal(per['2026-12-26'].titel, 'Tweede kerstdag (Saint-Étienne)');
   assert.equal(items.length, 4, 'dezelfde dag in beide gebieden is één item');
 });
 
@@ -123,4 +123,14 @@ test('de echte kopie in data/bron: geen lange streepjes, geen dubbelen per dag, 
   const samengevoegd = t.particulier.samengevoegd + t.professionnel.samengevoegd + t.nederland.samengevoegd;
   assert.equal(fiscaal.length + samengevoegd, ingelezen, 'elk ingelezen fiscaal item is aanwezig of samengevoegd');
   assert.ok(ingelezen >= 500);
+});
+
+test('feestdagen: Franse naam in de titel, toelichting na de vaste zin', () => {
+  const items = feestdagItems({ metropole: { 2026: { '2026-11-11': '11 novembre', '2026-05-25': 'Lundi de Pentecôte', '2026-04-06': 'Lundi de Pâques' } } }, '2026-11-10');
+  const per = Object.fromEntries(items.map((i) => [i.wanneer.datum, i]));
+  assert.equal(per['2026-11-11'].titel, 'Wapenstilstand (Armistice 1918)');
+  assert.match(per['2026-11-11'].tekst, /dicht\. Herdenking van het einde van de Eerste Wereldoorlog/);
+  assert.match(per['2026-05-25'].tekst, /journée de solidarité/);
+  assert.match(per['2026-04-06'].tekst, /dicht\.$/, 'zonder toelichting alleen de vaste zin');
+  for (const i of items) assert.ok(!/[\u2013\u2014]/.test(i.titel + i.tekst));
 });

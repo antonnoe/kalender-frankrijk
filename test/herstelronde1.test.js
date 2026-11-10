@@ -302,3 +302,9 @@ test('itemsInBereik laat te_verifieren standaard weg; status=alle geeft ze mee, 
   assert.deepEqual(itemsInBereik(items, '2026-11-01', '2026-11-30', { status: 'alle' }).map((i) => i.id), ['v1', 'tv']);
   assert.deepEqual(itemsInBereik(items, '2026-11-01', '2026-11-30', { status: 'te_verifieren' }).map((i) => i.id), ['tv']);
 });
+
+test('nieuwe feestdagtitels met Franse naam ontdubbelen nog met Google', () => {
+  assert.equal(titelSleutel('Wapenstilstand (Armistice 1918)'), titelSleutel('Armistice Day'));
+  assert.equal(titelSleutel('Nationale feestdag (Fête nationale, 14 juillet)'), titelSleutel('Bastille Day'));
+  assert.equal(titelSleutel('Eerste kerstdag (Noël)'), titelSleutel('Christmas Day'));
+});

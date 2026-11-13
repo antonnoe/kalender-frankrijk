@@ -1,8 +1,8 @@
 {
-  "aan": true,
+  "aan": false,
   "aanTot": "2026-11-12",
-  "datum": "2026-11-12",
-  "volgende": "2026-11-12",
+  "datum": null,
+  "volgende": "2026-11-19",
   "wekelijks": {
     "weekdag": 4,
     "begin": "18:00",

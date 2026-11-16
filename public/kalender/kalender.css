@@ -58,6 +58,8 @@ p { margin: 0; }
 .kal-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
 .kal-chip { min-height: 40px; padding: 0 14px; border-radius: 20px; font-size: 14px; --kal-b-bg: #ffffff; --kal-b-fg: #333333; --kal-b-rand: #ecd9d9; }
 .kal-chip:hover { --kal-b-bg: #f3e0e0; }
+.kal-chip[aria-disabled="true"] { --kal-b-bg: #f5f5f5; --kal-b-fg: #9a9a9a; --kal-b-rand: #e3e3e3; cursor: not-allowed; font-weight: 400; }
+.kal-chip[aria-disabled="true"]:hover { --kal-b-bg: #f5f5f5; }
 .kal-chip[aria-pressed="true"] { --kal-b-bg: #f3e0e0; --kal-b-fg: #800000; --kal-b-rand: #800000; }
 
 /* rooster: standaard verborgen, komt terug vanaf 701px (zie onderaan) */
@@ -69,6 +71,8 @@ p { margin: 0; }
 .kal-lijst { margin: 0 0 8px; }
 .kal-dagtitel { margin: 16px 0 8px; font-family: Mulish, 'Segoe UI', Arial, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #800000; }
 .kal-dagtitel:first-child { margin-top: 0; }
+.kal-dagtitel-nu { color: #2f6b3d; }
+.kal-detail-inline { margin: 0 0 8px; }
 .kal-rij {
   display: flex; align-items: flex-start; gap: 10px; width: 100%; min-height: 48px; padding: 10px 12px; text-align: left;
   border-radius: 8px; border: 1px solid #ecd9d9; background: #faf5f5; margin: 0 0 8px; font-weight: 400; --kal-b-fg: #333333;
@@ -137,6 +141,10 @@ a.kal-actie:hover { background: #244f2e; }
 
   /* weekweergave: hogere cellen, zodat er meer items per dag passen */
   .kal-rooster-week .kal-cel { min-height: 220px; }
+}
+
+@media (max-width: 700px) {
+  .kal-detail-bureau { display: none; }
 }
 
 @media (max-width: 420px) {

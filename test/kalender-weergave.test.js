@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { maandDagen, weekDagen, filterPerRubriek } from '../public/kalender/kalender-weergave.js';
+import { maandDagen, weekDagen, filterPerRubriek, dagenMetItems, rubriekenMetItems } from '../public/kalender/kalender-weergave.js';
 
 test('maandDagen: november 2026 begint op zondag 1 en dekt hele weken', () => {
   const dagen = maandDagen('2026-11-16');
@@ -61,4 +61,35 @@ test('filterPerRubriek: houdt alleen items van de gekozen rubriek over', () => {
 test('filterPerRubriek: een rubriek zonder items geeft een lege lijst, geen fout', () => {
   const items = [{ id: 'a', rubriek: 'genieten' }];
   assert.deepEqual(filterPerRubriek(items, 'moestuin'), []);
+});
+
+const perDag = {
+  '2026-11-03': [{ item: { id: 'a', rubriek: 'fiscaal' } }, { item: { id: 'b', rubriek: 'genieten' } }],
+  '2026-11-10': [{ item: { id: 'c', rubriek: 'genieten' } }],
+  '2026-11-24': [{ item: { id: 'd', rubriek: 'fiscaal' } }],
+};
+const novemberDatums = maandDagen('2026-11-16').filter((d) => d.inMaand).map((d) => d.datum);
+
+test('dagenMetItems: de maandlijst bevat alleen dagen met items, op volgorde', () => {
+  assert.equal(novemberDatums.length, 30);
+  assert.deepEqual(dagenMetItems(novemberDatums, perDag, ''), ['2026-11-03', '2026-11-10', '2026-11-24']);
+});
+
+test('dagenMetItems: het rubriekfilter laat alleen dagen met die rubriek over', () => {
+  assert.deepEqual(dagenMetItems(novemberDatums, perDag, 'fiscaal'), ['2026-11-03', '2026-11-24']);
+  assert.deepEqual(dagenMetItems(novemberDatums, perDag, 'stemmen'), []);
+});
+
+test('rubriekenMetItems: een rubriek zonder items in de periode ontbreekt (grijze knop)', () => {
+  const heeft = rubriekenMetItems(perDag);
+  assert.equal(heeft.fiscaal, true);
+  assert.equal(heeft.genieten, true);
+  assert.equal(heeft.stemmen, undefined);
+  assert.deepEqual(rubriekenMetItems({}), {});
+  assert.deepEqual(rubriekenMetItems(undefined), {});
+});
+
+test('filterPerRubriek: werkt ook op kalenderregels met het item erin', () => {
+  const regels = [{ item: { id: 'a', rubriek: 'fiscaal' }, vk: {} }, { item: { id: 'b', rubriek: 'genieten' }, vk: {} }];
+  assert.deepEqual(filterPerRubriek(regels, 'genieten').map((r) => r.item.id), ['b']);
 });

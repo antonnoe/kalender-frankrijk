@@ -60,8 +60,20 @@ export function weekDagen(iso) {
   return dagen;
 }
 
-/** Items die bij de gekozen rubriek horen; een lege of ontbrekende rubriek laat alles staan. */
+/** Items (of kalenderregels {item, vk}) die bij de gekozen rubriek horen; een lege of ontbrekende rubriek laat alles staan. */
 export function filterPerRubriek(items, rubriek) {
   if (!rubriek) return items.slice();
-  return items.filter((item) => item && item.rubriek === rubriek);
+  return items.filter((item) => item && (item.rubriek === rubriek || (item.item && item.item.rubriek === rubriek)));
+}
+
+/** Welke rubrieken hebben minstens één item in `perDag` (object datum naar lijst van {item})? Geeft {rubriekId: true}. */
+export function rubriekenMetItems(perDag) {
+  const heeft = {};
+  Object.keys(perDag || {}).forEach((d) => (perDag[d] || []).forEach((e) => { if (e && e.item && e.item.rubriek) heeft[e.item.rubriek] = true; }));
+  return heeft;
+}
+
+/** De datums (in gegeven volgorde) die na het rubriekfilter minstens één item hebben: de lijst per dag voor een maand. */
+export function dagenMetItems(datums, perDag, rubriek, filter = filterPerRubriek) {
+  return datums.filter((d) => filter((perDag && perDag[d]) || [], rubriek).length > 0);
 }

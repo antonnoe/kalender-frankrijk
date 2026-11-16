@@ -7,7 +7,7 @@
  */
 import {
   lees, plus, weekStart, weekEind, maandStart, maandEind, verschuifMaand, vandaagParijs,
-  maandDagen, weekDagen, filterPerRubriek,
+  maandDagen, weekDagen, filterPerRubriek, dagenMetItems, rubriekenMetItems,
 } from './kalender-weergave.js';
 
 (function () {
@@ -84,6 +84,7 @@ import {
     klaar: false,
     fout: false,
     vensterFout: false,
+    scrollNaar: null,
   };
 
   function zetItems(lijst) {
@@ -140,6 +141,7 @@ import {
     Promise.all([haalJson(API + '/api/rubrieken'), laadVenster(van, tot)]).then(function (r) {
       s.rubrieken = (Array.isArray(r[0]) ? r[0] : []).filter(function (x) { return x && typeof x.id === 'string'; });
       s.klaar = true;
+      s.scrollNaar = vandaag;
       teken();
       zorg();
     }, function () { s.fout = true; teken(); });
@@ -202,7 +204,7 @@ import {
     return h('div', { klas: 'kal-nav' }, [
       kn('kal-pijl', '‹', { 'aria-label': 'Vorige ' + eenheid, onclick: function () { verschuif(-1); } }),
       h('h2', { klas: 'kal-titel', 'aria-live': 'polite', tekst: titelTekst(p) }),
-      kn('kal-vandaag', 'Vandaag', { onclick: function () { kies(vandaag); } }),
+      kn('kal-vandaag', 'Vandaag', { onclick: function () { s.scrollNaar = vandaag; kies(vandaag); } }),
       kn('kal-pijl', '›', { 'aria-label': 'Volgende ' + eenheid, onclick: function () { verschuif(1); } }),
     ]);
   }
@@ -222,16 +224,17 @@ import {
     kies(plus(iso, stap));
   }
 
-  function filterRij() {
-    var voorkomend = {};
-    Object.keys(s.items).forEach(function (id) { voorkomend[s.items[id].rubriek] = true; });
-    if (s.rubriek) voorkomend[s.rubriek] = true;
-    var ids = Object.keys(voorkomend).sort(function (a, b) { return rubriekVolgorde(a) - rubriekVolgorde(b); });
+  function filterRij(perDag) {
+    var heeft = rubriekenMetItems(perDag);
+    var ids = s.rubrieken.map(function (r) { return r.id; });
+    if (s.rubriek && ids.indexOf(s.rubriek) < 0) ids.push(s.rubriek);
     function chip(id, tekst) {
-      return kn('kal-chip', tekst, {
-        'aria-pressed': (id === '' ? !s.rubriek : s.rubriek === id) ? 'true' : 'false',
-        onclick: function () { s.rubriek = id; s.open = null; teken(); },
-      });
+      var actief = id === '' ? !s.rubriek : s.rubriek === id;
+      var leeg = id !== '' && !heeft[id] && !actief;
+      var props = { 'aria-pressed': actief ? 'true' : 'false' };
+      if (leeg) { props['aria-disabled'] = 'true'; props.title = 'Geen items in deze periode'; }
+      else props.onclick = function () { s.rubriek = id; s.open = null; teken(); };
+      return kn('kal-chip' + (leeg ? ' kal-chip-leeg' : ''), tekst, props);
     }
     return h('div', { klas: 'kal-chips', role: 'group', 'aria-label': 'Rubriek' },
       [chip('', 'Alles')].concat(ids.map(function (id) { return chip(id, kort(id)); })));
@@ -341,18 +344,29 @@ import {
     return gebied;
   }
 
+  /** Lijst per dag (telefoon): bij een maand alle dagen met items, bij een week de dagen van de week. Een geopend item toont zijn details direct eronder. */
   function lijstTerugval(p, perDag) {
-    var dagen = p.soort === 'maand' ? [s.gekozen] : weekDagen(s.gekozen).map(function (d) { return d.datum; });
+    var dagen = p.soort === 'maand'
+      ? dagenMetItems(maandDagen(s.gekozen).filter(function (d) { return d.inMaand; }).map(function (d) { return d.datum; }), perDag, s.rubriek, filterPerRubriek)
+      : weekDagen(s.gekozen).map(function (d) { return d.datum; });
     var gebied = h('div', { klas: 'kal-lijst' });
     var getoond = 0;
     dagen.forEach(function (d) {
       var lijst = filterPerRubriek(perDag[d] || [], s.rubriek);
       if (!lijst.length) return;
       getoond += lijst.length;
-      gebied.appendChild(h('h3', { klas: 'kal-dagtitel', tekst: dagLabel(d) }));
-      lijst.forEach(function (e) { gebied.appendChild(itemRij(e)); });
+      var kop = h('h3', { klas: 'kal-dagtitel', tekst: dagLabel(d), 'data-dag': d });
+      if (d === vandaag) kop.className += ' kal-dagtitel-nu';
+      gebied.appendChild(kop);
+      lijst.forEach(function (e) {
+        gebied.appendChild(itemRij(e));
+        if (s.open === e.item.id + '|' + e.vk.van) {
+          var det = detailPaneel();
+          if (det) { det.className += ' kal-detail-inline'; gebied.appendChild(det); }
+        }
+      });
     });
-    if (!getoond) gebied.appendChild(h('p', { klas: 'kal-leeg', tekst: s.rubriek ? 'Niets in ' + rubriekNaam(s.rubriek).toLowerCase() + ' op deze dagen.' : 'Niets op deze dagen.' }));
+    if (!getoond) gebied.appendChild(h('p', { klas: 'kal-leeg', tekst: s.rubriek ? 'Niets in ' + rubriekNaam(s.rubriek).toLowerCase() + (p.soort === 'maand' ? ' in deze maand.' : ' op deze dagen.') : (p.soort === 'maand' ? 'Niets in deze maand.' : 'Niets op deze dagen.') }));
     return gebied;
   }
 
@@ -384,6 +398,7 @@ import {
       var p = periode();
       var perDag = verzamelPerDag(p);
       delen.push(schakelaar());
+      if (s.klaar) delen.push(filterRij(perDag));
       delen.push(navigatie(p));
       if (s.vensterFout) delen.push(melding('De kalender is nu niet bereikbaar.'));
       else if (!gedekt(p.start, p.eind)) delen.push(h('p', { klas: 'kal-laden', role: 'status', tekst: 'De kalender wordt opgehaald...' }));
@@ -391,17 +406,32 @@ import {
         delen.push(rooster(p, perDag));
         delen.push(daglijst(perDag));
         var detail = detailPaneel();
-        if (detail) delen.push(detail);
+        if (detail) { detail.className += ' kal-detail-bureau'; delen.push(detail); }
         delen.push(lijstTerugval(p, perDag));
       }
-      if (s.klaar) delen.push(filterRij());
       if (s.klaar) delen.push(agendaRegel());
     }
     var frag = document.createDocumentFragment();
     delen.forEach(function (d) { if (d) frag.appendChild(d); });
     root.textContent = '';
     root.appendChild(frag);
+    scrollNaarDag();
     stuurHoogte();
+  }
+
+  /** Telefoon: zet de gevraagde dag (of de eerstvolgende dag met items) bovenaan in de eigen pagina. Alleen scroll binnen dit document, nooit de bovenliggende pagina. */
+  function scrollNaarDag() {
+    if (!s.scrollNaar || !s.klaar) return;
+    var wens = s.scrollNaar;
+    s.scrollNaar = null;
+    if (!window.matchMedia || !window.matchMedia('(max-width: 700px)').matches) return;
+    var koppen = root.querySelectorAll('.kal-lijst [data-dag]');
+    var doel = null;
+    for (var i = 0; i < koppen.length; i++) {
+      if (koppen[i].getAttribute('data-dag') >= wens) { doel = koppen[i]; break; }
+    }
+    if (!doel) return;
+    try { window.scrollTo(0, Math.max(0, doel.getBoundingClientRect().top + window.pageYOffset - 4)); } catch (e) { /* geen scroll is geen ramp */ }
   }
 
   /* ---------- hoogte naar de bovenliggende pagina ---------- */

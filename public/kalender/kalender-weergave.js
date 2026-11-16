@@ -115,3 +115,16 @@ export function rubriekenMetItems(perDag) {
 export function dagenMetItems(datums, perDag, rubriek, filter = filterPerRubriek) {
   return datums.filter((d) => filter((perDag && perDag[d]) || [], rubriek).length > 0);
 }
+
+// Linktekst voor "Lees meer": nooit een vercel.app-adres als tekst (besluit 16-11-2026).
+export const VERCEL_NAMEN = {
+  'moestuin-fr.vercel.app': 'de moestuintool',
+  'kalender-frankrijk.vercel.app': 'Kalender Frankrijk',
+};
+export function hostVanUrl(u) { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return String(u); } }
+export function leesMeerTekst(u) {
+  const host = hostVanUrl(u).toLowerCase();
+  if (!host.endsWith('.vercel.app')) return 'Lees meer op ' + hostVanUrl(u) + ' ↗';
+  const naam = VERCEL_NAMEN[host];
+  return naam ? 'Lees meer op ' + naam + ' ↗' : 'Lees meer ↗';
+}

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { maandDagen, weekDagen, filterPerRubriek, dagenMetItems, rubriekenMetItems, schakelRubriek, bepaalWeergave, paneelNaIndex } from '../public/kalender/kalender-weergave.js';
+import { maandDagen, weekDagen, filterPerRubriek, dagenMetItems, rubriekenMetItems, schakelRubriek, bepaalWeergave, paneelNaIndex, leesMeerTekst } from '../public/kalender/kalender-weergave.js';
 
 test('maandDagen: november 2026 begint op zondag 1 en dekt hele weken', () => {
   const dagen = maandDagen('2026-11-16');
@@ -155,4 +155,11 @@ test('opmaak: weergave via klasse en schaalvariabele, geen media query op de bre
   assert.ok(!/@media[^{]*(min|max)-width/.test(css), 'geen media query op de breedte');
   assert.ok(css.includes('.kal-breed .kal-rooster') && css.includes('--kal-s'));
   assert.ok(js.includes("'kal-breed'") && js.includes('--kal-s') && js.includes("type: 'kalender-hoogte'"));
+});
+
+test('linktekst: vercel.app-host met naam, zonder naam, en gewone host', () => {
+  assert.equal(leesMeerTekst('https://moestuin-fr.vercel.app/x'), 'Lees meer op de moestuintool ↗');
+  assert.equal(leesMeerTekst('https://kalender-frankrijk.vercel.app/'), 'Lees meer op Kalender Frankrijk ↗');
+  assert.equal(leesMeerTekst('https://iets-anders.vercel.app/a'), 'Lees meer ↗');
+  assert.equal(leesMeerTekst('https://www.service-public.fr/p'), 'Lees meer op service-public.fr ↗');
 });

@@ -8,7 +8,7 @@
 import {
   lees, plus, weekStart, weekEind, maandStart, maandEind, verschuifMaand, vandaagParijs,
   maandDagen, weekDagen, filterPerRubriek, dagenMetItems, rubriekenMetItems,
-  schakelRubriek, bepaalWeergave, paneelNaIndex,
+  schakelRubriek, bepaalWeergave, paneelNaIndex, leesMeerTekst,
 } from './kalender-weergave.js';
 
 (function () {
@@ -34,7 +34,6 @@ import {
   function datumNl(iso) { var x = lees(iso); return pad2(x.d) + '-' + pad2(x.m) + '-' + x.j; }
   function schoon(t) { return String(t == null ? '' : t); }
   function veiligeUrl(u) { return typeof u === 'string' && /^https:\/\/[^\s]+$/i.test(u) ? u : null; }
-  function hostVan(u) { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } }
   function isHeelFrankrijk(g) { var t = Array.isArray(g) ? g.join(', ') : g; return (t || 'heel Frankrijk').toLowerCase() === 'heel frankrijk'; }
   function gebiedTekst(g) { var t = Array.isArray(g) ? g.join(', ') : g; return t || 'heel Frankrijk'; }
 
@@ -329,7 +328,7 @@ import {
       delen.push(h('p', { klas: 'kal-detail-bron' }, [externeLink(bronUrl, 'Bekijk de bron ↗', 'kal-link')]));
     }
     var link = veiligeUrl(item.link);
-    if (link) delen.push(h('p', {}, [externeLink(link, 'Lees meer op ' + hostVan(link) + ' ↗', 'kal-actie')]));
+    if (link) delen.push(h('p', {}, [externeLink(link, leesMeerTekst(link), 'kal-actie')]));
     return h('div', { klas: 'kal-detail', role: 'region', 'aria-label': 'Detail' }, delen);
   }
 

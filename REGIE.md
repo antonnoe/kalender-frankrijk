@@ -9,7 +9,7 @@ Bouwplan uit `docs/ONTWERP.md` onder i. Stand van 2 november 2026.
 | 3 | Eigen jaarkalender november 2026 tot en met december 2027 | door een andere bouwer, in `data/rubrieken/` |
 | 4 | API, iCal per rubriek, themabeelden | klaar |
 | 5 | "Vandaag in het kort" en feestbanner in de nieuwsbrief (afnemer) | open; de API levert de regels al, de nieuwsbrief moet ze tekenen |
-| 6 | Pagina op Infofrankrijk (plugin met shortcode, besluit j2 = B) | plugin klaar (`wordpress/`, zip op /download/kalender-frankrijk.zip, voorbeeld op /pagina.html); nog te installeren en de pagina `kalender-frankrijk` te maken in WordPress |
+| 6 | Pagina op Infofrankrijk (plugin met shortcode, besluit j2 = B) | klaar: geïnstalleerd en de pagina https://infofrankrijk.com/kalender-frankrijk/ staat live (16 november 2026) |
 | 7 | Bosbrand koppelen | open, repo van de bosbrandtool nog te vinden |
 | 8 | Invulscherm in Cockpit, daarna InfoPoche-scherm | open |
 | 9 | Kalenderweergave voor een iframe op Nederlanders.fr (`/kalender`) | klaar, zie hieronder |

@@ -8,6 +8,7 @@
 import {
   lees, plus, weekStart, weekEind, maandStart, maandEind, verschuifMaand, vandaagParijs,
   maandDagen, weekDagen, filterPerRubriek, dagenMetItems, rubriekenMetItems,
+  schakelRubriek, bepaalWeergave, paneelNaIndex,
 } from './kalender-weergave.js';
 
 (function () {
@@ -74,8 +75,9 @@ import {
   var vandaag = vandaagParijs();
   var s = {
     weergave: 'maand',
+    anker: vandaag,
     gekozen: vandaag,
-    rubriek: '',
+    aan: [],
     open: null,
     rubrieken: [],
     items: {},
@@ -117,8 +119,8 @@ import {
   function gedekt(van, tot) { return s.vensters.some(function (v) { return v.van <= van && v.tot >= tot; }); }
 
   function periode() {
-    if (s.weergave === 'week') return { soort: 'week', start: weekStart(s.gekozen), eind: weekEind(s.gekozen) };
-    return { soort: 'maand', start: maandStart(s.gekozen), eind: maandEind(s.gekozen) };
+    if (s.weergave === 'week') return { soort: 'week', start: weekStart(s.anker), eind: weekEind(s.anker) };
+    return { soort: 'maand', start: maandStart(s.anker), eind: maandEind(s.anker) };
   }
 
   function zorg() {
@@ -185,7 +187,7 @@ import {
     function stuk(w, tekst) {
       return kn('kal-schakel-knop', tekst, {
         'aria-pressed': s.weergave === w ? 'true' : 'false',
-        onclick: function () { s.weergave = w; s.open = null; teken(); zorg(); },
+        onclick: function () { if (s.gekozen) s.anker = s.gekozen; s.weergave = w; s.open = null; teken(); zorg(); },
       });
     }
     return h('div', { klas: 'kal-schakel', role: 'group', 'aria-label': 'Weergave' }, [stuk('maand', 'Maand'), stuk('week', 'Week')]);
@@ -212,9 +214,10 @@ import {
   function verschuif(n) {
     var p = periode();
     var nieuw = p.soort === 'maand' ? verschuifMaand(p.start, n) : plus(p.start, 7 * n);
-    kies(nieuw);
+    /* bladeren kiest geen dag: geen detailpaneel tot de gebruiker een dag aanklikt */
+    s.anker = nieuw; s.gekozen = null; s.open = null; teken(); zorg();
   }
-  function kies(iso) { s.gekozen = iso; s.open = null; teken(); zorg(); }
+  function kies(iso) { s.anker = iso; s.gekozen = iso; s.open = null; teken(); zorg(); }
 
   function toetsDag(ev, iso) {
     if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); kies(iso); return; }
@@ -227,18 +230,20 @@ import {
   function filterRij(perDag) {
     var heeft = rubriekenMetItems(perDag);
     var ids = s.rubrieken.map(function (r) { return r.id; });
-    if (s.rubriek && ids.indexOf(s.rubriek) < 0) ids.push(s.rubriek);
+    s.aan.forEach(function (id) { if (ids.indexOf(id) < 0) ids.push(id); });
     function chip(id, tekst) {
-      var actief = id === '' ? !s.rubriek : s.rubriek === id;
+      var actief = id === '' ? !s.aan.length : s.aan.indexOf(id) >= 0;
       var leeg = id !== '' && !heeft[id] && !actief;
       var props = { 'aria-pressed': actief ? 'true' : 'false' };
       if (leeg) { props['aria-disabled'] = 'true'; props.title = 'Geen items in deze periode'; }
-      else props.onclick = function () { s.rubriek = id; s.open = null; teken(); };
+      else props.onclick = function () { s.aan = schakelRubriek(s.aan, id); s.open = null; teken(); };
       return kn('kal-chip' + (leeg ? ' kal-chip-leeg' : ''), tekst, props);
     }
     return h('div', { klas: 'kal-chips', role: 'group', 'aria-label': 'Rubriek' },
       [chip('', 'Alles')].concat(ids.map(function (id) { return chip(id, kort(id)); })));
   }
+
+  function aanNamen() { return s.aan.map(function (id) { return rubriekNaam(id).toLowerCase(); }).join(', '); }
 
   function puntjeVoor(e) {
     var p = h('span', { klas: 'kal-punt', 'aria-hidden': 'true' });
@@ -247,12 +252,12 @@ import {
   }
 
   /** Minikaart van een item binnen een dagcel van het rooster (>700px). */
-  function itemMini(e) {
+  function itemMini(e, dag) {
     var sleutel = e.item.id + '|' + e.vk.van;
     return h('button', {
       type: 'button', klas: 'kal-mini' + (s.open === sleutel ? ' kal-mini-open' : ''),
       'aria-pressed': s.open === sleutel ? 'true' : 'false',
-      onclick: function (ev) { ev.stopPropagation(); s.open = s.open === sleutel ? null : sleutel; teken(); },
+      onclick: function (ev) { ev.stopPropagation(); s.gekozen = dag; s.open = s.open === sleutel ? null : sleutel; teken(); },
     }, [puntjeVoor(e), h('span', { klas: 'kal-mini-titel', tekst: schoon(e.item.titel) })]);
   }
 
@@ -266,7 +271,7 @@ import {
       isWeek ? h('span', { klas: 'kal-celdagnaam', tekst: DAG_KORT[(new Date(Date.UTC(x.j, x.m - 1, x.d)).getUTCDay() + 6) % 7] }) : null,
       h('span', { klas: 'kal-celnr', tekst: String(x.d) }),
     ]);
-    var inhoud = h('span', { klas: 'kal-celitems' }, getoond.map(itemMini).concat(meer > 0 ? [h('span', { klas: 'kal-meer', tekst: '+' + meer + ' meer' })] : []));
+    var inhoud = h('span', { klas: 'kal-celitems' }, getoond.map(function (e) { return itemMini(e, iso); }).concat(meer > 0 ? [h('span', { klas: 'kal-meer', tekst: '+' + meer + ' meer' })] : []));
     return h('div', {
       klas: 'kal-cel' + (dag.inMaand ? '' : ' kal-buiten') + (iso === vandaag ? ' kal-nu' : '') + (gekozen ? ' kal-gekozen' : ''),
       role: 'button', 'aria-pressed': gekozen ? 'true' : 'false', 'aria-label': dagLabel(iso),
@@ -277,10 +282,15 @@ import {
   }
 
   function rooster(p, perDag) {
-    var dagen = p.soort === 'maand' ? maandDagen(s.gekozen) : weekDagen(s.gekozen);
+    var dagen = p.soort === 'maand' ? maandDagen(s.anker) : weekDagen(s.anker);
     var koppen = DAG_KORT.map(function (d) { return h('div', { klas: 'kal-dagkop', 'aria-hidden': 'true', tekst: d }); });
-    var cellen = dagen.map(function (dag) { return dagCel(dag, filterPerRubriek(perDag[dag.datum] || [], s.rubriek), p.soort === 'week'); });
-    return h('div', { klas: 'kal-rooster' + (p.soort === 'week' ? ' kal-rooster-week' : ''), role: 'group', 'aria-label': titelTekst(p) }, koppen.concat(cellen));
+    var na = paneelNaIndex(dagen, s.gekozen);
+    var kids = koppen.slice();
+    dagen.forEach(function (dag, i) {
+      kids.push(dagCel(dag, filterPerRubriek(perDag[dag.datum] || [], s.aan), p.soort === 'week'));
+      if (i === na) kids.push(daglijst(perDag)); /* breed: het detailpaneel direct onder de weekrij van de gekozen dag */
+    });
+    return h('div', { klas: 'kal-rooster' + (p.soort === 'week' ? ' kal-rooster-week' : ''), role: 'group', 'aria-label': titelTekst(p) }, kids);
   }
 
   function metaRegel(e) {
@@ -334,25 +344,31 @@ import {
     ])]);
   }
 
-  /** De volledige lijst van de gekozen dag, los van de (ingekorte) dagcel. Alleen zichtbaar bij het rooster (>700px): daaronder doet de terugval dit al. */
+  /** Het paneel van de gekozen dag (breed): de volledige lijst van die dag, een geopend item toont zijn details direct onder zichzelf. */
   function daglijst(perDag) {
-    var lijst = filterPerRubriek(perDag[s.gekozen] || [], s.rubriek);
-    var gebied = h('div', { klas: 'kal-daglijst' });
+    var lijst = filterPerRubriek(perDag[s.gekozen] || [], s.aan);
+    var gebied = h('div', { klas: 'kal-daglijst', role: 'region', 'aria-label': dagLabel(s.gekozen) });
     gebied.appendChild(h('h3', { klas: 'kal-dagtitel', tekst: dagLabel(s.gekozen) }));
-    if (!lijst.length) gebied.appendChild(h('p', { klas: 'kal-leeg', tekst: s.rubriek ? 'Niets in ' + rubriekNaam(s.rubriek).toLowerCase() + ' op deze dag.' : 'Niets op deze dag.' }));
-    else lijst.forEach(function (e) { gebied.appendChild(itemRij(e)); });
+    if (!lijst.length) gebied.appendChild(h('p', { klas: 'kal-leeg', tekst: s.aan.length ? 'Niets in ' + aanNamen() + ' op deze dag.' : 'Niets op deze dag.' }));
+    else lijst.forEach(function (e) {
+      gebied.appendChild(itemRij(e));
+      if (s.open === e.item.id + '|' + e.vk.van) {
+        var det = detailPaneel();
+        if (det) { det.className += ' kal-detail-inline'; gebied.appendChild(det); }
+      }
+    });
     return gebied;
   }
 
   /** Lijst per dag (telefoon): bij een maand alle dagen met items, bij een week de dagen van de week. Een geopend item toont zijn details direct eronder. */
   function lijstTerugval(p, perDag) {
     var dagen = p.soort === 'maand'
-      ? dagenMetItems(maandDagen(s.gekozen).filter(function (d) { return d.inMaand; }).map(function (d) { return d.datum; }), perDag, s.rubriek, filterPerRubriek)
-      : weekDagen(s.gekozen).map(function (d) { return d.datum; });
+      ? dagenMetItems(maandDagen(s.anker).filter(function (d) { return d.inMaand; }).map(function (d) { return d.datum; }), perDag, s.aan, filterPerRubriek)
+      : weekDagen(s.anker).map(function (d) { return d.datum; });
     var gebied = h('div', { klas: 'kal-lijst' });
     var getoond = 0;
     dagen.forEach(function (d) {
-      var lijst = filterPerRubriek(perDag[d] || [], s.rubriek);
+      var lijst = filterPerRubriek(perDag[d] || [], s.aan);
       if (!lijst.length) return;
       getoond += lijst.length;
       var kop = h('h3', { klas: 'kal-dagtitel', tekst: dagLabel(d), 'data-dag': d });
@@ -366,7 +382,7 @@ import {
         }
       });
     });
-    if (!getoond) gebied.appendChild(h('p', { klas: 'kal-leeg', tekst: s.rubriek ? 'Niets in ' + rubriekNaam(s.rubriek).toLowerCase() + (p.soort === 'maand' ? ' in deze maand.' : ' op deze dagen.') : (p.soort === 'maand' ? 'Niets in deze maand.' : 'Niets op deze dagen.') }));
+    if (!getoond) gebied.appendChild(h('p', { klas: 'kal-leeg', tekst: s.aan.length ? 'Niets in ' + aanNamen() + (p.soort === 'maand' ? ' in deze maand.' : ' op deze dagen.') : (p.soort === 'maand' ? 'Niets in deze maand.' : 'Niets op deze dagen.') }));
     return gebied;
   }
 
@@ -384,11 +400,35 @@ import {
     });
     return h('div', { klas: 'kal-abo' }, [
       h('p', { klas: 'kal-abo-kop', tekst: 'Zet een rubriek in je eigen agenda' }),
+      h('p', { klas: 'kal-abo-uitleg', tekst: 'Klik op een rubriek en je agenda-app vraagt of je de kalender wilt toevoegen. De agenda werkt zichzelf daarna bij.' }),
       h('ul', { klas: 'kal-abo-lijst' }, regels),
     ]);
   }
 
   var root = document.getElementById('kalender');
+
+  /*
+   * Weergave en schaal: klassen op het hoofdelement, gezet door dit script (geen media query op de breedte),
+   * want in een iframe op een brede pagina zonder viewport-instelling is het venster 925 px terwijl de telefoon 390 px is.
+   * Schaal via de CSS-variabele --kal-s, waar elke maat in kalender.css mee vermenigvuldigd wordt: geef dezelfde uitkomst in elke browser en de gemeten lettergrootte klopt, waar CSS zoom pas recent overal werkt.
+   */
+  var stand = { smal: false, schaal: 1 };
+  function pasWeergaveToe() {
+    var iw = window.innerWidth || document.documentElement.clientWidth || 0;
+    var sw = window.screen && window.screen.width ? window.screen.width : 0;
+    var nieuw = bepaalWeergave(iw, sw);
+    var veranderd = nieuw.smal !== stand.smal || Math.abs(nieuw.schaal - stand.schaal) > 0.005 || !root.hasAttribute('data-stand');
+    stand = nieuw;
+    root.classList.toggle('kal-breed', !nieuw.smal);
+    root.classList.toggle('kal-eng', iw / nieuw.schaal < 421);
+    document.documentElement.style.setProperty('--kal-s', String(Math.round(nieuw.schaal * 1000) / 1000));
+    root.setAttribute('data-stand', nieuw.smal ? 'smal' : 'breed');
+    return veranderd;
+  }
+  pasWeergaveToe();
+  function bijDraaienOfResize() { if (pasWeergaveToe() && s.klaar) teken(); else stuurHoogte(); }
+  window.addEventListener('resize', bijDraaienOfResize);
+  window.addEventListener('orientationchange', function () { setTimeout(bijDraaienOfResize, 150); });
 
   function teken() {
     var delen = [];
@@ -404,9 +444,6 @@ import {
       else if (!gedekt(p.start, p.eind)) delen.push(h('p', { klas: 'kal-laden', role: 'status', tekst: 'De kalender wordt opgehaald...' }));
       else {
         delen.push(rooster(p, perDag));
-        delen.push(daglijst(perDag));
-        var detail = detailPaneel();
-        if (detail) { detail.className += ' kal-detail-bureau'; delen.push(detail); }
         delen.push(lijstTerugval(p, perDag));
       }
       if (s.klaar) delen.push(agendaRegel());
@@ -424,7 +461,7 @@ import {
     if (!s.scrollNaar || !s.klaar) return;
     var wens = s.scrollNaar;
     s.scrollNaar = null;
-    if (!window.matchMedia || !window.matchMedia('(max-width: 700px)').matches) return;
+    if (root.classList.contains('kal-breed')) return;
     var koppen = root.querySelectorAll('.kal-lijst [data-dag]');
     var doel = null;
     for (var i = 0; i < koppen.length; i++) {
@@ -443,11 +480,7 @@ import {
     laatsteHoogte = hoogte;
     try { window.parent.postMessage({ type: 'kalender-hoogte', hoogte: hoogte }, '*'); } catch (e) { /* werkt ook zonder */ }
   }
-  if (typeof ResizeObserver === 'function') {
-    new ResizeObserver(stuurHoogte).observe(document.body);
-  } else {
-    window.addEventListener('resize', stuurHoogte);
-  }
+  if (typeof ResizeObserver === 'function') new ResizeObserver(stuurHoogte).observe(document.body);
 
   start();
 })();

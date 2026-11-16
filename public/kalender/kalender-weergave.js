@@ -60,10 +60,48 @@ export function weekDagen(iso) {
   return dagen;
 }
 
-/** Items (of kalenderregels {item, vk}) die bij de gekozen rubriek horen; een lege of ontbrekende rubriek laat alles staan. */
+/** De gekozen rubrieken als lijst (een tekst geeft één rubriek, leeg of ontbrekend betekent "Alles"). */
+function alsLijst(rubriek) {
+  if (Array.isArray(rubriek)) return rubriek.filter(Boolean);
+  return rubriek ? [rubriek] : [];
+}
+
+/** Items (of kalenderregels {item, vk}) die bij de gekozen rubriek(en) horen; een lege of ontbrekende keuze laat alles staan. */
 export function filterPerRubriek(items, rubriek) {
-  if (!rubriek) return items.slice();
-  return items.filter((item) => item && (item.rubriek === rubriek || (item.item && item.item.rubriek === rubriek)));
+  const aan = alsLijst(rubriek);
+  if (!aan.length) return items.slice();
+  return items.filter((item) => item && (aan.includes(item.rubriek) || (item.item && aan.includes(item.item.rubriek))));
+}
+
+/**
+ * Schakelaar van de rubriekknoppen. `aan` is de lijst van aangezette rubrieken (leeg is "Alles").
+ * Een klik op "Alles" (id leeg) zet alles aan; een klik op een rubriek terwijl "Alles" aan staat toont alleen die rubriek;
+ * verdere klikken zetten een rubriek erbij of eraf; blijft er niets over, dan is het weer "Alles".
+ */
+export function schakelRubriek(aan, id) {
+  if (!id) return [];
+  const lijst = alsLijst(aan);
+  return lijst.includes(id) ? lijst.filter((x) => x !== id) : lijst.concat(id);
+}
+
+/**
+ * Smal of breed, en de schaal. Smal is: het venster is smaller dan 700 px, of het apparaat is een telefoon
+ * (screen.width onder 700) terwijl het venster breed is (meer dan anderhalf keer screen.width), zoals een iframe in een
+ * pagina zonder viewport-instelling. In dat tweede geval is de schaal innerWidth gedeeld door screen.width, anders 1.
+ */
+export function bepaalWeergave(innerWidth, schermBreedte) {
+  const iw = Number(innerWidth) || 0;
+  const sw = Number(schermBreedte) || 0;
+  if (iw > 0 && iw < 700) return { smal: true, schaal: 1 };
+  if (sw > 0 && sw < 700 && iw > 1.5 * sw) return { smal: true, schaal: iw / sw };
+  return { smal: false, schaal: 1 };
+}
+
+/** Index van de dag in `dagen` waarna het detailpaneel komt: de laatste cel van de weekrij van `gekozen`; -1 zonder gekozen dag of als die niet in het rooster staat. */
+export function paneelNaIndex(dagen, gekozen) {
+  if (!gekozen) return -1;
+  const i = dagen.findIndex((d) => d.datum === gekozen);
+  return i < 0 ? -1 : Math.floor(i / 7) * 7 + 6;
 }
 
 /** Welke rubrieken hebben minstens één item in `perDag` (object datum naar lijst van {item})? Geeft {rubriekId: true}. */

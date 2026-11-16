@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { maandDagen, weekDagen, filterPerRubriek, dagenMetItems, rubriekenMetItems } from '../public/kalender/kalender-weergave.js';
+import { maandDagen, weekDagen, filterPerRubriek, dagenMetItems, rubriekenMetItems, schakelRubriek, bepaalWeergave, paneelNaIndex } from '../public/kalender/kalender-weergave.js';
 
 test('maandDagen: november 2026 begint op zondag 1 en dekt hele weken', () => {
   const dagen = maandDagen('2026-11-16');
@@ -92,4 +92,67 @@ test('rubriekenMetItems: een rubriek zonder items in de periode ontbreekt (grijz
 test('filterPerRubriek: werkt ook op kalenderregels met het item erin', () => {
   const regels = [{ item: { id: 'a', rubriek: 'fiscaal' }, vk: {} }, { item: { id: 'b', rubriek: 'genieten' }, vk: {} }];
   assert.deepEqual(filterPerRubriek(regels, 'genieten').map((r) => r.item.id), ['b']);
+});
+
+test('bepaalWeergave: een gewone laptop of desktop verandert niet', () => {
+  assert.deepEqual(bepaalWeergave(1300, 1920), { smal: false, schaal: 1 });
+  assert.deepEqual(bepaalWeergave(925, 1440), { smal: false, schaal: 1 });
+  assert.deepEqual(bepaalWeergave(701, 1920), { smal: false, schaal: 1 });
+});
+
+test('bepaalWeergave: een smal venster is smal zonder schaal', () => {
+  assert.deepEqual(bepaalWeergave(390, 390), { smal: true, schaal: 1 });
+  assert.deepEqual(bepaalWeergave(699, 1920), { smal: true, schaal: 1 });
+});
+
+test('bepaalWeergave: telefoon in een brede pagina (iframe van 925 px, scherm 390 px) is smal met schaal', () => {
+  const w = bepaalWeergave(925, 390);
+  assert.equal(w.smal, true);
+  assert.ok(Math.abs(w.schaal - 925 / 390) < 1e-9);
+  // tablet of liggende telefoon met scherm vanaf 700 px: geen telefoon
+  assert.equal(bepaalWeergave(925, 768).smal, false);
+  // venster minder dan anderhalf keer het scherm: geen schaal
+  assert.equal(bepaalWeergave(560, 390).schaal, 1);
+});
+
+test('schakelRubriek: Alles, erbij, eraf en terug naar Alles', () => {
+  assert.deepEqual(schakelRubriek([], 'fiscaal'), ['fiscaal']); // Alles aan: alleen die rubriek
+  assert.deepEqual(schakelRubriek(['fiscaal'], 'school'), ['fiscaal', 'school']);
+  assert.deepEqual(schakelRubriek(['fiscaal', 'school'], 'fiscaal'), ['school']);
+  assert.deepEqual(schakelRubriek(['school'], 'school'), []); // niets meer aan: terug naar Alles
+  assert.deepEqual(schakelRubriek(['fiscaal', 'school'], ''), []); // klik op Alles
+});
+
+test('filterPerRubriek: meerdere rubrieken tegelijk laten de items van beide over', () => {
+  const items = [{ id: 'a', rubriek: 'fiscaal' }, { id: 'b', rubriek: 'school' }, { id: 'c', rubriek: 'zorg' }];
+  assert.deepEqual(filterPerRubriek(items, ['fiscaal', 'school']).map((i) => i.id), ['a', 'b']);
+  assert.deepEqual(filterPerRubriek(items, []).map((i) => i.id), ['a', 'b', 'c']);
+  const regels = items.map((item) => ({ item }));
+  assert.deepEqual(filterPerRubriek(regels, ['zorg', 'school']).map((r) => r.item.id), ['b', 'c']);
+});
+
+test('paneelNaIndex: het paneel komt na de laatste cel van de weekrij van de gekozen dag', () => {
+  const dagen = maandDagen('2026-11-16'); // 26 oktober tot en met 6 december, zes weken
+  assert.equal(paneelNaIndex(dagen, '2026-10-26'), 6);
+  assert.equal(paneelNaIndex(dagen, '2026-11-01'), 6); // zondag is de laatste dag van zijn rij
+  assert.equal(paneelNaIndex(dagen, '2026-11-02'), 13);
+  assert.equal(paneelNaIndex(dagen, '2026-11-20'), 27);
+  assert.equal(paneelNaIndex(dagen, '2026-12-06'), 41);
+  assert.equal(paneelNaIndex(weekDagen('2026-11-18'), '2026-11-18'), 6);
+});
+
+test('paneelNaIndex: zonder gekozen dag (na bladeren) of een dag buiten het rooster geen paneel', () => {
+  const dagen = maandDagen('2026-12-01');
+  assert.equal(paneelNaIndex(dagen, null), -1);
+  assert.equal(paneelNaIndex(dagen, undefined), -1);
+  assert.equal(paneelNaIndex(dagen, '2026-11-16'), -1);
+});
+
+test('opmaak: weergave via klasse en schaalvariabele, geen media query op de breedte', async () => {
+  const { readFileSync } = await import('node:fs');
+  const css = readFileSync(new URL('../public/kalender/kalender.css', import.meta.url), 'utf8');
+  const js = readFileSync(new URL('../public/kalender/kalender.js', import.meta.url), 'utf8');
+  assert.ok(!/@media[^{]*(min|max)-width/.test(css), 'geen media query op de breedte');
+  assert.ok(css.includes('.kal-breed .kal-rooster') && css.includes('--kal-s'));
+  assert.ok(js.includes("'kal-breed'") && js.includes('--kal-s') && js.includes("type: 'kalender-hoogte'"));
 });

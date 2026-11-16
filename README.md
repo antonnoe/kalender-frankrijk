@@ -10,6 +10,14 @@ Er is geen database en er zijn geen sleutels nodig. Alle data staat als leesbare
 
 De startpagina `/` is een kaal keuzescherm: de bezoeker kiest of hij de kalender bekijkt op Infofrankrijk (website) of in InfoPoche (app), met daaronder de iCal-links per rubriek. De nieuwsbrief linkt hierheen met "Kalender Frankrijk →". De twee bestemmingen staan op één plek, in `lib/afnemers.js`, en wijzen sinds 2 november 2026 naar de pagina https://infofrankrijk.com/kalender-frankrijk/ en het scherm Kalender in InfoPoche (https://infopoche.fr/#/kalender). Na een wijziging daar draait u `npm run bouw`: dat genereert `public/index.html` uit `lib/afnemers.js` en de rubrieken in `lib/model.js` (script `scripts/maak-startpagina.js`). Commit het gegenereerde bestand mee; `npm test` faalt als het niet gelijk is aan wat het script maakt.
 
+## De kalender in een iframe (/kalender)
+
+`/kalender` is een kale kalenderpagina zonder kop, menu of voettekst, bedoeld voor een kader op een pagina van Nederlanders.fr: maand- en weekweergave, filter per rubriek, klik voor details, vloeiend van 320 tot 1200 px breed. De pagina stuurt haar hoogte naar de bovenliggende pagina met `postMessage({type:"kalender-hoogte",hoogte:<px>})` en werkt ook zonder dat bericht, met een vaste hoogte op het kader.
+
+```html
+<iframe src="https://kalender-frankrijk.vercel.app/kalender" style="width:100%;border:0;height:900px" title="Kalender Frankrijk" loading="lazy"></iframe>
+```
+
 ## WordPress-plugin
 
 Voor Infofrankrijk.com (WordPress met Divi) staat er een plugin klaar die met de shortcode `[kalender_frankrijk]` de kalender toont: maand- en weekweergave, een filter per rubriek en een knop om de kalender in uw eigen agenda-app te zetten. De plugin leest alleen de openbare API van deze repo, in de browser van de bezoeker (geen PHP-aanroepen, geen opties-pagina, geen database). Uitleg in gewone taal voor de installatie: `wordpress/README.md`.

@@ -4,7 +4,8 @@
     "api/*.js": { "includeFiles": "data/**" }
   },
   "rewrites": [
-    { "source": "/ical/:naam", "destination": "/api/ical?naam=:naam" }
+    { "source": "/ical/:naam", "destination": "/api/ical?naam=:naam" },
+    { "source": "/kalender", "destination": "/kalender.html" }
   ],
   "headers": [
     { "source": "/beeld/(.*)", "headers": [

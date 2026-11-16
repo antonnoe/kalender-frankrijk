@@ -12,6 +12,7 @@ Bouwplan uit `docs/ONTWERP.md` onder i. Stand van 2 november 2026.
 | 6 | Pagina op Infofrankrijk (plugin met shortcode, besluit j2 = B) | plugin klaar (`wordpress/`, zip op /download/kalender-frankrijk.zip, voorbeeld op /pagina.html); nog te installeren en de pagina `kalender-frankrijk` te maken in WordPress |
 | 7 | Bosbrand koppelen | open, repo van de bosbrandtool nog te vinden |
 | 8 | Invulscherm in Cockpit, daarna InfoPoche-scherm | open |
+| 9 | Kalenderweergave voor een iframe op Nederlanders.fr (`/kalender`) | klaar, zie hieronder |
 
 ## Wat is gebouwd
 
@@ -54,6 +55,10 @@ Plugin `wordpress/kalender-frankrijk/` met shortcode `[kalender_frankrijk]`, voo
 ## Afhankelijkheden (2 november 2026)
 
 Vier Dependabot-meldingen opgelost: `yaml` 2.9.1 (1 gemiddeld) en `sharp` 0.35.5 (3 hoog, alleen bouwstap); `npm audit` toont 0, uitvoer van de API en bouwresultaten ongewijzigd.
+
+## Kalenderweergave voor een iframe (16 november 2026)
+
+`/kalender` (vercel.json leidt dat door naar `public/kalender.html`): maand- en weekoverzicht met schakelaar en vorige, vandaag, volgende, filter per rubriek (standaard alles aan), klik op een dag of item toont de details eronder, dezelfde API als de rest (`/api/items`, `/api/rubrieken`), geen eigen kop, menu of voettekst, huisstijl Poppins en Mulish met #800000 en #2f6b3d, boven 700 px het volledige maandraster met items in de dagvakken, daaronder een lijst per dag, hoogte naar de bovenliggende pagina via `postMessage`. Code in `public/kalender/` (`kalender-weergave.js` bevat de zuivere dagberekeningen, getest in `test/kalender-weergave.test.js`; `kalender.js` en `kalender.css` bouwen het scherm). Eigen keuze: de volledige lijst van de gekozen dag staat ook bij het maandraster altijd onder het rooster (niet alleen in de terugval), omdat een dagvak met veel items ("+N meer") anders geen manier geeft om de rest te zien.
 
 ## Live
 

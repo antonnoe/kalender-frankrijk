@@ -6,7 +6,9 @@ X-WR-CALNAME:Infofrankrijk — fiscale kalender particulieren
 X-WR-TIMEZONE:Europe/Paris
 X-WR-CALDESC:Officiële vermeldingen van DGFiP met Nederlandse titels. Alle
  en gepubliceerde datums. Controleer de voorwaarden in de officiële toelic
- hting.
+ hting. Broncontrole niet geslaagd voor: 2026-11\, 2026-12\, 2027-01\, 2027
+ -02\, 2027-03\, 2027-04\, 2027-05\, 2027-06\, 2027-07\, 2027-08\, 2027-09\
+ , 2027-10\, 2027-11\, 2027-12. Eerdere gegevens kunnen zijn behouden.
 BEGIN:VEVENT
 UID:a79eff5dd61e68c2f3d79fa5bb822bf9@infofrankrijk.com
 LAST-MODIFIED:20261010T160609Z
@@ -1492,13 +1494,14 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Vermogensbelasting vastgoed (IFI) — uiterste betaaldatum
-DESCRIPTION:Impôt sur la fortune immobilière : date limite de paiement\n\
- nVous avez jusqu'à cette date pour payer si vous n'utilisez pas un moyen 
- de paiement dématérialisé (paiement en ligne par internet\, smartphone 
- ou tablette\, prélèvement à l'échéance ou mensuel). La date limite de
-  paiement est indiquée sur votre avis d'imposition.\n\nBron: https://www.
- impots.gouv.fr/particulier/calendrier-fiscal/2026-11\nOverzicht: https://i
- nfofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur la fortune immobilière 
+ : date limite de paiement\n\nVous avez jusqu'à cette date pour payer si v
+ ous n'utilisez pas un moyen de paiement dématérialisé (paiement en lign
+ e par internet\, smartphone ou tablette\, prélèvement à l'échéance ou
+  mensuel). La date limite de paiement est indiquée sur votre avis d'impos
+ ition.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2
+ 026-11\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-11
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1511,12 +1514,13 @@ DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:11e maandafschrijving of 4e kwartaalafschrijving — voorschot inko
  mstenbelasting (PAS)
-DESCRIPTION:11ème prélèvement mensuel ou 4ème prélèvement trimestriel
-  d'acompte PAS\n\nAcompte au titre du prélèvement à la source des reven
- us sans collecteurs (revenus des indépendants ou agriculteurs\, revenus f
- onciers\, pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/p
- articulier/calendrier-fiscal/2026-11\nOverzicht: https://infofrankrijk.com
- /fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n11ème prélèvement mensuel ou 4è
+ me prélèvement trimestriel d'acompte PAS\n\nAcompte au titre du prélèv
+ ement à la source des revenus sans collecteurs (revenus des indépendants
+  ou agriculteurs\, revenus fonciers\, pensions alimentaires…).\n\nBron: 
+ https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-11\nOverzich
+ t: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-11
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1528,12 +1532,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Maandelijkse afschrijving belastingen
-DESCRIPTION:Prélèvement mensuel\n\nPour tous les impôts mensualisés (ta
- xes foncières et d'habitation\, impôt sur la fortune immobilière et CFE
- )\, vous continuez d'être prélevé en cas de hausse de votre impôt en 2
- 026 : consultez l’échéancier sur votre avis.\n\nBron: https://www.impo
- ts.gouv.fr/particulier/calendrier-fiscal/2026-11\nOverzicht: https://infof
- rankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nPrélèvement mensuel\n\nPour tous 
+ les impôts mensualisés (taxes foncières et d'habitation\, impôt sur la
+  fortune immobilière et CFE)\, vous continuez d'être prélevé en cas de
+  hausse de votre impôt en 2026 : consultez l’échéancier sur votre avi
+ s.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-
+ 11\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-11
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1546,14 +1551,15 @@ DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Vermogensbelasting vastgoed (IFI) — uiterste datum online betalin
  g
-DESCRIPTION:Impôt sur la fortune immobilière : paiement par internet\, sm
- artphone ou tablette\n\nSi la date limite de paiement est au 16 novembre 2
- 026\, vous avez jusqu'au 21 novembre minuit pour payer en ligne votre imp
- ôt sur la fortune immobilière. Le prélèvement sera effectué à compte
- r du 26 novembre 2026.\nVous êtes informé de la date de prélèvement lo
- rs de l'enregistrement de votre ordre de paiement.\n\nBron: https://www.im
- pots.gouv.fr/particulier/calendrier-fiscal/2026-11\nOverzicht: https://inf
- ofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur la fortune immobilière 
+ : paiement par internet\, smartphone ou tablette\n\nSi la date limite de p
+ aiement est au 16 novembre 2026\, vous avez jusqu'au 21 novembre minuit po
+ ur payer en ligne votre impôt sur la fortune immobilière. Le prélèveme
+ nt sera effectué à compter du 26 novembre 2026.\nVous êtes informé de 
+ la date de prélèvement lors de l'enregistrement de votre ordre de paieme
+ nt.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026
+ -11\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-11
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1565,13 +1571,14 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Inkomstenbelasting en sociale heffingen — 3e afschrijving
-DESCRIPTION:Impôt sur le revenu-prélèvements sociaux : 3ème prélèveme
- nt\n\nSi le montant restant à payer de votre impôt sur les revenus est s
- upérieur à 300 €\, la somme due est prélevée en quatre échéances d
- u 25 septembre au 28 décembre 2026.\nLa 3ème échéance est prélevée l
- e 25 novembre 2026.\n\nBron: https://www.impots.gouv.fr/particulier/calend
- rier-fiscal/2026-11\nOverzicht: https://infofrankrijk.com/fiscale-kalender
- -frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur le revenu-prélèvements
+  sociaux : 3ème prélèvement\n\nSi le montant restant à payer de votre 
+ impôt sur les revenus est supérieur à 300 €\, la somme due est préle
+ vée en quatre échéances du 25 septembre au 28 décembre 2026.\nLa 3ème
+  échéance est prélevée le 25 novembre 2026.\n\nBron: https://www.impot
+ s.gouv.fr/particulier/calendrier-fiscal/2026-11\nOverzicht: https://infofr
+ ankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-11
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1584,13 +1591,15 @@ DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Taxe d’habitation — aanmelden voor afschrijving op de vervaldat
  um
-DESCRIPTION:Taxe d'habitation : date limite d'adhésion au prélèvement à
-  l'échéance\n\nSi vous adhérez par internet ou auprès du centre de con
- tact\, vous avez jusqu'à cette date pour choisir le prélèvement à l'é
- chéance de votre taxe d'habitation payable le 15 décembre. La somme sera
-  prélevée sur votre compte bancaire le 28 décembre 2026.\n\nBron: https
- ://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-11\nOverzicht: ht
- tps://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nTaxe d'habitation : date limite d'a
+ dhésion au prélèvement à l'échéance\n\nSi vous adhérez par internet
+  ou auprès du centre de contact\, vous avez jusqu'à cette date pour choi
+ sir le prélèvement à l'échéance de votre taxe d'habitation payable le
+  15 décembre. La somme sera prélevée sur votre compte bancaire le 28 d
+ écembre 2026.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-
+ fiscal/2026-11\nOverzicht: https://infofrankrijk.com/fiscale-kalender-fran
+ krijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-11
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1602,14 +1611,15 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Leegstandheffingen (TLV / THLV) — uiterste betaaldatum
-DESCRIPTION:Taxe sur les logements vacants et taxe d’habitation sur les l
- ogements vacants : date limite de paiement\n\nSi vous êtes un particulier
- \, vous avez jusqu'à cette date pour payer votre taxe sur les logements v
- acants\, ainsi que votre taxe d’habitation sur les logements vacants\, s
- i vous n'utilisez pas un moyen de paiement dématérialisé (paiement en l
- igne par internet\, smartphone ou tablette).\n\nBron: https://www.impots.g
- ouv.fr/particulier/calendrier-fiscal/2026-12\nOverzicht: https://infofrank
- rijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nTaxe sur les logements vacants et t
+ axe d’habitation sur les logements vacants : date limite de paiement\n\n
+ Si vous êtes un particulier\, vous avez jusqu'à cette date pour payer vo
+ tre taxe sur les logements vacants\, ainsi que votre taxe d’habitation s
+ ur les logements vacants\, si vous n'utilisez pas un moyen de paiement dé
+ matérialisé (paiement en ligne par internet\, smartphone ou tablette).\n
+ \nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-12\n
+ Overzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-12
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1621,14 +1631,15 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Taxe d’habitation — uiterste betaaldatum
-DESCRIPTION:Taxe d'habitation : date limite de paiement\n\nSi vous êtes un
-  particulier\, vous avez jusqu'à cette date pour payer votre taxe d'habit
- ation si vous n'utilisez pas un moyen de paiement dématérialisé (paieme
- nt en ligne par internet\, smartphone ou tablette\, prélèvement à l'éc
- héance ou mensuel). La date limite de paiement est indiquée sur votre av
- is d'imposition.\n\nBron: https://www.impots.gouv.fr/particulier/calendrie
- r-fiscal/2026-12\nOverzicht: https://infofrankrijk.com/fiscale-kalender-fr
- ankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nTaxe d'habitation : date limite de 
+ paiement\n\nSi vous êtes un particulier\, vous avez jusqu'à cette date p
+ our payer votre taxe d'habitation si vous n'utilisez pas un moyen de paiem
+ ent dématérialisé (paiement en ligne par internet\, smartphone ou table
+ tte\, prélèvement à l'échéance ou mensuel). La date limite de paiemen
+ t est indiquée sur votre avis d'imposition.\n\nBron: https://www.impots.g
+ ouv.fr/particulier/calendrier-fiscal/2026-12\nOverzicht: https://infofrank
+ rijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-12
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1640,11 +1651,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:12e maandafschrijving — voorschot inkomstenbelasting (PAS)
-DESCRIPTION:12ème prélèvement mensuel d'acompte PAS\n\nAcompte au titre 
- du prélèvement à la source des revenus sans collecteurs (revenus des in
- dépendants ou agriculteurs\, revenus fonciers\, pensions alimentaires…)
- .\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-1
- 2\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n12ème prélèvement mensuel d'acom
+ pte PAS\n\nAcompte au titre du prélèvement à la source des revenus sans
+  collecteurs (revenus des indépendants ou agriculteurs\, revenus fonciers
+ \, pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/particul
+ ier/calendrier-fiscal/2026-12\nOverzicht: https://infofrankrijk.com/fiscal
+ e-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-12
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1656,12 +1669,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Maandelijkse afschrijving belastingen
-DESCRIPTION:Prélèvement mensuel\n\nPour tous les impôts mensualisés (ta
- xes foncières et d'habitation\, impôt sur la fortune immobilière et CFE
- )\, vous continuez d'être prélevé en cas de hausse de votre impôt en 2
- 026 : consultez l’échéancier sur votre avis.\n\nBron: https://www.impo
- ts.gouv.fr/particulier/calendrier-fiscal/2026-12\nOverzicht: https://infof
- rankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nPrélèvement mensuel\n\nPour tous 
+ les impôts mensualisés (taxes foncières et d'habitation\, impôt sur la
+  fortune immobilière et CFE)\, vous continuez d'être prélevé en cas de
+  hausse de votre impôt en 2026 : consultez l’échéancier sur votre avi
+ s.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-
+ 12\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-12
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1673,15 +1687,17 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Leegstandheffingen (TLV / THLV) — uiterste datum online betaling
-DESCRIPTION:Taxe sur les logements vacants et taxe d’habitation sur les l
- ogements vacants : paiement par internet\, smartphone ou tablette\n\nSi vo
- us êtes un particulier\, vous avez jusqu'au 20 décembre minuit pour paye
- r en ligne votre taxe sur les logements vacants\, ainsi que votre taxe d
- ’habitation sur les logements vacants. Le prélèvement sera effectué s
- ur votre compte bancaire à compter du 28 décembre. Vous êtes informé d
- e la date de prélèvement lors de l'enregistrement de votre ordre de paie
- ment.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/20
- 26-12\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nTaxe sur les logements vacants et t
+ axe d’habitation sur les logements vacants : paiement par internet\, sma
+ rtphone ou tablette\n\nSi vous êtes un particulier\, vous avez jusqu'au 2
+ 0 décembre minuit pour payer en ligne votre taxe sur les logements vacant
+ s\, ainsi que votre taxe d’habitation sur les logements vacants. Le pré
+ lèvement sera effectué sur votre compte bancaire à compter du 28 décem
+ bre. Vous êtes informé de la date de prélèvement lors de l'enregistrem
+ ent de votre ordre de paiement.\n\nBron: https://www.impots.gouv.fr/partic
+ ulier/calendrier-fiscal/2026-12\nOverzicht: https://infofrankrijk.com/fisc
+ ale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-12
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1693,14 +1709,15 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Taxe d’habitation — uiterste datum online betaling
-DESCRIPTION:Taxe d'habitation : paiement par internet\, smartphone ou table
- tte\n\nSi vous êtes particulier\, vous avez jusqu'au 20 décembre minuit 
- pour payer en ligne votre taxe d'habitation. Le prélèvement sera effectu
- é sur votre compte bancaire à compter du 28 décembre. Vous êtes inform
- é de la date du prélèvement lors de l'enregistrement de votre ordre de 
- paiement.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2026-12\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nTaxe d'habitation : paiement par in
+ ternet\, smartphone ou tablette\n\nSi vous êtes particulier\, vous avez j
+ usqu'au 20 décembre minuit pour payer en ligne votre taxe d'habitation. L
+ e prélèvement sera effectué sur votre compte bancaire à compter du 28 
+ décembre. Vous êtes informé de la date du prélèvement lors de l'enreg
+ istrement de votre ordre de paiement.\n\nBron: https://www.impots.gouv.fr/
+ particulier/calendrier-fiscal/2026-12\nOverzicht: https://infofrankrijk.co
+ m/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-12
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1712,13 +1729,14 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
 SUMMARY:Inkomstenbelasting en sociale heffingen — 4e afschrijving
-DESCRIPTION:Impôt sur le revenu-prélèvements sociaux : 4ème prélèveme
- nt\n\nSi le montant restant à payer de votre impôt sur les revenus est s
- upérieur à 300 €\, la somme due est prélevée en quatre échéances d
- u 25 septembre au 28 décembre 2026.\nLa 4ème échéance est prélevée l
- e 28 décembre 2026.\n\nBron: https://www.impots.gouv.fr/particulier/calen
- drier-fiscal/2026-12\nOverzicht: https://infofrankrijk.com/fiscale-kalende
- r-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur le revenu-prélèvements
+  sociaux : 4ème prélèvement\n\nSi le montant restant à payer de votre 
+ impôt sur les revenus est supérieur à 300 €\, la somme due est préle
+ vée en quatre échéances du 25 septembre au 28 décembre 2026.\nLa 4ème
+  échéance est prélevée le 28 décembre 2026.\n\nBron: https://www.impo
+ ts.gouv.fr/particulier/calendrier-fiscal/2026-12\nOverzicht: https://infof
+ rankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-12
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

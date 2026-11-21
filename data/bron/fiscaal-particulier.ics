@@ -6,9 +6,12 @@ X-WR-CALNAME:Infofrankrijk — fiscale kalender particulieren
 X-WR-TIMEZONE:Europe/Paris
 X-WR-CALDESC:Officiële vermeldingen van DGFiP met Nederlandse titels. Alle
  en gepubliceerde datums. Controleer de voorwaarden in de officiële toelic
- hting. Broncontrole niet geslaagd voor: 2026-11\, 2026-12\, 2027-01\, 2027
- -02\, 2027-03\, 2027-04\, 2027-05\, 2027-06\, 2027-07\, 2027-08\, 2027-09\
- , 2027-10\, 2027-11\, 2027-12. Eerdere gegevens kunnen zijn behouden.
+ hting. Broncontrole niet geslaagd voor: 2025-01\, 2025-02\, 2025-03\, 2025
+ -04\, 2025-05\, 2025-06\, 2025-07\, 2025-08\, 2025-09\, 2025-10\, 2025-11\
+ , 2025-12\, 2026-01\, 2026-02\, 2026-03\, 2026-04\, 2026-05\, 2026-06\, 20
+ 26-07\, 2026-08\, 2026-09\, 2026-11\, 2026-12\, 2027-01\, 2027-02\, 2027-0
+ 3\, 2027-04\, 2027-05\, 2027-06\, 2027-07\, 2027-08\, 2027-09\, 2027-10\, 
+ 2027-11\, 2027-12. Eerdere gegevens kunnen zijn behouden.
 BEGIN:VEVENT
 UID:a79eff5dd61e68c2f3d79fa5bb822bf9@infofrankrijk.com
 LAST-MODIFIED:20261010T160609Z
@@ -16,11 +19,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250115
 DTEND;VALUE=DATE:20250116
 SUMMARY:1e maandafschrijving — voorschot inkomstenbelasting (PAS)
-DESCRIPTION:1er prélèvement mensuel d'acompte PAS\n\nAcompte au titre du 
- prélèvement à la source des revenus sans collecteurs (revenus des indé
- pendants ou agriculteurs\, revenus fonciers\, pensions alimentaires…).\n
- \nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-01\n
- Overzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n1er prélèvement mensuel d'acompte
+  PAS\n\nAcompte au titre du prélèvement à la source des revenus sans co
+ llecteurs (revenus des indépendants ou agriculteurs\, revenus fonciers\, 
+ pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/particulier
+ /calendrier-fiscal/2025-01\nOverzicht: https://infofrankrijk.com/fiscale-k
+ alender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-01
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -32,10 +37,11 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250115
 DTEND;VALUE=DATE:20250116
 SUMMARY:1e maandelijkse afschrijving belastingen
-DESCRIPTION:1er prélèvement mensuel\n\nPour tous les impôts mensualisés
-  (taxes foncières et d'habitation\, CFE).\n\nBron: https://www.impots.gou
- v.fr/particulier/calendrier-fiscal/2025-01\nOverzicht: https://infofrankri
- jk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n1er prélèvement mensuel\n\nPour t
+ ous les impôts mensualisés (taxes foncières et d'habitation\, CFE).\n\n
+ Bron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-01\nOv
+ erzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-01
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -48,12 +54,13 @@ DTSTART;VALUE=DATE:20250217
 DTEND;VALUE=DATE:20250218
 SUMMARY:2e maandafschrijving of 1e kwartaalafschrijving — voorschot inkom
  stenbelasting (PAS)
-DESCRIPTION:2ème prélèvement mensuel ou 1er prélèvement trimestriel d'
- acompte PAS\n\nAcompte au titre du prélèvement à la source des revenus 
- sans collecteurs (revenus des indépendants ou agriculteurs\, revenus fonc
- iers\, pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/part
- iculier/calendrier-fiscal/2025-02\nOverzicht: https://infofrankrijk.com/fi
- scale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n2ème prélèvement mensuel ou 1er 
+ prélèvement trimestriel d'acompte PAS\n\nAcompte au titre du prélèveme
+ nt à la source des revenus sans collecteurs (revenus des indépendants ou
+  agriculteurs\, revenus fonciers\, pensions alimentaires…).\n\nBron: htt
+ ps://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-02\nOverzicht: 
+ https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-02
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -65,11 +72,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250217
 DTEND;VALUE=DATE:20250218
 SUMMARY:2e maandelijkse afschrijving belastingen
-DESCRIPTION:2ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2025-02\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n2ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2025-02\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-02
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -81,11 +89,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250317
 DTEND;VALUE=DATE:20250318
 SUMMARY:3e maandafschrijving — voorschot inkomstenbelasting (PAS)
-DESCRIPTION:3ème prélèvement mensuel d'acompte PAS\n\nAcompte au titre d
- u prélèvement à la source des revenus sans collecteurs (revenus des ind
- épendants ou agriculteurs\, revenus fonciers\, pensions alimentaires…).
- \n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-03
- \nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n3ème prélèvement mensuel d'acomp
+ te PAS\n\nAcompte au titre du prélèvement à la source des revenus sans 
+ collecteurs (revenus des indépendants ou agriculteurs\, revenus fonciers\
+ , pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/particuli
+ er/calendrier-fiscal/2025-03\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-03
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -97,11 +107,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250317
 DTEND;VALUE=DATE:20250318
 SUMMARY:3e maandelijkse afschrijving belastingen
-DESCRIPTION:3ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2025-03\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n3ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2025-03\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-03
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -113,11 +124,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250415
 DTEND;VALUE=DATE:20250416
 SUMMARY:4e maandafschrijving — voorschot inkomstenbelasting (PAS)
-DESCRIPTION:4ème prélèvement mensuel d'acompte PAS\n\nAcompte au titre d
- u prélèvement à la source des revenus sans collecteurs (revenus des ind
- épendants ou agriculteurs\, revenus fonciers\, pensions alimentaires…).
- \n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-04
- \nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n4ème prélèvement mensuel d'acomp
+ te PAS\n\nAcompte au titre du prélèvement à la source des revenus sans 
+ collecteurs (revenus des indépendants ou agriculteurs\, revenus fonciers\
+ , pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/particuli
+ er/calendrier-fiscal/2025-04\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-04
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -129,11 +142,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250415
 DTEND;VALUE=DATE:20250416
 SUMMARY:4e maandelijkse afschrijving belastingen
-DESCRIPTION:4ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2025-04\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n4ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2025-04\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-04
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -146,12 +160,13 @@ DTSTART;VALUE=DATE:20250515
 DTEND;VALUE=DATE:20250516
 SUMMARY:5e maandafschrijving of 2e kwartaalafschrijving — voorschot inkom
  stenbelasting (PAS)
-DESCRIPTION:5ème prélèvement mensuel ou 2ème prélèvement trimestriel 
- d'acompte PAS\n\nAcompte au titre du prélèvement à la source des revenu
- s sans collecteurs (revenus des indépendants ou agriculteurs\, revenus fo
- nciers\, pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/pa
- rticulier/calendrier-fiscal/2025-05\nOverzicht: https://infofrankrijk.com/
- fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n5ème prélèvement mensuel ou 2èm
+ e prélèvement trimestriel d'acompte PAS\n\nAcompte au titre du prélève
+ ment à la source des revenus sans collecteurs (revenus des indépendants 
+ ou agriculteurs\, revenus fonciers\, pensions alimentaires…).\n\nBron: h
+ ttps://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-05\nOverzicht
+ : https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-05
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -163,11 +178,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250515
 DTEND;VALUE=DATE:20250516
 SUMMARY:5e maandelijkse afschrijving belastingen
-DESCRIPTION:5ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2025-05\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n5ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2025-05\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-05
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -179,11 +195,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250616
 DTEND;VALUE=DATE:20250617
 SUMMARY:6e maandafschrijving — voorschot inkomstenbelasting (PAS)
-DESCRIPTION:6ème prélèvement mensuel d'acompte PAS\n\nAcompte au titre d
- u prélèvement à la source des revenus sans collecteurs (revenus des ind
- épendants ou agriculteurs\, revenus fonciers\, pensions alimentaires…).
- \n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-06
- \nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n6ème prélèvement mensuel d'acomp
+ te PAS\n\nAcompte au titre du prélèvement à la source des revenus sans 
+ collecteurs (revenus des indépendants ou agriculteurs\, revenus fonciers\
+ , pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/particuli
+ er/calendrier-fiscal/2025-06\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-06
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -195,11 +213,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250616
 DTEND;VALUE=DATE:20250617
 SUMMARY:6e maandelijkse afschrijving belastingen
-DESCRIPTION:6ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2025-06\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n6ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2025-06\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-06
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -212,12 +231,14 @@ DTSTART;VALUE=DATE:20250630
 DTEND;VALUE=DATE:20250701
 SUMMARY:Aanmelden voor maandelijkse afschrijving voor 2025 — uiterste dat
  um
-DESCRIPTION:Date limite d'adhésion au prélèvement mensuel pour 2025\n\nS
- i vous adhérez par internet ou auprès du centre de contact\, vous avez j
- usqu'à cette date pour choisir le prélèvement mensuel avec effet en 202
- 5.\nLe 1er prélèvement interviendra à compter du 15 du mois suivant.\n\
- nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-06\nO
- verzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nDate limite d'adhésion au prélèv
+ ement mensuel pour 2025\n\nSi vous adhérez par internet ou auprès du cen
+ tre de contact\, vous avez jusqu'à cette date pour choisir le prélèveme
+ nt mensuel avec effet en 2025.\nLe 1er prélèvement interviendra à compt
+ er du 15 du mois suivant.\n\nBron: https://www.impots.gouv.fr/particulier/
+ calendrier-fiscal/2025-06\nOverzicht: https://infofrankrijk.com/fiscale-ka
+ lender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-06
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -229,11 +250,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250715
 DTEND;VALUE=DATE:20250716
 SUMMARY:7e maandafschrijving — voorschot inkomstenbelasting (PAS)
-DESCRIPTION:7ème prélèvement mensuel d'acompte PAS\n\nAcompte au titre d
- u prélèvement à la source des revenus sans collecteurs (revenus des ind
- épendants ou agriculteurs\, revenus fonciers\, pensions alimentaires…).
- \n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-07
- \nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n7ème prélèvement mensuel d'acomp
+ te PAS\n\nAcompte au titre du prélèvement à la source des revenus sans 
+ collecteurs (revenus des indépendants ou agriculteurs\, revenus fonciers\
+ , pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/particuli
+ er/calendrier-fiscal/2025-07\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-07
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -245,11 +268,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250715
 DTEND;VALUE=DATE:20250716
 SUMMARY:7e maandelijkse afschrijving belastingen
-DESCRIPTION:7ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2025-07\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n7ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2025-07\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-07
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -262,12 +286,13 @@ DTSTART;VALUE=DATE:20250818
 DTEND;VALUE=DATE:20250819
 SUMMARY:8e maandafschrijving of 3e kwartaalafschrijving — voorschot inkom
  stenbelasting (PAS)
-DESCRIPTION:8ème prélèvement mensuel ou 3ème prélèvement trimestriel 
- d'acompte PAS\n\nAcompte au titre du prélèvement à la source des revenu
- s sans collecteurs (revenus des indépendants ou agriculteurs\, revenus fo
- nciers\, pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/pa
- rticulier/calendrier-fiscal/2025-08\nOverzicht: https://infofrankrijk.com/
- fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n8ème prélèvement mensuel ou 3èm
+ e prélèvement trimestriel d'acompte PAS\n\nAcompte au titre du prélève
+ ment à la source des revenus sans collecteurs (revenus des indépendants 
+ ou agriculteurs\, revenus fonciers\, pensions alimentaires…).\n\nBron: h
+ ttps://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-08\nOverzicht
+ : https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-08
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -279,11 +304,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250818
 DTEND;VALUE=DATE:20250819
 SUMMARY:8e maandelijkse afschrijving belastingen
-DESCRIPTION:8ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2025-08\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n8ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2025-08\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-08
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -296,16 +322,17 @@ DTSTART;VALUE=DATE:20250831
 DTEND;VALUE=DATE:20250901
 SUMMARY:Vermogensbelasting vastgoed (IFI) — aanmelden voor afschrijving o
  p de vervaldatum
-DESCRIPTION:Impôt sur la fortune immobilière : date limite d'adhésion au
-  prélèvement à l'échéance\n\nSi la date limite de paiement de votre i
- mpôt est au 15 septembre 2025\, vous avez jusqu’au 31 août pour adhér
- er au prélèvement à l'échéance. L’adhésion peut être réalisée p
- ar internet ou auprès du centre de contact.\nLe prélèvement sur votre c
- ompte bancaire aura lieu le 25 septembre. Votre contrat de prélèvement 
- à l'échéance sera reconduit\, sauf avis contraire de votre part\, pour 
- votre impôt sur la fortune immobilière 2026.\n\nBron: https://www.impots
- .gouv.fr/particulier/calendrier-fiscal/2025-08\nOverzicht: https://infofra
- nkrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur la fortune immobilière 
+ : date limite d'adhésion au prélèvement à l'échéance\n\nSi la date l
+ imite de paiement de votre impôt est au 15 septembre 2025\, vous avez jus
+ qu’au 31 août pour adhérer au prélèvement à l'échéance. L’adhé
+ sion peut être réalisée par internet ou auprès du centre de contact.\n
+ Le prélèvement sur votre compte bancaire aura lieu le 25 septembre. Votr
+ e contrat de prélèvement à l'échéance sera reconduit\, sauf avis cont
+ raire de votre part\, pour votre impôt sur la fortune immobilière 2026.\
+ n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-08\
+ nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-08
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -317,11 +344,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250915
 DTEND;VALUE=DATE:20250916
 SUMMARY:9e maandelijkse afschrijving belastingen
-DESCRIPTION:9ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2025-09\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n9ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2025-09\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -333,11 +361,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250915
 DTEND;VALUE=DATE:20250916
 SUMMARY:Impôt sur revenu-prélèvements sociaux : date limite de paiement
-DESCRIPTION:Si le montant de votre impôt sur les revenus n’est pas prél
- evé automatiquement et si vous n’effectuez pas de paiement en ligne\, v
- ous avez jusqu’à cette date pour le payer.\n\nBron: https://www.impots.
- gouv.fr/particulier/calendrier-fiscal/2025-09\nOverzicht: https://infofran
- krijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nSi le montant de votre impôt sur l
+ es revenus n’est pas prélevé automatiquement et si vous n’effectuez 
+ pas de paiement en ligne\, vous avez jusqu’à cette date pour le payer.\
+ n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-09\
+ nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -349,15 +378,17 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250915
 DTEND;VALUE=DATE:20250916
 SUMMARY:Vermogensbelasting vastgoed (IFI) — uiterste betaaldatum
-DESCRIPTION:Impôt sur la fortune immobilière : date limite de paiement\n\
- nVous avez jusqu'à cette date pour payer si vous n'utilisez pas un moyen 
- de paiement dématérialisé (paiement en ligne par internet\, smartphone 
- ou tablette\, prélèvement à l'échéance ou mensuel). La date limite de
-  paiement est indiquée sur votre avis d'imposition.\nAttention\, la date 
- limite de paiement peut être fixée à une autre échéance (17 novembre)
- . Vous recevrez alors votre avis au cours du mois précédent.\n\nBron: ht
- tps://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-09\nOverzicht:
-  https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur la fortune immobilière 
+ : date limite de paiement\n\nVous avez jusqu'à cette date pour payer si v
+ ous n'utilisez pas un moyen de paiement dématérialisé (paiement en lign
+ e par internet\, smartphone ou tablette\, prélèvement à l'échéance ou
+  mensuel). La date limite de paiement est indiquée sur votre avis d'impos
+ ition.\nAttention\, la date limite de paiement peut être fixée à une au
+ tre échéance (17 novembre). Vous recevrez alors votre avis au cours du m
+ ois précédent.\n\nBron: https://www.impots.gouv.fr/particulier/calendrie
+ r-fiscal/2025-09\nOverzicht: https://infofrankrijk.com/fiscale-kalender-fr
+ ankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -369,11 +400,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250915
 DTEND;VALUE=DATE:20250916
 SUMMARY:9e maandafschrijving — voorschot inkomstenbelasting (PAS)
-DESCRIPTION:9ème prélèvement mensuel d'acompte PAS\n\nAcompte au titre d
- u prélèvement à la source des revenus sans collecteurs (revenus des ind
- épendants ou agriculteurs\, revenus fonciers\, pensions alimentaires…).
- \n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-09
- \nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n9ème prélèvement mensuel d'acomp
+ te PAS\n\nAcompte au titre du prélèvement à la source des revenus sans 
+ collecteurs (revenus des indépendants ou agriculteurs\, revenus fonciers\
+ , pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/particuli
+ er/calendrier-fiscal/2025-09\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -385,15 +418,16 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250920
 DTEND;VALUE=DATE:20250921
 SUMMARY:Inkomstenbelasting en sociale heffingen — afschrijving
-DESCRIPTION:Impôt sur le revenu-prélèvements sociaux : paiement par inte
- rnet\, smartphone ou tablette\n\nVous avez jusqu'au 20 septembre 2025 minu
- it pour payer en ligne votre impôt sur le revenu et prélèvements sociau
- x\, si le montant de cet impôt n’est pas prélevé automatiquement.\nLe
-  prélèvement sur votre compte bancaire aura lieu à compter du 25 septem
- bre. Vous êtes informé de la date de prélèvement lors de l'enregistrem
- ent de votre ordre de paiement.\n\nBron: https://www.impots.gouv.fr/partic
- ulier/calendrier-fiscal/2025-09\nOverzicht: https://infofrankrijk.com/fisc
- ale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur le revenu-prélèvements
+  sociaux : paiement par internet\, smartphone ou tablette\n\nVous avez jus
+ qu'au 20 septembre 2025 minuit pour payer en ligne votre impôt sur le rev
+ enu et prélèvements sociaux\, si le montant de cet impôt n’est pas pr
+ élevé automatiquement.\nLe prélèvement sur votre compte bancaire aura 
+ lieu à compter du 25 septembre. Vous êtes informé de la date de prélè
+ vement lors de l'enregistrement de votre ordre de paiement.\n\nBron: https
+ ://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-09\nOverzicht: ht
+ tps://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -406,16 +440,17 @@ DTSTART;VALUE=DATE:20250920
 DTEND;VALUE=DATE:20250921
 SUMMARY:Vermogensbelasting vastgoed (IFI) — uiterste datum online betalin
  g
-DESCRIPTION:Impôt sur la fortune immobilière : paiement par internet\, sm
- artphone ou tablette\n\nVous avez jusqu'au 20 septembre 2025 minuit pour p
- ayer en ligne votre impôt sur la fortune immobilière. Le prélèvement s
- era effectué à compter du 25 septembre 2025.\nSi la date limite de paiem
- ent est au 17 novembre 2025\, vous avez jusqu'au 22 novembre minuit pour l
- e payer en ligne\, le prélèvement sera effectué à compter du 27 novemb
- re 2025.\nVous êtes informé de la date de prélèvement lors de l'enregi
- strement de votre ordre de paiement.\n\nBron: https://www.impots.gouv.fr/p
- articulier/calendrier-fiscal/2025-09\nOverzicht: https://infofrankrijk.com
- /fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur la fortune immobilière 
+ : paiement par internet\, smartphone ou tablette\n\nVous avez jusqu'au 20 
+ septembre 2025 minuit pour payer en ligne votre impôt sur la fortune immo
+ bilière. Le prélèvement sera effectué à compter du 25 septembre 2025.
+ \nSi la date limite de paiement est au 17 novembre 2025\, vous avez jusqu'
+ au 22 novembre minuit pour le payer en ligne\, le prélèvement sera effec
+ tué à compter du 27 novembre 2025.\nVous êtes informé de la date de pr
+ élèvement lors de l'enregistrement de votre ordre de paiement.\n\nBron: 
+ https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-09\nOverzich
+ t: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -427,14 +462,15 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250925
 DTEND;VALUE=DATE:20250926
 SUMMARY:Inkomstenbelasting en sociale heffingen — afschrijving
-DESCRIPTION:Impôt sur le revenu-prélèvements sociaux : date de prélève
- ment\n\nSi le montant restant à payer de votre impôt sur les revenus est
-  supérieur à 300 €\, la somme due est prélevée en quatre échéances
-  du 25 septembre au 29 décembre 2025.\nSi le montant restant à payer est
-  inférieur ou égal à 300 €\, il est prélevé en une seule échéance
-  le 25 septembre 2025.\n\nBron: https://www.impots.gouv.fr/particulier/cal
- endrier-fiscal/2025-09\nOverzicht: https://infofrankrijk.com/fiscale-kalen
- der-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur le revenu-prélèvements
+  sociaux : date de prélèvement\n\nSi le montant restant à payer de votr
+ e impôt sur les revenus est supérieur à 300 €\, la somme due est pré
+ levée en quatre échéances du 25 septembre au 29 décembre 2025.\nSi le 
+ montant restant à payer est inférieur ou égal à 300 €\, il est prél
+ evé en une seule échéance le 25 septembre 2025.\n\nBron: https://www.im
+ pots.gouv.fr/particulier/calendrier-fiscal/2025-09\nOverzicht: https://inf
+ ofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -446,15 +482,16 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20250930
 DTEND;VALUE=DATE:20251001
 SUMMARY:Taxe foncière — aanmelden voor afschrijving op de vervaldatum
-DESCRIPTION:Taxes foncières : date limite d'adhésion au prélèvement à 
- l'échéance\n\nSi vous adhérez par internet ou auprès du centre de cont
- act\, vous avez jusqu'à cette date pour choisir le prélèvement à l'éc
- héance de vos taxes foncières. Le prélèvement sur votre compte bancair
- e aura lieu le 27 octobre. Votre contrat de prélèvement à l'échéance 
- sera reconduit\, sauf avis contraire de votre part\, pour vos taxes fonci
- ères 2026.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fis
- cal/2025-09\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankri
- jk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nTaxes foncières : date limite d'ad
+ hésion au prélèvement à l'échéance\n\nSi vous adhérez par internet 
+ ou auprès du centre de contact\, vous avez jusqu'à cette date pour chois
+ ir le prélèvement à l'échéance de vos taxes foncières. Le prélèvem
+ ent sur votre compte bancaire aura lieu le 27 octobre. Votre contrat de pr
+ élèvement à l'échéance sera reconduit\, sauf avis contraire de votre 
+ part\, pour vos taxes foncières 2026.\n\nBron: https://www.impots.gouv.fr
+ /particulier/calendrier-fiscal/2025-09\nOverzicht: https://infofrankrijk.c
+ om/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -466,14 +503,15 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 SUMMARY:Taxe foncière — uiterste betaaldatum
-DESCRIPTION:Taxes foncières : date limite de paiement\n\nSi vous êtes un 
- particulier\, vous avez jusqu’à cette date pour payer vos taxes fonciè
- res si vous n’utilisez pas un moyen de paiement dématérialisé (paieme
- nt en ligne par internet\, smartphone ou tablette\, prélèvement à l'éc
- héance ou mensuel). La date limite de paiement est indiquée sur votre av
- is d'imposition.\n\nBron: https://www.impots.gouv.fr/particulier/calendrie
- r-fiscal/2025-10\nOverzicht: https://infofrankrijk.com/fiscale-kalender-fr
- ankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nTaxes foncières : date limite de p
+ aiement\n\nSi vous êtes un particulier\, vous avez jusqu’à cette date 
+ pour payer vos taxes foncières si vous n’utilisez pas un moyen de paiem
+ ent dématérialisé (paiement en ligne par internet\, smartphone ou table
+ tte\, prélèvement à l'échéance ou mensuel). La date limite de paiemen
+ t est indiquée sur votre avis d'imposition.\n\nBron: https://www.impots.g
+ ouv.fr/particulier/calendrier-fiscal/2025-10\nOverzicht: https://infofrank
+ rijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -485,11 +523,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 SUMMARY:10e maandafschrijving — voorschot inkomstenbelasting (PAS)
-DESCRIPTION:10ème prélèvement mensuel d'acompte PAS\n\nAcompte au titre 
- du prélèvement à la source des revenus sans collecteurs (revenus des in
- dépendants ou agriculteurs\, revenus fonciers\, pensions alimentaires…)
- .\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-1
- 0\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n10ème prélèvement mensuel d'acom
+ pte PAS\n\nAcompte au titre du prélèvement à la source des revenus sans
+  collecteurs (revenus des indépendants ou agriculteurs\, revenus fonciers
+ \, pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/particul
+ ier/calendrier-fiscal/2025-10\nOverzicht: https://infofrankrijk.com/fiscal
+ e-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -501,11 +541,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 SUMMARY:10e maandelijkse afschrijving belastingen
-DESCRIPTION:10ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2025-10\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n10ème prélèvement mensuel\n\nPou
+ r tous les impôts mensualisés (taxes foncières et d'habitation\, impôt
+  sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/
+ particulier/calendrier-fiscal/2025-10\nOverzicht: https://infofrankrijk.co
+ m/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -517,14 +558,15 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20251020
 DTEND;VALUE=DATE:20251021
 SUMMARY:Taxe foncière — uiterste datum online betaling
-DESCRIPTION:Taxes foncières : date limite de paiement par internet\, smart
- phone ou tablette\n\nSi vous êtes un particulier\, vous avez jusqu'au 20 
- octobre minuit pour payer en ligne vos taxes foncières. Le prélèvement 
- sera effectué sur votre compte bancaire à compter du 27 octobre. Vous ê
- tes informé de la date de prélèvement lors de l'enregistrement de votre
-  ordre de paiement.\n\nBron: https://www.impots.gouv.fr/particulier/calend
- rier-fiscal/2025-10\nOverzicht: https://infofrankrijk.com/fiscale-kalender
- -frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nTaxes foncières : date limite de p
+ aiement par internet\, smartphone ou tablette\n\nSi vous êtes un particul
+ ier\, vous avez jusqu'au 20 octobre minuit pour payer en ligne vos taxes f
+ oncières. Le prélèvement sera effectué sur votre compte bancaire à co
+ mpter du 27 octobre. Vous êtes informé de la date de prélèvement lors 
+ de l'enregistrement de votre ordre de paiement.\n\nBron: https://www.impot
+ s.gouv.fr/particulier/calendrier-fiscal/2025-10\nOverzicht: https://infofr
+ ankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -536,13 +578,14 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20251027
 DTEND;VALUE=DATE:20251028
 SUMMARY:Inkomstenbelasting en sociale heffingen — 2e afschrijving
-DESCRIPTION:Impôt sur le revenu-prélèvements sociaux : 2ème prélèveme
- nt\n\nSi le montant restant à payer de votre impôt sur les revenus est s
- upérieur à 300 €\, la somme due est prélevée en quatre échéances d
- u 25 septembre au 29 décembre 2025.\nLa 2ème échéance est prélevée l
- e 27 octobre 2025.\n\nBron: https://www.impots.gouv.fr/particulier/calendr
- ier-fiscal/2025-10\nOverzicht: https://infofrankrijk.com/fiscale-kalender-
- frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur le revenu-prélèvements
+  sociaux : 2ème prélèvement\n\nSi le montant restant à payer de votre 
+ impôt sur les revenus est supérieur à 300 €\, la somme due est préle
+ vée en quatre échéances du 25 septembre au 29 décembre 2025.\nLa 2ème
+  échéance est prélevée le 27 octobre 2025.\n\nBron: https://www.impots
+ .gouv.fr/particulier/calendrier-fiscal/2025-10\nOverzicht: https://infofra
+ nkrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -555,16 +598,17 @@ DTSTART;VALUE=DATE:20251031
 DTEND;VALUE=DATE:20251101
 SUMMARY:Vermogensbelasting vastgoed (IFI) — aanmelden voor afschrijving o
  p de vervaldatum
-DESCRIPTION:Impôt sur la fortune immobilière : date limite d'adhésion au
-  prélèvement à l'échéance\n\nSi la date limite de paiement de votre i
- mpôt est au 17 novembre 2025\, vous avez jusqu’au 31 octobre pour adhé
- rer au prélèvement à l'échéance. L’adhésion peut être réalisée 
- par internet ou auprès du centre de contact.\nLe prélèvement sur votre 
- compte bancaire aura lieu le 27 novembre. Votre contrat de prélèvement 
- à l'échéance sera reconduit\, sauf avis contraire de votre part\, pour 
- votre impôt sur la fortune immobilière 2026.\n\nBron: https://www.impots
- .gouv.fr/particulier/calendrier-fiscal/2025-10\nOverzicht: https://infofra
- nkrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur la fortune immobilière 
+ : date limite d'adhésion au prélèvement à l'échéance\n\nSi la date l
+ imite de paiement de votre impôt est au 17 novembre 2025\, vous avez jusq
+ u’au 31 octobre pour adhérer au prélèvement à l'échéance. L’adh
+ ésion peut être réalisée par internet ou auprès du centre de contact.
+ \nLe prélèvement sur votre compte bancaire aura lieu le 27 novembre. Vot
+ re contrat de prélèvement à l'échéance sera reconduit\, sauf avis con
+ traire de votre part\, pour votre impôt sur la fortune immobilière 2026.
+ \n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-10
+ \nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-10
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -576,13 +620,14 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20251117
 DTEND;VALUE=DATE:20251118
 SUMMARY:Vermogensbelasting vastgoed (IFI) — uiterste betaaldatum
-DESCRIPTION:Impôt sur la fortune immobilière : date limite de paiement\n\
- nVous avez jusqu'à cette date pour payer si vous n'utilisez pas un moyen 
- de paiement dématérialisé (paiement en ligne par internet\, smartphone 
- ou tablette\, prélèvement à l'échéance ou mensuel). La date limite de
-  paiement est indiquée sur votre avis d'imposition.\n\nBron: https://www.
- impots.gouv.fr/particulier/calendrier-fiscal/2025-11\nOverzicht: https://i
- nfofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur la fortune immobilière 
+ : date limite de paiement\n\nVous avez jusqu'à cette date pour payer si v
+ ous n'utilisez pas un moyen de paiement dématérialisé (paiement en lign
+ e par internet\, smartphone ou tablette\, prélèvement à l'échéance ou
+  mensuel). La date limite de paiement est indiquée sur votre avis d'impos
+ ition.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2
+ 025-11\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-11
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -595,12 +640,13 @@ DTSTART;VALUE=DATE:20251117
 DTEND;VALUE=DATE:20251118
 SUMMARY:11e maandafschrijving of 4e kwartaalafschrijving — voorschot inko
  mstenbelasting (PAS)
-DESCRIPTION:11ème prélèvement mensuel ou 4ème prélèvement trimestriel
-  d'acompte PAS\n\nAcompte au titre du prélèvement à la source des reven
- us sans collecteurs (revenus des indépendants ou agriculteurs\, revenus f
- onciers\, pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/p
- articulier/calendrier-fiscal/2025-11\nOverzicht: https://infofrankrijk.com
- /fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n11ème prélèvement mensuel ou 4è
+ me prélèvement trimestriel d'acompte PAS\n\nAcompte au titre du prélèv
+ ement à la source des revenus sans collecteurs (revenus des indépendants
+  ou agriculteurs\, revenus fonciers\, pensions alimentaires…).\n\nBron: 
+ https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-11\nOverzich
+ t: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-11
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -612,12 +658,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20251117
 DTEND;VALUE=DATE:20251118
 SUMMARY:Maandelijkse afschrijving belastingen
-DESCRIPTION:Prélèvement mensuel\n\nPour tous les impôts mensualisés (ta
- xes foncières et d'habitation\, impôt sur la fortune immobilière et CFE
- )\, vous continuez d'être prélevé en cas de hausse de votre impôt en 2
- 025 : consultez l’échéancier sur votre avis.\n\nBron: https://www.impo
- ts.gouv.fr/particulier/calendrier-fiscal/2025-11\nOverzicht: https://infof
- rankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nPrélèvement mensuel\n\nPour tous 
+ les impôts mensualisés (taxes foncières et d'habitation\, impôt sur la
+  fortune immobilière et CFE)\, vous continuez d'être prélevé en cas de
+  hausse de votre impôt en 2025 : consultez l’échéancier sur votre avi
+ s.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-
+ 11\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-11
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -630,14 +677,15 @@ DTSTART;VALUE=DATE:20251122
 DTEND;VALUE=DATE:20251123
 SUMMARY:Vermogensbelasting vastgoed (IFI) — uiterste datum online betalin
  g
-DESCRIPTION:Impôt sur la fortune immobilière : paiement par internet\, sm
- artphone ou tablette\n\nSi la date limite de paiement est au 17 novembre 2
- 025\, vous avez jusqu'au 22 novembre minuit pour payer en ligne votre imp
- ôt sur la fortune immobilière. Le prélèvement sera effectué à compte
- r du 27 novembre 2025.\nVous êtes informé de la date de prélèvement lo
- rs de l'enregistrement de votre ordre de paiement.\n\nBron: https://www.im
- pots.gouv.fr/particulier/calendrier-fiscal/2025-11\nOverzicht: https://inf
- ofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur la fortune immobilière 
+ : paiement par internet\, smartphone ou tablette\n\nSi la date limite de p
+ aiement est au 17 novembre 2025\, vous avez jusqu'au 22 novembre minuit po
+ ur payer en ligne votre impôt sur la fortune immobilière. Le prélèveme
+ nt sera effectué à compter du 27 novembre 2025.\nVous êtes informé de 
+ la date de prélèvement lors de l'enregistrement de votre ordre de paieme
+ nt.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025
+ -11\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-11
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -649,13 +697,14 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20251127
 DTEND;VALUE=DATE:20251128
 SUMMARY:Inkomstenbelasting en sociale heffingen — 3e afschrijving
-DESCRIPTION:Impôt sur le revenu-prélèvements sociaux : 3ème prélèveme
- nt\n\nSi le montant restant à payer de votre impôt sur les revenus est s
- upérieur à 300 €\, la somme due est prélevée en quatre échéances d
- u 25 septembre au 29 décembre 2025.\nLa 3ème échéance est prélevée l
- e 27 novembre 2025.\n\nBron: https://www.impots.gouv.fr/particulier/calend
- rier-fiscal/2025-11\nOverzicht: https://infofrankrijk.com/fiscale-kalender
- -frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur le revenu-prélèvements
+  sociaux : 3ème prélèvement\n\nSi le montant restant à payer de votre 
+ impôt sur les revenus est supérieur à 300 €\, la somme due est préle
+ vée en quatre échéances du 25 septembre au 29 décembre 2025.\nLa 3ème
+  échéance est prélevée le 27 novembre 2025.\n\nBron: https://www.impot
+ s.gouv.fr/particulier/calendrier-fiscal/2025-11\nOverzicht: https://infofr
+ ankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-11
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -668,13 +717,15 @@ DTSTART;VALUE=DATE:20251130
 DTEND;VALUE=DATE:20251201
 SUMMARY:Taxe d’habitation — aanmelden voor afschrijving op de vervaldat
  um
-DESCRIPTION:Taxe d'habitation : date limite d'adhésion au prélèvement à
-  l'échéance\n\nSi vous adhérez par internet ou auprès du centre de con
- tact\, vous avez jusqu'à cette date pour choisir le prélèvement à l'é
- chéance de votre taxe d'habitation payable le 15 décembre. La somme sera
-  prélevée sur votre compte bancaire le 29 décembre 2025.\n\nBron: https
- ://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-11\nOverzicht: ht
- tps://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nTaxe d'habitation : date limite d'a
+ dhésion au prélèvement à l'échéance\n\nSi vous adhérez par internet
+  ou auprès du centre de contact\, vous avez jusqu'à cette date pour choi
+ sir le prélèvement à l'échéance de votre taxe d'habitation payable le
+  15 décembre. La somme sera prélevée sur votre compte bancaire le 29 d
+ écembre 2025.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-
+ fiscal/2025-11\nOverzicht: https://infofrankrijk.com/fiscale-kalender-fran
+ krijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-11
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -686,14 +737,15 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20251215
 DTEND;VALUE=DATE:20251216
 SUMMARY:Leegstandheffingen (TLV / THLV) — uiterste betaaldatum
-DESCRIPTION:Taxe sur les logements vacants et taxe d’habitation sur les l
- ogements vacants : date limite de paiement\n\nSi vous êtes un particulier
- \, vous avez jusqu'à cette date pour payer votre taxe sur les logements v
- acants\, ainsi que votre taxe d’habitation sur les logements vacants\, s
- i vous n'utilisez pas un moyen de paiement dématérialisé (paiement en l
- igne par internet\, smartphone ou tablette).\n\nBron: https://www.impots.g
- ouv.fr/particulier/calendrier-fiscal/2025-12\nOverzicht: https://infofrank
- rijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nTaxe sur les logements vacants et t
+ axe d’habitation sur les logements vacants : date limite de paiement\n\n
+ Si vous êtes un particulier\, vous avez jusqu'à cette date pour payer vo
+ tre taxe sur les logements vacants\, ainsi que votre taxe d’habitation s
+ ur les logements vacants\, si vous n'utilisez pas un moyen de paiement dé
+ matérialisé (paiement en ligne par internet\, smartphone ou tablette).\n
+ \nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-12\n
+ Overzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-12
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -705,14 +757,15 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20251215
 DTEND;VALUE=DATE:20251216
 SUMMARY:Taxe d’habitation — uiterste betaaldatum
-DESCRIPTION:Taxe d'habitation : date limite de paiement\n\nSi vous êtes un
-  particulier\, vous avez jusqu'à cette date pour payer votre taxe d'habit
- ation si vous n'utilisez pas un moyen de paiement dématérialisé (paieme
- nt en ligne par internet\, smartphone ou tablette\, prélèvement à l'éc
- héance ou mensuel). La date limite de paiement est indiquée sur votre av
- is d'imposition.\n\nBron: https://www.impots.gouv.fr/particulier/calendrie
- r-fiscal/2025-12\nOverzicht: https://infofrankrijk.com/fiscale-kalender-fr
- ankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nTaxe d'habitation : date limite de 
+ paiement\n\nSi vous êtes un particulier\, vous avez jusqu'à cette date p
+ our payer votre taxe d'habitation si vous n'utilisez pas un moyen de paiem
+ ent dématérialisé (paiement en ligne par internet\, smartphone ou table
+ tte\, prélèvement à l'échéance ou mensuel). La date limite de paiemen
+ t est indiquée sur votre avis d'imposition.\n\nBron: https://www.impots.g
+ ouv.fr/particulier/calendrier-fiscal/2025-12\nOverzicht: https://infofrank
+ rijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-12
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -724,11 +777,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20251215
 DTEND;VALUE=DATE:20251216
 SUMMARY:12e maandafschrijving — voorschot inkomstenbelasting (PAS)
-DESCRIPTION:12ème prélèvement mensuel d'acompte PAS\n\nAcompte au titre 
- du prélèvement à la source des revenus sans collecteurs (revenus des in
- dépendants ou agriculteurs\, revenus fonciers\, pensions alimentaires…)
- .\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-1
- 2\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n12ème prélèvement mensuel d'acom
+ pte PAS\n\nAcompte au titre du prélèvement à la source des revenus sans
+  collecteurs (revenus des indépendants ou agriculteurs\, revenus fonciers
+ \, pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/particul
+ ier/calendrier-fiscal/2025-12\nOverzicht: https://infofrankrijk.com/fiscal
+ e-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-12
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -740,12 +795,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20251215
 DTEND;VALUE=DATE:20251216
 SUMMARY:Maandelijkse afschrijving belastingen
-DESCRIPTION:Prélèvement mensuel\n\nPour tous les impôts mensualisés (ta
- xes foncières et d'habitation\, impôt sur la fortune immobilière et CFE
- )\, vous continuez d'être prélevé en cas de hausse de votre impôt en 2
- 025 : consultez l’échéancier sur votre avis.\n\nBron: https://www.impo
- ts.gouv.fr/particulier/calendrier-fiscal/2025-12\nOverzicht: https://infof
- rankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nPrélèvement mensuel\n\nPour tous 
+ les impôts mensualisés (taxes foncières et d'habitation\, impôt sur la
+  fortune immobilière et CFE)\, vous continuez d'être prélevé en cas de
+  hausse de votre impôt en 2025 : consultez l’échéancier sur votre avi
+ s.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-
+ 12\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-12
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -757,15 +813,17 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20251220
 DTEND;VALUE=DATE:20251221
 SUMMARY:Leegstandheffingen (TLV / THLV) — uiterste datum online betaling
-DESCRIPTION:Taxe sur les logements vacants et taxe d’habitation sur les l
- ogements vacants : paiement par internet\, smartphone ou tablette\n\nSi vo
- us êtes un particulier\, vous avez jusqu'au 20 décembre minuit pour paye
- r en ligne votre taxe sur les logements vacants\, ainsi que votre taxe d
- ’habitation sur les logements vacants. Le prélèvement sera effectué s
- ur votre compte bancaire à compter du 29 décembre. Vous êtes informé d
- e la date de prélèvement lors de l'enregistrement de votre ordre de paie
- ment.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/20
- 25-12\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nTaxe sur les logements vacants et t
+ axe d’habitation sur les logements vacants : paiement par internet\, sma
+ rtphone ou tablette\n\nSi vous êtes un particulier\, vous avez jusqu'au 2
+ 0 décembre minuit pour payer en ligne votre taxe sur les logements vacant
+ s\, ainsi que votre taxe d’habitation sur les logements vacants. Le pré
+ lèvement sera effectué sur votre compte bancaire à compter du 29 décem
+ bre. Vous êtes informé de la date de prélèvement lors de l'enregistrem
+ ent de votre ordre de paiement.\n\nBron: https://www.impots.gouv.fr/partic
+ ulier/calendrier-fiscal/2025-12\nOverzicht: https://infofrankrijk.com/fisc
+ ale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-12
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -777,14 +835,15 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20251220
 DTEND;VALUE=DATE:20251221
 SUMMARY:Taxe d’habitation — uiterste datum online betaling
-DESCRIPTION:Taxe d'habitation : paiement par internet\, smartphone ou table
- tte\n\nSi vous êtes particulier\, vous avez jusqu'au 20 décembre minuit 
- pour payer en ligne votre taxe d'habitation. Le prélèvement sera effectu
- é sur votre compte bancaire à compter du 29 décembre. Vous êtes inform
- é de la date du prélèvement lors de l'enregistrement de votre ordre de 
- paiement.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2025-12\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nTaxe d'habitation : paiement par in
+ ternet\, smartphone ou tablette\n\nSi vous êtes particulier\, vous avez j
+ usqu'au 20 décembre minuit pour payer en ligne votre taxe d'habitation. L
+ e prélèvement sera effectué sur votre compte bancaire à compter du 29 
+ décembre. Vous êtes informé de la date du prélèvement lors de l'enreg
+ istrement de votre ordre de paiement.\n\nBron: https://www.impots.gouv.fr/
+ particulier/calendrier-fiscal/2025-12\nOverzicht: https://infofrankrijk.co
+ m/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-12
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -796,13 +855,14 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20251229
 DTEND;VALUE=DATE:20251230
 SUMMARY:Inkomstenbelasting en sociale heffingen — 4e afschrijving
-DESCRIPTION:Impôt sur le revenu-prélèvements sociaux : 4ème prélèveme
- nt\n\nSi le montant restant à payer de votre impôt sur les revenus est s
- upérieur à 300 €\, la somme due est prélevée en quatre échéances d
- u 25 septembre au 29 décembre 2025.\nLa 4ème échéance est prélevée l
- e 29 décembre 2025.\n\nBron: https://www.impots.gouv.fr/particulier/calen
- drier-fiscal/2025-12\nOverzicht: https://infofrankrijk.com/fiscale-kalende
- r-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur le revenu-prélèvements
+  sociaux : 4ème prélèvement\n\nSi le montant restant à payer de votre 
+ impôt sur les revenus est supérieur à 300 €\, la somme due est préle
+ vée en quatre échéances du 25 septembre au 29 décembre 2025.\nLa 4ème
+  échéance est prélevée le 29 décembre 2025.\n\nBron: https://www.impo
+ ts.gouv.fr/particulier/calendrier-fiscal/2025-12\nOverzicht: https://infof
+ rankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2025-12
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -814,11 +874,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260115
 DTEND;VALUE=DATE:20260116
 SUMMARY:1e maandafschrijving — voorschot inkomstenbelasting (PAS)
-DESCRIPTION:1er prélèvement mensuel d'acompte PAS\n\nAcompte au titre du 
- prélèvement à la source des revenus sans collecteurs (revenus des indé
- pendants ou agriculteurs\, revenus fonciers\, pensions alimentaires…).\n
- \nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-01\n
- Overzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n1er prélèvement mensuel d'acompte
+  PAS\n\nAcompte au titre du prélèvement à la source des revenus sans co
+ llecteurs (revenus des indépendants ou agriculteurs\, revenus fonciers\, 
+ pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/particulier
+ /calendrier-fiscal/2026-01\nOverzicht: https://infofrankrijk.com/fiscale-k
+ alender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-01
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -830,10 +892,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260115
 DTEND;VALUE=DATE:20260116
 SUMMARY:1e maandelijkse afschrijving belastingen
-DESCRIPTION:1er prélèvement mensuel\n\nPour tous les impôts mensualisés
-  (taxes foncières et d'habitation\, impôt sur la fortune immobilière et
-  CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2
- 026-01\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n1er prélèvement mensuel\n\nPour t
+ ous les impôts mensualisés (taxes foncières et d'habitation\, impôt su
+ r la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/par
+ ticulier/calendrier-fiscal/2026-01\nOverzicht: https://infofrankrijk.com/f
+ iscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-01
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -846,12 +910,13 @@ DTSTART;VALUE=DATE:20260216
 DTEND;VALUE=DATE:20260217
 SUMMARY:2e maandafschrijving of 1e kwartaalafschrijving — voorschot inkom
  stenbelasting (PAS)
-DESCRIPTION:2ème prélèvement mensuel ou 1er prélèvement trimestriel d'
- acompte PAS\n\nAcompte au titre du prélèvement à la source des revenus 
- sans collecteurs (revenus des indépendants ou agriculteurs\, revenus fonc
- iers\, pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/part
- iculier/calendrier-fiscal/2026-02\nOverzicht: https://infofrankrijk.com/fi
- scale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n2ème prélèvement mensuel ou 1er 
+ prélèvement trimestriel d'acompte PAS\n\nAcompte au titre du prélèveme
+ nt à la source des revenus sans collecteurs (revenus des indépendants ou
+  agriculteurs\, revenus fonciers\, pensions alimentaires…).\n\nBron: htt
+ ps://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-02\nOverzicht: 
+ https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-02
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -863,11 +928,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260216
 DTEND;VALUE=DATE:20260217
 SUMMARY:2e maandelijkse afschrijving belastingen
-DESCRIPTION:2ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2026-02\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n2ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2026-02\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-02
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -879,11 +945,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260316
 DTEND;VALUE=DATE:20260317
 SUMMARY:3e maandafschrijving — voorschot inkomstenbelasting (PAS)
-DESCRIPTION:3ème prélèvement mensuel d'acompte PAS\n\nAcompte au titre d
- u prélèvement à la source des revenus sans collecteurs (revenus des ind
- épendants ou agriculteurs\, revenus fonciers\, pensions alimentaires…).
- \n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-03
- \nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n3ème prélèvement mensuel d'acomp
+ te PAS\n\nAcompte au titre du prélèvement à la source des revenus sans 
+ collecteurs (revenus des indépendants ou agriculteurs\, revenus fonciers\
+ , pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/particuli
+ er/calendrier-fiscal/2026-03\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-03
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -895,11 +963,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260316
 DTEND;VALUE=DATE:20260317
 SUMMARY:3e maandelijkse afschrijving belastingen
-DESCRIPTION:3ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2026-03\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n3ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2026-03\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-03
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -911,12 +980,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260414
 DTEND;VALUE=DATE:20260415
 SUMMARY:Online belastingaangifte gaat open
-DESCRIPTION:Ouverture du service de déclaration par internet sur impots.go
- uv.fr\n\nSi vous déclarez par internet\, vous disposez d'un délai suppl
- émentaire jusqu'au 21 mai\, 28 mai ou 4 juin 2026 selon le numéro de vot
- re département.\n\nBron: https://www.impots.gouv.fr/particulier/calendrie
- r-fiscal/2026-04\nOverzicht: https://infofrankrijk.com/fiscale-kalender-fr
- ankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nOuverture du service de déclaratio
+ n par internet sur impots.gouv.fr\n\nSi vous déclarez par internet\, vous
+  disposez d'un délai supplémentaire jusqu'au 21 mai\, 28 mai ou 4 juin 2
+ 026 selon le numéro de votre département.\n\nBron: https://www.impots.go
+ uv.fr/particulier/calendrier-fiscal/2026-04\nOverzicht: https://infofrankr
+ ijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-04
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -928,11 +998,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260415
 DTEND;VALUE=DATE:20260416
 SUMMARY:4e maandafschrijving — voorschot inkomstenbelasting (PAS)
-DESCRIPTION:4ème prélèvement mensuel d'acompte PAS\n\nAcompte au titre d
- u prélèvement à la source des revenus sans collecteurs (revenus des ind
- épendants ou agriculteurs\, revenus fonciers\, pensions alimentaires…).
- \n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-04
- \nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n4ème prélèvement mensuel d'acomp
+ te PAS\n\nAcompte au titre du prélèvement à la source des revenus sans 
+ collecteurs (revenus des indépendants ou agriculteurs\, revenus fonciers\
+ , pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/particuli
+ er/calendrier-fiscal/2026-04\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-04
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -944,11 +1016,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260415
 DTEND;VALUE=DATE:20260416
 SUMMARY:4e maandelijkse afschrijving belastingen
-DESCRIPTION:4ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2026-04\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n4ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2026-04\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-04
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -961,12 +1034,13 @@ DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20260516
 SUMMARY:5e maandafschrijving of 2e kwartaalafschrijving — voorschot inkom
  stenbelasting (PAS)
-DESCRIPTION:5ème prélèvement mensuel ou 2ème prélèvement trimestriel 
- d'acompte PAS\n\nAcompte au titre du prélèvement à la source des revenu
- s sans collecteurs (revenus des indépendants ou agriculteurs\, revenus fo
- nciers\, pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/pa
- rticulier/calendrier-fiscal/2026-05\nOverzicht: https://infofrankrijk.com/
- fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n5ème prélèvement mensuel ou 2èm
+ e prélèvement trimestriel d'acompte PAS\n\nAcompte au titre du prélève
+ ment à la source des revenus sans collecteurs (revenus des indépendants 
+ ou agriculteurs\, revenus fonciers\, pensions alimentaires…).\n\nBron: h
+ ttps://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-05\nOverzicht
+ : https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-05
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -978,11 +1052,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20260516
 SUMMARY:5e maandelijkse afschrijving belastingen
-DESCRIPTION:5ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2026-05\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n5ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2026-05\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-05
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -994,13 +1069,14 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260519
 DTEND;VALUE=DATE:20260520
 SUMMARY:Uiterste datum inkomstenbelastingaangifte op papier
-DESCRIPTION:Date limite de déclaration de revenus\n\nDate limite de dépô
- t de la déclaration 2026 de revenus 2025\, version papier (y compris pour
-  les résidents à l'étranger). Si vous déclarez par internet\, vous dis
- posez d'un délai supplémentaire jusqu'au 21 mai\, 28 mai ou 4 juin 2026 
- selon le numéro de votre département.\n\nBron: https://www.impots.gouv.f
- r/particulier/calendrier-fiscal/2026-05\nOverzicht: https://infofrankrijk.
- com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nDate limite de déclaration de reve
+ nus\n\nDate limite de dépôt de la déclaration 2026 de revenus 2025\, ve
+ rsion papier (y compris pour les résidents à l'étranger). Si vous décl
+ arez par internet\, vous disposez d'un délai supplémentaire jusqu'au 21 
+ mai\, 28 mai ou 4 juin 2026 selon le numéro de votre département.\n\nBro
+ n: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-05\nOverz
+ icht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-05
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1012,14 +1088,15 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260519
 DTEND;VALUE=DATE:20260520
 SUMMARY:Uiterste datum IFI-aangifte op papier
-DESCRIPTION:Date limite de déclaration de l'impôt sur la fortune immobili
- ère\n\nDate limite de dépôt de la déclaration 2026 d'impôt sur la for
- tune immobilière\, version papier (y compris pour les résidents à l'ét
- ranger). Si vous déclarez par internet\, vous disposez d'un délai suppl
- émentaire jusqu'au 21 mai\, 28 mai ou 4 juin 2026 selon le numéro de vot
- re département.\n\nBron: https://www.impots.gouv.fr/particulier/calendrie
- r-fiscal/2026-05\nOverzicht: https://infofrankrijk.com/fiscale-kalender-fr
- ankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nDate limite de déclaration de l'im
+ pôt sur la fortune immobilière\n\nDate limite de dépôt de la déclarat
+ ion 2026 d'impôt sur la fortune immobilière\, version papier (y compris 
+ pour les résidents à l'étranger). Si vous déclarez par internet\, vous
+  disposez d'un délai supplémentaire jusqu'au 21 mai\, 28 mai ou 4 juin 2
+ 026 selon le numéro de votre département.\n\nBron: https://www.impots.go
+ uv.fr/particulier/calendrier-fiscal/2026-05\nOverzicht: https://infofrankr
+ ijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-05
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1031,12 +1108,14 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260521
 DTEND;VALUE=DATE:20260522
 SUMMARY:Uiterste datum online inkomstenbelastingaangifte — zone 1
-DESCRIPTION:Date limite de déclaration de revenus en ligne Zone 1\n\nDate 
- limite de dépôt de la déclaration 2026 de revenus 2025\, et de la décl
- aration 2025 d'impôt sur la fortune immobilière par internet pour les d
- épartements n° 01 à 19 et les résidents à l'étranger.\n\nBron: https
- ://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-05\nOverzicht: ht
- tps://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nDate limite de déclaration de reve
+ nus en ligne Zone 1\n\nDate limite de dépôt de la déclaration 2026 de r
+ evenus 2025\, et de la déclaration 2025 d'impôt sur la fortune immobili
+ ère par internet pour les départements n° 01 à 19 et les résidents à
+  l'étranger.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-f
+ iscal/2026-05\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frank
+ rijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-05
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1048,12 +1127,14 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260528
 DTEND;VALUE=DATE:20260529
 SUMMARY:Uiterste datum online inkomstenbelastingaangifte — zone 2
-DESCRIPTION:Date limite de déclaration de revenus en ligne Zone 2\n\nDate 
- limite de dépôt de la déclaration 2026 de revenus 2025\, et de la décl
- aration 2025 d'impôt sur la fortune immobilière par internet pour les d
- épartements n° 20 à 54 (y compris les deux départements de la Corse).\
- n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-05\
- nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nDate limite de déclaration de reve
+ nus en ligne Zone 2\n\nDate limite de dépôt de la déclaration 2026 de r
+ evenus 2025\, et de la déclaration 2025 d'impôt sur la fortune immobili
+ ère par internet pour les départements n° 20 à 54 (y compris les deux 
+ départements de la Corse).\n\nBron: https://www.impots.gouv.fr/particulie
+ r/calendrier-fiscal/2026-05\nOverzicht: https://infofrankrijk.com/fiscale-
+ kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-05
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1065,12 +1146,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
 SUMMARY:Uiterste datum online inkomstenbelastingaangifte — zone 3
-DESCRIPTION:Date limite de déclaration de revenus en ligne Zone 3\n\nDate 
- limite de dépôt de la déclaration 2026 de revenus 2025\, et de la décl
- aration 2025 d'impôt sur la fortune immobilière par internet pour les d
- épartements n° 55 à 976.\n\nBron: https://www.impots.gouv.fr/particulie
- r/calendrier-fiscal/2026-06\nOverzicht: https://infofrankrijk.com/fiscale-
- kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nDate limite de déclaration de reve
+ nus en ligne Zone 3\n\nDate limite de dépôt de la déclaration 2026 de r
+ evenus 2025\, et de la déclaration 2025 d'impôt sur la fortune immobili
+ ère par internet pour les départements n° 55 à 976.\n\nBron: https://w
+ ww.impots.gouv.fr/particulier/calendrier-fiscal/2026-06\nOverzicht: https:
+ //infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-06
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1082,11 +1164,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 SUMMARY:6e maandafschrijving — voorschot inkomstenbelasting (PAS)
-DESCRIPTION:6ème prélèvement mensuel d'acompte PAS\n\nAcompte au titre d
- u prélèvement à la source des revenus sans collecteurs (revenus des ind
- épendants ou agriculteurs\, revenus fonciers\, pensions alimentaires…).
- \n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-06
- \nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n6ème prélèvement mensuel d'acomp
+ te PAS\n\nAcompte au titre du prélèvement à la source des revenus sans 
+ collecteurs (revenus des indépendants ou agriculteurs\, revenus fonciers\
+ , pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/particuli
+ er/calendrier-fiscal/2026-06\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-06
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1098,11 +1182,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 SUMMARY:6e maandelijkse afschrijving belastingen
-DESCRIPTION:6ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2026-06\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n6ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2026-06\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-06
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1115,12 +1200,14 @@ DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Aanmelden voor maandelijkse afschrijving voor 2026 — uiterste dat
  um
-DESCRIPTION:Date limite d'adhésion au prélèvement mensuel pour 2026\n\nS
- i vous adhérez par internet ou auprès du centre de contact\, vous avez j
- usqu'à cette date pour choisir le prélèvement mensuel avec effet en 202
- 6.\nLe 1er prélèvement interviendra à compter du 15 du mois suivant.\n\
- nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-06\nO
- verzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nDate limite d'adhésion au prélèv
+ ement mensuel pour 2026\n\nSi vous adhérez par internet ou auprès du cen
+ tre de contact\, vous avez jusqu'à cette date pour choisir le prélèveme
+ nt mensuel avec effet en 2026.\nLe 1er prélèvement interviendra à compt
+ er du 15 du mois suivant.\n\nBron: https://www.impots.gouv.fr/particulier/
+ calendrier-fiscal/2026-06\nOverzicht: https://infofrankrijk.com/fiscale-ka
+ lender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-06
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1132,11 +1219,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:7e maandafschrijving — voorschot inkomstenbelasting (PAS)
-DESCRIPTION:7ème prélèvement mensuel d'acompte PAS\n\nAcompte au titre d
- u prélèvement à la source des revenus sans collecteurs (revenus des ind
- épendants ou agriculteurs\, revenus fonciers\, pensions alimentaires…).
- \n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-07
- \nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n7ème prélèvement mensuel d'acomp
+ te PAS\n\nAcompte au titre du prélèvement à la source des revenus sans 
+ collecteurs (revenus des indépendants ou agriculteurs\, revenus fonciers\
+ , pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/particuli
+ er/calendrier-fiscal/2026-07\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-07
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1148,11 +1237,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:7e maandelijkse afschrijving belastingen
-DESCRIPTION:7ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2026-07\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n7ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2026-07\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-07
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1164,10 +1254,11 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
 SUMMARY:Ouverture du service de correction de la déclaration en ligne
-DESCRIPTION:À partir du 29 juillet 2026\, vous pouvez corriger votre décl
- aration en ligne des revenus 2025.\n\nBron: https://www.impots.gouv.fr/par
- ticulier/calendrier-fiscal/2026-07\nOverzicht: https://infofrankrijk.com/f
- iscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nÀ partir du 29 juillet 2026\, vous
+  pouvez corriger votre déclaration en ligne des revenus 2025.\n\nBron: ht
+ tps://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-07\nOverzicht:
+  https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-07
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1180,12 +1271,13 @@ DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 SUMMARY:8e maandafschrijving of 3e kwartaalafschrijving — voorschot inkom
  stenbelasting (PAS)
-DESCRIPTION:8ème prélèvement mensuel ou 3ème prélèvement trimestriel 
- d'acompte PAS\n\nAcompte au titre du prélèvement à la source des revenu
- s sans collecteurs (revenus des indépendants ou agriculteurs\, revenus fo
- nciers\, pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/pa
- rticulier/calendrier-fiscal/2026-08\nOverzicht: https://infofrankrijk.com/
- fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n8ème prélèvement mensuel ou 3èm
+ e prélèvement trimestriel d'acompte PAS\n\nAcompte au titre du prélève
+ ment à la source des revenus sans collecteurs (revenus des indépendants 
+ ou agriculteurs\, revenus fonciers\, pensions alimentaires…).\n\nBron: h
+ ttps://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-08\nOverzicht
+ : https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-08
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1197,11 +1289,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 SUMMARY:8e maandelijkse afschrijving belastingen
-DESCRIPTION:8ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2026-08\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n8ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2026-08\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-08
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1214,16 +1307,17 @@ DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:Vermogensbelasting vastgoed (IFI) — aanmelden voor afschrijving o
  p de vervaldatum
-DESCRIPTION:Impôt sur la fortune immobilière : date limite d'adhésion au
-  prélèvement à l'échéance\n\nSi la date limite de paiement de votre i
- mpôt est au 15 septembre 2026\, vous avez jusqu’au 31 août pour adhér
- er au prélèvement à l'échéance. L’adhésion peut être réalisée p
- ar internet ou auprès du centre de contact.\nLe prélèvement sur votre c
- ompte bancaire aura lieu le 25 septembre. Votre contrat de prélèvement 
- à l'échéance sera reconduit\, sauf avis contraire de votre part\, pour 
- votre impôt sur la fortune immobilière 2027.\n\nBron: https://www.impots
- .gouv.fr/particulier/calendrier-fiscal/2026-08\nOverzicht: https://infofra
- nkrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur la fortune immobilière 
+ : date limite d'adhésion au prélèvement à l'échéance\n\nSi la date l
+ imite de paiement de votre impôt est au 15 septembre 2026\, vous avez jus
+ qu’au 31 août pour adhérer au prélèvement à l'échéance. L’adhé
+ sion peut être réalisée par internet ou auprès du centre de contact.\n
+ Le prélèvement sur votre compte bancaire aura lieu le 25 septembre. Votr
+ e contrat de prélèvement à l'échéance sera reconduit\, sauf avis cont
+ raire de votre part\, pour votre impôt sur la fortune immobilière 2027.\
+ n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-08\
+ nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-08
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1235,11 +1329,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:9e maandelijkse afschrijving belastingen
-DESCRIPTION:9ème prélèvement mensuel\n\nPour tous les impôts mensualis
- és (taxes foncières et d'habitation\, impôt sur la fortune immobilière
-  et CFE).\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fisca
- l/2026-09\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk
- /
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n9ème prélèvement mensuel\n\nPour
+  tous les impôts mensualisés (taxes foncières et d'habitation\, impôt 
+ sur la fortune immobilière et CFE).\n\nBron: https://www.impots.gouv.fr/p
+ articulier/calendrier-fiscal/2026-09\nOverzicht: https://infofrankrijk.com
+ /fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1251,11 +1346,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Impôt sur revenu-prélèvements sociaux : date limite de paiement
-DESCRIPTION:Si le montant de votre impôt sur les revenus n’est pas prél
- evé automatiquement et si vous n’effectuez pas de paiement en ligne\, v
- ous avez jusqu’à cette date pour le payer.\n\nBron: https://www.impots.
- gouv.fr/particulier/calendrier-fiscal/2026-09\nOverzicht: https://infofran
- krijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nSi le montant de votre impôt sur l
+ es revenus n’est pas prélevé automatiquement et si vous n’effectuez 
+ pas de paiement en ligne\, vous avez jusqu’à cette date pour le payer.\
+ n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-09\
+ nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1267,15 +1363,17 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Vermogensbelasting vastgoed (IFI) — uiterste betaaldatum
-DESCRIPTION:Impôt sur la fortune immobilière : date limite de paiement\n\
- nVous avez jusqu'à cette date pour payer si vous n'utilisez pas un moyen 
- de paiement dématérialisé (paiement en ligne par internet\, smartphone 
- ou tablette\, prélèvement à l'échéance ou mensuel). La date limite de
-  paiement est indiquée sur votre avis d'imposition.\nAttention\, la date 
- limite de paiement peut être fixée à une autre échéance (16 novembre)
- . Vous recevrez alors votre avis au cours du mois précédent.\n\nBron: ht
- tps://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-09\nOverzicht:
-  https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur la fortune immobilière 
+ : date limite de paiement\n\nVous avez jusqu'à cette date pour payer si v
+ ous n'utilisez pas un moyen de paiement dématérialisé (paiement en lign
+ e par internet\, smartphone ou tablette\, prélèvement à l'échéance ou
+  mensuel). La date limite de paiement est indiquée sur votre avis d'impos
+ ition.\nAttention\, la date limite de paiement peut être fixée à une au
+ tre échéance (16 novembre). Vous recevrez alors votre avis au cours du m
+ ois précédent.\n\nBron: https://www.impots.gouv.fr/particulier/calendrie
+ r-fiscal/2026-09\nOverzicht: https://infofrankrijk.com/fiscale-kalender-fr
+ ankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1287,11 +1385,13 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:9e maandafschrijving — voorschot inkomstenbelasting (PAS)
-DESCRIPTION:9ème prélèvement mensuel d'acompte PAS\n\nAcompte au titre d
- u prélèvement à la source des revenus sans collecteurs (revenus des ind
- épendants ou agriculteurs\, revenus fonciers\, pensions alimentaires…).
- \n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-09
- \nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\n9ème prélèvement mensuel d'acomp
+ te PAS\n\nAcompte au titre du prélèvement à la source des revenus sans 
+ collecteurs (revenus des indépendants ou agriculteurs\, revenus fonciers\
+ , pensions alimentaires…).\n\nBron: https://www.impots.gouv.fr/particuli
+ er/calendrier-fiscal/2026-09\nOverzicht: https://infofrankrijk.com/fiscale
+ -kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1303,15 +1403,16 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:Inkomstenbelasting en sociale heffingen — afschrijving
-DESCRIPTION:Impôt sur le revenu-prélèvements sociaux : paiement par inte
- rnet\, smartphone ou tablette\n\nVous avez jusqu'au 20 septembre 2026 minu
- it pour payer en ligne votre impôt sur le revenu et prélèvements sociau
- x\, si le montant de cet impôt n’est pas prélevé automatiquement.\nLe
-  prélèvement sur votre compte bancaire aura lieu à compter du 25 septem
- bre. Vous êtes informé de la date de prélèvement lors de l'enregistrem
- ent de votre ordre de paiement.\n\nBron: https://www.impots.gouv.fr/partic
- ulier/calendrier-fiscal/2026-09\nOverzicht: https://infofrankrijk.com/fisc
- ale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur le revenu-prélèvements
+  sociaux : paiement par internet\, smartphone ou tablette\n\nVous avez jus
+ qu'au 20 septembre 2026 minuit pour payer en ligne votre impôt sur le rev
+ enu et prélèvements sociaux\, si le montant de cet impôt n’est pas pr
+ élevé automatiquement.\nLe prélèvement sur votre compte bancaire aura 
+ lieu à compter du 25 septembre. Vous êtes informé de la date de prélè
+ vement lors de l'enregistrement de votre ordre de paiement.\n\nBron: https
+ ://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-09\nOverzicht: ht
+ tps://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1324,16 +1425,17 @@ DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:Vermogensbelasting vastgoed (IFI) — uiterste datum online betalin
  g
-DESCRIPTION:Impôt sur la fortune immobilière : paiement par internet\, sm
- artphone ou tablette\n\nVous avez jusqu'au 20 septembre 2026 minuit pour p
- ayer en ligne votre impôt sur la fortune immobilière. Le prélèvement s
- era effectué à compter du 25 septembre 2026.\nSi la date limite de paiem
- ent est au 16 novembre 2026\, vous avez jusqu'au 21 novembre minuit pour l
- e payer en ligne\, le prélèvement sera effectué à compter du 26 novemb
- re 2026.\nVous êtes informé de la date de prélèvement lors de l'enregi
- strement de votre ordre de paiement.\n\nBron: https://www.impots.gouv.fr/p
- articulier/calendrier-fiscal/2026-09\nOverzicht: https://infofrankrijk.com
- /fiscale-kalender-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur la fortune immobilière 
+ : paiement par internet\, smartphone ou tablette\n\nVous avez jusqu'au 20 
+ septembre 2026 minuit pour payer en ligne votre impôt sur la fortune immo
+ bilière. Le prélèvement sera effectué à compter du 25 septembre 2026.
+ \nSi la date limite de paiement est au 16 novembre 2026\, vous avez jusqu'
+ au 21 novembre minuit pour le payer en ligne\, le prélèvement sera effec
+ tué à compter du 26 novembre 2026.\nVous êtes informé de la date de pr
+ élèvement lors de l'enregistrement de votre ordre de paiement.\n\nBron: 
+ https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-09\nOverzich
+ t: https://infofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1345,14 +1447,15 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Inkomstenbelasting en sociale heffingen — afschrijving
-DESCRIPTION:Impôt sur le revenu-prélèvements sociaux : date de prélève
- ment\n\nSi le montant restant à payer de votre impôt sur les revenus est
-  supérieur à 300 €\, la somme due est prélevée en quatre échéances
-  du 25 septembre au 28 décembre 2026.\nSi le montant restant à payer est
-  inférieur ou égal à 300 €\, il est prélevé en une seule échéance
-  le 25 septembre 2026.\n\nBron: https://www.impots.gouv.fr/particulier/cal
- endrier-fiscal/2026-09\nOverzicht: https://infofrankrijk.com/fiscale-kalen
- der-frankrijk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nImpôt sur le revenu-prélèvements
+  sociaux : date de prélèvement\n\nSi le montant restant à payer de votr
+ e impôt sur les revenus est supérieur à 300 €\, la somme due est pré
+ levée en quatre échéances du 25 septembre au 28 décembre 2026.\nSi le 
+ montant restant à payer est inférieur ou égal à 300 €\, il est prél
+ evé en une seule échéance le 25 septembre 2026.\n\nBron: https://www.im
+ pots.gouv.fr/particulier/calendrier-fiscal/2026-09\nOverzicht: https://inf
+ ofrankrijk.com/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1364,15 +1467,16 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Taxe foncière — aanmelden voor afschrijving op de vervaldatum
-DESCRIPTION:Taxes foncières : date limite d'adhésion au prélèvement à 
- l'échéance\n\nSi vous adhérez par internet ou auprès du centre de cont
- act\, vous avez jusqu'à cette date pour choisir le prélèvement à l'éc
- héance de vos taxes foncières. Le prélèvement sur votre compte bancair
- e aura lieu le 26 octobre. Votre contrat de prélèvement à l'échéance 
- sera reconduit\, sauf avis contraire de votre part\, pour vos taxes fonci
- ères 2027.\n\nBron: https://www.impots.gouv.fr/particulier/calendrier-fis
- cal/2026-09\nOverzicht: https://infofrankrijk.com/fiscale-kalender-frankri
- jk/
+DESCRIPTION:Broncontrole niet geslaagd. Dit is de laatst geslaagde versie\;
+  controleer de officiële kalender.\n\nTaxes foncières : date limite d'ad
+ hésion au prélèvement à l'échéance\n\nSi vous adhérez par internet 
+ ou auprès du centre de contact\, vous avez jusqu'à cette date pour chois
+ ir le prélèvement à l'échéance de vos taxes foncières. Le prélèvem
+ ent sur votre compte bancaire aura lieu le 26 octobre. Votre contrat de pr
+ élèvement à l'échéance sera reconduit\, sauf avis contraire de votre 
+ part\, pour vos taxes foncières 2027.\n\nBron: https://www.impots.gouv.fr
+ /particulier/calendrier-fiscal/2026-09\nOverzicht: https://infofrankrijk.c
+ om/fiscale-kalender-frankrijk/
 URL:https://www.impots.gouv.fr/particulier/calendrier-fiscal/2026-09
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
